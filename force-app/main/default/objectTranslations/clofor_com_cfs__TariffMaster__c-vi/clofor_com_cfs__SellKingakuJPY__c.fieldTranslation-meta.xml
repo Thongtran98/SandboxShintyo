@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập số và nó sẽ tự động chèn vào Đơn giá bán dịch vụ( bản địa) trên vận đơn thứ cấp, vận đơn đích danh nếu vùng đó trống.</help>
+    <label></label>
+    <name>clofor_com_cfs__SellKingakuJPY__c</name>
+</CustomFieldTranslation>

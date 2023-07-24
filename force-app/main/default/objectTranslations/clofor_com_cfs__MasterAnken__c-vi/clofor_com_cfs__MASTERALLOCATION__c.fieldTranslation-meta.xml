@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Để hoàn tất việc phân bổ vận đơn chủ, 3 chi phí sau cần được phân bổ một cách phù hợp: AN từ hãng tàu, Hóa đơn từ kho hàng ở cảng, Giấy ghi nợ từ đối tác.</help>
+    <label></label>
+    <name>clofor_com_cfs__MASTERALLOCATION__c</name>
+</CustomFieldTranslation>

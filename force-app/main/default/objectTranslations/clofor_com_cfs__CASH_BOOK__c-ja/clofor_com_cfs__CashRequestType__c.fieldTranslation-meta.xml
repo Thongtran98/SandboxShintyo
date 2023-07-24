@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CashRequestType__c</name>
+    <picklistValues>
+        <masterLabel>Cash In</masterLabel>
+        <translation>現金入金</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cash Out</masterLabel>
+        <translation>現金出金</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>その他</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transaction</masterLabel>
+        <translation>振替</translation>
+    </picklistValues>
+</CustomFieldTranslation>

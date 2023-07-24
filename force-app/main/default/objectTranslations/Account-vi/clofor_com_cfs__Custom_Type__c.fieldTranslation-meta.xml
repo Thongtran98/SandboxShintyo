@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Đối với khách hàng, chọn từ khách hàng nội địa, và đối tác từ đối tác nước ngoài, người bán từ  nhà cung cấp bên thứ 3. Đối với công ty của bạn, chọn  sử dụng nội bộ</help>
+    <label></label>
+    <name>clofor_com_cfs__Custom_Type__c</name>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - AIRLINER</masterLabel>
+        <translation>Hãng hàng không</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - BANK</masterLabel>
+        <translation>Ngân hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - BB/CUSTOMERS CLEARANCE/OUR AGENT</masterLabel>
+        <translation>Khai báo hàng hóa/khách hàng (Đại lý của công ty)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CARRIER</masterLabel>
+        <translation>Hãng tàu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CONSOLIDATOR</masterLabel>
+        <translation>Consolidator</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CUSTOMS CLEARANCE AGENT/CUSTOMER AGENT</masterLabel>
+        <translation>Khai báo hải quan (Đại lý của khách)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CUSTOMS CLEARANCE AGENT/OUR AGENT</masterLabel>
+        <translation>Khai báo hải quan (Đại lý của công ty)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - DEPOT</masterLabel>
+        <translation>Depot</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - OTHERS</masterLabel>
+        <translation>Khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - PORT</masterLabel>
+        <translation>Cảng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - SYSTEM</masterLabel>
+        <translation>Hệ thống</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - TRUCKING</masterLabel>
+        <translation>Vận tải</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - WAREHOUSE/STORAGE</masterLabel>
+        <translation>Kho bãi/Lưu trữ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOR DOCUMENT PURPOSE ONLY</masterLabel>
+        <translation>Chỉ dành cho văn bản</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GOVERMENT OFFICE</masterLabel>
+        <translation>Văn phòng chính phủ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INTERNAL USE ONLY</masterLabel>
+        <translation>Sử dụng nội bộ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - EXISTING</masterLabel>
+        <translation>Khách hàng trong nước - Hiện tại</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - FORWARDER</masterLabel>
+        <translation>Khách hàng trong nước - Công ty giao nhận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - LEAD(APPROACHING)</masterLabel>
+        <translation>Khách hàng trong nước - Đang tiếp cận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - NO NEED SALES</masterLabel>
+        <translation>Khách hàng trong nước - Không cần sales</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL PARTNER - EXISTING</masterLabel>
+        <translation>Đối tác trong nước - Hiện tại</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL PARTNER - LEAD(APPROACHING)</masterLabel>
+        <translation>Đối tác trong nước - Đang tiếp cận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL PARTNER - NO NEED SALES</masterLabel>
+        <translation>Đối tác trong nước - Không cần sales</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA CUSTOMER - EXISTING</masterLabel>
+        <translation>Khách hàng nước ngoài - Hiện tại</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA CUSTOMER - LEAD(APPORACHING)</masterLabel>
+        <translation>Khách hàng nước ngoài - Đang tiếp cận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA PARTNER - EXISTING</masterLabel>
+        <translation>Đối tác nước ngoài - Hiện tại</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA PARTNER - LEAD(APPROACHING)</masterLabel>
+        <translation>Đối tác nước ngoài - Đang tiếp cận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA PARTNER - NO NEED SALES</masterLabel>
+        <translation>Đối tác nước ngoài - Không cần sales</translation>
+    </picklistValues>
+</CustomFieldTranslation>

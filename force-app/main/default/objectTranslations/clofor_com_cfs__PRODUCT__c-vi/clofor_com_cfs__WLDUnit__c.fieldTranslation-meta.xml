@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>W:chiều rộng L:chiều dài H:chiều cao</help>
+    <label></label>
+    <name>clofor_com_cfs__WLDUnit__c</name>
+</CustomFieldTranslation>

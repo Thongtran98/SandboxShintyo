@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>clofor_com_cfs__ClaimerCompanyName__c</columns>
+    <columns>clofor_com_cfs__ClaimStatus__c</columns>
+    <columns>clofor_com_cfs__Claimer__c</columns>
+    <columns>clofor_com_cfs__ClaimerType__c</columns>
+    <columns>clofor_com_cfs__ClaimResponsible__c</columns>
+    <columns>clofor_com_cfs__ClaimSummary__c</columns>
+    <columns>clofor_com_cfs__RequestSummary__c</columns>
+    <columns>clofor_com_cfs__RootCause__c</columns>
+    <columns>clofor_com_cfs__ActionPlanSummary__c</columns>
+    <columns>clofor_com_cfs__ResolutionActionOwner__c</columns>
+    <columns>clofor_com_cfs__ShipmentOrderID__c</columns>
+    <columns>clofor_com_cfs__WorkOrderID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>수입일 경우 스위치후의 B/L번호를, 수출의 경우 스위치전의 B/L번호를 입력하여 주십시요. 트랜짓의 Switch H B/L번호의 데이터가 자동으로 입력됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__SwitchB_L__c</name>
+</CustomFieldTranslation>

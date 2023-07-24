@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__RFPRFQFromCustomer</fullName>
+    <active>true</active>
+    <label>RFP/RFQ From Customer</label>
+    <picklistValues>
+        <picklist>Origin__c</picklist>
+        <values>
+            <fullName>Manually created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service__c</picklist>
+        <values>
+            <fullName>Export%2F輸出</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Import%2F輸入</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Transportation_Type__c</picklist>
+        <values>
+            <fullName>AIR%2F航空貨物</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEA%2F海上貨物</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Incoterms__c</picklist>
+        <values>
+            <fullName>CFR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CNF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DDP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DDU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__RFPRFQStatus__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Created</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>On Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rescheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Assigned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__RequiredInformation__c</picklist>
+        <values>
+            <fullName>Air Freight Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Or Transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frequency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handling Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ocean Freight Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transit Time</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__RequiredService__c</picklist>
+        <values>
+            <fullName>C%2FO Service Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consolidation Service Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Clearance Service Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs clearance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forwarding Service Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fumigation Service Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation Service Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trucking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse Service Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

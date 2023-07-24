@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>‘지불종류’를 ‘안건’으로하고 오늘부터 여러번의 지불제한 혹은 체당지불된 금액을 지불할 때 지불하지 않았던 경과일들을 계산하고 있습니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__ShiharaibiKeikaNisu__c</name>
+</CustomFieldTranslation>

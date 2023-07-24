@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__PurchasingOrderName__c</columns>
+    <columns>clofor_com_cfs__Status__c</columns>
+    <columns>clofor_com_cfs__Vendor__c</columns>
+    <columns>clofor_com_cfs__Detail__c</columns>
+    <columns>clofor_com_cfs__InvoiceReceivedDate__c</columns>
+    <columns>clofor_com_cfs__PaymentDueDate__c</columns>
+    <columns>clofor_com_cfs__StartDate__c</columns>
+    <columns>clofor_com_cfs__EndDate__c</columns>
+    <columns>clofor_com_cfs__ContractNumber__c</columns>
+    <columns>clofor_com_cfs__InvoiceNumberFromVendor__c</columns>
+    <columns>clofor_com_cfs__TotalAmountInclTaxLocal__c</columns>
+    <columns>clofor_com_cfs__TotalAmountInclTax__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

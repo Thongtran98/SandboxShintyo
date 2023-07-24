@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Để có danh sách ngày nhận hàng cần phải thiết lập như sau:  1.	click vào tab bên phải thanh menu quick access  2.	click để xem các trường 3.	click vào cảng hàng không bb sẵn có 4.	click chọn giá trị trong danh sách 5.	thêm cảng hàng không</help>
+    <label></label>
+    <name>clofor_com_cfs__BB__c</name>
+    <picklistValues>
+        <masterLabel>Enter Break Bulk available airport in here</masterLabel>
+        <translation>Nhập hàng rời có sẵn ở sân bay vào đây</translation>
+    </picklistValues>
+</CustomFieldTranslation>

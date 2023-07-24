@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__status_check5</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 4 )</booleanFilter>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__status__c</columns>
+    <columns>clofor_com_cfs__Field1__c</columns>
+    <columns>clofor_com_cfs__Partner__c</columns>
+    <columns>clofor_com_cfs__account_relazation__c</columns>
+    <columns>clofor_com_cfs__NyukinzandakaJPY__c</columns>
+    <columns>clofor_com_cfs__BuyDifferentiation_sum2__c</columns>
+    <columns>clofor_com_cfs__BuyDifferentiation_sum__c</columns>
+    <columns>clofor_com_cfs__ETA__c</columns>
+    <columns>clofor_com_cfs__DeadlineForPaymentOfInvoices__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__CustomObject1__c.clofor_com_cfs__InAir,clofor_com_cfs__CustomObject1__c.clofor_com_cfs__OutAir,clofor_com_cfs__CustomObject1__c.clofor_com_cfs__RecordType,clofor_com_cfs__CustomObject1__c.clofor_com_cfs__RecordType1</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__ETA__c</field>
+        <operation>greaterThan</operation>
+        <value>9/1/2013</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__NyukinzandakaJPY__c</field>
+        <operation>notEqual</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__BuyDifferentiation_sum2__c</field>
+        <operation>notEqual</operation>
+        <value>0</value>
+    </filters>
+    <label>RECEIVABLE AND PAYABLE REMAINED</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__FCLExport</fullName>
+    <columns>clofor_com_cfs__ContainerSize__c</columns>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Subcategory__c</columns>
+    <columns>clofor_com_cfs__BuyKingaku__c</columns>
+    <columns>clofor_com_cfs__BuyAmountUSD__c</columns>
+    <columns>clofor_com_cfs__UNIT__c</columns>
+    <columns>clofor_com_cfs__YukouKigen__c</columns>
+    <columns>clofor_com_cfs__Supplier__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>clofor_com_cfs__ProductFlag__c</columns>
+    <columns>clofor_com_cfs__TRANSIT_TIME__c</columns>
+    <columns>clofor_com_cfs__POD__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__ProductSearch__c</field>
+        <operation>equals</operation>
+        <value>FCL輸出</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__POD__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__TRANSIT_TIME__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>FCL Export</label>
+    <language>en_US</language>
+</ListView>

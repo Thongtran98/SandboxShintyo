@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Status__c</name>
+    <picklistValues>
+        <masterLabel>Confirmed</masterLabel>
+        <translation>Đã xác nhận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Settled</masterLabel>
+        <translation>Thanh toán đã được thực hiện</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment processing</masterLabel>
+        <translation>Thanh toán đang được thực hiện</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registered</masterLabel>
+        <translation>Đã đăng ký</translation>
+    </picklistValues>
+</CustomFieldTranslation>

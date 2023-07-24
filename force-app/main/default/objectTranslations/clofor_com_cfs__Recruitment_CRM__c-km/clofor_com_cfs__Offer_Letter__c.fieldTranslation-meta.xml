@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Offer_Letter__c</name>
+    <picklistValues>
+        <masterLabel>Candidate Accept</masterLabel>
+        <translation>បេក្ខជនទទួលយក</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Candidate Reject</masterLabel>
+        <translation>បេក្ខជនបដិសេធ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent Offer Letter</masterLabel>
+        <translation>បានផ្ញើលិខិតផ្តល់ជូន</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting for send</masterLabel>
+        <translation>កំពុងរង់ចាំការផ្ញើ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

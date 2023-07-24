@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__paymentpossibility__c</name>
+    <picklistValues>
+        <masterLabel>一部入金</masterLabel>
+        <translation>일부입금</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>可能性あり</masterLabel>
+        <translation>가능성있음</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>無し</masterLabel>
+        <translation>없음</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>‘지불종류’를 ‘안건’으로하고 여러번의 청구지불제한 혹은 체당지불제한을 표시하고 있습니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__Shiharaikigen__c</name>
+</CustomFieldTranslation>

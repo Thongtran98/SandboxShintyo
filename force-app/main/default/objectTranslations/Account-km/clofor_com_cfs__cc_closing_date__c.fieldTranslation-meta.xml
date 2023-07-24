@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__cc_closing_date__c</name>
+    <picklistValues>
+        <masterLabel>ETA</masterLabel>
+        <translation>Eta</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>申告日</masterLabel>
+        <translation>Custom Declaration Date</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>納品日</masterLabel>
+        <translation>Delivery Date</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>許可日</masterLabel>
+        <translation>Permission Date</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>請求書送付日</masterLabel>
+        <translation>Date Of Invoice Sent</translation>
+    </picklistValues>
+</CustomFieldTranslation>

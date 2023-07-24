@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__HandlingType__c</name>
+    <picklistValues>
+        <masterLabel>From Truck Garage to ICD</masterLabel>
+        <translation>From Truck Garage to ICD</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Load</masterLabel>
+        <translation>Load</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Moving</masterLabel>
+        <translation>Moving</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partially Load</masterLabel>
+        <translation>Partially Load</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partially Unload</masterLabel>
+        <translation>Partially Unload</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Return To Truck Garage</masterLabel>
+        <translation>Return To Truck Garage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unload</masterLabel>
+        <translation>Unload</translation>
+    </picklistValues>
+</CustomFieldTranslation>

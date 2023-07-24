@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__TYPE_OF_REPAIR__c</name>
+    <picklistValues>
+        <masterLabel>Change tire</masterLabel>
+        <translation>Thay vỏ xe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Engine cleaning</masterLabel>
+        <translation>Vệ sinh động cơ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refill oil/replace oil</masterLabel>
+        <translation>Thêm dầu/thay dầu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shassi fixing</masterLabel>
+        <translation>Sửa trục</translation>
+    </picklistValues>
+</CustomFieldTranslation>

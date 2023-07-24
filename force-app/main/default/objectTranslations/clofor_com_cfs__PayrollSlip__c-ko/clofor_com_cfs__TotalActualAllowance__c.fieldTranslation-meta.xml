@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>총실제수당=실제 연료수당+실제 주택수당+실제 이주수당+실제 전화수당+실제 유니폼수당</help>
+    <label></label>
+    <name>clofor_com_cfs__TotalActualAllowance__c</name>
+</CustomFieldTranslation>

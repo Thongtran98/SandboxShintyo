@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>利益率=(合計販売金額(標準通貨)-合計仕入金額(標準通貨))合計販売金額(標準通貨)</help>
+    <label></label>
+    <name>clofor_com_cfs__RiekirituMisei__c</name>
+</CustomFieldTranslation>

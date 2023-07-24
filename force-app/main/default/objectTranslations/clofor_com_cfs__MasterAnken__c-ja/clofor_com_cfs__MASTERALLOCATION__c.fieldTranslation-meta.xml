@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>マスター按分 -船社チャージ：船社のA/Nを確認 -倉庫チャージ：CFS倉庫との契約 -混載パートナーチャージ：Debit Noteを確認</help>
+    <label></label>
+    <name>clofor_com_cfs__MASTERALLOCATION__c</name>
+</CustomFieldTranslation>

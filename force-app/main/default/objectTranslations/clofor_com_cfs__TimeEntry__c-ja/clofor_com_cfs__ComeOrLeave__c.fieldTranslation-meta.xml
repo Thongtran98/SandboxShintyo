@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ComeOrLeave__c</name>
+    <picklistValues>
+        <masterLabel>comes</masterLabel>
+        <translation>退勤</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>leaves</masterLabel>
+        <translation>出勤</translation>
+    </picklistValues>
+</CustomFieldTranslation>

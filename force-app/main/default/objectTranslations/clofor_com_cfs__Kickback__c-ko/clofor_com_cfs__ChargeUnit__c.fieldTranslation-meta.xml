@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>수량은 콘테이너수가 자동으로 입력됩니다. 직접 입력도 가능합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__ChargeUnit__c</name>
+</CustomFieldTranslation>

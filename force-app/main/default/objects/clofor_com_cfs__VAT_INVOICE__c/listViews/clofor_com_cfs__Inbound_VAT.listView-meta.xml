@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Inbound_VAT</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__VATInvoiceNoFromVendor__c</columns>
+    <columns>clofor_com_cfs__BuyingTaxRatio__c</columns>
+    <columns>clofor_com_cfs__VatIssueFrom__c</columns>
+    <columns>clofor_com_cfs__TotalAmountOfVATBuying__c</columns>
+    <columns>clofor_com_cfs__AmountOfTaxVATBuying__c</columns>
+    <columns>clofor_com_cfs__AmountVATBuyingIncludeVAT__c</columns>
+    <columns>clofor_com_cfs__VATInvoicePrintDate__c</columns>
+    <columns>clofor_com_cfs__VAT_INVOICE_ISSUE_STATUS__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__VAT_INVOICE__c.clofor_com_cfs__VendorVATInvoice</value>
+    </filters>
+    <label>Inbound VAT</label>
+    <language>en_US</language>
+</ListView>

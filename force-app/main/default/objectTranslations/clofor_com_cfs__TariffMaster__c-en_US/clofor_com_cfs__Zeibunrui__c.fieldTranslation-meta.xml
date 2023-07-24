@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>If &apos;TAX&apos; is chosen when following criteria is met, Tax ratio is automatically inserted. 1.There is valid Tax ratio management 2. Primary Currency(Invoice/Tax Ratio) is set properly for the account in Invoice-to/Payment-to</help>
+    <label></label>
+    <name>clofor_com_cfs__Zeibunrui__c</name>
+    <picklistValues>
+        <masterLabel>NON-TAX</masterLabel>
+        <translation>Non-tax</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAX</masterLabel>
+        <translation>Tax</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAX-FREE</masterLabel>
+        <translation>Tax-free</translation>
+    </picklistValues>
+</CustomFieldTranslation>

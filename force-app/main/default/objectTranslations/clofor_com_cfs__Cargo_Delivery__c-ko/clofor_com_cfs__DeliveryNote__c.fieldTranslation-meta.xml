@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>입력하시면 화물배송의뢰서에 출력됩니다</help>
+    <label></label>
+    <name>clofor_com_cfs__DeliveryNote__c</name>
+</CustomFieldTranslation>

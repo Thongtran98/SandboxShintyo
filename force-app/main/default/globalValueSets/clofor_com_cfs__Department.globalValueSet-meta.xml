@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Export Team</fullName>
+        <default>false</default>
+        <label>Export Team</label>
+    </customValue>
+    <customValue>
+        <fullName>Import Team</fullName>
+        <default>false</default>
+        <label>Import Team</label>
+    </customValue>
+    <customValue>
+        <fullName>C/S</fullName>
+        <default>false</default>
+        <label>C/S</label>
+    </customValue>
+    <customValue>
+        <fullName>B/S</fullName>
+        <default>false</default>
+        <label>B/S</label>
+    </customValue>
+    <customValue>
+        <fullName>Document</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Document</label>
+    </customValue>
+    <customValue>
+        <fullName>Warehouse</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Logistics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Logistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Customs Clearance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Customs Clearance</label>
+    </customValue>
+    <customValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>Admin</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Admin</label>
+    </customValue>
+    <customValue>
+        <fullName>Accounting</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Accounting</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Human Resources</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Human Resources</label>
+    </customValue>
+    <customValue>
+        <fullName>IT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IT</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Forwarding</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Forwarding</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Service</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Customer Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>All</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>All</label>
+    </customValue>
+    <customValue>
+        <fullName>BOD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOD</label>
+    </customValue>
+    <masterLabel>DEPARTMENT</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

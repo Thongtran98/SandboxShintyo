@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__API_error</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__API_Name__c</columns>
+    <columns>clofor_com_cfs__Error_Content__c</columns>
+    <columns>clofor_com_cfs__Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>API error</label>
+</ListView>

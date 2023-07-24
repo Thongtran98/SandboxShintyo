@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__SubCategory__c</name>
+    <picklistValues>
+        <masterLabel>Accommodation</masterLabel>
+        <translation>កន្លែងស្នាក់នៅ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accountancy</masterLabel>
+        <translation>គណនេយ្យកិច្ច</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advertisement</masterLabel>
+        <translation>ការផ្សាយពាណិជ្ជកម្ម</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Audit</masterLabel>
+        <translation>Audit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank Fee</masterLabel>
+        <translation>Bank Fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic salary</masterLabel>
+        <translation>Basic salary</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus</masterLabel>
+        <translation>Bonus</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charitable Contribution</masterLabel>
+        <translation>Charitable Contribution</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleaning</masterLabel>
+        <translation>Cleaning</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission</masterLabel>
+        <translation>Commission</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communication(Phone)</masterLabel>
+        <translation>Telephone</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conference &amp; Training</masterLabel>
+        <translation>Conference &amp; Training</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting</masterLabel>
+        <translation>Consulting</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electricity</masterLabel>
+        <translation>Electricity</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entertainment</masterLabel>
+        <translation>Entertainment</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Drink</masterLabel>
+        <translation>Food &amp; Drink</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>H/S/U Insurance</masterLabel>
+        <translation>H/S/U Insurance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT System(Computer)</masterLabel>
+        <translation>IT System(Computer)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incentives</masterLabel>
+        <translation>Incentives</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance</masterLabel>
+        <translation>Insurance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interest Expense</masterLabel>
+        <translation>Interest Expense</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internet</masterLabel>
+        <translation>Internet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meeting</masterLabel>
+        <translation>Meeting</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Newspaper</masterLabel>
+        <translation>Newspaper</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Others</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Travel</masterLabel>
+        <translation>Oversea Travel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parcel(Mail)</masterLabel>
+        <translation>Parcel(Mail)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parking Fee</masterLabel>
+        <translation>Parking Fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personal Income Tax</masterLabel>
+        <translation>Personal Income Tax</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postage</masterLabel>
+        <translation>Postage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recruiting</masterLabel>
+        <translation>Recruiting</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reimbursement cash Advance</masterLabel>
+        <translation>Reimbursement cash Advance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rent</masterLabel>
+        <translation>Rent</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repair &amp; Maintenance</masterLabel>
+        <translation>Repair &amp; Maintenance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation</masterLabel>
+        <translation>Transportation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travel</masterLabel>
+        <translation>Domestic Travel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Operation</masterLabel>
+        <translation>Vehicle Operation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Water</masterLabel>
+        <translation>ទឹក</translation>
+    </picklistValues>
+</CustomFieldTranslation>

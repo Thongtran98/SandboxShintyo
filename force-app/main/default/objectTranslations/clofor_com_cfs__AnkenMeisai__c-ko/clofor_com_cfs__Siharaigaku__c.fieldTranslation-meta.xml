@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>입금액(표준통화)이  &apos;0&apos; 이고 입금 확인 완료에 체크가 되면, 소비세포함 판매금액(표준통화)이 자동으로 입금액(표준통화)에 반영됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__Siharaigaku__c</name>
+</CustomFieldTranslation>

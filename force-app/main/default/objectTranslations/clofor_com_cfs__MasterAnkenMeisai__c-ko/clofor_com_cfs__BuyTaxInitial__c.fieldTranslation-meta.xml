@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>공란으로 저장할 경우 세율이 자동으로 입력됩니다. 직접 입력할 경우 입력한 세율이 소비세액으로 반영됩니다. 비과세, 면세상품의 경우 강제적으로 값이 0%가 적용됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyTaxInitial__c</name>
+</CustomFieldTranslation>

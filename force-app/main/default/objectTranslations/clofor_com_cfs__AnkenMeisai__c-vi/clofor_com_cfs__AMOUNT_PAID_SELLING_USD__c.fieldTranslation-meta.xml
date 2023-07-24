@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Khi trường này để trống hoặc bằng 0 và đã xác nhận thanh toán- bán hàng được đánh dấu, thì gía bán bao gồm thuế (USD) được thêm vào trường này</help>
+    <label></label>
+    <name>clofor_com_cfs__AMOUNT_PAID_SELLING_USD__c</name>
+</CustomFieldTranslation>

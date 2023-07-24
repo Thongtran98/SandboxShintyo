@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acountant_Check__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>全て内容確認できましたら、「案件完了」に変更する</inlineHelpText>
+    <label>Accountant Check</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paid to Vendor</fullName>
+                <default>false</default>
+                <label>Paid to Vendor</label>
+            </value>
+            <value>
+                <fullName>Received from Customer</fullName>
+                <default>false</default>
+                <label>Received from Customer</label>
+            </value>
+            <value>
+                <fullName>Made/Received payment from Partner</fullName>
+                <default>false</default>
+                <label>Made/Received payment from Partner</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

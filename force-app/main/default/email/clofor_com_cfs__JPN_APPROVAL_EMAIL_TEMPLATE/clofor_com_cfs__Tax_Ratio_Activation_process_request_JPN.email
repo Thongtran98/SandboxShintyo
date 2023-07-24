@@ -1,0 +1,24 @@
+経理担当者 様 
+
+{!clofor_com_cfs__Tax_Ratio__c.CreatedBy} 様が
+以下の通り、新しい消費税率の申請を行いました。
+
+こちらのリンクをクリックし、承認あるいは却下を行ってください。 
+
+◎TAX RATIO ID：[{!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__TAX_RATIO_ID__c}]  Link to SF:{!clofor_com_cfs__Tax_Ratio__c.Link} 
+◎Currency : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Currency__c}
+◎Start Date : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Start_Date__c}
+◎End Date : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__End_Date__c}
+◎Selling Tax Rate : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Selling_Tax_Ratio__c}%
+◎Buying Tax Rate : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Buying_Tax_Ratio__c}%
+
+この申請を承認、却下したり、フィードを通じてコメントすることができます。
+
+よろしくお願いします。
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+ *********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

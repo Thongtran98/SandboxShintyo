@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marks Attachment field is available for adding long list or attachment for Goods detail.</help>
+    <label></label>
+    <name>clofor_com_cfs__Marks_and_Numbers__c</name>
+</CustomFieldTranslation>

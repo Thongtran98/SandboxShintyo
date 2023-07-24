@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Unitpricewillbechargedbaseon__c</name>
+    <picklistValues>
+        <masterLabel>Bag</masterLabel>
+        <translation>Bag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carton</masterLabel>
+        <translation>Carton</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>G.W (MT)</masterLabel>
+        <translation>G.W (MT)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gross Weight</masterLabel>
+        <translation>Gross Weight</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N.W (MT)</masterLabel>
+        <translation>N.W (MT)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net Weight</masterLabel>
+        <translation>Net Weight</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pallet</masterLabel>
+        <translation>Pallet</translation>
+    </picklistValues>
+</CustomFieldTranslation>

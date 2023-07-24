@@ -1,0 +1,20 @@
+Dear Account Team Managers 
+
+BANK BALANCE approval request {!clofor_com_cfs__BANK_BALANCE__c.Name} has been rejected.
+Please see the comments and re-submit after correction. 
+
+◎BANK BALANCE ID：：[{!clofor_com_cfs__BANK_BALANCE__c.Name}] Link to CloFor:{!clofor_com_cfs__BANK_BALANCE__c.Link} 
+◎BANK ACCOUNT : {!BANK_BALANCE__c.00N5h00000DvWyY}
+◎BALANCE CLOSING DATE : {!clofor_com_cfs__BANK_BALANCE__c.clofor_com_cfs__CLOSING_DATE__c}
+◎BALANCE AT CLOSING : {!clofor_com_cfs__BANK_BALANCE__c.clofor_com_cfs__BALANCE_AT_CLOSING__c}
+
+You can also approve, reject and comment on this request from your feed.
+
+Best regards.
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+ *********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

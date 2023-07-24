@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__CustomsClearanceBook2</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND (4 OR 5 OR 6 OR 7 OR 8)</booleanFilter>
+    <columns>clofor_com_cfs__ID__c</columns>
+    <columns>clofor_com_cfs__shipper__c</columns>
+    <columns>clofor_com_cfs__status__c</columns>
+    <columns>clofor_com_cfs__PriceTerms__c</columns>
+    <columns>clofor_com_cfs__Partner__c</columns>
+    <columns>clofor_com_cfs__PartnerRep__c</columns>
+    <columns>clofor_com_cfs__ETD__c</columns>
+    <columns>clofor_com_cfs__ETA__c</columns>
+    <columns>clofor_com_cfs__PersonInCharge__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__CustomObject1__c.clofor_com_cfs__RecordType,clofor_com_cfs__CustomObject1__c.clofor_com_cfs__OutAir</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__Custom__c</field>
+        <operation>equals</operation>
+        <value>○(Yes)</value>
+    </filters>
+    <filters>
+        <field>LAST_UPDATE</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:30</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__status__c</field>
+        <operation>equals</operation>
+        <value>輸出 出荷情報入手(Cargo Info Received)</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__status__c</field>
+        <operation>equals</operation>
+        <value>輸出 ブッキング済(Booking Confirmed)</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__status__c</field>
+        <operation>equals</operation>
+        <value>輸出 船積指示書(SI Issued)</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__status__c</field>
+        <operation>equals</operation>
+        <value>輸出 通関申告書作成中(Application for Customs Clearance)</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__status__c</field>
+        <operation>equals</operation>
+        <value>輸出 輸出許可(Export Permitted)</value>
+    </filters>
+    <label>4.CUSTOMS CLEARANCE EXPORT</label>
+    <language>en_US</language>
+</ListView>

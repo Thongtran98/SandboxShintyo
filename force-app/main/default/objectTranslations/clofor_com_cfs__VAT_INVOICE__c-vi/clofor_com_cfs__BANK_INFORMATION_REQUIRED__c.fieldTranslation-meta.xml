@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__BANK_INFORMATION_REQUIRED__c</name>
+    <picklistValues>
+        <masterLabel>LOCAL BANK 1</masterLabel>
+        <translation>Ngân hàng VND - 1</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL BANK 2</masterLabel>
+        <translation>Ngân hàng VND - 2</translation>
+    </picklistValues>
+</CustomFieldTranslation>

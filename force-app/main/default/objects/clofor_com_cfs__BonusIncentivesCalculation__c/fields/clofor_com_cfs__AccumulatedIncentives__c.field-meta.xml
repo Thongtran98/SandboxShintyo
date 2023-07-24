@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__AccumulatedIncentives__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>clofor_com_cfs__JanGrossIncentives__c +
+clofor_com_cfs__FebGrossIncentives__c +
+clofor_com_cfs__MarGrossIncentives__c +
+clofor_com_cfs__AprGrossIncentives__c +
+clofor_com_cfs__MayGrossIncentives__c +
+clofor_com_cfs__JunGrossIncentives__c +
+clofor_com_cfs__JulGrossIncentives__c +
+clofor_com_cfs__AugGrossIncentives__c +
+clofor_com_cfs__SepGrossIncentives__c +
+clofor_com_cfs__OctGrossIncentives__c +
+clofor_com_cfs__NovGrossIncentives__c +
+clofor_com_cfs__DecGrossIncentives__c</formula>
+    <inlineHelpText>Total Sum of Gross Incentives from Jan to Dec.</inlineHelpText>
+    <label>ACCUMULATED INCENTIVES</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

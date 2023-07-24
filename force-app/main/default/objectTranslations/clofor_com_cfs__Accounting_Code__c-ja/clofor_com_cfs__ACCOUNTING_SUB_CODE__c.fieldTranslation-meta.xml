@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>会計コード管理の際に、サブコード管理が必要な場合は、こちらの項目にご入力ください。</help>
+    <label></label>
+    <name>clofor_com_cfs__ACCOUNTING_SUB_CODE__c</name>
+</CustomFieldTranslation>

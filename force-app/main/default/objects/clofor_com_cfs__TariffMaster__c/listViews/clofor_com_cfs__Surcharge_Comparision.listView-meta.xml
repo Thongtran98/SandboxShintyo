@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Surcharge_Comparision</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__PrintProduct__c</columns>
+    <columns>clofor_com_cfs__ContainerSize__c</columns>
+    <columns>clofor_com_cfs__Carrier_Code__c</columns>
+    <columns>clofor_com_cfs__POD__c</columns>
+    <columns>clofor_com_cfs__POL__c</columns>
+    <columns>clofor_com_cfs__FREE_DEMURRAGE_EXTENSION__c</columns>
+    <columns>clofor_com_cfs__FREE_DETENTION_EXTENSION__c</columns>
+    <columns>clofor_com_cfs__EngPrintProduct__c</columns>
+    <columns>clofor_com_cfs__BuyKingaku__c</columns>
+    <columns>clofor_com_cfs__BuyAmountUSD__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__ContainerSize__c</field>
+        <operation>equals</operation>
+        <value>20&apos;DC</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__POL__c</field>
+        <operation>equals</operation>
+        <value>HOCHIMIN</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__POD__c</field>
+        <operation>equals</operation>
+        <value>TOKYO</value>
+    </filters>
+    <label>Surcharge Comparision</label>
+    <language>en_US</language>
+</ListView>

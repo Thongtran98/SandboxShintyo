@@ -1,0 +1,27 @@
+Dear {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevan__c} 
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevanRep__c} 
+
+
+Here is the Master A/N for the consolidation container in the below vessel. 
+
+◎M SHIP ID：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MasterID__c} 
+◎M B/L NO：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MMaster_B_L_No__c} 
+◎VESSEL NAME / VOYAGE：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVessel__c} /  {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVoy_No__c}　 
+◎ETA ： {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__META__c} 
+◎ARRIVAL DAY：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__META_DAY__c} 
+◎Number of H B/L：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__NO_HOUSE_B_L__c} H B/L 
+◎CONTAINER： {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainer__c}*{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainerNumber__c}　/ {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainer2__c}*{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainerNumber2__c} 
+◎DEVANNING DATE：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevanningDate__c} 
+
+ATTACHEMENT：M A/N 
+
+Thank you for your supports always. 
+
+Best regards.
+
+********************************************************* 
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__Mail_Merge_Company_Signature__c} 
+********************************************************* 
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner) 
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform 
+www.afr-solutions.com

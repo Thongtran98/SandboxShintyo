@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>파트너에게 지불 기간을 지정할 경우 입력하여 주십시요. 데빗노트의 Due Date에 반영됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__DebitNote_duedate__c</name>
+</CustomFieldTranslation>

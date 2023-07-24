@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <narrowComponents>clofor_com_cfs__Searching</narrowComponents>
+    <narrowComponents>clofor_com_cfs__Navigation Flow</narrowComponents>
+    <narrowComponents>standard-CreateNew</narrowComponents>
+    <narrowComponents>clofor_com_cfs__User Manual</narrowComponents>
+    <narrowComponents>standard-Tags</narrowComponents>
+    <narrowComponents>standard-RecentItems</narrowComponents>
+    <narrowComponents>standard-UsefulLinks</narrowComponents>
+    <narrowComponents>standard-MessagesAndAlerts</narrowComponents>
+    <wideComponents>standard-Dashboard</wideComponents>
+    <wideComponents>standard-ProcessWorkitems</wideComponents>
+    <wideComponents>standard-Calendar</wideComponents>
+    <wideComponents>standard-Tasks</wideComponents>
+</HomePageLayout>

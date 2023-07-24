@@ -1,0 +1,224 @@
+Dear {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Field1__c}　
+<br>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__CustmerInCharge__c}
+<br>
+<br>
+Thank you for using our shipping service. 
+<br>
+<br>
+The current status of the dedicated shipment is「{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__status__c}」.<br><br>
+To open or download the Customs Clearance Document, please click the URL Link and enter the password.  <br>
+################################################################################################################### <br>
+QUOTATION DOC LINK ：{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__QUOTATION_LINK__c} <br>
+QUOTATION DOC PASSWORD：{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__QUOTATION_PASSWORD__c} <br>
+###################################################################################################################<br>
+<br>
+Please see the details at below table.<br>
+<br>
+
+
+※This email automatically has been sent from CloTra(Cloud Cargo Tracking Service) whenever there is an updates on status. 。<br>
+
+
+<br>
+<style>
+table {
+	border-collapse: collapse;
+}
+th {
+	border: solid 1px #666666;
+	color: #000080;
+	background-color: #DCDCDC;
+}
+td {
+	border: solid 1px #666666;
+	color: #000000;
+	background-color: #ffffff;
+}
+thead th {
+	background-color: #4682B4;
+}
+</style>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="4">
+			REQUESTER DETAILS
+			</th>
+		</tr>
+	</thead>
+	<thead>
+			</thead>
+　　　　　　　　<thead>
+			</thead>	
+
+
+
+
+
+　　　　　　　　<tbody>
+<tr>
+			<th>
+				ID
+			</th>
+			<td width="200">
+				{!clofor_com_cfs__CustomObject1__c.Name}
+			</td width="400">
+			<th width="400">
+				STATUS             
+			</th>
+			<td >
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__status__c}
+			</td width="400">
+		</tr>
+		<tr>
+			<th><BR><BR>
+                               TRANSPORTATION TYPE		　　　　　　　　	　　　　　　　
+                       </th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__CarrierType__c}
+			</td>
+			
+　　　　　　　　　　　　　　　<th>
+				FREQUENCY		                 </th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Frequency__c}
+			</td>
+		</tr>
+
+                                    <tr>
+			<th>
+				QUOTATION NO
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__QuotationNO__c}
+			</td>
+			<th>
+				INCORTERMS
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__PriceTerms__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				REQUESTER
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Field1__c}　
+			</td>
+			<th>
+				SUBMISSION TARGET DATE
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__SubmisionDueDate__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				PERSON IN CHARGE
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__CustmerInCharge__c}　
+			</td>
+			<th>
+				QUOTATION OWNER          
+			</th>
+			<td>
+			{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__InChargeOfQuotation__c}
+			</td>
+		</tr>
+		<tr><thead>
+			<th colspan="4">
+				CARGO DETAILS
+			</th></thead>
+		</tr>
+		<tr>
+			<th>
+				VESSEL / FLIGHT
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Vessle__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__FlightNo__c}
+			</td>
+			<th>
+				ITEM
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Item__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				E.T.D
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETD__c}
+			</td>
+			<th>
+				P.O.L
+			</th>
+			<td>
+                                {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POL__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POL_Country_Name__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				E.T.A
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETA__c}
+			</td>
+			<th>
+				P.O.D
+			</th>
+			<td>
+                                {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD_Country_Name__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				CONTAINER INFORMATION
+			</th>
+			<td>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__TranporationType__c}   {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Container__c}    {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Container2__c}
+			</td>
+			<th>
+				WEIGHT(KG)
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__weight__c}KGS
+			</td>
+		</tr>
+　　                        　</tr>
+			<tr><thead>
+			<th colspan="4">
+				REMARK
+			</th></thead>
+		</tr>
+		<tr>
+			<th rowspan="2">
+				REMARK
+			</th>
+			<td rowspan="2" colspan="3">
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Remark__c}
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+<br>
+If you have any inquiries or questions, please feel free to contact to us. <br>
+We are looking forward to serving you again in the near future. <br>
+<br>
+Best regards.<br><br>
+
+*********************************************************<br>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Mail_Merge_Company_Signature__c} <br>
+*********************************************************<br>
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)<br>
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform<br>
+<a href="www.afr-solutions.com">www.afr-solutions.com</a>

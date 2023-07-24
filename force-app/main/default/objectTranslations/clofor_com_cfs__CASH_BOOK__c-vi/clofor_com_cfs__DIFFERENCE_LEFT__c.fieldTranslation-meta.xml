@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Kết quả sẽ được tính tự động.Số tiền còn lại=số tiền phải thanh toán-số tiền thực tế thanh toán,trường hợp số tiền còn lại lớn hơn không, vui lòng ghi vào lý do</help>
+    <label></label>
+    <name>clofor_com_cfs__DIFFERENCE_LEFT__c</name>
+</CustomFieldTranslation>

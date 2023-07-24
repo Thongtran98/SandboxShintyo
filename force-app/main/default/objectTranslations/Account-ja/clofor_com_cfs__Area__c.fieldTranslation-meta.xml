@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Area__c</name>
+    <picklistValues>
+        <masterLabel>HAKATA・SHIMONOSEKI</masterLabel>
+        <translation>博多・下関</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KANTO REGION (KANAGAWA PREF.)</masterLabel>
+        <translation>関東(神奈川)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KANTO REGION (OTHER)</masterLabel>
+        <translation>関東(その他)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KANTO REGION (SAITAMA PREF.)</masterLabel>
+        <translation>関東(埼玉)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OSAKA・HYOGO-PREF.</masterLabel>
+        <translation>大阪・兵庫</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHER (JAPAN)</masterLabel>
+        <translation>その他(全国)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHER (TOKYO)</masterLabel>
+        <translation>その他(東京)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHINJYUKU・SHIBUYA AREA</masterLabel>
+        <translation>新宿区・渋谷区周辺</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAITO-KU・CHUO-KU AREA</masterLabel>
+        <translation>台東区・中央区周辺</translation>
+    </picklistValues>
+</CustomFieldTranslation>

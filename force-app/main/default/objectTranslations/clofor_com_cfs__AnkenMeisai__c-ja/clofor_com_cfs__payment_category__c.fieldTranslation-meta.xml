@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__payment_category__c</name>
+    <picklistValues>
+        <masterLabel>Advanced Payment</masterLabel>
+        <translation>前払い口座から自動引落</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank Transfer</masterLabel>
+        <translation>口座振込</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank Transfer Charge</masterLabel>
+        <translation>振込手数料</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cash</masterLabel>
+        <translation>現金</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deposit Offset</masterLabel>
+        <translation>デポジット相殺</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loan</masterLabel>
+        <translation>ロン</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Offset</masterLabel>
+        <translation>相殺</translation>
+    </picklistValues>
+</CustomFieldTranslation>

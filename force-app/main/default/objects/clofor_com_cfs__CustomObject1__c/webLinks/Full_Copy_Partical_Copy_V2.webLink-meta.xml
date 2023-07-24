@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Full_Copy_Partical_Copy_V2</fullName>
+    <availability>online</availability>
+    <description>Full Copy/Partical Copy without some fields: 
+
+ETD
+ETA
+Accounted Date
+Vessel/Flight
+Flight No
+Voyage
+HBL
+MBL
+AFR Service Required --&gt; set default No</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Full Copy/Partical Copy (V2)</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/flow/Full_Copy_Partial_Copy_SHIPMENT_without_some_fields</url>
+</WebLink>

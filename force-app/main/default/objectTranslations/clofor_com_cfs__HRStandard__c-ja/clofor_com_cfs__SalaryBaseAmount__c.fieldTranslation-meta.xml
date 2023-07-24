@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>社会保険への納付が義務付けられる最低給料金額</help>
+    <label></label>
+    <name>clofor_com_cfs__SalaryBaseAmount__c</name>
+</CustomFieldTranslation>

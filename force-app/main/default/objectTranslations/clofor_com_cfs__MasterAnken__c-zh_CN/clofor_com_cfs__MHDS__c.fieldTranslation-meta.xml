@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>clofor_com_cfs__MHDS__c</name>
+    <picklistValues>
+        <masterLabel>あり(Yes)</masterLabel>
+        <translation>有</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし(No)</masterLabel>
+        <translation>无</translation>
+    </picklistValues>
+</CustomFieldTranslation>

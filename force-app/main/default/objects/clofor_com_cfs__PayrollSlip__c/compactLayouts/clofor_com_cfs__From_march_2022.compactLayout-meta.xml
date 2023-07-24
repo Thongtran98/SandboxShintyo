@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__From_march_2022</fullName>
+    <fields>Name</fields>
+    <fields>clofor_com_cfs__PIT__c</fields>
+    <fields>clofor_com_cfs__insurancededuction__c</fields>
+    <fields>clofor_com_cfs__actualnetincome__c</fields>
+    <label>From march 2022</label>
+</CompactLayout>

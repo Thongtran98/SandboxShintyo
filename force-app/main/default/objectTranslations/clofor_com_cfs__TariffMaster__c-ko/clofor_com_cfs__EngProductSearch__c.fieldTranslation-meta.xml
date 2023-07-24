@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__EngProductSearch__c</name>
+    <picklistValues>
+        <masterLabel>Actual Expense</masterLabel>
+        <translation>실비</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Air</masterLabel>
+        <translation>항공</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consolidation Cost Allocation</masterLabel>
+        <translation>콘솔 비용할당</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deliver</masterLabel>
+        <translation>배송</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drayage</masterLabel>
+        <translation>도레지</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Custom Clearance</masterLabel>
+        <translation>수출통관</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Export</masterLabel>
+        <translation>FCL수출</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Import</masterLabel>
+        <translation>FCL수입</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Triangular trade</masterLabel>
+        <translation>FCL삼국간</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Custom Clearance</masterLabel>
+        <translation>수입통관</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Export</masterLabel>
+        <translation>LCL수출</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Import</masterLabel>
+        <translation>LCL수입</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Triangular trade</masterLabel>
+        <translation>LCL삼국간</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Local Charge</masterLabel>
+        <translation>해외현지비용</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse</masterLabel>
+        <translation>창고</translation>
+    </picklistValues>
+</CustomFieldTranslation>

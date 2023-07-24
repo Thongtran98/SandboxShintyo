@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>M B/L(파트너, 운송사, 운송사(TAX), 창고로 부터의) 매입 아이템의 카테고리를 선택하세요. H B/L 매입에 해당되는 카테고리를 입력하세요</help>
+    <label></label>
+    <name>clofor_com_cfs__Cost_Allocation_Catetory__c</name>
+    <picklistValues>
+        <masterLabel>Carrier Cost Allocation</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carrier Cost Allocation(TAX)</masterLabel>
+        <translation>Carrier Cost Allocation(Tax)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner Cost allocation</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse Cost Allocation</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

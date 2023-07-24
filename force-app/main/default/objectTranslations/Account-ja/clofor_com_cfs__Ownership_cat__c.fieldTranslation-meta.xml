@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Ownership_cat__c</name>
+    <picklistValues>
+        <masterLabel>パートナーFree-Handカーゴ(輸入のみ）</masterLabel>
+        <translation>パートナーFree-Handカーゴ(輸入のみ)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>パートナーノミカーゴ</masterLabel>
+        <translation>パートナーノミカーゴ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>共同営業</masterLabel>
+        <translation>共同営業</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>当社ノミカーゴ</masterLabel>
+        <translation>当社ノミカーゴ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

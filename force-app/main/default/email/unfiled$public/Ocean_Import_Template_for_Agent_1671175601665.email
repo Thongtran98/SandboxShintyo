@@ -1,0 +1,9 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear {{{clofor_com_cfs__DeliveryAgent__c}}}<br />
+<br />
+The current status of the dedicated shipment is 「{{{clofor_com_cfs__status__c}}}」.<br />
+Please see the details at below table.</body>
+</html>

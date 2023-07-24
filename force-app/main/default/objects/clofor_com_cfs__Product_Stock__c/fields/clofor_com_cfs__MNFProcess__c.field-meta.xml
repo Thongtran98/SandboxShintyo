@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__MNFProcess__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>MNF Process</label>
+    <referenceTo>clofor_com_cfs__ManufactureProcess__c</referenceTo>
+    <relationshipLabel>PRODUCT (STOCK)</relationshipLabel>
+    <relationshipName>PRODUCT_STOCK</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

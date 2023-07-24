@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>記入した注意事項は配送依頼書に表示されます。</help>
+    <label></label>
+    <name>clofor_com_cfs__DeliveryNote__c</name>
+</CustomFieldTranslation>

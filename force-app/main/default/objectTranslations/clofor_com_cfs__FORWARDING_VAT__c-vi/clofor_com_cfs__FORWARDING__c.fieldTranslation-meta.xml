@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Giá trị phải thoả những điều kiện lọc. - Loại bản ghi bằng với Nhập khẩu/Xuất khẩu Air, Nhập khẩu/Xuất khẩu Sea, Vận tải nội địa, Xuyên biên giới, Dịch vụ Logistics. - Trạng thái lô hàng khác với Đã huỷ, Hoàn thành.</help>
+    <label></label>
+    <name>clofor_com_cfs__FORWARDING__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>‘소분류’ 선택 후 저장 시 자동으로 입력되며, H B/L-청구/지불의 ‘인쇄용 상품명(로컬)’에 적용됩니다. 또한 로컬 인보이스에 적용됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__PrintProduct__c</name>
+</CustomFieldTranslation>

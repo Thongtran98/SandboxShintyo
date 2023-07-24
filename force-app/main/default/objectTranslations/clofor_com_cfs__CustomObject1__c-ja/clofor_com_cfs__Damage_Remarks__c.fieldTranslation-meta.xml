@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>混載案件の場合で、バンニング/デバン倉庫に連絡すべきことがある場合、このフィールドに入力し、CLPに表示させることができます。</help>
+    <label></label>
+    <name>clofor_com_cfs__Damage_Remarks__c</name>
+</CustomFieldTranslation>

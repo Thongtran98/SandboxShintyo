@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>(Hiển thị bằng với True) và ((Thông Tin Nhận Dạng nhà cung cấp bằng với chi phí: Thông Tin Nhận Dạng thanh toán cho) hoặc (Thông Tin Nhận Dạng khách hàng bằng với chi phí: Thông Tin Nhận Dạng gửi hóa đơn đến))</help>
+    <label></label>
+    <name>clofor_com_cfs__Tariff__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

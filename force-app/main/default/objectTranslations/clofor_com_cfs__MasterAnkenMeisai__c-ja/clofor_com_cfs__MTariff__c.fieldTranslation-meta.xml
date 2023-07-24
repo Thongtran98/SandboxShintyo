@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>「商品種別」を入力すると検索されます。「有効」状態の商品のみ抽出します</help>
+    <label></label>
+    <name>clofor_com_cfs__MTariff__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

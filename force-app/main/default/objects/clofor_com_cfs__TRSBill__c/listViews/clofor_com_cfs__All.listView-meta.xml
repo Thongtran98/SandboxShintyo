@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>clofor_com_cfs__SalesOrderID__c</columns>
+    <columns>clofor_com_cfs__Customer__c</columns>
+    <columns>clofor_com_cfs__BillNameAtPrintLocal__c</columns>
+    <columns>clofor_com_cfs__ChargeUnitTotal__c</columns>
+    <columns>clofor_com_cfs__TaxRatioSell__c</columns>
+    <columns>clofor_com_cfs__InvoiceTo__c</columns>
+    <columns>clofor_com_cfs__UnitPriceOfSellLocal__c</columns>
+    <columns>clofor_com_cfs__TotalAmountOfSellLocal__c</columns>
+    <columns>clofor_com_cfs__AmountSelliInclTAXLocal__c</columns>
+    <columns>clofor_com_cfs__PayTo__c</columns>
+    <columns>clofor_com_cfs__UnitPriceOfBuyLocal__c</columns>
+    <columns>clofor_com_cfs__AmountBuyInclTAX__c</columns>
+    <columns>clofor_com_cfs__ProfitNICTaxLocal__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>1.All</label>
+</ListView>

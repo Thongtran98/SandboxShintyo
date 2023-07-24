@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PaidAmountLessAmount_PaymentRequest</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( AND(ISPICKVAL(clofor_com_cfs__TrxPlanType__c, &apos;Payment Request&apos;) ,PaidAmountJPY__c &gt; 0,clofor_com_cfs__AmountLocal__c&gt;0)  ,  PaidAmountJPY__c &gt;  clofor_com_cfs__AmountLocal__c, null)</errorConditionFormula>
+    <errorDisplayField>clofor_com_cfs__AmountLocal__c</errorDisplayField>
+    <errorMessage>The Paid Amount (JPY) must be less than or equal Amount (JPY)</errorMessage>
+</ValidationRule>

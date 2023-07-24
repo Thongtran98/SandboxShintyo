@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__BALANCE_COLLECTED_LATER_HANDOVER_DATE</fullName>
+    <active>false</active>
+    <errorConditionFormula>clofor_com_cfs__DATE_TIME_BALANCE_COLLECTED__c  &lt;  clofor_com_cfs__DATE_TIME_HANDOVER_TO_STAFF__c</errorConditionFormula>
+    <errorDisplayField>clofor_com_cfs__DATE_TIME_BALANCE_COLLECTED__c</errorDisplayField>
+    <errorMessage>Balance Collected Date must be later than Handover Date to Staff</errorMessage>
+</ValidationRule>

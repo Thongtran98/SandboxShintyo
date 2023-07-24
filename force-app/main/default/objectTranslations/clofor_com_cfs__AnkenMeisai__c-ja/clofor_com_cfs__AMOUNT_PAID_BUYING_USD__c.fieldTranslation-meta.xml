@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>’0&apos;の状態で&apos;支払確認済&apos;にチェックを入れると消費税込み仕入金額(USD)の金額が挿入されます。</help>
+    <label></label>
+    <name>clofor_com_cfs__AMOUNT_PAID_BUYING_USD__c</name>
+</CustomFieldTranslation>

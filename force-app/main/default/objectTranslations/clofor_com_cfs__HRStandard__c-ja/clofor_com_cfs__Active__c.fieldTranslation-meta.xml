@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>承認後、自動でチェックが入ります</help>
+    <label></label>
+    <name>clofor_com_cfs__Active__c</name>
+</CustomFieldTranslation>

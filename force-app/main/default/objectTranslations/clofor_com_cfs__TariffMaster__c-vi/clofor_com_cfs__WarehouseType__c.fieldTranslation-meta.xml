@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__WarehouseType__c</name>
+    <picklistValues>
+        <masterLabel>CFS Warehouse</masterLabel>
+        <translation>Kho CFS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Freezing Refrigerated Warehouse</masterLabel>
+        <translation>Kho đông lạnh</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Warehouse</masterLabel>
+        <translation>Kho bách hóa</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refrigerated Warehouse</masterLabel>
+        <translation>Kho trữ mát</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,3 @@
+<apex:page standardController="clofor_com_cfs__CustomObject1__c" extensions="clofor_com_cfs.ForwardingWorkProgressExt" docType="html-5.0" sidebar="false">
+    <c:WorkProgress WorkProgressList="{!workProgressItems}"></c:WorkProgress>
+</apex:page>

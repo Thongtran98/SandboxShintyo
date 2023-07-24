@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Choose &apos;Yes&apos; and Customs Clearance Object will be created. Put detail of the customs clearance in to the object accordingly.</help>
+    <label></label>
+    <name>clofor_com_cfs__Custom__c</name>
+    <picklistValues>
+        <masterLabel>×(NO)</masterLabel>
+        <translation>No</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>○(YES)</masterLabel>
+        <translation>បាទ/ចាស</translation>
+    </picklistValues>
+</CustomFieldTranslation>

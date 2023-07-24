@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Lock_When_SO_Locked_2</fullName>
+    <active>true</active>
+    <description>旧）CONTAINS( Recordtype__c ,&quot;ロック&quot;)</description>
+    <errorConditionFormula>AND 
+($Profile.Name &lt;&gt; &quot;System Administrator&quot;, 
+OR
+(
+ISCHANGED(clofor_com_cfs__Siharaigaku__c),
+ISCHANGED(clofor_com_cfs__AMOUNT_PAID_BUYING_USD__c),
+ISCHANGED(clofor_com_cfs__BankAccountForPayment__c),
+ISCHANGED(clofor_com_cfs__BuyDetail__c),
+ISCHANGED(clofor_com_cfs__SellingBankTransactionCode__c),
+ISCHANGED(clofor_com_cfs__BuyingBankTransactionCode__c),
+ISCHANGED(clofor_com_cfs__SellACSetProcess__c),
+ISCHANGED(clofor_com_cfs__BuyACSetProcess__c),
+ISCHANGED(clofor_com_cfs__SellingDebitAccountingCode__c),
+ISCHANGED(clofor_com_cfs__SellingCreditAccoutingCode__c),
+ISCHANGED(clofor_com_cfs__BuyingDebitAccoutingCode__c),
+ISCHANGED(clofor_com_cfs__BuyingCreditAccountingCode__c),
+ISCHANGED(clofor_com_cfs__SellingVATDebitAccountingCode__c),
+ISCHANGED(clofor_com_cfs__SellingVATCreditAccountingcode__c),
+ISCHANGED(clofor_com_cfs__BuyingVATDebitAccountingCode__c),
+ISCHANGED(clofor_com_cfs__BuyingVATCreditAccountingCode__c),
+ISCHANGED(clofor_com_cfs__AccountingClosingStatus__c),
+ISCHANGED(clofor_com_cfs__OutboundVATInvNo__c),
+ISCHANGED(clofor_com_cfs__InboundVATInvNo__c),
+ISCHANGED(clofor_com_cfs__QuoteLineID__c),
+ISCHANGED(clofor_com_cfs__DataUpdateStatusBillToQL__c),
+ISCHANGED(clofor_com_cfs__BillDataUpdateTime__c)
+),
+OR
+(
+CONTAINS(clofor_com_cfs__Anken__r.RecordType.DeveloperName,&quot;lock&quot;),
+CONTAINS(clofor_com_cfs__Anken__r.RecordType.DeveloperName,&quot;Lock&quot;) 
+)
+)</errorConditionFormula>
+    <errorMessage>This record is locked! Please contact your administrator or supervisor for further information.</errorMessage>
+</ValidationRule>

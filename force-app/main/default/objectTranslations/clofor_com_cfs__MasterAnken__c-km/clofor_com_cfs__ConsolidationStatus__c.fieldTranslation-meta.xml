@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ConsolidationStatus__c</name>
+    <picklistValues>
+        <masterLabel>A/N Issued</masterLabel>
+        <translation>A/N បង្កើត</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Application for Customs Clearance-Inbound</masterLabel>
+        <translation>Application for Customs Clearance-Inbound</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Application for Customs Clearance-Outbound</masterLabel>
+        <translation>Application for Customs Clearance-Outbound</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arrived at Destination Port</masterLabel>
+        <translation>Arrived at Destination Port</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B/L Issued</masterLabel>
+        <translation>B/L Issued</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booked a Container</masterLabel>
+        <translation>Booked a Container</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Buying Amount Confirmed</masterLabel>
+        <translation>Buying Amount Confirmed</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel</masterLabel>
+        <translation>Cancel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collected Charges</masterLabel>
+        <translation>Collected Charges</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation>Completed</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copy from Consolidation to F/TMS S/O</masterLabel>
+        <translation>Copy from Consolidation to F/TMS S/O</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost Allocation from Consolidation Buying to F/TMS Buying</masterLabel>
+        <translation>Cost Allocation from Consolidation Buying to F/TMS Buying</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Consolidation Buying Record</masterLabel>
+        <translation>Create Consolidation Buying Record</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create F/TMS Billing Records</masterLabel>
+        <translation>Create F/TMS Billing Records</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Created F/TMS S/O and Connect to Consolidation</masterLabel>
+        <translation>Created F/TMS S/O and Connect to Consolidation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Examination-Inbound</masterLabel>
+        <translation>Customs Examination-Inbound</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Examination-Outbound</masterLabel>
+        <translation>Customs Examination-Outbound</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Inspection-Inbound</masterLabel>
+        <translation>Customs Inspection-Inbound</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Inspection-Outbound</masterLabel>
+        <translation>Customs Inspection-Outbound</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D/O Issued</masterLabel>
+        <translation>D/O Issued</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delayed</masterLabel>
+        <translation>Delayed</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Departured at Origin Port</masterLabel>
+        <translation>Departured at Origin Port</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Permitted</masterLabel>
+        <translation>Export Permitted</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Permitted</masterLabel>
+        <translation>Import Permitted</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Issued Container Load Plan</masterLabel>
+        <translation>Container Load Plan Issued</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Load to Truck/Delivery to Import</masterLabel>
+        <translation>Load to Truck/Delivery to Consignee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loaded  Cargo to Container</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Voyage</masterLabel>
+        <translation>On Voyage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Settled</masterLabel>
+        <translation>Payment Settled</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plan Consolidation Service</masterLabel>
+        <translation>Plan Consolidation Service</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transport Container to Warehouse</masterLabel>
+        <translation>Transport Container to Warehouse</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transport Container to Yard</masterLabel>
+        <translation>Transport Container to Yard</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unload from Container</masterLabel>
+        <translation>Unload from Container</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unload from Truck/Pickup from Shipper</masterLabel>
+        <translation>Unload from Truck/Pickup from Shipper</translation>
+    </picklistValues>
+</CustomFieldTranslation>

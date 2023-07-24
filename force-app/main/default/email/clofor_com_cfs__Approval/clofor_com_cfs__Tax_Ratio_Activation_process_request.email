@@ -1,0 +1,23 @@
+Dear Account Team Managers 
+
+{!clofor_com_cfs__Tax_Ratio__c.CreatedBy} has requested your approval for the new Tax Ratio as below.
+
+Please click this link to aprove or reject this record.
+
+◎TAX RATIO ID：[{!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__TAX_RATIO_ID__c}]  Link to CloFor:{!clofor_com_cfs__Tax_Ratio__c.Link} 
+◎CURRENCY : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Currency__c}
+◎START DATE : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Start_Date__c}
+◎END DATE : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__End_Date__c}
+◎SELLING CONSUMPTION TAX RATE : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Selling_Tax_Ratio__c}%
+◎BUYING CONSUMPTION TAX RATE : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Buying_Tax_Ratio__c}%
+
+You can also approve, reject and comment on this request from your feed.
+
+Best regards.
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+ *********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

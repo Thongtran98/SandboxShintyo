@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Total Amount of Selling(Local)=Unit Price of Selling(Local)*Charge Unit (Total). This amount is before Tax.If Tax-Free or Non-Tax, Total Amount of Selling(Local) will be equal to Amount Selling including Tax(Local).</help>
+    <label></label>
+    <name>clofor_com_cfs__SellAmountJPN__c</name>
+</CustomFieldTranslation>

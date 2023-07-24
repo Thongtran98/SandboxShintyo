@@ -1,0 +1,171 @@
+Dear Submitter<br>
+
+{!clofor_com_cfs__CustomObject1__c.Name}-{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Ship_number__c} is rejected by the approver.
+<br>
+Please review and revise accordingly and submit again for approval.
+
+<br>
+<br>                                                                                                                
+<style>
+table {
+	border-collapse: collapse;
+}
+th {
+	border: solid 1px #666666;
+	color: #000080;
+	background-color: #DCDCDC;
+}
+td {
+	border: solid 1px #666666;
+	color: #000000;
+	background-color: #ffffff;
+}
+thead th {
+	background-color: #4682B4;
+}
+</style>
+
+
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="4">
+				VAT INFORMATION
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>
+				ID
+			</th>
+			<td width="200">
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ID__c}<br>
+                                Link to CloFor: {!clofor_com_cfs__CustomObject1__c.Link} 
+			</td width="400">
+			<th>
+				STATUS
+			</th>
+			<td width="200">
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__status__c}
+			</td width="400">
+		</tr>
+		<tr>
+			<th>
+				TOTAL AMOUT OF SELLING WITH TAX(LOCAL)
+
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__SellInTaxAmountJPY_sum__c}　
+
+			</td>
+	<th> 
+            PROFITS
+			</th>
+			<td>
+                                                {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Ararigaku_sum__c}
+			</td>
+</tr>
+             
+
+		<tr><thead>
+			<th colspan="4">
+				CARGO BASIC INFORMATION
+			</th></thead>
+		</tr>
+		<tr>
+			<th>
+CONSIGNEE
+
+							</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Cnee__c}
+
+
+							</td>
+			<th>
+				SHIPPER
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__shipper__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				HOUSE B/L NO. / HAWB NO.
+			</th>
+			<td>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__HBL__c}{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__HAWB__c} 
+
+			</td>
+			<th>
+SHIPMENT ID
+							</th>
+			<td>
+		{!clofor_com_cfs__CustomObject1__c.Name}
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Ship_number__c}
+
+			</td>
+		</tr>
+		
+		<tr>
+			<th>
+				E.T.D
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETD__c}
+
+			</td>
+			<th>
+				ETA			</th>
+			<td>
+        {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETA__c}
+              
+
+			</td>
+		</tr>
+
+	<tr>
+			<th>
+				CONTAINER INFORMATION
+			</th>
+			<td>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__TranporationType__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Container__c} * {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ContainerNumber__c} / {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Container2__c} * {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ContainerNumber2__c} 
+
+
+			</td>
+			<th>
+				B/L TYPE
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__BLtype__c}
+			</td>
+		</tr>
+	
+<tr><thead>
+			<th colspan="4">
+				REMARK
+			</th></thead>
+		</tr>
+		<tr>
+			<th rowspan="2">
+				INTERNAL MEMO FOR INFORMATION SHARING
+			</th>
+			<td colspan="3" rowspan="2">
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Memo__c}
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<br>
+Best Regards,
+<br><br>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__PersonInCharge__c}<br>
+*********************************************************<br>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Mail_Merge_Company_Signature__c} <br>
+*********************************************************<br>
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)<br>
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform<br>
+www.afr-solutions.com

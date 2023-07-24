@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__AIRLINE__c</name>
+    <picklistValues>
+        <masterLabel>5X-406-UPS</masterLabel>
+        <translation>5X-406-ឡើង</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7C-806-JEJU AIR</masterLabel>
+        <translation>7C-806-Jeju Air</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7G--STAR FLYER</masterLabel>
+        <translation>7G--Star Flyer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8Y-804-CHINA POSTAL</masterLabel>
+        <translation>8Y-804-ប្រៃសណីយ៍ ចិន</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>9C--SPRING   CORP</masterLabel>
+        <translation>9C--Spring   Corp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AA-001-AMERICAN</masterLabel>
+        <translation>AA-001-American</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AC-014-AIR CANADA</masterLabel>
+        <translation>AC-014-Air Canada</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AF-057-AIR FRANCE</masterLabel>
+        <translation>AF-057- ក្រុមហ៊ុនអាកាសចរណ៍បារាំង</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AI-098- AIR INDIA</masterLabel>
+        <translation>AI-098- ក្រុមហ៊ុនអាកាសចរណ៍ឥណ្ឌា</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AY-105-FINNAIR OYJ</masterLabel>
+        <translation>AY-105-Finnair Oyj</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Add Airline list here</masterLabel>
+        <translation>បន្ថែមបញ្ជីក្រុមហ៊ុនអាកាសចរណ៍នៅទីនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BA-125-BRITISH AIRWAYS PLC</masterLabel>
+        <translation>BA-125-British Airways Plc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BR-695-EVA AIRWAYS CORP</masterLabel>
+        <translation>BR-695-Eva Airways Corp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BX--AIR BUSAN</masterLabel>
+        <translation>BX--Air Busan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C8-356-CARGOLUX ITALIA SPA</masterLabel>
+        <translation>C8-356-Cargolux Italia Spa</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CA-999-AIR CHINA</masterLabel>
+        <translation>CA-999-Air China</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CI-297-CHINA</masterLabel>
+        <translation>CI-297-China</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CK-112-CHINA CARGO</masterLabel>
+        <translation>CK-112-China Cargo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CV-172-CARGOLUX  INT&apos;L SA</masterLabel>
+        <translation>CV-172-Cargolux  Int&apos;l Sa</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CX-160-CATHAY PACIFIC AIRWAYS</masterLabel>
+        <translation>CX-160-Cathay Pacific Airways</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CZ-784-CHINA SOUTHERN</masterLabel>
+        <translation>CZ-784-China Southern</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DL-006-DELTA ,</masterLabel>
+        <translation>DL-006-Delta ,</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EK-176-EMIRATES</masterLabel>
+        <translation>EK-176-Emirates</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EY-607-ETHIHAD AIRWAYS</masterLabel>
+        <translation>EY-607-Ethihad Airways</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FD-900-AIR ASIA</masterLabel>
+        <translation>FD-900-Air Asia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FM-112-SHANGHAI</masterLabel>
+        <translation>FM-112-Shanghai</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FX-023-FEDEX</masterLabel>
+        <translation>FX-023-Fedex</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GA-126-GARUDA INDONESIA</masterLabel>
+        <translation>GA-126-Garuda Indonesia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GE- -TRANS ASIA AIRWAYS COR</masterLabel>
+        <translation>GE- -Trans Asia Airways Cor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HX-851-HONG KONG AIRINES</masterLabel>
+        <translation>HX-851-Hong Kong Airines</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HZ--SAKHALINSKIE AVIATRASSY</masterLabel>
+        <translation>HZ--Sakhalinskie Aviatrassy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JL-131-JAPAN</masterLabel>
+        <translation>Jl-131-Japan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KA-043-DRAGON AIR</masterLabel>
+        <translation>KA-043-Dragon Air</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KA-043-HONG KONG DRAGON</masterLabel>
+        <translation>KA-043-Hong Kong Dragon</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KE-180-KOREAN AIR LINES</masterLabel>
+        <translation>KE-180-Korean Air Lines</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KL-074-KLM ROYAL DUTCH</masterLabel>
+        <translation>KL-074-Klm Royal Dutch</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KZ-933-NIPPON CARGO</masterLabel>
+        <translation>KZ-933-Nippon Cargo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LA-045-LAN</masterLabel>
+        <translation>LA-045-Lan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LD-152-AHK AIR HONG KONG</masterLabel>
+        <translation>LD-152-Ahk Air Hong Kong</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LH-020-LUFTHANSA CARGO AG</masterLabel>
+        <translation>LH-020-Lufthansa Cargo Ag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LJ--JIN AIR</masterLabel>
+        <translation>LJ--Jin Air</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MF-731-XIAMEN</masterLabel>
+        <translation>MF-731-Xiamen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MH-232-MALAYSIA  SYSTEM BERHAD</masterLabel>
+        <translation>MH-232-Malaysia  System Berhad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MI-629-SILK</masterLabel>
+        <translation>MI-629-Silk</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MM- -PEACH AVIATION</masterLabel>
+        <translation>MM- -Peach Aviation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MS-077-EGYPTAIR</masterLabel>
+        <translation>MS-077-Egyptair</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MU-112-CHINA EASTERN</masterLabel>
+        <translation>MU-112-China Eastern</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NH-205-ALL NIPPON AIRWAYS</masterLabel>
+        <translation>NH-205-All Nippon Airways</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NQ- - AIR JAPAN</masterLabel>
+        <translation>NQ- - Air Japan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NX-675-AIR MACAU</masterLabel>
+        <translation>NX-675-Air Macau</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OK-064-CZECH</masterLabel>
+        <translation>OK-064-Czech</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OS--AUSTRIAN  AG</masterLabel>
+        <translation>OS--Austrian  Ag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OZ-988-ASIANA</masterLabel>
+        <translation>OZ-988-Asiana</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PK--PAKISTAN INT&apos;L</masterLabel>
+        <translation>PK--Pakistan Int&apos;l</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PO-403-POLAR AIR CARGO WORLDWIDE</masterLabel>
+        <translation>PO-403-Polar Air Cargo Worldwide</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PR-079-PHILIPPINE ,</masterLabel>
+        <translation>PR-079-Philippine ,</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QF-081-QANTAS AIRWAYS</masterLabel>
+        <translation>QF-081-Qantas Airways</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QR-157-QATAR AIRWAYS</masterLabel>
+        <translation>QR-157-Qatar Airways</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RU-912-AIR BRIDGE CARGO</masterLabel>
+        <translation>RU-912-Air Bridge Cargo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SC--CHANGDONG</masterLabel>
+        <translation>SC--Changdong</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQ-618-SINGAPORE</masterLabel>
+        <translation>SQ-618-Singapore</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SU-507-AEROFLOT RUSSIAN</masterLabel>
+        <translation>SU-507-Aeroflot Russian</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TG-217-THAI AIRWAYS INT&apos;L PUBLIC</masterLabel>
+        <translation>TG-217-Thai Airways Int&apos;l Public</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TK-235-TURKISH</masterLabel>
+        <translation>TK-235-Turkish</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TW- -T’WAY AIR</masterLabel>
+        <translation>TW- -T’way Air</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TZ--SCOOT PRIVATE</masterLabel>
+        <translation>TZ--Scoot Private</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UA-016-UNITED</masterLabel>
+        <translation>UA-016-United</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UL-603-SRILANKAN</masterLabel>
+        <translation>UL-603-Srilankan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UO-128-HONG KONG EXPRESS AIRWAYS</masterLabel>
+        <translation>UO-128-Hong Kong Express Airways</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VN-738-VIETNAM  CORP</masterLabel>
+        <translation>VN-738-Vietnam  Corp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VS-932-VIRGIN ATLANTIC AIRWAYS</masterLabel>
+        <translation>VS-932-Virgin Atlantic Airways</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Y8-871-YANGZIJIANG RIVER EXPRESS</masterLabel>
+        <translation>Y8-871-Yangzijiang River Express</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZE--EASTAR JET</masterLabel>
+        <translation>ZE--eastar jet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZH--SHENZHEN</masterLabel>
+        <translation>ក្រុង Shenzhen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

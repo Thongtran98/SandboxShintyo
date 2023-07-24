@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ChassisType__c</name>
+    <picklistValues>
+        <masterLabel>20&apos;DC WITH 2 AXIS</masterLabel>
+        <translation>20피트-2축</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20&apos;DC WITH 3 AXIS</masterLabel>
+        <translation>20피트-3축</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20&apos;DC*2 WITH 2 AXIS</masterLabel>
+        <translation>20피트*더블-2축</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20&apos;DC*2 WITH 3 AXIS</masterLabel>
+        <translation>20피트*더블-3축</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>40&apos;DC WITH 2 AXIS</masterLabel>
+        <translation>40피트-2축</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>40&apos;DC WITH 3 AXIS</masterLabel>
+        <translation>40피트-3축</translation>
+    </picklistValues>
+</CustomFieldTranslation>

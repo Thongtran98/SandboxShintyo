@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;以下の日付のうちのいずれかを入力すると、最も遅い日付が計上日として選択されます。輸入-Shipment Order案件: ETA, 通関:許可日, 配送:配送予定日。輸出-配送:配送予定日, 通関:許可日, Shipment Order案件: ETD。&quot;</help>
+    <label></label>
+    <name>clofor_com_cfs__SalesAccountedDate__c</name>
+</CustomFieldTranslation>

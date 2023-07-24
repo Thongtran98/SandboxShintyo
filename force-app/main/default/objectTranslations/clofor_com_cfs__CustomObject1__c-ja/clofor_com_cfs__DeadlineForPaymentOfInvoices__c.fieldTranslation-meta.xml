@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>支払期限をご入力ください。入力された期限は請求書に反映されます。</help>
+    <label></label>
+    <name>clofor_com_cfs__DeadlineForPaymentOfInvoices__c</name>
+</CustomFieldTranslation>

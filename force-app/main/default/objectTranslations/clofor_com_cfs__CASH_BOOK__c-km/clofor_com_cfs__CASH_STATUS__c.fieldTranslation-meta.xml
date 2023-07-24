@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>clofor_com_cfs__CASH_STATUS__c</name>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation>Cancelled</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FULL AMOUNT RECEIVED</masterLabel>
+        <translation>Fully Collected</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fully Paid</masterLabel>
+        <translation>Fully Paid</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARTIAL AMOUNT RECEIVED-BALANCE REMAINED</masterLabel>
+        <translation>Partially Collected</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partially Paid</masterLabel>
+        <translation>Partially Paid</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planned</masterLabel>
+        <translation>Planned</translation>
+    </picklistValues>
+</CustomFieldTranslation>

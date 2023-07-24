@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>‘매입소비세액(표준통화)= 합계 매입금액(표준통화)*소비세율(매입)/100’으로 계산됩니다.  **소비세율(매입)은 퍼센트로 표시됩니다. **</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyTaxNum__c</name>
+</CustomFieldTranslation>

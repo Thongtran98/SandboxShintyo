@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>과세대상금액이10백만동초과하고 18백만동이하일경우의 세금조정액</help>
+    <label></label>
+    <name>clofor_com_cfs__TAXAdjustRange3__c</name>
+</CustomFieldTranslation>

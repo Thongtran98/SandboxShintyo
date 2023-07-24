@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Có thể tìm kiếm Dịch Vụ Chuyên Dụng với tên tương tự là Danh Mục Dịch Vụ</help>
+    <label></label>
+    <name>clofor_com_cfs__SerchSyubetu__c</name>
+    <picklistValues>
+        <masterLabel>FCL輸入</masterLabel>
+        <translation>Nhập- FCL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL輸出</masterLabel>
+        <translation>Xuất- FCL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL輸入</masterLabel>
+        <translation>Nhập- LCL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL輸出</masterLabel>
+        <translation>Xuất- LCL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ドレー</masterLabel>
+        <translation>Drayage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>マスター按分</masterLabel>
+        <translation>Quản lý phân bổ chi phí</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>倉庫</masterLabel>
+        <translation>Kho hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>実費</masterLabel>
+        <translation>Giá gốc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>海外現地費用</masterLabel>
+        <translation>Chi phí ở nước ngoài</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通関輸入</masterLabel>
+        <translation>Nhập- Khai báo hải quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通関輸出</masterLabel>
+        <translation>Xuất- Khai báo hải quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>配送</masterLabel>
+        <translation>Giao nhận</translation>
+    </picklistValues>
+</CustomFieldTranslation>

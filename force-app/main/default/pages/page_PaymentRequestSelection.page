@@ -1,0 +1,109 @@
+<apex:page controller="PaymentRequestController">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script src="/soap/ajax/54.0/connection.js"></script>
+    <script src="/soap/ajax/54.0/apex.js" type="text/javascript"></script>
+    <apex:stylesheet value="{!URLFOR($Resource.CommonResource ,'CommonResource/Jquery-UI/jquery-ui.css')}" />
+    <apex:includeScript value="{!URLFOR($Resource.CommonResource ,'CommonResource/Jquery/jquery.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.CommonResource ,'CommonResource/Jquery-UI/jquery-ui.min.js')}" />
+
+
+    <head>
+            <style>
+                table tr.billHeader td{
+                    color: white;
+                }    
+            </style>
+            <script type="text/javascript">
+                function closePopupDialog() {
+                        window.open('/{!JSENCODE(paymentId)}','_self');
+                    }
+            </script>
+    </head>
+    <apex:form id="theform">
+        <apex:sectionHeader subtitle="Payment Request" />
+        <apex:pageBlock >
+            <apex:pageBlockButtons location="bottom">
+                <apex:outputPanel id="buttonBlock">
+
+                    <apex:commandButton value="Generate" onclick="generateReportDoc('pdf'); return false;"
+                    />
+                    <apex:commandButton value="close" action="{!closePopupDialog}"/>
+                </apex:outputPanel>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="Select Bank && Show Signature" columns="1">
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Bank Information"/>
+                    <!-- <apex:selectList size="1" value="{!bankType}">
+                        <apex:selectOptions value="{!bankOptions}"/>
+                    </apex:selectList> -->
+                    <apex:selectList size="1" styleclass="accountt" value="{!customerId}" id="customerOption">
+                                <apex:selectOptions value="{!customerList}"></apex:selectOptions>
+                                <apex:actionSupport event="onchange" reRender="jsPanel, filterSection" status="status"/>
+                                <apex:actionStatus id="status">
+                                    <apex:facet name="start">
+                                        <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.25; z-index: 1000; background-color: black;">
+                                            &nbsp;
+                                        </div>
+                                        <div style="position: fixed; left: 0; top: 0; bottom: 0; right: 0; z-index: 1001; margin: 15% 50%">
+                                            <div style="display: inline-block; padding: 2px;width: 125px;">
+                                                <span style="display: inline-block; padding: 10px 0px; color:white" >Loading...</span>
+                                            </div>
+                                        </div>
+                                    </apex:facet>
+                                </apex:actionStatus>
+                            </apex:selectList>
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Show Signature" />
+                    <apex:inputCheckbox styleClass="messageCheckboxSignatue" value="{!showSignature}" />
+                </apex:pageBlockSectionItem>
+
+
+                <!-- -->
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Attachment" columns="1">
+                <apex:pageBlockSectionItem >
+                    <!-- <apex:inputCheckbox value="{!requiredAttachmentCreation}"/> -->
+                    <apex:inputCheckbox styleClass="messageAttachment" id="checkShow" value="{!requiredAttachmentCreation}" />
+                    <apex:outputLabel >Create Attachment?</apex:outputLabel>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <!-- <apex:actionFunction action="{!generateAttachmentFile}" name="af_generateReportDoc" reRender="jsPanel" oncomplete="generateReportDoc('{!fileType}'); return false;">
+                    </apex:actionFunction> -->
+        </apex:pageBlock>
+
+        <apex:outputPanel id="jsPanel">
+            <script type="text/javascript">
+                function generateReportDoc(docType) {
+                    var showSignature = document.querySelector('.messageCheckboxSignatue').checked;
+                    var requiredAttachmentCreation = document.querySelector('.messageAttachment').checked;
+                    var url;
+                    if (docType === 'pdf') {
+                        url = '/apex/page_PaymentRequest?'
+                    }
+                    url += 'Id=' + '{!JSENCODE(paymentId)}'
+
+                    url += '&showSignature=' + showSignature;
+
+                    url += '&requiredAttachmentCreation=' + requiredAttachmentCreation;
+
+                    url += '&customerId=' + '{!JSENCODE(customerId)}';
+
+                    PrintAtt(requiredAttachmentCreation);
+
+                    console.log('kkkk :' + url);
+                    window.open(url, '_blank');
+
+                }
+            </script>
+        </apex:outputPanel>
+    </apex:form>
+    <apex:form>
+        <apex:actionFunction name="PrintAtt" action="{!generateAttachmentFile}" reRender="">
+            <apex:param value="" name="requiredAttachmentCreation" />
+        </apex:actionFunction>
+    </apex:form>
+</apex:page>

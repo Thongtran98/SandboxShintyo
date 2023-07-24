@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__VATExRateMassUpdate</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Anken__c</columns>
+    <columns>clofor_com_cfs__InsatuyouSyohin__c</columns>
+    <columns>clofor_com_cfs__ExchangeRateIDVAT__c</columns>
+    <columns>clofor_com_cfs__ExchangeRateSellingVAT__c</columns>
+    <columns>clofor_com_cfs__ExchangeRateSellingUpdate__c</columns>
+    <columns>clofor_com_cfs__CurrencyConversionSelling__c</columns>
+    <columns>clofor_com_cfs__ExchangeRateBuyingVAT__c</columns>
+    <columns>clofor_com_cfs__ExchangeRateBuyingUpdate__c</columns>
+    <columns>clofor_com_cfs__CurrencyConversionBuying__c</columns>
+    <columns>clofor_com_cfs__SellTankaJPY__c</columns>
+    <columns>clofor_com_cfs__SellTankaUSD__c</columns>
+    <columns>clofor_com_cfs__BuyTankaJPY__c</columns>
+    <columns>clofor_com_cfs__BuyTankaUSD__c</columns>
+    <columns>clofor_com_cfs__SalesAccountedDateInvoicing__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__AnkenMeisai__c.clofor_com_cfs__Selling_Buyging_Standard</value>
+    </filters>
+    <label>5-1.VAT ExRate Mass Update</label>
+    <language>en_US</language>
+</ListView>

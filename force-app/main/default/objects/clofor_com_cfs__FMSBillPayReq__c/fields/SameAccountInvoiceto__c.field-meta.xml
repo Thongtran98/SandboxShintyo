@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SameAccountInvoiceto__c</fullName>
+    <externalId>false</externalId>
+    <formula>clofor_com_cfs__PaymentRequestID__r.clofor_com_cfs__PaymentTo__c =  clofor_com_cfs__FMSBillID__r.clofor_com_cfs__Seikyusaki__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Same Account Invoice to</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

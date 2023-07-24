@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>輸入自社混載貨物の場合は、デバンを行う会社名を入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__Devan__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

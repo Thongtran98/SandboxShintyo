@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Container_Ownership_Code__c</name>
+    <picklistValues>
+        <masterLabel>Carrier supplied</masterLabel>
+        <translation>선사 소유</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consolidator supplied</masterLabel>
+        <translation>출항지 콘솔사 소유</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deconsolidator supplied</masterLabel>
+        <translation>도착지 콘솔사 소유</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shipper supplied</masterLabel>
+        <translation>화주 소유</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third party supplied</masterLabel>
+        <translation>제 3자 소유</translation>
+    </picklistValues>
+</CustomFieldTranslation>

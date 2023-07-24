@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>고객에 대한 Remark가 있을 경우 이 필드에 입력하면 CLotra 자동메일에 나타납니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__Remark__c</name>
+</CustomFieldTranslation>

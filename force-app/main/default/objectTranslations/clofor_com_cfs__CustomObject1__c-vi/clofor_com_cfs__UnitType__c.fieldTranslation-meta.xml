@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__UnitType__c</name>
+    <picklistValues>
+        <masterLabel>Bag</masterLabel>
+        <translation>Bag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bale,compressed</masterLabel>
+        <translation>Bale</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bale,non-compressed</masterLabel>
+        <translation>Bale, non-compressed</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bar</masterLabel>
+        <translation>Bar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Barrel</masterLabel>
+        <translation>Barrels</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basket</masterLabel>
+        <translation>Basket</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bill</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Box</masterLabel>
+        <translation>Box</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Budle</masterLabel>
+        <translation>Bundle</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk, gas（at 1031mber and 15℃）</masterLabel>
+        <translation>Bulk, gas (at 1031 mber and 15c)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk, liguefied gas（at abnomal temperature/pressure）</masterLabel>
+        <translation>Bul, liguefied gas (at abnormal temperature/pressure)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk, liquid</masterLabel>
+        <translation>Bulk, liquid</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk, solid, fineparticles(powders）</masterLabel>
+        <translation>Bulk, solid, fineparticles (powders)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk, solid, granular particles(grains）</masterLabel>
+        <translation>Bulk, solid,granular particales (grains)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk, solid, large particles(nodules）</masterLabel>
+        <translation>Bulk, solid,granular particales (nodules)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cage</masterLabel>
+        <translation>Cage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Can,cylindrical</masterLabel>
+        <translation>Cylinder</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Can,rectangular</masterLabel>
+        <translation>Can</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carboy,non-protected</masterLabel>
+        <translation>Carboy-non-protected</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carboy,protected</masterLabel>
+        <translation>Carboy,protected</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carton</masterLabel>
+        <translation>Carton</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case</masterLabel>
+        <translation>Case</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cask</masterLabel>
+        <translation>Cask</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chest</masterLabel>
+        <translation>Chest</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coil</masterLabel>
+        <translation>Coil</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Container</masterLabel>
+        <translation>Container</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Crate</masterLabel>
+        <translation>Crate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cylinder</masterLabel>
+        <translation>Thùng hình trụ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DemiJohn, protected</masterLabel>
+        <translation>Hủ rượu cỡ nhỏ, có vỏ mây</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DemiJohn,non-protected</masterLabel>
+        <translation>Hủ rượu cỡ nhỏ, không có vỏ mây</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drum</masterLabel>
+        <translation>Drum</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fibre Drum</masterLabel>
+        <translation>Fiber drum</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flask</masterLabel>
+        <translation>Chai, lọ dẹt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flexible Container</masterLabel>
+        <translation>Flexible container bag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frame</masterLabel>
+        <translation>Khung/Khuôn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HEAD</masterLabel>
+        <translation>Đầu phun</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogeshead</masterLabel>
+        <translation>Thùng phuy lớn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ingot</masterLabel>
+        <translation>Thỏi đúc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jar</masterLabel>
+        <translation>Vại, lọ, bình</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jug</masterLabel>
+        <translation>Bình có vòi/tay cầm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keg</masterLabel>
+        <translation>Thùng chứa lực nén hơi gas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Log</masterLabel>
+        <translation>Dạng khúc, đòn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Logs, in bundle/bunch/truss</masterLabel>
+        <translation>Dạng khúc/đòn theo bó, bọc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mat</masterLabel>
+        <translation>Tấm đệm, miếng lót</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net</masterLabel>
+        <translation>Lưới</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Dạng khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package</masterLabel>
+        <translation>Kiện</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Packet</masterLabel>
+        <translation>Gói nhỏ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pail</masterLabel>
+        <translation>Thùng có quai xách</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pallet</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pallet &amp; Package</masterLabel>
+        <translation>Túi/Kiện nâng trên tấm pa-lét</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parcel</masterLabel>
+        <translation>Kiện bưu phẩm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pen</masterLabel>
+        <translation>Dạng bút</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Piece</masterLabel>
+        <translation>Mảnh, mẫu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pipe</masterLabel>
+        <translation>Dạng ống</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pipes, in bundle/bunch/truss</masterLabel>
+        <translation>Dạng ống, thành bó</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planks, in bundle/bunch/truss</masterLabel>
+        <translation>Tấm/lát ván, thành bó</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plate</masterLabel>
+        <translation>Bản/tấm kim loại dẹt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plates, in bundle/bunch/truss</masterLabel>
+        <translation>Bản/tấm kim loại dẹt, thành bó</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reel</masterLabel>
+        <translation>Guồng, ống, cuộn (chỉ, dây dạng sợi)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roll</masterLabel>
+        <translation>Guồng, ống, cuộn (giấy dạng dẹt)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sack</masterLabel>
+        <translation>Bao đay</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Set</masterLabel>
+        <translation>Bộ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sheet</masterLabel>
+        <translation>Tờ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sheet,in bundle/bunch/truss</masterLabel>
+        <translation>Tờ, theo bó, cuộn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shipment</masterLabel>
+        <translation>Lô hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skeleton Case</masterLabel>
+        <translation>Vỏ thiết kế quan sát máy móc bên trong</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skid</masterLabel>
+        <translation>Con lăn, tấm trượt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slab</masterLabel>
+        <translation>Phiến, tấm, thanh, miếng (đá, gỗ..)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steel Case</masterLabel>
+        <translation>Kiện/hộp thép</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steel Envelop</masterLabel>
+        <translation>Vỏ thiết kế quan sát máy móc bên trong</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tierce</masterLabel>
+        <translation>Thùng đựng chất lỏng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tin</masterLabel>
+        <translation>Hộp, lon, can, tấm mạ thiếc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tray</masterLabel>
+        <translation>Khay, ngăn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tub</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unit</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unpacked  or unpackaged</masterLabel>
+        <translation>Hàng không đóng gói/bao bì</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanpack</masterLabel>
+        <translation>Túi có van khí</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vat</masterLabel>
+        <translation>Thùng hoặc bồn lớn đựng chất lỏng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wooden Drum</masterLabel>
+        <translation>Thùng tròn bằng gỗ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Master_Record_Type__c</name>
+    <picklistValues>
+        <masterLabel>Air Export</masterLabel>
+        <translation>Air Export</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Air Import</masterLabel>
+        <translation>Air Import</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ocean Export</masterLabel>
+        <translation>Ocean Export</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ocean Import</masterLabel>
+        <translation>Ocean Import</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu công ty của bạn chịu trách nhiệm bên giao nhận. Chọn &apos;Vận chuyển bởi công ty chúng tôi&apos; và và nếu những công ty khác chịu trách nhiệm bên giao nhận, chọn &apos; vận chuyển bởi công ty khác&apos;</help>
+    <label></label>
+    <name>clofor_com_cfs__Fowarding__c</name>
+    <picklistValues>
+        <masterLabel>他社フォワーディング(Forwarding by others)</masterLabel>
+        <translation>Vận chuyển bởi công ty khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自社フォワーディング(Forwarding by us)</masterLabel>
+        <translation>Vận chuyển bởi công ty chúng tôi</translation>
+    </picklistValues>
+</CustomFieldTranslation>

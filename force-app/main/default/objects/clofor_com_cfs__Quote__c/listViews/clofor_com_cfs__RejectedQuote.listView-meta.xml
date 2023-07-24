@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__RejectedQuote</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>clofor_com_cfs__QuoteName__c</columns>
+    <columns>clofor_com_cfs__QuoteNumber__c</columns>
+    <columns>clofor_com_cfs__QuoteStatus__c</columns>
+    <columns>clofor_com_cfs__ApprovalStatus__c</columns>
+    <columns>clofor_com_cfs__RequesterCompany__c</columns>
+    <columns>clofor_com_cfs__RequestDetail__c</columns>
+    <columns>clofor_com_cfs__Quantity__c</columns>
+    <columns>clofor_com_cfs__AmountInclTaxLocal__c</columns>
+    <columns>clofor_com_cfs__AmountInclTaxUSD__c</columns>
+    <columns>clofor_com_cfs__ProfitNICTaxLocal__c</columns>
+    <columns>clofor_com_cfs__ProfitRatioNICTaxLocal__c</columns>
+    <columns>clofor_com_cfs__ValidTo__c</columns>
+    <columns>clofor_com_cfs__QuoteIssueDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__ApprovalStatus__c</field>
+        <operation>equals</operation>
+        <value>Rejected</value>
+    </filters>
+    <label>Rejected Quote</label>
+    <language>en_US</language>
+</ListView>

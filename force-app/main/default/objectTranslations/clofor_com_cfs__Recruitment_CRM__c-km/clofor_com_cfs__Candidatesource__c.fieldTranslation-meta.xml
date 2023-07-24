@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Candidatesource__c</name>
+    <picklistValues>
+        <masterLabel>Hiring Agency</masterLabel>
+        <translation>ភ្នាក់ងារជ្រើសរើស</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>ផ្សេងទៀត</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Referral</masterLabel>
+        <translation>យោង</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social Media</masterLabel>
+        <translation>ប្រព័ន្ធ​ផ្សព្វផ្សាយ​សង្គម</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Website</masterLabel>
+        <translation>គេហទំព័រ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mafaili__All</fullName>
+    <columns>NAME</columns>
+    <columns>mafaili__Top_Folder__c</columns>
+    <columns>mafaili__Parent_Folder__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>mafaili__Object__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

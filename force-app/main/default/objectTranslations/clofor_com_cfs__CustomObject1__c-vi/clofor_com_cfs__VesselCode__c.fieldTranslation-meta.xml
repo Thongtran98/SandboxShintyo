@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Trường hợp đây là lô hàng chuyển tải, điền Mã tàu của Tàu chuyển tải</help>
+    <label></label>
+    <name>clofor_com_cfs__VesselCode__c</name>
+</CustomFieldTranslation>

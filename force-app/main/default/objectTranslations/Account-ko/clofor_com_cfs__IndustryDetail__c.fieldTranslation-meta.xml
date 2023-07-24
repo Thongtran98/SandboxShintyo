@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__IndustryDetail__c</name>
+    <picklistValues>
+        <masterLabel>2ND HAND AUTOMOBILE</masterLabel>
+        <translation>중고차</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCESSORY</masterLabel>
+        <translation>악세서리, 소품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APPAREL</masterLabel>
+        <translation>의류</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARTS / HANDICRAFTS</masterLabel>
+        <translation>예술/공예</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CERAMIC</masterLabel>
+        <translation>요업</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHEMICAL</masterLabel>
+        <translation>화학</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSOLIDATION</masterLabel>
+        <translation>콘솔리데이션</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CUSTOMS CLEARANCE</masterLabel>
+        <translation>통관</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DRAYAGE</masterLabel>
+        <translation>트레이</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRICAL MACHINERY</masterLabel>
+        <translation>전기기기</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRICITY･GAS</masterLabel>
+        <translation>전기/가스</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIBER</masterLabel>
+        <translation>섬유</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FISHING GEAR</masterLabel>
+        <translation>낛시</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOOD</masterLabel>
+        <translation>식품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FRESH FOOD</masterLabel>
+        <translation>신선제품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FURNITURE・INTERIOR</masterLabel>
+        <translation>가구, 인테리어</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENERAL GOODS</masterLabel>
+        <translation>잡화</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GOVERNMENT</masterLabel>
+        <translation>정부기관</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INFRASTRUCTURE</masterLabel>
+        <translation>건설</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KIDS GARMENTS</masterLabel>
+        <translation>아동복</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LADY GARMENTS</masterLabel>
+        <translation>여성의류</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LEATHER GOODS</masterLabel>
+        <translation>가죽게품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MACHINERY</masterLabel>
+        <translation>기계</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAN GARMENTS</masterLabel>
+        <translation>남성의류</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDIA</masterLabel>
+        <translation>미디어</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDICAL</masterLabel>
+        <translation>의약품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>METAL PRODUCTS</masterLabel>
+        <translation>금속제품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MINING</masterLabel>
+        <translation>광업</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEW BRAND AUTOMOBILE</masterLabel>
+        <translation>New Brand Automobile</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NONFERROUS METAL</masterLabel>
+        <translation>비철금속</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHER</masterLabel>
+        <translation>그 외</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARTS</masterLabel>
+        <translation>부품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PETROLEUM AND COAL PRODUCTS</masterLabel>
+        <translation>석유/석탄제품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRECISION MACHINE</masterLabel>
+        <translation>정밀기기</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROCESSED FOOD</masterLabel>
+        <translation>가공식품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PUBLIC INSTITUTION</masterLabel>
+        <translation>공동기관</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REAL ESTATE</masterLabel>
+        <translation>부동산</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RELATED TO TRANSPORT</masterLabel>
+        <translation>운수관련</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RUBBER PRODUCT</masterLabel>
+        <translation>고무제품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA / AGRICULTURAL</masterLabel>
+        <translation>수산 및 농림</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA FOOD PRODUCT</masterLabel>
+        <translation>수산품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHIPPING LINE</masterLabel>
+        <translation>선사</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>STEEL</masterLabel>
+        <translation>철강</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TELECOMMUNICATION</masterLabel>
+        <translation>통신</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRANSPORTATION MACHINERY</masterLabel>
+        <translation>운송기기</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRAVEL AGENT</masterLabel>
+        <translation>여행</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRUCK</masterLabel>
+        <translation>트럭</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNDERWEAR</masterLabel>
+        <translation>언더웨어</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VALVE・PAPER</masterLabel>
+        <translation>펄프, 종이</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WAREHOUSE</masterLabel>
+        <translation>창고</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WOODEN PRODUCTS</masterLabel>
+        <translation>Wooden Products</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Subcategory__c</name>
+    <picklistValues>
+        <masterLabel>+1000KGS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>+100KGS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>+300KGS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>+45KGS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>+500KGS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AFR Filing</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIRFREIGHT</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMENDMENT FEE</masterLabel>
+        <translation>Phí điều chỉnh</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Airport Warehouse Charge</masterLabel>
+        <translation>Phí kho hàng không</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B/L FEE</masterLabel>
+        <translation>Phí B/L</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAF</masterLabel>
+        <translation>BAF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BB(Break Bulk) Fee</masterLabel>
+        <translation>Phí hàng rời</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic Charge</masterLabel>
+        <translation>Những phí tối thiểu cần có</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C/C(Charges Collect) Fee</masterLabel>
+        <translation>Phí collect</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAF</masterLabel>
+        <translation>CAF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CFS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIC</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CO-LOAD</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMMISSION</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSC(Container Security SubCharge)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSMP TAX</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CY CHARGE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carge Storage Charge</masterLabel>
+        <translation>Phí lưu kho</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cargo In &amp; Out Charge</masterLabel>
+        <translation>Phí xếp hàng và dỡ hàng trong kho</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cargo Out Charge</masterLabel>
+        <translation>Phí lấy hàng khỏi kho</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cargo Sorting Charge</masterLabel>
+        <translation>Phí phân loại</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carrier Master Consolidation Allocation</masterLabel>
+        <translation>Bố trí công ty chuyển hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carrier Master Consolidation Allocation(TAX)</masterLabel>
+        <translation>Bố trí công ty chuyển hàng (Có thuế)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clearing Fee</masterLabel>
+        <translation>Phí vệ sinh</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consolidation Allocation</masterLabel>
+        <translation>Phân bổ chi phí ghép hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Container Drayage(Tri-x chassis)</masterLabel>
+        <translation>Giữa ba nước</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Handling Charge</masterLabel>
+        <translation>Phí xử lý hàng hóa</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Clearance Charge</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Clearance Charge - Small</masterLabel>
+        <translation>Nhập - Phí khai báo hải quan (từ 1 tờ trở lên) - Số lượng nhỏ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Clearance Charge(2 Page) - Big</masterLabel>
+        <translation>Nhập - Phí khai báo hải quan (từ 2 tờ trở lên) - Số lượng lớn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Clearance Charge(2 Page) - Small</masterLabel>
+        <translation>Nhập - Phí khai báo hải quan (từ 1 tờ trở lên) - Số lượng nhỏ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D/O FEE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEBIT(REFUND)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DOC FEE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Detention Charge</masterLabel>
+        <translation>Phí trậm chễ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Devanning Charge</masterLabel>
+        <translation>Phí Dỡ hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disposal Charge</masterLabel>
+        <translation>Phí xử lý chất thải</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documeting Application Charge</masterLabel>
+        <translation>Mẫu đơn yêu cầu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EBS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EX-WORK CHARGE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container Barging Charge</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container Demurrage Charge</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container Detention Charge</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container Trucking</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Customs Clearance Charge - Big</masterLabel>
+        <translation>Xuất - Phí khai báo hải quan (từ 1 tờ trở lên) - Số lượng lớn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Customs Clearance Charge - Small</masterLabel>
+        <translation>Xuất - Phí khai báo hải quan (từ 1 tờ trở lên) - Số lượng nhỏ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Customs Clearance Charge(2 Page) - Big</masterLabel>
+        <translation>Xuất - Phí khai báo hải quan (từ 2 tờ trở lên) - Số lượng lớn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Customs Clearance Charge(2 Page) - Small</masterLabel>
+        <translation>Xuất - Phí khai báo hải quan (từ 1 tờ trở lên) - Số lượng nhỏ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Customs Clearance Handling Charge</masterLabel>
+        <translation>Xuất - Phí thông quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAF</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAF/BAF</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAF/YAS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAF/YAS/EBS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FI(Free in)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FILO(Free in, Liner out)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIO(Free in and out)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIOS(Free In, Out and Stowed)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIOST LS(Free in and out and stowed and trimmed, Lashed Secured)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIOST(Free in and out and stowed and trimmed)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FISLO(Free in Stowed, Liner out)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flexitank</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fumigation</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GBF</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HDS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handling Charge</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Highway Toll Gate Fee</masterLabel>
+        <translation>Phí chuyển hàng nhanh</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Holiday Charge</masterLabel>
+        <translation>Nghỉ lễ quốc gia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import C.Clearance Charge</masterLabel>
+        <translation>Nhập - Phí khai báo hải quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Consumption TAX</masterLabel>
+        <translation>Nhập - Thuế tiêu thụ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industrial Gabage Disposal Charge</masterLabel>
+        <translation>Phí xử lý chất thải công nghiệp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inspection Attendance Charge</masterLabel>
+        <translation>Phòng thanh tra phụ trách lúc đầu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kickback</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIFO(Liner in, free out)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOLO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late Night/Early Morning Charge</masterLabel>
+        <translation>Đêm khuya - Sáng sớm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lift Off</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lift On</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minimum Charge</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCEAN FREIGHT Surcharge Excluded</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCEAN FREIGHT Surcharge Included</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ocean Freight including all charges</masterLabel>
+        <translation>Nhiều loại vận tải hàng hải khác nhau</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ocean Freight including all charges(Advance Payment)</masterLabel>
+        <translation>Nhiều loại vận tải hàng hải khác nhau (nâng cao)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Local Charge</masterLabel>
+        <translation>Phí địa phương</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner Master Consolidation Allocation</masterLabel>
+        <translation>Phân bổ chi phí cho đối tác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEAL</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Fee</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Short Drayage</masterLabel>
+        <translation>Drayage (Vận chuyển container đoạn đường ngắn)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>System Charges</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAX(Duty Payment)</masterLabel>
+        <translation>Thuế quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TELEX</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>THC</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trucking(20&apos;)</masterLabel>
+        <translation>Bảng phí vận chuyển trong nước (20ft)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trucking(40&apos;)</masterLabel>
+        <translation>Bảng phí vận chuyển trong nước (40ft)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trucking(Charter)</masterLabel>
+        <translation>Bảng phí vận chuyển trong nước (Dịch vụ thuê nguyên xe tải)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trucking(Consolidation)</masterLabel>
+        <translation>Bảng phí vận chuyển trong nước (Dịch vụ ghép hàng)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanning Charge</masterLabel>
+        <translation>Phí dỡ hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>W/H IN &amp; OUT CHARGE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting Charge</masterLabel>
+        <translation>Phí chờ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse Master Consolidation Allocation</masterLabel>
+        <translation>Bố trí quản lý kho hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YAS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

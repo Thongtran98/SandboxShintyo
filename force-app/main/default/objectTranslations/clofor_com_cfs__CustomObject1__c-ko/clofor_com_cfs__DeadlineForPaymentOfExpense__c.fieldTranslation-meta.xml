@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>청구금액중 대납분에 대한 입금 기한을 입력하여 주십시요. 입력한 기한은 일본어 &quot;立替請求書&quot; 입금 기한에 반영 됩니다. 대납은 수입세,수출세, 귀사에서 미리 대납한 비용을 포함합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__DeadlineForPaymentOfExpense__c</name>
+</CustomFieldTranslation>

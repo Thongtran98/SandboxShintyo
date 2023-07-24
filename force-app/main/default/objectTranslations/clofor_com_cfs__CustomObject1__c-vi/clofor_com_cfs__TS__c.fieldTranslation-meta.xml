@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập Cảng chuyển tải cuối cùng.  vui lòng chọn Số lần chuyển tải yêu cầu và dữ liệu sẽ được tạo. Cảng chuyển tải cuối cùng sẽ được tự động thêm vào.</help>
+    <label></label>
+    <name>clofor_com_cfs__TS__c</name>
+</CustomFieldTranslation>

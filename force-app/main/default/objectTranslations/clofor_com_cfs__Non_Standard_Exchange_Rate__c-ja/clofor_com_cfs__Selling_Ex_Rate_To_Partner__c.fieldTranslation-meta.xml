@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>指定パートナー向けの指定販売為替</help>
+    <label></label>
+    <name>clofor_com_cfs__Selling_Ex_Rate_To_Partner__c</name>
+</CustomFieldTranslation>

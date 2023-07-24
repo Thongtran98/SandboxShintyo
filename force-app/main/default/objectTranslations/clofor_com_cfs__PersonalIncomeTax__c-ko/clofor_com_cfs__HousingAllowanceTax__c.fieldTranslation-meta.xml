@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>주택수당세=주택수당세율*실제주택수당-주택수당세 조정액</help>
+    <label></label>
+    <name>clofor_com_cfs__HousingAllowanceTax__c</name>
+</CustomFieldTranslation>

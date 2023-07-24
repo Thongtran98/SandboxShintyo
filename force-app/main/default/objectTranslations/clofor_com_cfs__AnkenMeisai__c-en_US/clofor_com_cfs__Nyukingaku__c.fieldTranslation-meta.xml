@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>When this field is &apos;0&apos; and  &apos;Payment Confirmed-Selling&apos; is checked, Amount Selling Including Tax(Local) is inserted to this field</help>
+    <label></label>
+    <name>clofor_com_cfs__Nyukingaku__c</name>
+</CustomFieldTranslation>

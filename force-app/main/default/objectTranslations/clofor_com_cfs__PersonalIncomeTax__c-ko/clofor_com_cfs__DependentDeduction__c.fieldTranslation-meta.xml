@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>부양가족공제액=임직원관리의 부양자수*임직원관리의 부양자공제</help>
+    <label></label>
+    <name>clofor_com_cfs__DependentDeduction__c</name>
+</CustomFieldTranslation>

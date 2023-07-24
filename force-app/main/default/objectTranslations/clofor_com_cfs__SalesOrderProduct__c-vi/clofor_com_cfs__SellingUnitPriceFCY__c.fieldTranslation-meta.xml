@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Khi ĐVT là sản phẩm, Đơn giá bán(N/T) = Đơn giá bán tiêu chuẩn(N/T). Khi ĐVT là khối lượng, Đơn giá bán(N/T) = Đơn giá bán Kg/g (N/T)</help>
+    <label></label>
+    <name>clofor_com_cfs__SellingUnitPriceFCY__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>회계코드는 프라이싱의 회계코드가 자동참조 됩니다. 회계코드가 없을 경우 프라이싱의 회계코드를 입력하여 주십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__AccountingCode__c</name>
+</CustomFieldTranslation>

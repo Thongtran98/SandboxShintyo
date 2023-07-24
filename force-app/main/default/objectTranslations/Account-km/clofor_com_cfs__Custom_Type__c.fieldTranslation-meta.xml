@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>For Customer, choose from Domestic Customer-, and partner from Oversea Partner-、vendor from 3RD Vendor-. For your own company, choose Internal Use Only .</help>
+    <label></label>
+    <name>clofor_com_cfs__Custom_Type__c</name>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - AIRLINER</masterLabel>
+        <translation>Airliner</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - BANK</masterLabel>
+        <translation>Bank</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - BB/CUSTOMERS CLEARANCE/OUR AGENT</masterLabel>
+        <translation>BB/Customers Clearance/Our Agent</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CARRIER</masterLabel>
+        <translation>Carrier</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CONSOLIDATOR</masterLabel>
+        <translation>Consolidator</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CUSTOMS CLEARANCE AGENT/CUSTOMER AGENT</masterLabel>
+        <translation>Customs Clearance Agent/Customer Agent</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CUSTOMS CLEARANCE AGENT/OUR AGENT</masterLabel>
+        <translation>Customs Clearance Agent/Our Agent</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - DEPOT</masterLabel>
+        <translation>Depot</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - OTHERS</masterLabel>
+        <translation>Others</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - PORT</masterLabel>
+        <translation>Port</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - SYSTEM</masterLabel>
+        <translation>System</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - TRUCKING</masterLabel>
+        <translation>Trucking</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - WAREHOUSE/STORAGE</masterLabel>
+        <translation>Warehouse/Storage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOR DOCUMENT PURPOSE ONLY</masterLabel>
+        <translation>For Document Purpose Only</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GOVERMENT OFFICE</masterLabel>
+        <translation>Government Office</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INTERNAL USE ONLY</masterLabel>
+        <translation>Internal Use Only</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - EXISTING</masterLabel>
+        <translation>Local  Customer - Existing</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - FORWARDER</masterLabel>
+        <translation>Local Customer - Forwarder</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - LEAD(APPROACHING)</masterLabel>
+        <translation>Local Customer - Approaching</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - NO NEED SALES</masterLabel>
+        <translation>Local  Customer - No Need Sales</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL PARTNER - EXISTING</masterLabel>
+        <translation>Local Partner - Existing</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL PARTNER - LEAD(APPROACHING)</masterLabel>
+        <translation>Local Partner - Approaching</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL PARTNER - NO NEED SALES</masterLabel>
+        <translation>Local Partner - No Need Sales</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA CUSTOMER - EXISTING</masterLabel>
+        <translation>Oversea Customer - Existing</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA CUSTOMER - LEAD(APPORACHING)</masterLabel>
+        <translation>Oversea Customer - Approaching</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA PARTNER - EXISTING</masterLabel>
+        <translation>Oversea Partner - Existing</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA PARTNER - LEAD(APPROACHING)</masterLabel>
+        <translation>Oversea Partner - Approaching</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA PARTNER - NO NEED SALES</masterLabel>
+        <translation>Oversea Partner - No Need Sales</translation>
+    </picklistValues>
+</CustomFieldTranslation>

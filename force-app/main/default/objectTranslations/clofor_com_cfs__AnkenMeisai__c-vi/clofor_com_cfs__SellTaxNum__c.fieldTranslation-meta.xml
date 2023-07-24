@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Số tiền thuế bán = Tổng giá bán* Tỉ lệ tiền thuế trên giá bán/100* tỉ lệ tiền thuế trên giá bán (ô thể hiện %)</help>
+    <label></label>
+    <name>clofor_com_cfs__SellTaxNum__c</name>
+</CustomFieldTranslation>

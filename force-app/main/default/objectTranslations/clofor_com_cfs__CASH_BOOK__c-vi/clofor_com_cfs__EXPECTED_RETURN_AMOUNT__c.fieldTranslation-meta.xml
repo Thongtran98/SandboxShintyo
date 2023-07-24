@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>VIE: Kết quả sẽ được tính tự động. Số tiền phải hoàn trả = Số tiền đã tạm ứng - Số tiền thực chi theo hóa đơn + trả thêm</help>
+    <label></label>
+    <name>clofor_com_cfs__EXPECTED_RETURN_AMOUNT__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+Dear, {!clofor_com_cfs__Custom_Clearance__c.clofor_com_cfs__CustomerClearance_broker__c} 
+{!clofor_com_cfs__Custom_Clearance__c.clofor_com_cfs__CustomeClearanceRep__c} 
+
+Please confirm the attached file of customs clearance instructions.
+If there were anything unclear, please contact with us. 
+
+Best regards.
+
+{!User.LastName} 
+********************************************************* 
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

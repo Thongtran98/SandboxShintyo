@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>clofor_com_cfs__StockDate__c</columns>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__WOSLineID__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>clofor_com_cfs__StockStatus__c</columns>
+    <columns>clofor_com_cfs__WorkOrderServiceID__c</columns>
+    <columns>clofor_com_cfs__ProductID__c</columns>
+    <columns>clofor_com_cfs__ProductName__c</columns>
+    <columns>clofor_com_cfs__TotalQuantityInStock__c</columns>
+    <columns>clofor_com_cfs__WorkOrderID__c</columns>
+    <columns>clofor_com_cfs__StockLocator__c</columns>
+    <columns>clofor_com_cfs__SKUNumber__c</columns>
+    <columns>clofor_com_cfs__ExpiredDate__c</columns>
+    <columns>clofor_com_cfs__Measurement__c</columns>
+    <columns>clofor_com_cfs__StockCountStartDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>0.All</label>
+</ListView>

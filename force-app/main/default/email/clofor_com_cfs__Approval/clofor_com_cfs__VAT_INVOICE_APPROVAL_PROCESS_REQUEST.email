@@ -1,0 +1,20 @@
+Dear Approver,
+Below VAT INVOICE is ready to issue.
+Please have review and approve it if all information, amount are correct. 
+
+◎VAT INVOICE ID: {!clofor_com_cfs__VAT_INVOICE__c.Name}
+Link to CloFor : {!clofor_com_cfs__VAT_INVOICE__c.Link}
+◎RED INVOICE NO: {!clofor_com_cfs__VAT_INVOICE__c.clofor_com_cfs__RED_INVOICE_NO__c}
+◎VAT INVOICE TO: {!clofor_com_cfs__VAT_INVOICE__c.clofor_com_cfs__VAT_INVOICE_TO__c}
+◎CLIENT'S NAME IN VAT INVOICE:  {!clofor_com_cfs__VAT_INVOICE__c.clofor_com_cfs__CLIENTS_NAME_IN_VAT_INVOICE__c}
+
+Once approved, Invoicing detail(EXCHANGE RATE-SELLING, CHARGE UNIT (TOTAL), TAX RATE-SELLING, UNIT PRICE OF SELLING(LOCAL), UNIT PRICE OF SELLING(USD)) will be locked and cannot be modified. To unlock, contact to your Accounting Manager.
+
+Best regards.
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c}
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

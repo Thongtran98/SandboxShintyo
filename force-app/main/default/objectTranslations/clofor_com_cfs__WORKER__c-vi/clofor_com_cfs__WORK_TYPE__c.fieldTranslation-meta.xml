@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__WORK_TYPE__c</name>
+    <picklistValues>
+        <masterLabel>FORKLIFT DRIVER</masterLabel>
+        <translation>Người vận hành xe nâng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FULL CONTAINER TRUCK DRIVER</masterLabel>
+        <translation>Tài xế xe sơ mi rơ moóc tải</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gate Operator</masterLabel>
+        <translation>Người vận hành cổng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ICD Operator</masterLabel>
+        <translation>Người vận hành ICD</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Port Operator</masterLabel>
+        <translation>Người vận hành port</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRUCK DRIVER</masterLabel>
+        <translation>Tài xế xe tải</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terminal Operator</masterLabel>
+        <translation>Người vận hành terminal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vessel Crew</masterLabel>
+        <translation>Thủy thủ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WAREHOUSE STAFF</masterLabel>
+        <translation>Giám sát kho</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse Inbound Operator</masterLabel>
+        <translation>Nhân công kho inbound</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse Outbound Operator</masterLabel>
+        <translation>Nhân công kho outbound</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yard Operator</masterLabel>
+        <translation>Người vận hành yard</translation>
+    </picklistValues>
+</CustomFieldTranslation>

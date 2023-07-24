@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__unpaiedview</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Field1__c</columns>
+    <columns>clofor_com_cfs__Custom__c</columns>
+    <columns>clofor_com_cfs__DeadlineForPaymentOfInvoices__c</columns>
+    <columns>clofor_com_cfs__DeadlineForPaymentOfExpense__c</columns>
+    <columns>clofor_com_cfs__DebitNote_duedate__c</columns>
+    <columns>clofor_com_cfs__SellInTaxAmountJPY_sum__c</columns>
+    <columns>clofor_com_cfs__GoukeiHanbaiKingakuUSD__c</columns>
+    <columns>clofor_com_cfs__Partner__c</columns>
+    <columns>clofor_com_cfs__NyukinGoukeigaku__c</columns>
+    <columns>clofor_com_cfs__NyukinzandakaJPY__c</columns>
+    <columns>clofor_com_cfs__Ararigaku_sum__c</columns>
+    <columns>clofor_com_cfs__status__c</columns>
+    <columns>clofor_com_cfs__DeliveryDate__c</columns>
+    <columns>clofor_com_cfs__ETA__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__DeadlineForPaymentOfInvoices__c</field>
+        <operation>lessThan</operation>
+        <value>1/19/2015</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__NyukinzandakaJPY__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>UNPAID RECEIVABLE</label>
+    <language>en_US</language>
+</ListView>

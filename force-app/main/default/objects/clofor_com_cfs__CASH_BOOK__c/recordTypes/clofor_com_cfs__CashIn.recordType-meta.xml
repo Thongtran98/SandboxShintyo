@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__CashIn</fullName>
+    <active>true</active>
+    <description>To manage cash inbound transaction for local currency</description>
+    <label>CASH IN</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__AdvancedPayCategory__c</picklist>
+        <values>
+            <fullName>Advance payment to staff payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Container Deposit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reimbursement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CASH_STATUS__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FULL AMOUNT RECEIVED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PARTIAL AMOUNT RECEIVED-BALANCE REMAINED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CashRequestType__c</picklist>
+        <values>
+            <fullName>Cash In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CashSourceActivityType__c</picklist>
+        <values>
+            <fullName>FMS%2FTMS BILL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERNAL TRANSACTION FROM BANK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERNAL TRANSACTION FROM CASH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTHER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RETURNS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAT INVOICE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WMS BILL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Currency__c</picklist>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ProcessPayable__c</picklist>
+        <values>
+            <fullName>CloFMS Invoicing Buying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CloFMS Invoicing Selling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CloWMS Billing Buying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CloWMS Billing Selling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kickback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Revenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing Invoice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ProcessReceivable__c</picklist>
+        <values>
+            <fullName>CloFMS Invoicing Selling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CloWMS Billing Selling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deposit From Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Revenue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__RollUpPayable__c</picklist>
+        <values>
+            <fullName>CloFMS Invoicing Buying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CloFMS Invoicing Selling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CloWMS Billing Buying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CloWMS Billing Selling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deposit From Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deposit To Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kickback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Revenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing Invoice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__RollUpReceivable__c</picklist>
+        <values>
+            <fullName>CloFMS Invoicing Buying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CloFMS Invoicing Selling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CloWMS Billing Buying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CloWMS Billing Selling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deposit From Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deposit To Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kickback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Revenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing Invoice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__TrxPlanProcessingType__c</picklist>
+        <values>
+            <fullName>Trx Plan-Collection Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trx Plan-Payment Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

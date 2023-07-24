@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mafaili__Parent_Folder__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Parent Folder</label>
+    <referenceTo>mafaili__Folder_Structure__c</referenceTo>
+    <relationshipLabel>Child Folders</relationshipLabel>
+    <relationshipName>Folders_Structure</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

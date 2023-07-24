@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><em>＊＊＊こちらは自動メールです。<br />
+本件に関してご質問などがございましたら、下記メールにてご連絡下さい。<br />
+輸出チームメール：export@sty-gate.com</em><br />
+<br />
+{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Custom_Clearance_Broker__c}}}<br />
+{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ExternalSales__c}}}様<br />
+<br />
+毎度　弊社のサービスをご利用くださり、誠にありがとうございます。<br />
+<br />
+この度、{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__shipper__c}}}様の{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD__c}}}向け輸出貨物の本船は出港したため、ご連絡させていただきます。<br />
+<br />
+＝＝＝＝＝＝＝＝＝概要＝＝＝＝＝＝＝＝＝=
+<ul>
+	<li>Shipment ID:&nbsp;{{{clofor_com_cfs__CustomObject1__c.Name}}}</li>
+	<li>Booking No:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__MASTER_BOOKINGNO__c}}}</li>
+	<li>SHIPPER: {{{clofor_com_cfs__CustomObject1__c.ShipperCompanyNameEng__c}}}</li>
+	<li>CNEE:&nbsp;{{{clofor_com_cfs__CustomObject1__c.ConsigneeCompanyNameEng__c}}}</li>
+	<li>POL:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POL__c}}}</li>
+	<li>POD:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD__c}}}</li>
+	<li>Vessel:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Vessle__c}}}</li>
+	<li>Voy No:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Voy_No__c}}}</li>
+	<li>ETD:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETD__c}}}</li>
+	<li>ETA:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETA__c}}}</li>
+</ul>
+以上。<br />
+<br />
+何卒よろしくお願いします。<br />
+<br />
+新東洋ゲートインターナショナル株式会社<br />
+輸出チーム<br />
+Tel: 045-550-7196　Fax:045-550-7191<br />
+E-mail: export@sty-gate.com</body>
+</html>

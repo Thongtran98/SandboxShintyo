@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Status__c</name>
+    <picklistValues>
+        <masterLabel>Confirmed</masterLabel>
+        <translation>確定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Settled</masterLabel>
+        <translation>支払済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment processing</masterLabel>
+        <translation>支払処理中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registered</masterLabel>
+        <translation>登録済み</translation>
+    </picklistValues>
+</CustomFieldTranslation>

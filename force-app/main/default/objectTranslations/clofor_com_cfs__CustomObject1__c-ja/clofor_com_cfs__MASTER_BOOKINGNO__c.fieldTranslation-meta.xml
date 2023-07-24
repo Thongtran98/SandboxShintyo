@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>FCLの場合は船社からのbooking番号を、LCLの場合は混載業者からのbooking番号を入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__MASTER_BOOKINGNO__c</name>
+</CustomFieldTranslation>

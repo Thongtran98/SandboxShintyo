@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tự động đồng bộ với Số container / số seal / thông số container (số kiện / khối lượng gộp / số khối / miêu tả ) từ Chi tiết container ở cuối. Cho phép nhập trực tiếp chỉ khi cần điều chỉnh. Dữ liệu này sẽ được thể hiện trên S/I.</help>
+    <label></label>
+    <name>clofor_com_cfs__Container_Details_SL__c</name>
+</CustomFieldTranslation>

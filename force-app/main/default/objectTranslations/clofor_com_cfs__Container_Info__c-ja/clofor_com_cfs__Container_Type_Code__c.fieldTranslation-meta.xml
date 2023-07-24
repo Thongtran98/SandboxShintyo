@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;GP : Dry コンテナ 20`Dc, 40`Dc, 40`Hc Rt : Reefer コンテナ 20`Ref, 40`Ref Ut : Open Top コンテナ 20`Ot, 40`Ot Pf : Flat Rack コンテナ 20`Ft, 40`Ft Pl : Platform コンテナ 20`Pf, 40`Pf Ｔｎ : Tank コンテナ Iso Sn : Others 20`Dc-Flexitank&quot;</help>
+    <label></label>
+    <name>clofor_com_cfs__Container_Type_Code__c</name>
+    <picklistValues>
+        <masterLabel>GP : Dry Container</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PF : Flat rack container</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PL : Platform container</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RT : Reefer container</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SN : Others</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TN : Tank container</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UT : Open top container</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

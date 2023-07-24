@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập Tên Công ty được thông báo và địa chỉ cho L/C for các trường hợp đặc biệt when địa chỉ trên Bill khác với địa chỉ Tiếng Anh.</help>
+    <label></label>
+    <name>clofor_com_cfs__NOTIFY_ADDRESS_ON_B_L__c</name>
+</CustomFieldTranslation>

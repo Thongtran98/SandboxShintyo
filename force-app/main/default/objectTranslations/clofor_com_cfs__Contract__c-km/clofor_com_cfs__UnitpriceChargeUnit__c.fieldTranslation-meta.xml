@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__UnitpriceChargeUnit__c</name>
+    <picklistValues>
+        <masterLabel>USD/Bag</masterLabel>
+        <translation>USD/Bag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USD/Carton</masterLabel>
+        <translation>USD/Carton</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USD/MT</masterLabel>
+        <translation>USD/MT</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USD/Pallet</masterLabel>
+        <translation>USD/Pallet</translation>
+    </picklistValues>
+</CustomFieldTranslation>

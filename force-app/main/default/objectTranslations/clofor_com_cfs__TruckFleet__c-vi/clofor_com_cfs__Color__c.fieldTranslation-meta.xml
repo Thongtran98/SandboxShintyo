@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Color__c</name>
+    <picklistValues>
+        <masterLabel>Ash black</masterLabel>
+        <translation>Tro</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beige</masterLabel>
+        <translation>Hung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Black</masterLabel>
+        <translation>Đen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blue</masterLabel>
+        <translation>Xanh dương</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blue-green</masterLabel>
+        <translation>Xanh dương lá</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brown</masterLabel>
+        <translation>Nâu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deep Violet</masterLabel>
+        <translation>Tím đậm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Golden or gold</masterLabel>
+        <translation>Vàng gold</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Golden-brown</masterLabel>
+        <translation>Vàng nâu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green</masterLabel>
+        <translation>Xanh lá</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grey</masterLabel>
+        <translation>Xám</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Greyish-green</masterLabel>
+        <translation>Xanh lá mạ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maroon</masterLabel>
+        <translation>Nâu sẫm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orange</masterLabel>
+        <translation>Cam</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Màu khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pearl white or white</masterLabel>
+        <translation>Trắng ngọc trai / trắng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pink</masterLabel>
+        <translation>Hồng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Red</masterLabel>
+        <translation>Đỏ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Silver</masterLabel>
+        <translation>Bạc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yellow</masterLabel>
+        <translation>Vàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yellow green</masterLabel>
+        <translation>Vàng xanh lá</translation>
+    </picklistValues>
+</CustomFieldTranslation>

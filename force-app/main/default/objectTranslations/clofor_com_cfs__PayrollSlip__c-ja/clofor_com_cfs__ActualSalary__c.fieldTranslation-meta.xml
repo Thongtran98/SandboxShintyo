@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>実際の給料=&apos;従業員管理&apos;の中の基本給(標準通貨)+実際の合計手当金額</help>
+    <label></label>
+    <name>clofor_com_cfs__ActualSalary__c</name>
+</CustomFieldTranslation>

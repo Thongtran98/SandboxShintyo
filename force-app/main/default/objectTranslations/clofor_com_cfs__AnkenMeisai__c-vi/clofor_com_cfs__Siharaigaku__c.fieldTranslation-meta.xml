@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Khi trường này bằng 0 và xác nhận trả tiền mua dịch vụ được đánh dấu, thì Giá mua bao gồm thuế(Local) được thêm vào trường này</help>
+    <label></label>
+    <name>clofor_com_cfs__Siharaigaku__c</name>
+</CustomFieldTranslation>

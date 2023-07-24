@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ConsolidationStatus__c</name>
+    <picklistValues>
+        <masterLabel>A/N Issued</masterLabel>
+        <translation>到着案内済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Application for Customs Clearance-Inbound</masterLabel>
+        <translation>通関申告書作成中-インバイト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Application for Customs Clearance-Outbound</masterLabel>
+        <translation>通関申告書作成中-アウトバウンド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arrived at Destination Port</masterLabel>
+        <translation>到着済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B/L Issued</masterLabel>
+        <translation>B/L送付済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booked a Container</masterLabel>
+        <translation>コンテンツブッキング済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Buying Amount Confirmed</masterLabel>
+        <translation>仕入金額確認済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel</masterLabel>
+        <translation>キャンセル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collected Charges</masterLabel>
+        <translation>入金確認済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation>完了</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copy from Consolidation to F/TMS S/O</masterLabel>
+        <translation>混載からF/TMS S/IOへデータコピー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost Allocation from Consolidation Buying to F/TMS Buying</masterLabel>
+        <translation>混載仕入からF/TMS仕入へのコスト案分</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Consolidation Buying Record</masterLabel>
+        <translation>混載仕入作成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create F/TMS Billing Records</masterLabel>
+        <translation>F/TMS仕入作成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Created F/TMS S/O and Connect to Consolidation</masterLabel>
+        <translation>混載とF/TMS S/IOの連結</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Examination-Inbound</masterLabel>
+        <translation>税関審査中-インバイト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Examination-Outbound</masterLabel>
+        <translation>税関審査中-アウトバウンド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Inspection-Inbound</masterLabel>
+        <translation>税関審査終-インバイト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Inspection-Outbound</masterLabel>
+        <translation>税関審査終-アウトバウンド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D/O Issued</masterLabel>
+        <translation>D/O発行済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delayed</masterLabel>
+        <translation>遅延</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Departured at Origin Port</masterLabel>
+        <translation>出発済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Permitted</masterLabel>
+        <translation>輸出許可済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Permitted</masterLabel>
+        <translation>輸入許可済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Issued Container Load Plan</masterLabel>
+        <translation>CLP発送済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Load to Truck/Delivery to Import</masterLabel>
+        <translation>運送トラックへの積み上げ済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loaded  Cargo to Container</masterLabel>
+        <translation>コンテナへの積み上げ済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Voyage</masterLabel>
+        <translation>運行中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Settled</masterLabel>
+        <translation>支払い済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plan Consolidation Service</masterLabel>
+        <translation>混載サービススケジューリング</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transport Container to Warehouse</masterLabel>
+        <translation>倉庫までのコンテナ運送済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transport Container to Yard</masterLabel>
+        <translation>コンテナヤードまでコンテナ運送済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unload from Container</masterLabel>
+        <translation>コンテナから積み下ろし済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unload from Truck/Pickup from Shipper</masterLabel>
+        <translation>運送トラックから積み降ろし済み</translation>
+    </picklistValues>
+</CustomFieldTranslation>

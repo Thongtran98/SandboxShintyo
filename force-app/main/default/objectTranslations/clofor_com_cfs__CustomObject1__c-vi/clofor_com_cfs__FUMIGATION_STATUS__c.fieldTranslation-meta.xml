@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__FUMIGATION_STATUS__c</name>
+    <picklistValues>
+        <masterLabel>不明</masterLabel>
+        <translation>Không biết</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>搬入時廃棄</masterLabel>
+        <translation>Sắp xếp để bỏ qua kiểm dịch</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未処理</masterLabel>
+        <translation>Chưa được xác nhận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>燻蒸不要 : プラスチック製</masterLabel>
+        <translation>Không được yêu cầu hun trung (sản phẩm làm từ nhựa)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>燻蒸確認済み</masterLabel>
+        <translation>Đã hun trùng</translation>
+    </picklistValues>
+</CustomFieldTranslation>

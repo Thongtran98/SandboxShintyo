@@ -1,0 +1,134 @@
+<aura:component controller="WebTrackingController" implements="force:hasRecordId,force:hasSObjectName,flexipage:availableForRecordHome,forceCommunity:availableForAllPageTypes" access="global">
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="shipment" type="clofor_com_cfs__CustomObject1__c"/>
+    <aura:attribute name="transits" type="clofor_com_cfs__Transit__c[]"/>
+    <aura:attribute name="positions" type="Boolean[]"/>
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    <!-- <aura:handler name="render" value="{!this}" action="{!c.afterRender}"/> -->
+
+    <div class="component-wrap" style="padding: 10px; background: rgb(243, 243, 243); border-radius: 4px;">
+        <div style="padding: 10px; background-color: white; margin-bottom: 10px; width: fit-content; border: 1px solid rgb(201,201,201);border-radius: 4px;">
+            <h1 style="font-size: 16px; font-weight: 700; line-height: 16px;">
+                Tracking {!v.shipment.RecordType.Name}
+            </h1>
+        </div>
+        <div class="component-wrap-scroll" style="background: white;">
+            <table id="drawing">
+                <tbody>
+                    <tr class="ship-position" style="height: 100px;">
+                        <aura:iteration items="{!v.positions}" var="item">
+                            <td style="width: 100px">
+                                <aura:if isTrue="{!item == true}">
+                                    <img src="{!$Resource.ShipIcon + '/ship-icon.jpg'}" style="width: 100px; height: 100px;"/>
+                                </aura:if>
+                            </td>
+                        </aura:iteration>
+                    </tr>
+                    <tr>
+                        <td style="width: 1%;">
+                            <div class="default-box ship-information__box">
+                                <span class="ship-information__label">POL</span>
+                                <span class="ship-information__label">{!v.shipment.clofor_com_cfs__POL__r.Name}</span>
+                            </div>
+                        </td>
+                        <aura:if isTrue="{!v.transits.size &lt;= 0}">
+                            <td>
+                                <div class="default-box line">
+                                </div>
+                            </td>
+                            <aura:set attribute="else">
+                                <td>
+                                    <div class="line-wrap">
+                                        <div class="default-box line line-arrow"></div>
+                                    </div>
+                                </td>
+                            </aura:set>
+                          </aura:if> 
+                        
+                        <aura:iteration items="{!v.transits}" var="item">
+                            <td style="width: 1%;">
+                                <div data-before="{! 'ETD: '+ item.clofor_com_cfs__ETDAtTransitPort__c + ', ETA: ' + item.clofor_com_cfs__ETAAtTransitPort__c}" class="{!'transit-hover default-box ship-information__box ' + IF(item.clofor_com_cfs__ETDAtTransitPort__c != null &amp;&amp; item.clofor_com_cfs__ETAAtTransitPort__c != null, '', 'ship-information__box--warning')}">
+                                    <span class="ship-information__label">Transit</span>
+                                    <span class="ship-information__label">{!item.clofor_com_cfs__TransitPort__r.Name}</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="line-wrap">
+                                    <div class="default-box line line-arrow"></div>
+                                </div>
+                            </td>
+                        </aura:iteration>
+                        <aura:if isTrue="{!v.transits.size &lt;= 0}">
+                            <td style="width: 1%;">
+                                <div class="default-box line">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="line-wrap">
+                                    <div class="default-box line line-arrow"></div>
+                                </div>
+                            </td>
+                        </aura:if> 
+                        <td style="width: 1%;">
+                            <div class="default-box ship-information__box">
+                                <span class="ship-information__label">POD</span>
+                                <span class="ship-information__label">{!v.shipment.clofor_com_cfs__POD__r.Name}</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="height: 20px;"></tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="background: white; padding: 10px; margin-top: 10px; border: 1px solid rgb(201,201,201);border-radius: 4px;">
+            <table id="information">
+                <tbody>
+                    <tr>
+                        <td><b>
+                            ETD:
+                        </b></td>
+                        <td><ui:outputDate value="{!v.shipment.clofor_com_cfs__ETD__c}" format="dd/MM/yyyy"/></td>
+                        <td><b>
+                            ETA:
+                        </b></td>
+                        <td><ui:outputDate value="{!v.shipment.clofor_com_cfs__ETA__c}" format="dd/MM/yyyy"/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>
+                            Vessel &amp; Voy.No:
+                        </b></td>
+                        <td>{!v.shipment.clofor_com_cfs__Vessle__c}
+                            <aura:if isTrue="{!v.shipment.clofor_com_cfs__Vessle__c != null &amp;&amp; v.shipment.clofor_com_cfs__Voy_No__c != null}">
+                                -
+                            </aura:if>
+                            {!v.shipment.clofor_com_cfs__Voy_No__c}</td>
+                        <td><b>
+                            Vessel Status:
+                        </b></td>
+                        <td>{!v.shipment.Vessel_Status__c}</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>
+                            Cargo Status:
+                        </b></td>
+                        <td>{!v.shipment.clofor_com_cfs__status__c}</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</aura:component>

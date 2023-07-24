@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Kết quả sẽ được tính tự động.Số tiền còn lại (Tổng số- thực chi) = Số tiền mua bán của H B/L – Thực chi dựa theo hóa đơn)-trả thêm</help>
+    <label></label>
+    <name>clofor_com_cfs__DIFFERENCE_AMOUNT_ACTUAL_PAID__c</name>
+</CustomFieldTranslation>

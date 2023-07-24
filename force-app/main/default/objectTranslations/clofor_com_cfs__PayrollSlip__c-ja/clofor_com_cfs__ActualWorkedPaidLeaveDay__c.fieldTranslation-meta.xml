@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>実際の勤務日数&amp;有給休暇日数=実際の勤務日数+有給休暇取得日数</help>
+    <label></label>
+    <name>clofor_com_cfs__ActualWorkedPaidLeaveDay__c</name>
+</CustomFieldTranslation>

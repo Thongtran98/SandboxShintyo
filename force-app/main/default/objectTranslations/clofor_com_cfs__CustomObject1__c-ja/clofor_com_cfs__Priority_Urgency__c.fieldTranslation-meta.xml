@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;「日本24時間事前申告サービス-あり」,　「運送タイプ-Air」,　「自社混載有無-自社混載」の場合に緊急案件とみなされます。&quot;</help>
+    <label></label>
+    <name>clofor_com_cfs__Priority_Urgency__c</name>
+</CustomFieldTranslation>

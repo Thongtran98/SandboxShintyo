@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__cc_closing_date__c</name>
+    <picklistValues>
+        <masterLabel>ETA</masterLabel>
+        <translation>Dự kiến ngày đến</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>申告日</masterLabel>
+        <translation>Ngày khai báo hải quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>納品日</masterLabel>
+        <translation>Ngày giao hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>許可日</masterLabel>
+        <translation>Ngày được phép làm trước thời hạn khóa sổ.</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>請求書送付日</masterLabel>
+        <translation>Ngày gửi hóa đơn</translation>
+    </picklistValues>
+</CustomFieldTranslation>

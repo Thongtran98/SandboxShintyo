@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>이 필드의 정보는 인보이스, 인보이스 요약 시트에 나타날것입니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__SeikyusyoRemark__c</name>
+</CustomFieldTranslation>

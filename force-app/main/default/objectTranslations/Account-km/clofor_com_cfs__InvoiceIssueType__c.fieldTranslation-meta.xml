@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__InvoiceIssueType__c</name>
+    <picklistValues>
+        <masterLabel>COD（Cash-On-Delivery）</masterLabel>
+        <translation>COD(Cash-On-Delivery)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORIGINALを20日までに必着</masterLabel>
+        <translation>Send Original by 20th certainly</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORIGINALを20日までに発送</masterLabel>
+        <translation>Send Original by 20th</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORIGINALを20日まで発送、21日から月末までのコピーと集計表をメールで送付</masterLabel>
+        <translation>Send Original by 20th, Copy from 21st to end of month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORIGINALを月末までに発送</masterLabel>
+        <translation>Send Original by end of month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORIGINALを都度発送</masterLabel>
+        <translation>Send Original everytime</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし（パートナーとの清算）</masterLabel>
+        <translation>None(Settlement with partner)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>コピーを都度発送、ORIGINALを月末までに発送</masterLabel>
+        <translation>Send copy everytime, send Original by end of month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>コピーを都度発送、ORIGINALを締日に発送</masterLabel>
+        <translation>Send copy everytime, send Original by Date of execution</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>立替金ORIGINALを毎週金曜日までに発送</masterLabel>
+        <translation>Send Advance payment Original by every Friday</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>許可書、納付書をセットし、ORIGINALとまとめて即発送</masterLabel>
+        <translation>Send Original with permission, a statement of payment</translation>
+    </picklistValues>
+</CustomFieldTranslation>

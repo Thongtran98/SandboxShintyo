@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__FUMIGATION_STATUS__c</name>
+    <picklistValues>
+        <masterLabel>不明</masterLabel>
+        <translation>不明</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>搬入時廃棄</masterLabel>
+        <translation>搬入時廃棄</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未処理</masterLabel>
+        <translation>未処理</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>燻蒸不要 : プラスチック製</masterLabel>
+        <translation>燻蒸不要:プラスチック製</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>燻蒸確認済み</masterLabel>
+        <translation>燻蒸確認済み</translation>
+    </picklistValues>
+</CustomFieldTranslation>

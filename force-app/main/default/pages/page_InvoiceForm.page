@@ -1,0 +1,556 @@
+<apex:page controller="InvoiceFormController1" contentType="text/html;charset=UTF-8" showHeader="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0" renderAs="pdf" >
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    </html>
+
+    <head>
+        <style>
+            /* @page {
+                
+                size: A4;  
+                margin-left: 20px;      
+                margin-right: 20px;
+            }
+            	@media print{
+            		.no-print{
+            				display: none;
+            			}
+            	@page {}
+				} */
+                @page {
+                /* size: A4;
+                margin: 5mm; */
+                size: A4;  
+                margin-left: 1.5cm;      
+                margin-right: 1.5cm;
+                margin-top: 0.5cm;
+                margin-bottom: : 1.5cm;
+                @bottom-center{
+                content: element(footer);
+            }
+            }
+            	@media print{
+            		.no-print{
+            				display: none;
+            			}
+            	@page {}
+				}
+                body{
+                font-family: Arial Unicode MS;
+                /* font-family: "Gill Sans", sans-serif; */
+                font-size: 10px;
+                /* text-transform: uppercase; */
+            } 
+            table{
+                font-size: 10px;
+            }  
+            table.Shipment td:first-child{
+                font-weight: bold;
+            } 
+            table.Shipment td:nth-child(3){
+                font-weight: bold;
+            } 
+            table.Shipment td:nth-child(5){
+                font-weight: bold;
+            } 
+            table.test tr.billHeader td{
+                color: white;
+                
+                
+                text-align: center;
+            }
+            /* table.test td:nth-child(1){
+                align-items: center;
+            }
+            table.test td:nth-child(5){
+                text-align: center;
+            }
+            table.test td:nth-child(7){
+                text-align: center;
+            } */
+            table.Total tr.billHeader td{
+                
+                
+                
+            }
+            
+            table.test tr:nth-child(odd){
+                background-color:#cccccc;
+                
+            }
+            table.test tr:nth-child(even){
+                background-color:white;
+            }
+            /* table tr:nth-child(1){
+                background-color:#404040;
+            } */
+            
+            table.test tr{
+                background-color:#ebebeb;
+            }
+            table.Total tr{
+                background-color:#ebebeb;
+            }
+            table.Total td:first-child{
+                
+            }
+            table.Total td:nth-child(2){
+                
+            }
+            table.Total td:nth-child(4){
+                border-right: 2px solid #cccccc;
+            }
+            table.Total td:nth-child(6){
+                border-right: 2px solid #cccccc;
+            }
+            table.Total tr:last-child{
+                background-color: #969696;
+            }
+            div.footer {
+            
+            display: block;
+            
+            position: running(footer);
+            
+            }
+            
+            .pagenumber:before {
+            
+            content: counter(page);
+            
+            }
+            
+            .pagecount:before {
+            
+            content: counter(pages);
+            
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+    <div class="header" style="display: flex;border-bottom: 1px solid black;height: 55px;width: 100%;">
+        <div style="position: absolute; left: 300px;top: 4px">
+            <p style="font-size:24px;font-weight: bold;float: right;">御請求書</p>
+        </div>
+        <div style="float: right;vertical-align: top;">
+            <!-- <div style="width: 50%;float: left;">
+                <p>Page:</p>
+                <p>請求番号</p>
+                <p>発効日</p>
+            </div>
+            <div style="width: 50%;float: right;">
+                <apex:outputText value="Page:"/><br/>
+                <apex:outputText value="??????????"/><br/>
+                <apex:outputText value="10/31/2023"/>
+            </div> -->
+            <table style="position: absolute; left: 560px;">
+                <!-- <col width="20%"/>
+                <col width="80%"/> -->
+                <tr>
+                    <td>Page:</td>
+                    <td style="text-align: right;">
+
+                            <div class="footercenter"><span class="pagenumber"/>/<span class="pagecount"/></div>
+                            
+                    </td>
+                </tr>
+                <tr>
+                    <td>請求番号: </td>
+                    <td style="text-align: right;"><apex:outputText value="{!billing.clofor_com_cfs__OutboundVATInvNo__c}"/></td>
+                </tr>
+                <tr>
+                    <td>発効日 :</td>
+                    <td style="text-align: right;">
+                        <apex:outputText value="{0, date, yyyy'年'M'月'd'日'}">
+                            <apex:param value="{!printDate}"/>
+                        </apex:outputText>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- before body -->
+    <div>
+        <img style="width: 21mm;height: 21mm;position: absolute; top: 90px;left: 570px;display: {!IF(!showSignature ,'none', 'block')};" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.Signature__c}"/> 
+    </div>
+    <div style="display: flex;">
+        <div style="width: 50%; padding-top: 10px;">
+            <div style="font-size: 18px; border-bottom: 1px solid black;display: flex;height: 27px;">
+                <apex:outputText value="{!customerId}"/>
+                <apex:outputText style="float: right" value="御中"/>
+            </div>
+            <apex:outputText value="適格請求書登録番号：{!companyjapan}"/><br/>
+            <apex:outputText value="下記の通りご請求申し上げます"/><br/><br/><br/>
+            <apex:outputText style="position: absolute;left: 9px; top: 161px;" value="ご請求金額"/>
+            <div style="padding-top: 20px;padding-left: 2px;">
+                <div style="height: 40px;background-color: #ebebeb; width: 100%;text-align: center;">
+                
+                    <div style="position: absolute;left: 110px;top: 179px;">
+                        <apex:outputText style="font-size: 24px" value="¥ {0,number,###,###,###,###}">
+                            <apex:param value="{!Amount}"/>
+                        </apex:outputText>
+                    </div>
+                
+            </div>
+            <apex:outputText value="お支払期限"/>
+            <div style="height: 40px;background-color: #ebebeb; width: 100%;text-align: center;">
+                <apex:outputText style="font-size: 16px;position: absolute;left: 110px;top: 239px;" value="{0, date, yyyy'年'M'月'd'日'}">
+                            <apex:param value="{!shipment.clofor_com_cfs__DeadlineForPaymentOfInvoices__c}"/>
+                </apex:outputText>
+                <!-- <apex:outputText style="text-align: center;font-size: 17px;" value="{!shipment.clofor_com_cfs__DeadlineForPaymentOfInvoices__c}"/> -->
+            </div>
+            </div>
+            
+        </div>
+        <div style="position: absolute; top: 70px;right: 14px;font-size: 12px;">
+            <apex:outputText value="新東洋ゲートインターナショナル株式会社"/><br/>
+            <apex:outputText value="〒231-0035"/><br/>
+            <apex:outputText value="神奈川県横浜市中区千歳町１−２　横浜THビル 5F"/><br/>
+            <apex:outputText value="TEL　045-550-7196　　FAX　045-550-7191"/><br/>
+            
+            <div>
+                <apex:outputText value="Email : import@sty-gate.com" rendered="{!reportType == 'import'}"/>    
+                <apex:outputText value="Email : export@sty-gate.com" rendered="{!reportType == 'export'}"/>    
+            </div>
+            <apex:outputText style="padding-top: 2px;" value="適格請求書登録番号："/><br/>
+            
+        </div>
+        <div style="width: 100%;">
+            <div style="width: 90px;height: 90px;border: 1px solid black;position: absolute;top: 180px;right: 9px;text-align: center;">
+                <apex:outputText style="vertical-align: top;" value="作成者"/>  
+            </div>
+            <div style="width: 90px;height: 90px;border: 1px solid black;position: absolute;top: 180px;right: 99px;text-align: center;">
+                <apex:outputText style="vertical-align: top;" value="承認者"/>  
+            </div>
+            <div style="width: 90px;height: 90px;border: 1px solid black;position: absolute;top: 180px;right: 189px;text-align: center;">
+                <apex:outputText style="vertical-align: top;" value="送付者 "/>  
+            </div>
+        </div>
+        
+    </div>
+    <!-- body s/o-->
+    <br/>
+    <div style="align-items: center;padding-left: 2px;">
+        <table class="Shipment" style="width: 99.7%; border: 1px solid black;border-collapse: collapse;">
+            <col width="13.66%"/>
+            <col width="18.66%"/>
+            <col width="13.66%"/>
+            <col width="27.66%"/>
+            <col width="11.66%"/>
+            <col width="14.66%"/>
+            <tr style="background-color: #404040;">
+                <td style="background-color: #404040; text-align: center;border-left: 1px solid #404040;border-right: 1px solid #404040;" colspan="6"><apex:outputText style="color: white" value="貨物情報"/></td>
+            </tr>
+            <tr style="font-weight: bold">
+                <td style="border-left: 1px solid #404040;"><apex:outputText value="REF No"/></td>
+                <td><apex:outputText value=": {!UPPER(shipment.clofor_com_cfs__REFNO__c)}"/></td>
+                <td><apex:outputText value="運送タイプ"/></td>
+                <td>
+                    <apex:outputText value=": SEA" rendered="{!shipment.RecordType.Name =='Ocean Export' || shipment.RecordType.Name =='Ocean Import'}"/>
+                    <apex:outputText value=": AIR" rendered="{!shipment.RecordType.Name =='Air Export' || shipment.RecordType.Name =='Air Import'}"/>
+                    
+                </td>
+                <td><apex:outputText value="ETA"/></td>
+                <td style="border-right: 1px solid #404040;">
+                    <apex:outputText value=": {0, date, dd'/'MM'/'yyyy}">
+                            <apex:param value="{!shipment.clofor_com_cfs__ETA__c}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value=": {!shipment.clofor_com_cfs__ETA__c}"/> -->
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: 1px solid #404040;"><apex:outputText value="H B/L (AWB) No"/></td>
+                <td><apex:outputText value=": {!shipment.clofor_com_cfs__HBL_Number_SEA_AIR__c}"/></td>
+                <td><apex:outputText value="Cargo Mode"/></td>
+                <td><apex:outputText value=": {!shipment.clofor_com_cfs__TranporationType__c}"/></td>
+                <td><apex:outputText value="ETD"/></td>
+                <td style="border-right: 1px solid #404040;">
+                    <apex:outputText value=": {0, date, dd'/'MM'/'yyyy}">
+                            <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value=": {!shipment.clofor_com_cfs__ETD__c}"/> -->
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: 1px solid #404040;"><apex:outputText value="M B/L (AWB) No"/></td>
+                <td><apex:outputText value=": {!UPPER(shipment.clofor_com_cfs__MBL_Number_SEA_AIR__c)}"/></td>
+                <td><apex:outputText value="POL(AOL)"/></td>
+                <td style="vertical-align: top;"><apex:outputText value=": {!UPPER(shipment.clofor_com_cfs__PortOfLoadingDetailPrint__c)}"/></td>
+                <td><apex:outputText value="Gross Weight"/></td>
+                <td style="border-right: 1px solid #404040;">
+                    <apex:outputText value=": {0,number,###,###,###,###.00} KGS">
+                            <apex:param value="{!shipment.clofor_com_cfs__weight__c}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value=": {!shipment.clofor_com_cfs__weight__c}"/> -->
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: 1px solid #404040;"><apex:outputText value="Vessel / Fight"/></td>
+                <td><apex:outputText value=": {!UPPER(shipment.clofor_com_cfs__VESSEL_FLIGHT__c)}"/></td>
+                <td><apex:outputText value="POD(AOD)"/></td>
+                <td><apex:outputText value=": {!UPPER(shipment.clofor_com_cfs__PortOfDischargeDetailPrint__c)}"/></td>
+                <td><apex:outputText value="Volume"/></td>
+                <td style="border-right: 1px solid black;">
+                    <apex:outputText value=": {0,number,###,###,###,###.00} CBM">
+                            <apex:param value="{!shipment.clofor_com_cfs__CBM__c}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value=": {!shipment.clofor_com_cfs__CBM__c}"/> -->
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: 1px solid #404040;border-bottom: 1px solid black;"><apex:outputText value="Voyage"/></td>
+                <td style="border-bottom: 1px solid #404040;"><apex:outputText value=": {!shipment.clofor_com_cfs__Voy_No__c}"/></td>
+                <td style="border-bottom: 1px solid #404040;"><apex:outputText value="Package"/></td>
+                <td style="border-bottom: 1px solid #404040;">
+
+                    <!-- <apex:outputText value=": {!shipment.clofor_com_cfs__carton__c} {!shipment.clofor_com_cfs__UnitType__c}s" rendered="{!shipment.clofor_com_cfs__carton__c != 1 && shipment.clofor_com_cfs__carton__c != null}"/> -->
+                    <div>
+                        <apex:outputText value=": {0,number,###,###,###,###} " rendered="{!shipment.clofor_com_cfs__carton__c != 1 && shipment.clofor_com_cfs__carton__c != null}">
+                            <apex:param value="{!shipment.clofor_com_cfs__carton__c}"/>
+                        </apex:outputText>
+                        <!-- <apex:outputText value="{!shipment.clofor_com_cfs__carton__c} " rendered="{!shipment.clofor_com_cfs__carton__c != 1 && shipment.clofor_com_cfs__carton__c != null}"/> -->
+                        <apex:outputText value="{!UPPER(shipment.clofor_com_cfs__UnitType__c)}S" rendered="{!shipment.clofor_com_cfs__carton__c != 1 && shipment.clofor_com_cfs__carton__c != null}"/>
+                    </div>
+                    <!-- <apex:outputText value=": {!shipment.clofor_com_cfs__carton__c} {!shipment.clofor_com_cfs__UnitType__c}" rendered="{!shipment.clofor_com_cfs__carton__c == 1 && shipment.clofor_com_cfs__carton__c != null}"/> -->
+                    <div>
+                        <apex:outputText value=": {0,number,###,###,###,###} " rendered="{!shipment.clofor_com_cfs__carton__c == 1 && shipment.clofor_com_cfs__carton__c != null}">
+                            <apex:param value="{!shipment.clofor_com_cfs__carton__c}"/>
+                        </apex:outputText>
+                        <!-- <apex:outputText value="{!shipment.clofor_com_cfs__carton__c} " rendered="{!shipment.clofor_com_cfs__carton__c == 1 && shipment.clofor_com_cfs__carton__c != null}"/> -->
+                        <apex:outputText value="{!UPPER(shipment.clofor_com_cfs__UnitType__c)}" rendered="{!shipment.clofor_com_cfs__carton__c == 1 && shipment.clofor_com_cfs__carton__c != null}"/>
+                    </div>
+                </td>
+                <td style="border-bottom: 1px solid #404040;"><apex:outputText value="Incoterms"/></td>
+                <td style="border-bottom: 1px solid #404040;border-right: 1px solid #404040;"><apex:outputText value=": {!shipment.clofor_com_cfs__PriceTerms__c}"/></td>
+            </tr>
+        </table>
+    </div>
+    <br/>
+    
+
+    <!-- body bill -->
+    <div>
+        <table class="test" style="width: 100%;">
+            <col width="3%"/>
+            <col width="27%"/>
+            <col width="10%"/>
+            <col width="10%"/>
+            <col width="10%"/>
+            <col width="10%"/>
+            <col width="15%"/>
+            <col width="15%"/>
+            <tr class="billHeader" style="background-color: #404040;">
+                <td><apex:outputText value="No"/></td>
+                <td><apex:outputText value=""/></td>
+                <td><apex:outputText value="単位"/></td>
+                <td><apex:outputText value="数量"/></td>
+                <td><apex:outputText value="CUR"/></td>
+                <td><apex:outputText value="単価"/></td>
+                <td><apex:outputText value="税率"/></td>
+                <td><apex:outputText value="金額"/></td>
+                
+            </tr>
+            <apex:repeat value="{!arrResult}" var="item">
+                <tr>
+                    <td  style="text-align: center;"><apex:outputText value="{!item.Index}"/></td>
+                    <td><apex:outputText value="{!UPPER(item.ServiceName)}"/></td>
+                    <td style="text-align: center;"><apex:outputText value="{!item.ChargeUnit}"/></td>
+                    <td><apex:outputText style="float: right" value="{!item.Quantity}"/></td>
+                    <td style="text-align: center;"><apex:outputText value="{!item.Curr}"/></td>
+                    <td>
+                        <apex:outputText style="float: right" value="{0,number,###,###,###,###}"  rendered="{!item.Curr == localCur}">
+                            <apex:param value="{!item.SellTankaJPY}"/>
+                        </apex:outputText>
+                        <apex:outputText style="float: right" value="{0,number,###,###,###.00}"  rendered="{!item.Curr == foreignCur}">
+                            <apex:param value="{!item.SellTankaUSD}"/>
+                        </apex:outputText>
+                    </td>
+                    <td style="text-align: center;">
+                        <!-- <apex:outputText value="{!item.TaxInitial}"/> -->
+                        <!-- <apex:outputText value="{!item.TaxInitial}" rendered="item.TaxInitial != 0"/> -->
+                        <apex:outputText value="-"  rendered="{!item.TaxInitial == null || item.TaxInitial == 0}">
+                           
+                        </apex:outputText>
+                        <apex:outputText value="{0,number,###,###,###,###}%"  rendered="{!item.TaxInitial != null && item.TaxInitial != 0}">
+                            <apex:param value="{!item.TaxInitial}"/>
+                        </apex:outputText>
+                    </td>
+                    <td style="text-align: right;">
+                        <!-- <apex:outputText value="{!item.SellAmountJPN}"/> -->
+                        <apex:outputText value="{0,number,###,###,###,###}">
+                            <apex:param value="{!item.SellAmountJPN}"/>
+                        </apex:outputText>
+                        
+                    </td>
+                </tr>
+            </apex:repeat>
+            <apex:repeat value="{!arrResult3}" var="temp">
+                <tr style="height: 17px;">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr> 
+            </apex:repeat>
+            
+        </table>
+        <br/>
+        
+        <div>
+            <apex:outputText style="float: right;padding-top: 21px;margin-right: 2px;" value="為替レート： {0,number,###,###,###.00}">
+                <apex:param value="{!shipment.clofor_com_cfs__ExchangeRate__c}"/>
+            </apex:outputText>
+            <!-- <apex:outputText style="float: right;padding-top: 25px;" value="為替レート： {!shipment.clofor_com_cfs__ExchangeRate__c}"/> -->
+        </div>
+        <table class="Total" style="width: 100%;">
+            <tr class="billHeader">
+                
+                <td><apex:outputText value="10%対象計"/></td>
+                <td>
+                    <apex:outputText style="float: right;" value="{0,number,###,###,###,###}">
+                            <apex:param value="{!TotalAmountSellLocal10}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value="{!TotalAmountSellLocal10}   "/> -->
+                </td>
+                <td><apex:outputText value="消費税（10%）"/></td>
+                <td>
+                    <apex:outputText style="float: right;" value="{0,number,###,###,###,###}">
+                            <apex:param value="{!AmountOfTaxSellLocal10}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value="{!AmountOfTaxSellLocal10}"/> -->
+                </td>
+                <td><apex:outputText value="税込み計（10%）"/></td>
+                <td>
+                    <apex:outputText style="float: right;" value="{0,number,###,###,###,###}">
+                            <apex:param value="{!AmountSellIncl10}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value="{!AmountSellIncl10}"/> -->
+                </td>
+            </tr>
+            <tr class="billHeader">
+                
+                <td><apex:outputText value="8%対象計（*）"/></td>   
+                <td>
+                    <apex:outputText style="float: right;" value="{0,number,###,###,###,###}">
+                            <apex:param value="{!TotalAmountSellLocal8}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value="{!TotalAmountSellLocal8}"/> -->
+                </td>
+                <td><apex:outputText value="消費税（8%）"/></td>
+                <td>
+                    <apex:outputText style="float: right;" value="{0,number,###,###,###,###}">
+                            <apex:param value="{!AmountOfTaxSellLocal8}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value="{!AmountOfTaxSellLocal8}"/> -->
+                </td>
+                <td><apex:outputText value="税込み計（8%）"/></td>
+                <td>
+                    <apex:outputText style="float: right;" value="{0,number,###,###,###,###}">
+                            <apex:param value="{!AmountSellIncl8}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value="{!AmountSellIncl8}"/> -->
+                </td>
+            </tr>
+            <tr style="background-color: #c5c5c5" class="billHeader">
+                
+                <td><apex:outputText value="対象金額計（税抜き）"/></td>
+                <td>
+                    <apex:outputText style="float: right;" value="{0,number,###,###,###,###}">
+                            <apex:param value="{!TotalAmount18}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value="{!TotalAmount18}"/> -->
+                </td>
+                <td><apex:outputText value="消費税計"/></td>
+                <td>
+                    <apex:outputText style="float: right;" value="{0,number,###,###,###,###}">
+                            <apex:param value="{!TotalTax18}"/>
+                    </apex:outputText>
+                    <!-- <apex:outputText value="{!TotalTax18}"/> -->
+                </td>
+                <td><apex:outputText value="総合計（税込み）"/></td>
+                <td>
+                    
+                    <apex:outputText style="float: right;" value="{0,number,###,###,###,###}">
+                        <apex:param value="{!Amount}"/>
+                    </apex:outputText>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br/>
+    
+
+    <!-- bank -->
+    <div style="padding-left: 2px;">
+        <div>
+            <div style="width: 60%;">
+                <table style="border-collapse: collapse;">
+                    <col width="20%"/>
+                    <col width="30%"/>
+                    <col width="20%"/>
+                    <col width="30%"/>
+                    <tr>
+                        <td style="background-color: #404040; text-align: center;border-left: 1px solid #404040;border-right: 1px solid #404040;" colspan="4"><apex:outputText style="color: white;" value="振込先"/></td>
+                    </tr>
+                    <tr>
+                        <td style="border-left: 1px solid #404040;"><apex:outputText value="銀行名："/></td>
+                        <td style="border-right: 1px solid #404040;" colspan="3"><apex:outputText value="{!UPPER($Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Local_Bank_Name_1__c)}"/></td>
+                        
+                    </tr>
+                    <tr>
+                        <td style="border-left: 1px solid #404040;"><apex:outputText value="支店名："/></td>
+                        <td><apex:outputText value="{!UPPER($Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Local_Bank_Address_1__c)}"/></td>
+                        <td><apex:outputText value="支店番："/></td>
+                        <td style="border-right: 1px solid #404040;"><apex:outputText value="{!UPPER($Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Local_Bank_1_Other__c)}"/></td>
+                    </tr>
+                    <tr>
+                        <td style="border-left: 1px solid #404040;"><apex:outputText value="口座番号："/></td>
+                        <td style="border-right: 1px solid #404040;" colspan="3"><apex:outputText value="{!UPPER($Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Local_Account_No_1__c)}"/></td>
+                        
+                    </tr>
+                    <tr>
+                        <td style="border-left: 1px solid #404040;border-bottom: 1px solid #404040;"><apex:outputText value="名義："/></td>
+                        <td style="border-bottom: 1px solid #404040;border-right: 1px solid #404040;" colspan="3"><apex:outputText value="{!UPPER($Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Local_Bank_Account_1__c)}"/></td>
+                        
+                    </tr>
+                </table>
+                <apex:outputText style="padding-left: 2px;" value="・お振込手数料はご負担願います。"/><br/>
+                <div style="">
+                    <apex:outputText value="備考"/>
+                </div>
+
+            </div>
+            <div style="display :{!IF(!showContainer,'none', 'block')};">
+                <table style="border-collapse: collapse;width: 250px;position: absolute; left: 420px;bottom: 138.5px;">
+                    <tr>
+                        <td style="background-color: #404040; text-align: center;border-left: 1px solid #404040;border-right: 1px solid #404040;"><apex:outputText style="color: white;" value="コンテナ情報"/></td>
+                    </tr>
+                    <tr style="vertical-align: top;height: 65px;">
+                        <td style="border-left: 1px solid #404040;border-right: 1px solid #404040;border-bottom: 1px solid #404040;">
+                            <!-- <apex:outputText style="white-space: pre-line;" escape="false" value="{!shipment.clofor_com_cfs__SeikyusyoRemark__c}"/> -->
+                            <apex:outputText style="font-weight: bold;" value="Container Detail: {!shipment.Container_Type_All__c}"/>
+                            <div style="white-space: pre-line;line-height: 8px;position: absolute;padding-top: 13px;padding-left: 2px;width: 90px;">
+                                <apex:outputText value="{!ContainerDetail}"/>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- <tr>
+                        <td>
+                            <apex:outputText value="{!ContainerDetail}"/>
+                        </td>
+                    </tr> -->
+                </table>
+                
+            </div>
+        </div>
+    </div>
+    <div style="border: 1px solid black; width: 100%; height: 100px;line-height: 8px;">
+        <apex:outputText escape="false" value="{!shipment.Invoice_Remark__c}"/>
+    </div>
+</body>
+</apex:page>

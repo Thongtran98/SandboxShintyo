@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Số tiền còn lại phải trả (USD)= gía mua bao gồm thuế (USD)- số tiền mua hàng phải trả (USD)</help>
+    <label></label>
+    <name>clofor_com_cfs__UNPAID_BALANCE_OF_BUYING_USD__c</name>
+</CustomFieldTranslation>

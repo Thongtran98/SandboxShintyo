@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>계산된 판매소비세액과 실제 청구할 판매소비세액이 상이할 경우, 조정액을 입력하여 주십시요. 입력하신 금액이 판매소비세액에 반영됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__USDTaxAdjustmentSell__c</name>
+</CustomFieldTranslation>

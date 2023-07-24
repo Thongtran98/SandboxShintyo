@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chênh lệch (chi phí khác)=tổng chi phí khác-thành tiền đã chi-chi phí khác</help>
+    <label></label>
+    <name>clofor_com_cfs__DifferenceOtherCost__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập vận đơn thứ cấp-Bán/Mua phù hợp với việc phân bổ chi phí.</help>
+    <label></label>
+    <name>clofor_com_cfs__AM_MasterMeisaiID__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

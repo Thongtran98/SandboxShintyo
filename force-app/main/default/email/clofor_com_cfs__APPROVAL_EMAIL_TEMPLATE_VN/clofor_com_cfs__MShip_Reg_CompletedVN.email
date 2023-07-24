@@ -1,0 +1,21 @@
+Kính gửi các thành viên
+
+Tôi đã hoàn thành nhập liệu cho lô hàng Master như sau:
+
+◎Mã số lô hàng master:{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MasterID__c} Link to SF:{!clofor_com_cfs__MasterAnken__c.Link}
+◎Số bill master:{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MMaster_B_L_No__c} 
+◎Tàu: {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVessel__c} {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVoy_No__c} 
+◎Ngày đến dự kiến: {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__META__c} (Day：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__META_DAY__c}) 
+◎Số bill house：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__NO_HOUSE_B_L__c} H B/L 
+◎Container： {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainer__c}*{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainerNumber__c}　/ {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainer2__c}*{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainerNumber2__c} 
+◎Ngày Rút hàng：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevanningDate__c} 
+◎Những qui định nội để chia sẽ bộ:{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__Internal_Memo__c} 
+
+Vui lòng kiểm tra và cho tôi biết nếu có điều gì  cần bổ sung.
+
+********************************************************* 
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

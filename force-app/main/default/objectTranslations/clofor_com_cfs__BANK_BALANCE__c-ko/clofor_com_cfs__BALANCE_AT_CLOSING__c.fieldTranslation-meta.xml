@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>값은 아래와 같이 자동으로 계산 됩니다. 종료시점의 잔액:표준통화=시작일 잔액:표준통화+입금액:표준통화(등록안건)+입금액:표준통화(등록안건외)-지불액:표준통화(등록안건)-지불액:표준통화(등록안건외)</help>
+    <label></label>
+    <name>clofor_com_cfs__BALANCE_AT_CLOSING__c</name>
+</CustomFieldTranslation>

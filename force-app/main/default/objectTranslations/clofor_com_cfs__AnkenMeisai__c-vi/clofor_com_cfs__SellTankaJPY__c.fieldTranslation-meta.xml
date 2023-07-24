@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu không có số tiền nhập vào thì sẽ lấy Đơn giá bán (bản địa) trong Hệ Thống Dịch Vụ Chuyên Dụng.</help>
+    <label></label>
+    <name>clofor_com_cfs__SellTankaJPY__c</name>
+</CustomFieldTranslation>

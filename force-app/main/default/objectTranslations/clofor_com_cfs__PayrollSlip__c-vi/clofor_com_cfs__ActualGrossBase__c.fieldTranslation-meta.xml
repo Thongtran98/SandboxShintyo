@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tiền lương gộp cơ bản thực tế=tiền lương thực tế+tiền thưởng</help>
+    <label></label>
+    <name>clofor_com_cfs__ActualGrossBase__c</name>
+</CustomFieldTranslation>

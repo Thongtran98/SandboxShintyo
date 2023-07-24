@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Planned</fullName>
+        <default>false</default>
+        <label>Planned</label>
+    </customValue>
+    <customValue>
+        <fullName>Under Approval Process</fullName>
+        <default>false</default>
+        <label>Under Approval Process</label>
+    </customValue>
+    <customValue>
+        <fullName>Waiting for Confirmation</fullName>
+        <default>false</default>
+        <label>Waiting for Confirmation</label>
+    </customValue>
+    <customValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </customValue>
+    <customValue>
+        <fullName>Partially Returned</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Partially Returned</label>
+    </customValue>
+    <customValue>
+        <fullName>Return Delay</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Return Delay</label>
+    </customValue>
+    <customValue>
+        <fullName>Liquidation Request Processed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Liquidation Request Processed</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Others</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Rejected</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment Rejected</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Delayed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment Delayed</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Processed Late</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment Processed Late</label>
+    </customValue>
+    <customValue>
+        <fullName>Fully Returned On Time</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fully Returned On Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Processed On Time</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment Processed On Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Collection Completed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Collection Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Arranged</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Payment Arranged</label>
+    </customValue>
+    <masterLabel>PAYMENT REQUEST STATUS</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

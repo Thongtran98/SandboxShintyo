@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__SubCategory__c</name>
+    <picklistValues>
+        <masterLabel>Accommodation</masterLabel>
+        <translation>Chỗ ở</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accountancy</masterLabel>
+        <translation>Kế toán</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advertisement</masterLabel>
+        <translation>Quảng cáo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Audit</masterLabel>
+        <translation>Kiểm toán</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank Fee</masterLabel>
+        <translation>Phí ngân hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic salary</masterLabel>
+        <translation>Lương cơ bản</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus</masterLabel>
+        <translation>Thưởng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charitable Contribution</masterLabel>
+        <translation>Quyên góp từ thiện</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleaning</masterLabel>
+        <translation>Dọn dẹp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission</masterLabel>
+        <translation>Hoa hồng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communication(Phone)</masterLabel>
+        <translation>Liên lạc (Điện thoại)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conference &amp; Training</masterLabel>
+        <translation>Họp và đào tạo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting</masterLabel>
+        <translation>Tư vấn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electricity</masterLabel>
+        <translation>Điện</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entertainment</masterLabel>
+        <translation>Giải trí</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Drink</masterLabel>
+        <translation>Thực phẩm /Đồ uống</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>H/S/U Insurance</masterLabel>
+        <translation>Bảo hiểm H/S/U</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT System(Computer)</masterLabel>
+        <translation>Hệ thống tin học (Máy tính)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incentives</masterLabel>
+        <translation>Ưu đãi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance</masterLabel>
+        <translation>Bảo hiểm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interest Expense</masterLabel>
+        <translation>Chi phí lãi vay</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internet</masterLabel>
+        <translation>Internet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meeting</masterLabel>
+        <translation>Họp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Newspaper</masterLabel>
+        <translation>Báo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Travel</masterLabel>
+        <translation>Di chuyển ngoài nước</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parcel(Mail)</masterLabel>
+        <translation>Bưu kiện (Thư)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parking Fee</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personal Income Tax</masterLabel>
+        <translation>Thuế thu nhập cá nhân</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postage</masterLabel>
+        <translation>Bưu phí</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recruiting</masterLabel>
+        <translation>Tuyển dụng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reimbursement cash Advance</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rent</masterLabel>
+        <translation>Thuê</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repair &amp; Maintenance</masterLabel>
+        <translation>Sửa chữa &amp; Bảo trì</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation</masterLabel>
+        <translation>Phương tiện giao thông</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travel</masterLabel>
+        <translation>Du lịch</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Operation</masterLabel>
+        <translation>Vận hành phương tiện</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Water</masterLabel>
+        <translation>Nước</translation>
+    </picklistValues>
+</CustomFieldTranslation>

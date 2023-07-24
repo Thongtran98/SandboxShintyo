@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chọn khoản mục mua của Vận đơn chủ( từ đối tác, hãng tàu, kho bãi). Nhập tương ứng với phân bổ vận đơn thứ cấp-Mua.</help>
+    <label></label>
+    <name>clofor_com_cfs__Cost_Allocation_Catetory__c</name>
+    <picklistValues>
+        <masterLabel>Carrier Cost Allocation</masterLabel>
+        <translation>Phân bổ chi phí cho công ty vận tải</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carrier Cost Allocation(TAX)</masterLabel>
+        <translation>Phân bổ chi phí cho công ty vận tải (gồm thuế)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner Cost allocation</masterLabel>
+        <translation>Phân bổ chi phí cho đối tác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse Cost Allocation</masterLabel>
+        <translation>Phân bổ chi phí nhà kho</translation>
+    </picklistValues>
+</CustomFieldTranslation>

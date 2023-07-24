@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>clofor_com_cfs__SerchSyubetu__c</name>
+    <picklistValues>
+        <masterLabel>FCL輸入</masterLabel>
+        <translation>FCL Import</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL輸出</masterLabel>
+        <translation>FCL Export</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL輸入</masterLabel>
+        <translation>LCL Import</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL輸出</masterLabel>
+        <translation>LCL Export</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ドレー</masterLabel>
+        <translation>Drayage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>マスター按分</masterLabel>
+        <translation>Master Charges Allocation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>倉庫</masterLabel>
+        <translation>Warehouse</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>実費</masterLabel>
+        <translation>At Cost</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>海外現地費用</masterLabel>
+        <translation>Oversea Local Charges</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通関輸入</masterLabel>
+        <translation>Import Custom Clearance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通関輸出</masterLabel>
+        <translation>Export Custom Clearance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>配送</masterLabel>
+        <translation>Delivery</translation>
+    </picklistValues>
+</CustomFieldTranslation>

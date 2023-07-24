@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ShiharaiSyurui__c</name>
+    <picklistValues>
+        <masterLabel>立替金</masterLabel>
+        <translation>Amount of Advanced Payment</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>諸請求金</masterLabel>
+        <translation>Invoice Amount (Except Advanced Payment)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

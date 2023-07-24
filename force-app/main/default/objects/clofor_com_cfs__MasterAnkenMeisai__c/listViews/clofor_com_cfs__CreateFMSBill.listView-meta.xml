@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__CreateFMSBill</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__MasterAnken__c</columns>
+    <columns>clofor_com_cfs__MTariff__c</columns>
+    <columns>clofor_com_cfs__PaymentTo__c</columns>
+    <columns>clofor_com_cfs__Seikyusaki__c</columns>
+    <columns>clofor_com_cfs__CreateFMSBill1__c</columns>
+    <columns>clofor_com_cfs__CreateFMSBill2__c</columns>
+    <columns>clofor_com_cfs__CreateFMSBill3__c</columns>
+    <columns>clofor_com_cfs__CreateFMSBill4__c</columns>
+    <columns>clofor_com_cfs__CreateFMSBill5__c</columns>
+    <columns>clofor_com_cfs__BuyTankaJPY__c</columns>
+    <columns>clofor_com_cfs__BuyTankaUSD__c</columns>
+    <columns>clofor_com_cfs__SellTankaJPY__c</columns>
+    <columns>clofor_com_cfs__SellTankaUSD__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Create FMS Bill</label>
+</ListView>

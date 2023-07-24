@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Template_5</name>
+        <label>Template 5</label>
+        <locationX>752</locationX>
+        <locationY>483</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>Body</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>vinh@afr-solution.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <elementReference>Subject</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Email Template 5 {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Email Template 5</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>650</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Template_5</targetReference>
+        </connector>
+        <object>clofor_com_cfs__CustomObject1__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <textTemplates>
+        <name>Body</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;＊＊＊こちらは自動メールです。&lt;/p&gt;&lt;p&gt;本件に関してご質問などがございましたら、下記メールにてご連絡下さい。&lt;/p&gt;&lt;p&gt;輸出チームメール：export@sty-gate.com&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;{!$Record.clofor_com_cfs__shipper__r.Account_Name_JP__c}&lt;/p&gt;&lt;p&gt;ご担当様&lt;/p&gt;&lt;p&gt;毎度　弊社のサービスをご利用くださり、誠にありがとうございます。&lt;/p&gt;&lt;p&gt;この度、貴社の&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!$Record.clofor_com_cfs__POD__r.Name}&lt;/span&gt;向け輸出貨物の本船出港予定変更があるため、ご連絡させていただきます。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;＝＝＝＝＝＝＝＝＝概要＝＝＝＝＝＝＝＝＝=&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Shipment ID: {!$Record.Name}&lt;/li&gt;&lt;li&gt;Booking No: {!$Record.clofor_com_cfs__MASTER_BOOKINGNO__c}&lt;/li&gt;&lt;li&gt;SHIPPER: {!$Record.ShipperCompanyNameEng__c}&lt;/li&gt;&lt;li&gt;CNEE: {!$Record.ConsigneeCompanyNameEng__c}&lt;/li&gt;&lt;li&gt;POL: {!$Record.clofor_com_cfs__POL__r.Name}&lt;/li&gt;&lt;li&gt;POD: {!$Record.clofor_com_cfs__POD__r.Name}&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;＝＝＝＝＝＝＝＝＝変更前＝＝＝＝＝＝＝＝＝&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vessel: {!$Record.clofor_com_cfs__Vessle__c}&lt;/li&gt;&lt;li&gt;Voy No: {!$Record.clofor_com_cfs__Voy_No__c}&lt;/li&gt;&lt;li&gt;ETD: {!$Record__Prior.clofor_com_cfs__ETD__c}&lt;/li&gt;&lt;li&gt;ETA: {!$Record__Prior.clofor_com_cfs__ETA__c}&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;＝＝＝＝＝＝＝＝＝変更後＝＝＝＝＝＝＝＝＝&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vessel: &lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!$Record.clofor_com_cfs__Vessle__c}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Voy No: &lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!$Record.clofor_com_cfs__Voy_No__c}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;ETD: &lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!$Record.clofor_com_cfs__ETD__c}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;ETA: &lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!$Record.clofor_com_cfs__ETA__c}&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;以上。&lt;/p&gt;&lt;p&gt;何卒よろしくお願いします。&lt;/p&gt;&lt;p&gt;新東洋ゲートインターナショナル株式会社&lt;/p&gt;&lt;p&gt;輸出チーム&lt;/p&gt;&lt;p&gt;Tel: 045-550-7196　Fax:045-550-7191&lt;/p&gt;&lt;p&gt;E-mail: export@sty-gate.com&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>Subject</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>【新東洋ゲート】本船出港予定変更について// Booking No: {!$Record.clofor_com_cfs__MASTER_BOOKINGNO__c} // // Shipper : {!$Record.clofor_com_cfs__ShipperShortName__c}</text>
+    </textTemplates>
+</Flow>

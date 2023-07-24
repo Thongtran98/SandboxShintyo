@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Master A/Nを参考し、入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__LoadLocation__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

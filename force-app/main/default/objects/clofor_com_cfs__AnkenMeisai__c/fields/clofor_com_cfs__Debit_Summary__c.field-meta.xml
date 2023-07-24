@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Debit_Summary__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>Name +&apos;|&apos;+  clofor_com_cfs__InsatuyouSyohinEng__c +&apos;|&apos;+ clofor_com_cfs__ChargeUnitInPrint__c +&apos;|&apos;+  TEXT(clofor_com_cfs__UNPAID_BALANCE_OF_BUYING_USD__c)  +&apos;|&apos;+  TEXT( clofor_com_cfs__SellTankaJPY__c 
+) +&apos;|&apos;+ IF(ISBLANK( clofor_com_cfs__OutboundVATInvNo__c ), clofor_com_cfs__OutboundVATInvNo__c , &apos;blank&apos;)</formula>
+    <label>Debit Summary</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

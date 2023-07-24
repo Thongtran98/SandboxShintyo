@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>販売為替レート。発行日(基本的に‘今日’の日付)が有効な為替レコードの期間内にあると、自動で為替レートが同期されます。‘発行日’は‘発行日指定’から更新することができます。</help>
+    <label></label>
+    <name>clofor_com_cfs__KawaseSel__c</name>
+</CustomFieldTranslation>

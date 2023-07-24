@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu &apos;Thuế&apos; được chọn khi các tiêu chuẩn được đáp ứng, Thuế suất sẽ tự động cập nhật. 1. Thuế suất có hiệu lực 2. Tiền tệ (hóa đơn/thuế suất) ưu tiên đầu tiên được thiết lập một cách hợp lệ cho tài khoản Hóa đơn đến/ Thanh toán đến</help>
+    <label></label>
+    <name>clofor_com_cfs__Zeibunrui__c</name>
+    <picklistValues>
+        <masterLabel>NON-TAX</masterLabel>
+        <translation>Không thuế</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAX</masterLabel>
+        <translation>Có thuế</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAX-FREE</masterLabel>
+        <translation>Miễn thuế</translation>
+    </picklistValues>
+</CustomFieldTranslation>

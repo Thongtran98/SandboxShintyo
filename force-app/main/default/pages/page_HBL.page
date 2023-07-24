@@ -1,0 +1,1742 @@
+<apex:page controller="HBLController" contentType="text/html" showHeader="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0" renderAs="pdf">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    </html>
+
+    <head>
+        <style>
+            @page {
+                size: A4;
+                margin: 0mm;  
+            }
+            strong {
+                font-weight:bold;
+            }
+            body{
+                font-family: "Arial",sans-serif;
+                /* font-family:  sans-serif; */
+                font-size: 9.5px;
+                text-transform: uppercase;
+                
+            } 
+            .bold {
+                font-family: sans-serif;
+                font-weight: bold;
+                text-transform: uppercase;
+}
+            table{
+                font-size: 9.5px;
+                border-collapse: collapse;
+                border: 1.1px solid black;
+            }
+            img {  opacity: 0.5;  filter: alpha(opacity=50); /* sử dụng cho IE8 trở về trước */}
+            h6{
+                font-weight: lighter;
+            }
+            /* h3{
+                font-weight: lighter;
+            } */
+            h4{
+                font-weight: lighter;
+            }
+            h3{
+                font-weight: lighter;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <img style="width: 100%;opacity: 0.1;" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.HBLTemplate__c}"/> -->
+        
+        <!-- hbl -->
+        <div>
+            <!-- <apex:outputPanel >
+                <div style="position:absolute; z-index:-2; left:0px; top: 0px; right: 0px;">
+                    <img style="height: 100%" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.HBLTemplate__c}" width="100%"
+                        />
+                </div>
+            </apex:outputPanel> -->
+            <!-- None Backgroud Start -->
+            <apex:outputPanel rendered="{!billing == 'none'}">
+                <!-- <div style="position:absolute; z-index:-2; left:0px; top: 0px; right: 0px;{! IF(billing == 'none','display: none;', '')}">
+                    <img style="height: 100%" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.WaybillOriginal__c}" width="100%"
+                        />
+                    <img style="height: 100%" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.WaybillOriginal2__c}" width="100%"
+                        />
+                </div> -->
+                <!-- <img style="height: 100%" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.WaybillOriginal__c}" width="100%" -->
+                        
+                <div style="position: absolute;top: 1150px;width: 94.5%;left: 25px;{! IF(isCreateNumber != true,'display: none;', '')};">
+                    <br/>
+                    <!-- ATTACHMENT SHEET -->
+                    <table border="1.1px solid black" style="width: 100%; font-size:11px;padding-left: 35px;">
+                        <col width = "25%"/>
+                        <col width = "50%"/>
+                        <col width = "25%"/>
+        
+                        <tr style="height: 15px;">
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="Ref No."/></td>
+                            <td rowspan="2" style="text-align: center; border: 1.1px solid black; font-size: 16px;"><apex:outputText value="ATTACHMENT SHEET"/></td>
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="H B/L No."/></td>
+                        </tr>
+                        <tr style="height: 15px;">
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+                            </td>
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__HBL_Number_SEA_AIR__c}"/>
+                            </td>
+                        </tr>
+                        <tr style="height:985px;">
+                            <td colspan="3" style="border: 1.1px solid black; vertical-align: top; padding-left: 5px;">
+                                <apex:outputText escape="false" style="white-space: pre-line;" value="{!shipment.Attachment__c}"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+               <!-- Shipment -->
+               <h3 style="position:absolute; left: 14.5mm; top:13mm; width: 370px; white-space: pre-line;font-weight: lighter;">
+                <!-- <apex:outputField value="{!shipment.HouseShipper__c}"/> -->
+                <apex:outputText rendered="{!shipment.HouseShipper__c != null}" value="{!shipment.HouseShipper__c}" style="white-space: pre-line;" escape="false;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c != null && shipment.HouseShipper__c == null}" value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+
+                    <apex:outputText style="" rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c == null && shipment.HouseShipper__c == null}">    
+                                                <!-- <h3 style="position:absolute; left: 14.3mm; top:10mm; width: 300px; white-space: pre-line;"><apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}"/></h3>
+                        
+                        <h3 style="position:absolute; left: 14.2mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="TEL: {!shipment.clofor_com_cfs__shipper__r.Phone}"/></h3>
+                        <h3 style="position:absolute; left: 42.5mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}"/></h3> -->
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Fax != null && shipment.clofor_com_cfs__shipper__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__shipper__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" rendered="{!shipment.HouseShipper__c}"/> -->
+            </h3>
+            <!-- Consignee -->
+            <h3 style="position:absolute; left: 14.5mm; top:38.5mm; width: 370px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.HouseConsignee__c != null}" value="{!shipment.HouseConsignee__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c != null && shipment.HouseConsignee__c == null}" value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c == null && shipment.HouseConsignee__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Fax != null && shipment.clofor_com_cfs__Cnee__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- Notify Address  -->
+            <h3 style="position:absolute; left: 14.5mm; top:64.5mm; width: 370px; white-space: pre-line;">
+                
+                <apex:outputText rendered="{!shipment.HouseNotifyParty__c != null}" value="{!shipment.HouseNotifyParty__c}" escape="false" style="white-space: pre-line;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c != null && shipment.HouseNotifyParty__c == null}" value="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c == null && shipment.HouseNotifyParty__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Fax != null && shipment.clofor_com_cfs__Notifyparty__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                
+            </h3>
+            <!-- Ocean vessel -->
+            <h3 style="position:absolute; left: 155.5mm; top:13mm;">{!shipment.clofor_com_cfs__HBL__c}</h3>
+            <h3 style="position:absolute; left: 14mm; top:99mm;">{!shipment.clofor_com_cfs__Vessle__c}</h3>
+            <h3 style="position:absolute; left: 62.7mm; top:99mm;">{!shipment.clofor_com_cfs__Voy_No__c}</h3>
+            <!-- Port of discharge -->
+            <h3 style="position:absolute; left: 13.7mm; top:108mm; width:100mm;">{!shipment.clofor_com_cfs__PortOfDischargeDetailPrint__c}</h3>
+            <!-- Place of reciept -->
+            <h3 style="position:absolute; left: 14mm; top:90.5mm; width:110mm;">{!shipment.clofor_com_cfs__PlaceOfReceiptDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:90.5mm; width:50;left: 55mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <!-- Port of Loading  -->
+            <h3 style="position:absolute; left: 62.7mm; top:90.5mm; width:80mm;">{!shipment.clofor_com_cfs__PortOfLoadingDetailPrint__c}</h3>
+            <!-- Place of delivery  -->
+            <h3 style="position:absolute; left: 62.7mm; top:108mm;width:80mm;">{!shipment.clofor_com_cfs__PlaceOfDeliveryDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:108mm; width:50;left: 105mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <h3 style="position:absolute; left: 113mm; top:94.6mm;width: 360px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.MasterConsignee__c != null}" value="{!UPPER(shipment.MasterConsignee__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c != null }" value="{!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c == null }" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax == null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null && shipment.clofor_com_cfs__DeliveryAgent__r.Phone == null}">
+                            FAX: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Fax)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__DeliveryAgent__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- <h6 style="position:absolute; left: 90mm; top:146mm; width:50mm; white-space: pre-line;">{!shipment.clofor_com_cfs__Item__c}</h6> -->
+            <!-- Gross weight -->
+            <h4 style="position:absolute; right: 29mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__weight__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">{!shipment.clofor_com_cfs__weight__c}</h4>
+            <h4 style="position:absolute; right: 3.5mm; width: 50mm; top:122.5mm;"><apex:outputText value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/></h4> -->
+            <!-- Measurement -->
+            <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__CBM__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="CBM" rendered="{!shipment.clofor_com_cfs__CBM__c != null}"/>
+            </h4>
+            <!-- CODE Block -->
+            <div style="position:absolute; left: 12mm; width: 110mm; top:163mm;display: table;vertical-align: bottom;height: 35mm;">
+                <div style="display: table-cell; width: 110mm;vertical-align: bottom;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/>
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/>
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/> -->
+                    </h4>
+                </div>
+            </div>
+            <!-- REMARK -->
+            <div style="position:absolute; left: 12mm; width: 50mm; top:121mm;display: table;vertical-align: top;height: 35mm;">
+                <div style="display: table-cell; width: 50mm;vertical-align: top;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <!-- <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/> -->
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/> -->
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/>
+                    </h4>
+                </div>
+            </div>
+            <h4 style="position:absolute; left: 40mm; width: 35.5mm; top:122mm;">
+                <apex:outputText style="float: right;" value="{0,number,###,###,###}">
+                    <apex:param value="{!shipment.clofor_com_cfs__carton__c}"/>
+                </apex:outputText>
+                <br/>
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__UnitType__c}(s)"/>
+            </h4>
+            <h3 style="position:absolute; left: 48mm; width: 150mm; top:198mm;">{!shipment.clofor_com_cfs__NumberOfContainers__c}</h3>
+            <h4 style="position:absolute; left: 80mm; width: 150mm; top:116mm;font-weight: bold;">
+                <apex:outputText value="Shipper’s load & count"/>
+            </h4>
+            <h4 style="position:absolute; left: 80mm; width: 90mm; top:122mm;white-space: pre-line;">
+                <apex:outputText value="{!shipment.clofor_com_cfs__Item__c}" rendered="{!shipment.Description_Long__c == null}"/>
+                <apex:outputText value="{!shipment.Description_Long__c}" rendered="{!shipment.Description_Long__c != null}"/>
+            </h4>
+            <h3 id="numb" style="position:absolute; left: 169.1mm; top:34mm; width: 57mm;float: left;font-weight: 900;"> 
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__BLtype__c == 'ORIGINAL'}" value="{!TypeOfPrint}"/>
+            </h3>
+            <p style="position:absolute; left: 50mm; width: 150mm; top:220mm;font-weight: 100;font-size: 1.5em;">{!shipment.clofor_com_cfs__Freight_Collect_Prepaid__c} AS ARRANGED</p>
+            <h3 style="position:absolute; left: 33.7mm; width: 70mm; top:257mm; text-align: center;">
+                <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Prepaid_at__c}" rendered="{!MasterAt == 'Prepaid' && shipment.clofor_com_cfs__Prepaid_at__c != null}"/> -->
+                <apex:outputText style="float: left;" value="JAPAN" rendered="{!MasterAt == 'Prepaid'}"/>
+            </h3>
+            <h3 style="position:absolute; left: 82.3mm; width: 70mm; top:257mm; text-align: center;">
+                    <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!MasterAt == 'Collect' && shipment.clofor_com_cfs__Payable_at__c != null}"/> -->
+                    <apex:outputText style="float: left;" value="DESTINATION" rendered="{!MasterAt == 'Collect'}"/>
+            </h3>
+             <!-- Prepaid Collect -->
+             <!-- <h3 style="position:absolute; left: 126.8mm; width: 28mm; top:214mm;">JAPAN</h3>
+             <h3 style="position:absolute; left: 162.5mm; width: 28mm; top:214mm;">
+                 <apex:outputText value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!shipment.clofor_com_cfs__Payable_at__c != null}"/>
+                 <apex:outputText value="DESTINATION" rendered="{!shipment.clofor_com_cfs__Payable_at__c == null}"/>
+             </h3> -->
+            <h3 style="position:absolute; left: 126.8mm; width: 35mm; top:257mm;">
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c != null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c}"/>
+                </apex:outputText>
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c == null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 82.3mm; width: 28mm; top:266mm;">{!shipment.clofor_com_cfs__No_of_Original_BL__c}</h3>
+            <h3 style="position:absolute; left: 25.4mm; width: 28mm; top:279mm;">
+                <apex:outputText value="{0, date, dd'/'MM'/'yyyy}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 71mm; width: 40mm; top:279mm;">
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Vessle__c != null && shipment.clofor_com_cfs__Voy_No__c != null}" value="{!shipment.clofor_com_cfs__Vessle__c} {!shipment.clofor_com_cfs__Voy_No__c}"/>
+
+            </h3>
+            <h3 style="padding-top: 980px;margin-right: 400px;"> 
+                <apex:outputText rendered="{!TypeOfForm == 'WAY BILL ORIGINAL' || TypeOfForm == 'SURRENDERED BILL' ||TypeOfForm == 'BL ORIGINAL'}" value="{!signature.Signature__c}" escape="false"
+                        />
+                        <!-- {!signature.Signature__c} -->
+            </h3>
+            </apex:outputPanel>
+            <!-- None Backgroud End -->
+            <!-- WAY BILL ORIGINAL -->
+            <apex:outputPanel rendered="{!TypeOfForm == 'WAY BILL ORIGINAL' && billing != 'none'}">
+                <div style="position:absolute; z-index:-2; left:0px; top: 0px; right: 0px;">
+                    <img style="height: 296mm" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.WaybillOriginal__c}" width="100%"
+                        />
+                    <div style="{! IF(isCreateCondition != true,'display: none;', '')};">
+                        <img style="height: 280mm;" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.WaybillOriginal2__c}" width="100%"
+                        />
+                    </div>
+                </div>
+                <div style="position: absolute;width: 94.5%;left: 25px;{! IF(isCreateNumber != true,'display: none;', '')};{! IF(isCreateCondition != true,'top: 1150px;', 'top: 2300px;')};">
+                    <br/>
+                    <!-- ATTACHMENT SHEET -->
+                    <table border="1.1px solid black" style="width: 100%; font-size:11px;padding-left: 35px;">
+                        <col width = "25%"/>
+                        <col width = "50%"/>
+                        <col width = "25%"/>
+        
+                        <tr style="height: 15px;">
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="Ref No."/></td>
+                            <td rowspan="2" style="text-align: center; border: 1.1px solid black; font-size: 16px;"><apex:outputText value="ATTACHMENT SHEET"/></td>
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="H B/L No."/></td>
+                        </tr>
+                        <tr style="height: 15px;">
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+                            </td>
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__HBL_Number_SEA_AIR__c}"/>
+                            </td>
+                        </tr>
+                        <tr style="height:985px;">
+                            <td colspan="3" style="border: 1.1px solid black; vertical-align: top; padding-left: 5px;">
+                                <apex:outputText escape="false" style="white-space: pre-line;" value="{!shipment.Attachment__c}"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+               <!-- Shipment -->
+               <h3 style="position:absolute; left: 14.9mm; top:12mm; width: 370px; white-space: pre-line;font-weight: lighter;">
+                <!-- <apex:outputField value="{!shipment.HouseShipper__c}"/> -->
+                <apex:outputText rendered="{!shipment.HouseShipper__c != null}" value="{!shipment.HouseShipper__c}" style="white-space: pre-line;" escape="false;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c != null && shipment.HouseShipper__c == null}" value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+
+                    <apex:outputText style="" rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c == null && shipment.HouseShipper__c == null}">    
+                                                <!-- <h3 style="position:absolute; left: 14.3mm; top:10mm; width: 300px; white-space: pre-line;"><apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}"/></h3>
+                        
+                        <h3 style="position:absolute; left: 14.2mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="TEL: {!shipment.clofor_com_cfs__shipper__r.Phone}"/></h3>
+                        <h3 style="position:absolute; left: 42.5mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}"/></h3> -->
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Fax != null && shipment.clofor_com_cfs__shipper__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__shipper__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" rendered="{!shipment.HouseShipper__c}"/> -->
+            </h3>
+            <!-- Consignee -->
+            <h3 style="position:absolute; left: 14.9mm; top:37.5mm; width: 370px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.HouseConsignee__c != null}" value="{!shipment.HouseConsignee__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c != null && shipment.HouseConsignee__c == null}" value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c == null && shipment.HouseConsignee__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Fax != null && shipment.clofor_com_cfs__Cnee__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- Notify Address  -->
+            <h3 style="position:absolute; left: 15mm; top:63.5mm; width: 370px; white-space: pre-line;">
+                
+                <apex:outputText rendered="{!shipment.HouseNotifyParty__c != null}" value="{!shipment.HouseNotifyParty__c}" escape="false" style="white-space: pre-line;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c != null && shipment.HouseNotifyParty__c == null}" value="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c == null && shipment.HouseNotifyParty__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Fax != null && shipment.clofor_com_cfs__Notifyparty__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                
+            </h3>
+            <!-- Ocean vessel -->
+            <h3 style="position:absolute; left: 160.5mm; top:12mm;">{!shipment.clofor_com_cfs__HBL__c}</h3>
+            <h3 style="position:absolute; left: 14.7mm; top:98.5mm;">{!shipment.clofor_com_cfs__Vessle__c}</h3>
+            <h3 style="position:absolute; left: 63.9mm; top:98.5mm;">{!shipment.clofor_com_cfs__Voy_No__c}</h3>
+            <!-- Port of discharge -->
+            <h3 style="position:absolute; left: 14.7mm; top:107mm; width:100mm;">{!shipment.clofor_com_cfs__PortOfDischargeDetailPrint__c}</h3>
+            <!-- Place of reciept -->
+            <h3 style="position:absolute; left: 14.7mm; top:90mm; width:110mm;">{!shipment.clofor_com_cfs__PlaceOfReceiptDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:90mm; width:50;left: 55mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <!-- Port of Loading  -->
+            <h3 style="position:absolute; left: 63.8mm; top:90mm; width:80mm;">{!shipment.clofor_com_cfs__PortOfLoadingDetailPrint__c}</h3>
+            <!-- Place of delivery  -->
+            <h3 style="position:absolute; left: 63.8mm; top:107mm;width:80mm;">{!shipment.clofor_com_cfs__PlaceOfDeliveryDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:107mm; width:50;left: 105mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <h3 style="position:absolute; left: 113.5mm; top:93.6mm;width:360px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.MasterConsignee__c != null}" value="{!UPPER(shipment.MasterConsignee__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c != null }" value="{!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c == null }" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax == null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null && shipment.clofor_com_cfs__DeliveryAgent__r.Phone == null}">
+                            FAX: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Fax)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__DeliveryAgent__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- <h6 style="position:absolute; left: 90mm; top:146mm; width:50mm; white-space: pre-line;">{!shipment.clofor_com_cfs__Item__c}</h6> -->
+            <!-- Gross weight -->
+            <h4 style="position:absolute; right: 27mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__weight__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">{!shipment.clofor_com_cfs__weight__c}</h4>
+            <h4 style="position:absolute; right: 3.5mm; width: 50mm; top:122.5mm;"><apex:outputText value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/></h4> -->
+            <!-- Measurement -->
+            <h4 style="position:absolute; right: 8mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__CBM__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="CBM" rendered="{!shipment.clofor_com_cfs__CBM__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: -11mm; width: 28mm; top:121mm;">{!shipment.clofor_com_cfs__CBM__c}</h4>
+            <h4 style="position:absolute; right: -12.8mm; width: 28mm; top:122.5mm;"><apex:outputText value="CBM" rendered="{!shipment.clofor_com_cfs__CBM__c != null}"/></h4> -->
+            <!-- CODE Block -->
+            <div style="position:absolute; left: 12mm; width: 110mm; top:163mm;display: table;vertical-align: bottom;height: 35mm;">
+                <div style="display: table-cell; width: 110mm;vertical-align: bottom;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/>
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/>
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/> -->
+                    </h4>
+                </div>
+            </div>
+            <!-- REMARK -->
+            <div style="position:absolute; left: 12mm; width: 50mm; top:121mm;display: table;vertical-align: top;height: 35mm;">
+                <div style="display: table-cell; width: 50mm;vertical-align: top;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <!-- <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/> -->
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/> -->
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/>
+                    </h4>
+                </div>
+            </div>
+            <h4 style="position:absolute; left: 40mm; width: 37mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{0,number,###,###,###}">
+                    <apex:param value="{!shipment.clofor_com_cfs__carton__c}"/>
+                </apex:outputText>
+                <br/>
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__UnitType__c}(s)"/>
+            </h4>
+            <h3 style="position:absolute; left: 46mm; width: 150mm; top:197mm;">{!shipment.clofor_com_cfs__NumberOfContainers__c}</h3>
+            <h4 style="position:absolute; left: 78.5mm; width: 150mm; top:115mm;font-weight: bold;">
+                <apex:outputText value="Shipper’s load & count"/>
+            </h4>
+            <h4 style="position:absolute; left: 79mm; width: 83mm; top:121mm;white-space: pre-line;">
+                <apex:outputText value="{!shipment.clofor_com_cfs__Item__c}" rendered="{!shipment.Description_Long__c == null}"/>
+                <apex:outputText value="{!shipment.Description_Long__c}" rendered="{!shipment.Description_Long__c != null}"/>
+            </h4>
+            <h3 style="position:absolute; left: 75.5mm; width: 28mm; top:265mm;text-align: center;">{!shipment.clofor_com_cfs__No_of_Original_BL__c}</h3>
+            <p style="position:absolute; left: 50mm; width: 150mm; top:220mm;font-weight: 100;font-size: 1.5em;">{!shipment.clofor_com_cfs__Freight_Collect_Prepaid__c} AS ARRANGED</p>
+            <!-- <h3 style="position:absolute; left: 24.2mm; width: 28mm; top:253mm; text-align: center;">JAPAN</h3> -->
+            <h3 style="position:absolute; left: 33.9mm; width: 50mm; top:256mm; text-align: center;">
+                <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Prepaid_at__c}" rendered="{!MasterAt == 'Prepaid' && shipment.clofor_com_cfs__Prepaid_at__c != null}"/> -->
+                <apex:outputText style="float: left;" value="JAPAN" rendered="{!MasterAt == 'Prepaid'}"/>
+            </h3>
+            <h3 style="position:absolute; left: 82.5mm; width: 50mm; top:256mm; text-align: center;">
+                    <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!MasterAt == 'Collect' && shipment.clofor_com_cfs__Payable_at__c != null}"/> -->
+                    <apex:outputText style="float: left;" value="DESTINATION" rendered="{!MasterAt == 'Collect'}"/>
+            </h3>
+            <!-- Prepaid Collect -->
+            <!-- <h3 style="position:absolute; left: 126.8mm; width: 28mm; top:214mm;">JAPAN</h3>
+            <h3 style="position:absolute; left: 162.5mm; width: 28mm; top:214mm;">
+                <apex:outputText value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!shipment.clofor_com_cfs__Payable_at__c != null}"/>
+                <apex:outputText value="DESTINATION" rendered="{!shipment.clofor_com_cfs__Payable_at__c == null}"/>
+            </h3> -->
+            <h3 style="position:absolute; left: 127.6mm; width: 35mm; top:256mm;">
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c != null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c}"/>
+                </apex:outputText>
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c == null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 25.4mm; width: 28mm; top:278mm;">
+                <apex:outputText value="{0, date, dd'/'MM'/'yyyy}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 71mm; width: 40mm; top:278mm;">
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Vessle__c != null && shipment.clofor_com_cfs__Voy_No__c != null}" value="{!shipment.clofor_com_cfs__Vessle__c} {!shipment.clofor_com_cfs__Voy_No__c}"/>
+
+            </h3>
+            <h3 style="padding-top: 980px;margin-right: 400px;"> 
+                <apex:outputText value="{!signature.Signature__c}" escape="false"
+                        />
+                        <!-- {!signature.Signature__c} -->
+            </h3>
+            </apex:outputPanel>
+            <!-- BL ORIGINAL -->
+            <apex:outputPanel rendered="{!TypeOfForm == 'BL ORIGINAL' && billing != 'none'}">
+                <div style="position:absolute; z-index:-2; left:0px; top: 0px; right: 0px;">
+                    <img style="height: 296mm" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.BLOriginal__c	}" width="100%"
+                        />
+                    <div style="{! IF(isCreateCondition != true,'display: none;', '')};">
+                        <img style="height: 280mm" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.BLOriginal2__c}" width="100%"
+                        />
+                    </div>
+                </div>
+                <div style="position: absolute;width: 94.5%;left: 25px;{! IF(isCreateNumber != true,'display: none;', '')};{! IF(isCreateCondition != true,'top: 1150px;', 'top: 2300px;')};">
+                    <br/>
+                    <!-- ATTACHMENT SHEET -->
+                    <table border="1.1px solid black" style="width: 100%; font-size:11px;padding-left: 35px;">
+                        <col width = "25%"/>
+                        <col width = "50%"/>
+                        <col width = "25%"/>
+        
+                        <tr style="height: 15px;">
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="Ref No."/></td>
+                            <td rowspan="2" style="text-align: center; border: 1.1px solid black; font-size: 16px;"><apex:outputText value="ATTACHMENT SHEET"/></td>
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="H B/L No."/></td>
+                        </tr>
+                        <tr style="height: 15px;">
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+                            </td>
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__HBL_Number_SEA_AIR__c}"/>
+                            </td>
+                        </tr>
+                        <tr style="height:985px;">
+                            <td colspan="3" style="border: 1.1px solid black; vertical-align: top; padding-left: 5px;">
+                                <apex:outputText escape="false" style="white-space: pre-line;" value="{!shipment.Attachment__c}"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+               <!-- Shipment -->
+               <h3 style="position:absolute; left: 14.8mm; top:11mm; width: 370px; white-space: pre-line;font-weight: lighter;">
+                <!-- <apex:outputField value="{!shipment.HouseShipper__c}"/> -->
+                <apex:outputText rendered="{!shipment.HouseShipper__c != null}" value="{!shipment.HouseShipper__c}" style="white-space: pre-line;" escape="false;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c != null && shipment.HouseShipper__c == null}" value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+
+                    <apex:outputText style="" rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c == null && shipment.HouseShipper__c == null}">    
+                                                <!-- <h3 style="position:absolute; left: 14.3mm; top:10mm; width: 300px; white-space: pre-line;"><apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}"/></h3>
+                        
+                        <h3 style="position:absolute; left: 14.2mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="TEL: {!shipment.clofor_com_cfs__shipper__r.Phone}"/></h3>
+                        <h3 style="position:absolute; left: 42.5mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}"/></h3> -->
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Fax != null && shipment.clofor_com_cfs__shipper__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__shipper__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" rendered="{!shipment.HouseShipper__c}"/> -->
+            </h3>
+            <!-- Consignee -->
+            <h3 style="position:absolute; left: 14.8mm; top:37.5mm; width: 370px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.HouseConsignee__c != null}" value="{!shipment.HouseConsignee__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c != null && shipment.HouseConsignee__c == null}" value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c == null && shipment.HouseConsignee__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Fax != null && shipment.clofor_com_cfs__Cnee__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- Notify Address  -->
+            <h3 style="position:absolute; left: 14.8mm; top:63mm; width: 370px; white-space: pre-line;">
+                
+                <apex:outputText rendered="{!shipment.HouseNotifyParty__c != null}" value="{!shipment.HouseNotifyParty__c}" escape="false" style="white-space: pre-line;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c != null && shipment.HouseNotifyParty__c == null}" value="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c == null && shipment.HouseNotifyParty__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Fax != null && shipment.clofor_com_cfs__Notifyparty__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                
+            </h3>
+            <!-- Ocean vessel -->
+            <h3 style="position:absolute; left: 158.8mm; top:11.5mm;">{!shipment.clofor_com_cfs__HBL__c}</h3>
+            <h3 style="position:absolute; left: 15mm; top:98mm;">{!shipment.clofor_com_cfs__Vessle__c}</h3>
+            <h3 style="position:absolute; left: 63.7mm; top:98mm;">{!shipment.clofor_com_cfs__Voy_No__c}</h3>
+            <!-- Port of discharge -->
+            <h3 style="position:absolute; left: 14.6mm; top:107mm; width:100mm;">{!shipment.clofor_com_cfs__PortOfDischargeDetailPrint__c}</h3>
+            <!-- Place of reciept -->
+            <h3 style="position:absolute; left: 15mm; top:89.5mm; width:110mm;">{!shipment.clofor_com_cfs__PlaceOfReceiptDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:89.5mm; width:50;left: 55mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <!-- Port of Loading  -->
+            <h3 style="position:absolute; left: 63.5mm; top:89.5mm; width:80mm;">{!shipment.clofor_com_cfs__PortOfLoadingDetailPrint__c}</h3>
+            <!-- Place of delivery  -->
+            <h3 style="position:absolute; left: 63.7mm; top:107mm;width:80mm;">{!shipment.clofor_com_cfs__PlaceOfDeliveryDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:107mm; width:50;left: 105mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <h3 style="position:absolute; left: 113.5mm; top:93.6mm;width:360px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.MasterConsignee__c != null}" value="{!UPPER(shipment.MasterConsignee__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c != null }" value="{!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c == null }" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax == null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null && shipment.clofor_com_cfs__DeliveryAgent__r.Phone == null}">
+                            FAX: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Fax)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__DeliveryAgent__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- <h6 style="position:absolute; left: 90mm; top:146mm; width:50mm; white-space: pre-line;">{!shipment.clofor_com_cfs__Item__c}</h6> -->
+            <!-- Gross weight -->
+            <h4 style="position:absolute; right: 29mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__weight__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">{!shipment.clofor_com_cfs__weight__c}</h4>
+            <h4 style="position:absolute; right: 3.5mm; width: 50mm; top:122.5mm;"><apex:outputText value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/></h4> -->
+            <!-- Measurement -->
+            <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__CBM__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="CBM" rendered="{!shipment.clofor_com_cfs__CBM__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:220mm;">
+                <apex:outputText value="{!TypeOfPrint}"/>
+            </h4> -->
+            <!-- CODE Block -->
+            <div style="position:absolute; left: 12mm; width: 110mm; top:163mm;display: table;vertical-align: bottom;height: 35mm;">
+                <div style="display: table-cell; width: 110mm;vertical-align: bottom;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/>
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/>
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/> -->
+                    </h4>
+                </div>
+            </div>
+            <!-- REMARK -->
+            <div style="position:absolute; left: 12mm; width: 50mm; top:121mm;display: table;vertical-align: top;height: 35mm;">
+                <div style="display: table-cell; width: 50mm;vertical-align: top;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <!-- <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/> -->
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/> -->
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/>
+                    </h4>
+                </div>
+            </div>
+            <h4 style="position:absolute; left: 40mm; width: 36mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{0,number,###,###,###}">
+                    <apex:param value="{!shipment.clofor_com_cfs__carton__c}"/>
+                </apex:outputText>
+                <br/>
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__UnitType__c}(s)"/>
+            </h4>
+            <h3 style="position:absolute; left: 46mm; width: 150mm; top:197mm;">{!shipment.clofor_com_cfs__NumberOfContainers__c}</h3>
+            <h4 style="position:absolute; left: 78mm; width: 150mm; top:115.5mm;font-weight: bold;">
+                <apex:outputText value="Shipper’s load & count"/>
+            </h4>
+            <h4 style="position:absolute; left: 78mm; width: 83mm; top:121mm;white-space: pre-line;">
+                <apex:outputText value="{!shipment.clofor_com_cfs__Item__c}" rendered="{!shipment.Description_Long__c == null}"/>
+                <apex:outputText value="{!shipment.Description_Long__c}" rendered="{!shipment.Description_Long__c != null}"/>
+            </h4>
+            <h3 style="position:absolute; left: 75.3mm; width: 28mm; top:265mm;text-align: center;">{!shipment.clofor_com_cfs__No_of_Original_BL__c}</h3>
+            <h2 id="numb" style="position:absolute; left: 179.1mm; top:34mm; width: 57mm;float: left;font-weight: 900;"> 
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__BLtype__c == 'ORIGINAL'}" value="{!TypeOfPrint}"/>
+            </h2>
+            <!-- <h3 id="numb" style="position:absolute; left: 169.1mm; top:34mm; width: 57mm;float: left;font-weight: 900;"> 
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__BLtype__c == 'ORIGINAL'}" value="{!TypeOfPrint}"/>
+            </h3> -->
+            <p style="position:absolute; left: 50mm; width: 150mm; top:220mm;font-weight: 100;font-size: 1.5em;">{!shipment.clofor_com_cfs__Freight_Collect_Prepaid__c} AS ARRANGED</p>
+            <h3 style="position:absolute; left: 33.9mm; width: 50mm; top:256mm; text-align: center;">
+                <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Prepaid_at__c}" rendered="{!MasterAt == 'Prepaid' && shipment.clofor_com_cfs__Prepaid_at__c != null}"/> -->
+                <apex:outputText style="float: left;" value="JAPAN" rendered="{!MasterAt == 'Prepaid'}"/>
+            </h3>
+            <h3 style="position:absolute; left: 82.5mm; width: 50mm; top:256mm; text-align: center;">
+                    <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!MasterAt == 'Collect' && shipment.clofor_com_cfs__Payable_at__c != null}"/> -->
+                    <apex:outputText style="float: left;" value="DESTINATION" rendered="{!MasterAt == 'Collect'}"/>
+            </h3>
+             <!-- Prepaid Collect -->
+             <!-- <h3 style="position:absolute; left: 126.8mm; width: 28mm; top:214mm;">JAPAN</h3>
+             <h3 style="position:absolute; left: 163mm; width: 28mm; top:214mm;">
+                 <apex:outputText value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!shipment.clofor_com_cfs__Payable_at__c != null}"/>
+                 <apex:outputText value="DESTINATION" rendered="{!shipment.clofor_com_cfs__Payable_at__c == null}"/>
+             </h3> -->
+            <h3 style="position:absolute; left: 127.6mm; width: 35mm; top:256mm;">
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c != null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c}"/>
+                </apex:outputText>
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c == null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 25.4mm; width: 28mm; top:278mm;">
+                <apex:outputText value="{0, date, dd'/'MM'/'yyyy}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 71mm; width: 40mm; top:278mm;">
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Vessle__c != null && shipment.clofor_com_cfs__Voy_No__c != null}" value="{!shipment.clofor_com_cfs__Vessle__c} {!shipment.clofor_com_cfs__Voy_No__c}"/>
+
+            </h3>
+            <h3 style="padding-top: 980px;margin-right: 400px;"> 
+                <apex:outputText value="{!signature.Signature__c}" escape="false"
+                        />
+                        <!-- {!signature.Signature__c} -->
+            </h3>
+            </apex:outputPanel>
+            <!-- WAY BILL COPY -->
+            <apex:outputPanel rendered="{!TypeOfForm == 'WAY BILL COPY' && billing != 'none'}">
+                <div style="position:absolute; z-index:-2; left:0px; top: 0px; right: 0px;">
+                    <img style="height: 296mm" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.WaybillCopy__c	}" width="100%"
+                        />
+                        <div style="{! IF(isCreateCondition != true,'display: none;', '')};">
+                            <img style="height: 280mm;" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.WaybillOriginal2__c}" width="100%"
+                            />
+                        </div>
+                    </div>
+                    <div style="position: absolute;width: 94.5%;left: 25px;{! IF(isCreateNumber != true,'display: none;', '')};{! IF(isCreateCondition != true,'top: 1150px;', 'top: 2300px;')};">
+                    <br/>
+                    <!-- ATTACHMENT SHEET -->
+                    <table border="1.1px solid black" style="width: 100%; font-size:11px;padding-left: 35px;">
+                        <col width = "25%"/>
+                        <col width = "50%"/>
+                        <col width = "25%"/>
+        
+                        <tr style="height: 15px;">
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="Ref No."/></td>
+                            <td rowspan="2" style="text-align: center; border: 1.1px solid black; font-size: 16px;"><apex:outputText value="ATTACHMENT SHEET"/></td>
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="H B/L No."/></td>
+                        </tr>
+                        <tr style="height: 15px;">
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+                            </td>
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__HBL_Number_SEA_AIR__c}"/>
+                            </td>
+                        </tr>
+                        <tr style="height:985px;">
+                            <td colspan="3" style="border: 1.1px solid black; vertical-align: top; padding-left: 5px;">
+                                <apex:outputText escape="false" style="white-space: pre-line;" value="{!shipment.Attachment__c}"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+               <!-- Shipment -->
+               <h3 style="position:absolute; left: 14.4mm; top:12mm; width: 370px; white-space: pre-line;font-weight: lighter;">
+                <!-- <apex:outputField value="{!shipment.HouseShipper__c}"/> -->
+                <apex:outputText rendered="{!shipment.HouseShipper__c != null}" value="{!shipment.HouseShipper__c}" style="white-space: pre-line;" escape="false;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c != null && shipment.HouseShipper__c == null}" value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+
+                    <apex:outputText style="" rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c == null && shipment.HouseShipper__c == null}">    
+                                                <!-- <h3 style="position:absolute; left: 14.3mm; top:10mm; width: 300px; white-space: pre-line;"><apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}"/></h3>
+                        
+                        <h3 style="position:absolute; left: 14.2mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="TEL: {!shipment.clofor_com_cfs__shipper__r.Phone}"/></h3>
+                        <h3 style="position:absolute; left: 42.5mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}"/></h3> -->
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Fax != null && shipment.clofor_com_cfs__shipper__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__shipper__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" rendered="{!shipment.HouseShipper__c}"/> -->
+            </h3>
+            <!-- Consignee -->
+            <h3 style="position:absolute; left: 14.6mm; top:37.5mm; width: 370px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.HouseConsignee__c != null}" value="{!shipment.HouseConsignee__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c != null && shipment.HouseConsignee__c == null}" value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c == null && shipment.HouseConsignee__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Fax != null && shipment.clofor_com_cfs__Cnee__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- Notify Address  -->
+            <h3 style="position:absolute; left: 14.5mm; top:63.5mm; width: 370px; white-space: pre-line;">
+                
+                <apex:outputText rendered="{!shipment.HouseNotifyParty__c != null}" value="{!shipment.HouseNotifyParty__c}" escape="false" style="white-space: pre-line;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c != null && shipment.HouseNotifyParty__c == null}" value="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c == null && shipment.HouseNotifyParty__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Fax != null && shipment.clofor_com_cfs__Notifyparty__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                
+            </h3>
+            <!-- Ocean vessel -->
+            <h3 style="position:absolute; left: 160.5mm; top:13mm;">{!shipment.clofor_com_cfs__HBL__c}</h3>
+            <h3 style="position:absolute; left: 14.1mm; top:98.5mm;">{!shipment.clofor_com_cfs__Vessle__c}</h3>
+            <h3 style="position:absolute; left: 62.7mm; top:98.5mm;">{!shipment.clofor_com_cfs__Voy_No__c}</h3>
+            <!-- Port of discharge -->
+            <h3 style="position:absolute; left: 14.1mm; top:107mm; width:100mm;">{!shipment.clofor_com_cfs__PortOfDischargeDetailPrint__c}</h3>
+            <!-- Place of reciept --> 
+            <h3 style="position:absolute; left: 14mm; top:90mm; width:110mm;">{!shipment.clofor_com_cfs__PlaceOfReceiptDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:90mm; width:50;left: 55mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <!-- Port of Loading  -->
+            <h3 style="position:absolute; left: 62.5mm; top:90mm; width:80mm;">{!shipment.clofor_com_cfs__PortOfLoadingDetailPrint__c}</h3>
+            <!-- Place of delivery  -->
+            <h3 style="position:absolute; left: 62.5mm; top:107mm;width:80mm;">{!shipment.clofor_com_cfs__PlaceOfDeliveryDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:107mm; width:50;left: 105mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <h3 style="position:absolute; left: 113.4mm; top:93.6mm;width:360px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.MasterConsignee__c != null}" value="{!UPPER(shipment.MasterConsignee__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c != null }" value="{!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c == null }" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax == null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null && shipment.clofor_com_cfs__DeliveryAgent__r.Phone == null}">
+                            FAX: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Fax)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__DeliveryAgent__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- <h6 style="position:absolute; left: 90mm; top:146mm; width:50mm; white-space: pre-line;">{!shipment.clofor_com_cfs__Item__c}</h6> -->
+            <!-- Gross weight -->
+            <h4 style="position:absolute; right: 28mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__weight__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">{!shipment.clofor_com_cfs__weight__c}</h4>
+            <h4 style="position:absolute; right: 3.5mm; width: 50mm; top:122.5mm;"><apex:outputText value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/></h4> -->
+            <!-- Measurement -->
+            <h4 style="position:absolute; right: 9mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__CBM__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="CBM" rendered="{!shipment.clofor_com_cfs__CBM__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: -11mm; width: 28mm; top:121mm;">{!shipment.clofor_com_cfs__CBM__c}</h4>
+            <h4 style="position:absolute; right: -12.8mm; width: 28mm; top:122.5mm;"><apex:outputText value="CBM" rendered="{!shipment.clofor_com_cfs__CBM__c != null}"/></h4> -->
+            <!-- CODE Block -->
+            <div style="position:absolute; left: 12mm; width: 110mm; top:163mm;display: table;vertical-align: bottom;height: 35mm;">
+                <div style="display: table-cell; width: 110mm;vertical-align: bottom;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/>
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/>
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/> -->
+                    </h4>
+                </div>
+            </div>
+            <!-- REMARK -->
+            <div style="position:absolute; left: 12mm; width: 50mm; top:121mm;display: table;vertical-align: top;height: 35mm;">
+                <div style="display: table-cell; width: 50mm;vertical-align: top;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <!-- <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/> -->
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/> -->
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/>
+                    </h4>
+                </div>
+            </div>
+            <h4 style="position:absolute; left: 40mm; width: 36mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{0,number,###,###,###}">
+                    <apex:param value="{!shipment.clofor_com_cfs__carton__c}"/>
+                </apex:outputText>
+                <br/>
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__UnitType__c}(s)"/>
+            </h4>
+            <h3 style="position:absolute; left: 46mm; width: 150mm; top:197mm;">{!shipment.clofor_com_cfs__NumberOfContainers__c}</h3>
+            <h4 style="position:absolute; left: 78.5mm; width: 150mm; top:115mm;font-weight: bold;">
+                <apex:outputText value="Shipper’s load & count"/>
+            </h4>
+            <h4 style="position:absolute; left: 79mm; width: 83mm; top:121mm;white-space: pre-line;">
+                <apex:outputText value="{!shipment.clofor_com_cfs__Item__c}" rendered="{!shipment.Description_Long__c == null}"/>
+                <apex:outputText value="{!shipment.Description_Long__c}" rendered="{!shipment.Description_Long__c != null}"/>
+            </h4>
+            <h3 style="position:absolute; left: 74.7mm; width: 28mm; top:265mm;text-align: center;">{!shipment.clofor_com_cfs__No_of_Original_BL__c}</h3>
+            <p style="position:absolute; left: 50mm; width: 150mm; top:220mm;font-weight: 100;font-size: 1.5em;">{!shipment.clofor_com_cfs__Freight_Collect_Prepaid__c} AS ARRANGED</p>
+            <!-- <h3 style="position:absolute; left: 24.2mm; width: 28mm; top:253mm; text-align: center;">JAPAN</h3> -->
+            <h3 style="position:absolute; left: 33.9mm; width: 50mm; top:256mm; text-align: center;">
+                <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Prepaid_at__c}" rendered="{!MasterAt == 'Prepaid' && shipment.clofor_com_cfs__Prepaid_at__c != null}"/> -->
+                <apex:outputText style="float: left;" value="JAPAN" rendered="{!MasterAt == 'Prepaid'}"/>
+            </h3>
+            <h3 style="position:absolute; left: 82.5mm; width: 50mm; top:256mm; text-align: center;">
+                    <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!MasterAt == 'Collect' && shipment.clofor_com_cfs__Payable_at__c != null}"/> -->
+                    <apex:outputText style="float: left;" value="DESTINATION" rendered="{!MasterAt == 'Collect'}"/>
+            </h3>
+            <!-- Prepaid Collect -->
+            <!-- <h3 style="position:absolute; left: 126.8mm; width: 28mm; top:214mm;">JAPAN</h3>
+            <h3 style="position:absolute; left: 162.5mm; width: 28mm; top:214mm;">
+                <apex:outputText value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!shipment.clofor_com_cfs__Payable_at__c != null}"/>
+                <apex:outputText value="DESTINATION" rendered="{!shipment.clofor_com_cfs__Payable_at__c == null}"/>
+            </h3> -->
+            <h3 style="position:absolute; left: 127.6mm; width: 35mm; top:256mm;">
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c != null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c}"/>
+                </apex:outputText>
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c == null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 25.4mm; width: 28mm; top:278mm;">
+                <apex:outputText value="{0, date, dd'/'MM'/'yyyy}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 71mm; width: 40mm; top:278mm;">
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Vessle__c != null && shipment.clofor_com_cfs__Voy_No__c != null}" value="{!shipment.clofor_com_cfs__Vessle__c} {!shipment.clofor_com_cfs__Voy_No__c}"/>
+
+            </h3>
+            </apex:outputPanel>
+            <!-- BL COPY -->
+            <apex:outputPanel rendered="{!TypeOfForm == 'BL COPY' && billing != 'none'}">
+                <div style="position:absolute; z-index:-2; left:0px; top: 0px; right: 0px;">
+                    <img style="height: 296mm" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.BLCopy__c	}" width="100%"
+                        />
+                        <div style="{! IF(isCreateCondition != true,'display: none;', '')};">
+                            <img style="height: 280mm" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.BLOriginal2__c}" width="100%"
+                            />
+                        </div>
+                    </div>
+                <div style="position: absolute;width: 94.5%;left: 25px;{! IF(isCreateNumber != true,'display: none;', '')};{! IF(isCreateCondition != true,'top: 1150px;', 'top: 2300px;')};">
+                    <br/>
+                    <!-- ATTACHMENT SHEET -->
+                    <table border="1.1px solid black" style="width: 100%; font-size:11px;padding-left: 35px;">
+                        <col width = "25%"/>
+                        <col width = "50%"/>
+                        <col width = "25%"/>
+        
+                        <tr style="height: 15px;">
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="Ref No."/></td>
+                            <td rowspan="2" style="text-align: center; border: 1.1px solid black; font-size: 16px;"><apex:outputText value="ATTACHMENT SHEET"/></td>
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="H B/L No."/></td>
+                        </tr>
+                        <tr style="height: 15px;">
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+                            </td>
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__HBL_Number_SEA_AIR__c}"/>
+                            </td>
+                        </tr>
+                        <tr style="height:985px;">
+                            <td colspan="3" style="border: 1.1px solid black; vertical-align: top; padding-left: 5px;">
+                                <apex:outputText escape="false" style="white-space: pre-line;" value="{!shipment.Attachment__c}"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Shipment -->
+                <h3 style="position:absolute; left: 14.8mm; top:11mm; width: 370px; white-space: pre-line;font-weight: lighter;">
+                    <!-- <apex:outputField value="{!shipment.HouseShipper__c}"/> -->
+                    <apex:outputText rendered="{!shipment.HouseShipper__c != null}" value="{!shipment.HouseShipper__c}" style="white-space: pre-line;" escape="false;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c != null && shipment.HouseShipper__c == null}" value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+    
+                        <apex:outputText style="" rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c == null && shipment.HouseShipper__c == null}">    
+                                                    <!-- <h3 style="position:absolute; left: 14.3mm; top:10mm; width: 300px; white-space: pre-line;"><apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}"/></h3>
+                        
+                        <h3 style="position:absolute; left: 14.2mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="TEL: {!shipment.clofor_com_cfs__shipper__r.Phone}"/></h3>
+                        <h3 style="position:absolute; left: 42.5mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}"/></h3> -->
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Fax != null && shipment.clofor_com_cfs__shipper__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__shipper__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}
+                        </apex:outputText>
+                        </apex:outputText>
+                    <!-- <apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" rendered="{!shipment.HouseShipper__c}"/> -->
+                </h3>
+                <!-- Consignee -->
+                <h3 style="position:absolute; left: 14.8mm; top:37.5mm; width: 370px; white-space: pre-line;">
+                    <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                        <apex:outputText rendered="{!shipment.HouseConsignee__c != null}" value="{!shipment.HouseConsignee__c}" escape="false" style="white-space:pre-line;"/>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c != null && shipment.HouseConsignee__c == null}" value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c == null && shipment.HouseConsignee__c == null}" escape="false" style="white-space:pre-line;">
+                            <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                            <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax == null}">
+                                TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} 
+                            </apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Fax != null && shipment.clofor_com_cfs__Cnee__r.Phone == null}">
+                                FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax} 
+                            </apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax != null}">
+                                TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax}
+                            </apex:outputText>
+                        </apex:outputText>
+                    <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                    <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+                </h3>
+                <!-- Notify Address  -->
+                <h3 style="position:absolute; left: 14.8mm; top:63mm; width: 370px; white-space: pre-line;">
+                    
+                    <apex:outputText rendered="{!shipment.HouseNotifyParty__c != null}" value="{!shipment.HouseNotifyParty__c}" escape="false" style="white-space: pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c != null && shipment.HouseNotifyParty__c == null}" value="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c == null && shipment.HouseNotifyParty__c == null}" escape="false" style="white-space:pre-line;">
+                            <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                            <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax == null}">
+                                TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} 
+                            </apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Fax != null && shipment.clofor_com_cfs__Notifyparty__r.Phone == null}">
+                                FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax} 
+                            </apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax != null}">
+                                TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax}
+                            </apex:outputText>
+                        </apex:outputText>
+                    
+                </h3>
+                <!-- Ocean vessel -->
+                <h3 style="position:absolute; left: 158.8mm; top:11.5mm;">{!shipment.clofor_com_cfs__HBL__c}</h3>
+                <h3 style="position:absolute; left: 15mm; top:98mm;">{!shipment.clofor_com_cfs__Vessle__c}</h3>
+                <h3 style="position:absolute; left: 63.7mm; top:98mm;">{!shipment.clofor_com_cfs__Voy_No__c}</h3>
+                <!-- Port of discharge -->
+                <h3 style="position:absolute; left: 14.6mm; top:107mm; width:100mm;">{!shipment.clofor_com_cfs__PortOfDischargeDetailPrint__c}</h3>
+                <!-- Place of reciept -->
+                <h3 style="position:absolute; left: 15mm; top:89.5mm; width:110mm;">{!shipment.clofor_com_cfs__PlaceOfReceiptDetailPrint__c}</h3>
+                <h3 style="position:absolute; top:89.5mm; width:50;left: 55mm">
+                    <apex:outputText style="float: right" value="{!cargotype}"/>
+                </h3>
+                <!-- Port of Loading  -->
+                <h3 style="position:absolute; left: 63.5mm; top:89.5mm; width:80mm;">{!shipment.clofor_com_cfs__PortOfLoadingDetailPrint__c}</h3>
+                <!-- Place of delivery  -->
+                <h3 style="position:absolute; left: 63.7mm; top:107mm;width:80mm;">{!shipment.clofor_com_cfs__PlaceOfDeliveryDetailPrint__c}</h3>
+                <h3 style="position:absolute; top:107mm; width:50;left: 105mm">
+                    <apex:outputText style="float: right" value="{!cargotype}"/>
+                </h3>
+                <h3 style="position:absolute; left: 113.5mm; top:93.6mm;width:360px; white-space: pre-line;">
+                    <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                        <apex:outputText rendered="{!shipment.MasterConsignee__c != null}" value="{!UPPER(shipment.MasterConsignee__c)}" escape="false" style="white-space:pre-line;"/>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c != null }" value="{!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c)}" escape="false" style="white-space:pre-line;"/>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c == null }" escape="false" style="white-space:pre-line;">
+                            <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                            <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax == null}">
+                                TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} 
+                            </apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null && shipment.clofor_com_cfs__DeliveryAgent__r.Phone == null}">
+                                FAX: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Fax)} 
+                            </apex:outputText>
+                            <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null}">
+                                TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__DeliveryAgent__r.Fax}
+                            </apex:outputText>
+                        </apex:outputText>
+                    <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                    <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+                </h3>
+                <!-- <h6 style="position:absolute; left: 90mm; top:146mm; width:50mm; white-space: pre-line;">{!shipment.clofor_com_cfs__Item__c}</h6> -->
+                <!-- Gross weight -->
+                <h4 style="position:absolute; right: 29mm; width: 50mm; top:121mm;">
+                    <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__weight__c}"/>
+                    <br/>
+                    <apex:outputText style="float: right;" value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/>
+                </h4>
+                <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">{!shipment.clofor_com_cfs__weight__c}</h4>
+                <h4 style="position:absolute; right: 3.5mm; width: 50mm; top:122.5mm;"><apex:outputText value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/></h4> -->
+                <!-- Measurement -->
+                <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">
+                    <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__CBM__c}"/>
+                    <br/>
+                    <apex:outputText style="float: right;" value="CBM" rendered="{!shipment.clofor_com_cfs__CBM__c != null}"/>
+                </h4>
+                <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:220mm;">
+                    <apex:outputText value="{!TypeOfPrint}"/>
+                </h4> -->
+                <!-- CODE Block -->
+                <div style="position:absolute; left: 12mm; width: 110mm; top:163mm;display: table;vertical-align: bottom;height: 35mm;">
+                    <div style="display: table-cell; width: 110mm;vertical-align: bottom;height: 35mm;">
+                        <h4 style="text-align: left;">
+                            <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/>
+                            <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/>
+                            <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/> -->
+                        </h4>
+                    </div>
+                </div>
+                <!-- REMARK -->
+                <div style="position:absolute; left: 12mm; width: 50mm; top:121mm;display: table;vertical-align: top;height: 35mm;">
+                    <div style="display: table-cell; width: 50mm;vertical-align: top;height: 35mm;">
+                        <h4 style="text-align: left;">
+                            <!-- <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/> -->
+                            <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/> -->
+                            <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/>
+                        </h4>
+                    </div>
+                </div>
+
+                <h4 style="position:absolute; left: 40mm; width: 36mm; top:121mm;">
+                    <apex:outputText style="float: right;" value="{0,number,###,###,###}">
+                        <apex:param value="{!shipment.clofor_com_cfs__carton__c}"/>
+                    </apex:outputText>
+                    <br/>
+                    <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__UnitType__c}(s)"/>
+                </h4>
+                <h3 style="position:absolute; left: 46mm; width: 150mm; top:197mm;">{!shipment.clofor_com_cfs__NumberOfContainers__c}</h3>
+                <h4 style="position:absolute; left: 78mm; width: 150mm; top:115.5mm;font-weight: bold;">
+                    <apex:outputText value="Shipper’s load & count"/>
+                </h4>
+                <h4 style="position:absolute; left: 78mm; width: 83mm; top:121mm;white-space: pre-line;">
+                    <apex:outputText value="{!shipment.clofor_com_cfs__Item__c}" rendered="{!shipment.Description_Long__c == null}"/>
+                    <apex:outputText value="{!shipment.Description_Long__c}" rendered="{!shipment.Description_Long__c != null}"/>
+                </h4>
+                <h3 style="position:absolute; left: 75mm; width: 28mm; top:265mm;text-align: center;">{!shipment.clofor_com_cfs__No_of_Original_BL__c}</h3>
+                <!-- <h3 id="numb" style="position:absolute; left: 169.1mm; top:34mm; width: 57mm;float: left;font-weight: 900;"> 
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__BLtype__c == 'ORIGINAL'}" value="{!TypeOfPrint}"/>
+                </h3> -->
+                <!-- <h3 id="numb" style="position:absolute; right: -10mm; width: 57mm; top:166mm;float: left;font-weight: 900;"> 
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__BLtype__c == 'ORIGINAL'}" value="{!TypeOfPrint}"/>
+                </h3> -->
+                <p style="position:absolute; left: 50mm; width: 150mm; top:220mm;font-weight: 100;font-size: 1.5em;">{!shipment.clofor_com_cfs__Freight_Collect_Prepaid__c} AS ARRANGED</p>
+                <h3 style="position:absolute; left: 33.9mm; width: 50mm; top:256mm; text-align: center;">
+                    <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Prepaid_at__c}" rendered="{!MasterAt == 'Prepaid' && shipment.clofor_com_cfs__Prepaid_at__c != null}"/> -->
+                    <apex:outputText style="float: left;" value="JAPAN" rendered="{!MasterAt == 'Prepaid'}"/>
+                </h3>
+                <h3 style="position:absolute; left: 82.5mm; width: 50mm; top:256mm; text-align: center;">
+                        <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!MasterAt == 'Collect' && shipment.clofor_com_cfs__Payable_at__c != null}"/> -->
+                        <apex:outputText style="float: left;" value="DESTINATION" rendered="{!MasterAt == 'Collect'}"/>
+                </h3>
+                 <!-- Prepaid Collect -->
+                 <!-- <h3 style="position:absolute; left: 126.8mm; width: 28mm; top:214mm;">JAPAN</h3>
+                 <h3 style="position:absolute; left: 163mm; width: 28mm; top:214mm;">
+                     <apex:outputText value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!shipment.clofor_com_cfs__Payable_at__c != null}"/>
+                     <apex:outputText value="DESTINATION" rendered="{!shipment.clofor_com_cfs__Payable_at__c == null}"/>
+                 </h3> -->
+                <h3 style="position:absolute; left: 127.6mm; width: 35mm; top:256mm;">
+                    <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c != null}">
+                        <apex:param value="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c}"/>
+                    </apex:outputText>
+                    <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c == null}">
+                        <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                    </apex:outputText>
+                </h3>
+                <h3 style="position:absolute; left: 25.4mm; width: 28mm; top:278mm;">
+                    <apex:outputText value="{0, date, dd'/'MM'/'yyyy}">
+                        <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                    </apex:outputText>
+                </h3>
+                <h3 style="position:absolute; left: 71mm; width: 40mm; top:278mm;">
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Vessle__c != null && shipment.clofor_com_cfs__Voy_No__c != null}" value="{!shipment.clofor_com_cfs__Vessle__c} {!shipment.clofor_com_cfs__Voy_No__c}"/>
+    
+                </h3>
+            </apex:outputPanel>
+            <!-- SURRENDERED BILL -->
+            <apex:outputPanel rendered="{!TypeOfForm == 'SURRENDERED BILL' && billing != 'none'}">
+                <div style="position:absolute; z-index:-2; left:0px; top: 0px; right: 0px;">
+                    <img style="height: 296mm" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.BLOriginal__c	}" width="100%"
+                        />
+                        <div style="{! IF(isCreateCondition != true,'display: none;', '')};">
+                            <img style="height: 280mm" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.BLOriginal2__c}" width="100%"
+                            />
+                        </div>
+                    </div>
+                    <div style="position: absolute;width: 94.5%;left: 25px;{! IF(isCreateNumber != true,'display: none;', '')};{! IF(isCreateCondition != true,'top: 1150px;', 'top: 2300px;')};">
+                    <br/>
+                    <!-- ATTACHMENT SHEET -->
+                    <table border="1.1px solid black" style="width: 100%; font-size:11px;padding-left: 35px;">
+                        <col width = "25%"/>
+                        <col width = "50%"/>
+                        <col width = "25%"/>
+        
+                        <tr style="height: 15px;">
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="Ref No."/></td>
+                            <td rowspan="2" style="text-align: center; border: 1.1px solid black; font-size: 16px;"><apex:outputText value="ATTACHMENT SHEET"/></td>
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="H B/L No."/></td>
+                        </tr>
+                        <tr style="height: 15px;">
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+                            </td>
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__HBL_Number_SEA_AIR__c}"/>
+                            </td>
+                        </tr>
+                        <tr style="height:985px;">
+                            <td colspan="3" style="border: 1.1px solid black; vertical-align: top; padding-left: 5px;">
+                                <apex:outputText escape="false" style="white-space: pre-line;" value="{!shipment.Attachment__c}"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+               <!-- Shipment -->
+               <h3 style="position:absolute; left: 14.6mm; top:11mm; width: 370px; white-space: pre-line;font-weight: lighter;">
+                <!-- <apex:outputField value="{!shipment.HouseShipper__c}"/> -->
+                <apex:outputText rendered="{!shipment.HouseShipper__c != null}" value="{!shipment.HouseShipper__c}" style="white-space: pre-line;" escape="false;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c != null && shipment.HouseShipper__c == null}" value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+
+                    <apex:outputText style="" rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c == null && shipment.HouseShipper__c == null}">    
+                                               <!-- <h3 style="position:absolute; left: 14.3mm; top:10mm; width: 300px; white-space: pre-line;"><apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}"/></h3>
+                        
+                        <h3 style="position:absolute; left: 14.2mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="TEL: {!shipment.clofor_com_cfs__shipper__r.Phone}"/></h3>
+                        <h3 style="position:absolute; left: 42.5mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}"/></h3> -->
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Fax != null && shipment.clofor_com_cfs__shipper__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__shipper__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" rendered="{!shipment.HouseShipper__c}"/> -->
+            </h3>
+            <!-- Consignee -->
+            <h3 style="position:absolute; left: 14.7mm; top:36.5mm; width: 370px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.HouseConsignee__c != null}" value="{!shipment.HouseConsignee__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c != null && shipment.HouseConsignee__c == null}" value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c == null && shipment.HouseConsignee__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Fax != null && shipment.clofor_com_cfs__Cnee__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- Notify Address  -->
+            <h3 style="position:absolute; left: 14.7mm; top:63mm; width: 370px; white-space: pre-line;">
+                
+                <apex:outputText rendered="{!shipment.HouseNotifyParty__c != null}" value="{!shipment.HouseNotifyParty__c}" escape="false" style="white-space: pre-line;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c != null && shipment.HouseNotifyParty__c == null}" value="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c == null && shipment.HouseNotifyParty__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Fax != null && shipment.clofor_com_cfs__Notifyparty__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                
+            </h3>
+            <!-- Ocean vessel -->
+            <h3 style="position:absolute; left: 160.8mm; top:11mm;">{!shipment.clofor_com_cfs__HBL__c}</h3>
+            <h3 style="position:absolute; left: 15mm; top:97.5mm;">{!shipment.clofor_com_cfs__Vessle__c}</h3>
+            <h3 style="position:absolute; left: 63.7mm; top:97.5mm;">{!shipment.clofor_com_cfs__Voy_No__c}</h3>
+            <!-- Port of discharge -->
+            <h3 style="position:absolute; left: 14.6mm; top:106.5mm; width:100mm;">{!shipment.clofor_com_cfs__PortOfDischargeDetailPrint__c}</h3>
+            <!-- Place of reciept -->
+            <h3 style="position:absolute; left: 14.9mm; top:89mm; width:110mm;">{!shipment.clofor_com_cfs__PlaceOfReceiptDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:89mm; width:50;left: 55mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <!-- Port of Loading  -->
+            <h3 style="position:absolute; left: 63.5mm; top:89mm; width:80mm;">{!shipment.clofor_com_cfs__PortOfLoadingDetailPrint__c}</h3>
+            <!-- Place of delivery  -->
+            <h3 style="position:absolute; left: 63.7mm; top:106.5mm;width:80mm;">{!shipment.clofor_com_cfs__PlaceOfDeliveryDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:106.5mm; width:50;left: 105mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <h3 style="position:absolute; left: 112.5mm; top:93.6mm;width:360px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.MasterConsignee__c != null}" value="{!UPPER(shipment.MasterConsignee__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c != null }" value="{!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c == null }" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax == null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null && shipment.clofor_com_cfs__DeliveryAgent__r.Phone == null}">
+                            FAX: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Fax)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__DeliveryAgent__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- <h6 style="position:absolute; left: 90mm; top:146mm; width:50mm; white-space: pre-line;">{!shipment.clofor_com_cfs__Item__c}</h6> -->
+            <!-- Gross weight -->
+            <h4 style="position:absolute; right: 29mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__weight__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">{!shipment.clofor_com_cfs__weight__c}</h4>
+            <h4 style="position:absolute; right: 3.5mm; width: 50mm; top:122.5mm;"><apex:outputText value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/></h4> -->
+            <!-- Measurement -->
+            <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__CBM__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="CBM" rendered="{!shipment.clofor_com_cfs__CBM__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:220mm;">
+                <apex:outputText value="{!TypeOfPrint}"/>
+            </h4> -->
+            <!-- CODE Block -->
+            <div style="position:absolute; left: 12mm; width: 110mm; top:163mm;display: table;vertical-align: bottom;height: 35mm;">
+                <div style="display: table-cell; width: 110mm;vertical-align: bottom;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/>
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/>
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/> -->
+                    </h4>
+                </div>
+            </div>
+            <!-- REMARK -->
+            <div style="position:absolute; left: 12mm; width: 50mm; top:121mm;display: table;vertical-align: top;height: 35mm;">
+                <div style="display: table-cell; width: 50mm;vertical-align: top;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <!-- <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/> -->
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/> -->
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/>
+                    </h4>
+                </div>
+            </div>
+            <h4 style="position:absolute; left: 40mm; width: 36mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{0,number,###,###,###}">
+                    <apex:param value="{!shipment.clofor_com_cfs__carton__c}"/>
+                </apex:outputText>
+                <br/>
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__UnitType__c}(s)"/>
+            </h4>
+            <h3 style="position:absolute; left: 46mm; width: 150mm; top:197mm;">{!shipment.clofor_com_cfs__NumberOfContainers__c}</h3>
+            <h4 style="position:absolute; left: 78.5mm; width: 150mm; top:115mm;font-weight: bold;">
+                <apex:outputText value="Shipper’s load & count"/>
+            </h4>
+            <h4 style="position:absolute; left: 78mm; width: 83mm; top:121mm;white-space: pre-line;">
+                <apex:outputText value="{!shipment.clofor_com_cfs__Item__c}" rendered="{!shipment.Description_Long__c == null}"/>
+                <apex:outputText value="{!shipment.Description_Long__c}" rendered="{!shipment.Description_Long__c != null}"/>
+            </h4>
+            <h3 style="position:absolute; left: 75.5mm; width: 28mm; top:265mm;text-align: center;">{!shipment.clofor_com_cfs__No_of_Original_BL__c}</h3>
+            <h3 id="numb" style="position:absolute; left: 163.1mm; top:34mm; width: 57mm;float: left;font-weight: 900;"> 
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__BLtype__c == 'ORIGINAL'}" value="{!TypeOfPrint}"/>
+            </h3>
+
+            <h3 id="numb" style="position:absolute; right: 7mm; width: 57mm; top:178mm;float: left;font-weight: 900;"> 
+                <!-- <apex:outputText rendered="{!shipment.clofor_com_cfs__BLtype__c == 'ORIGINAL'}" value="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.surrendered_img__c}"/> -->
+                <img style="height: 100%" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.surrendered_img__c}" width="100%"
+                        />
+            </h3>
+
+            <p style="position:absolute; left: 50mm; width: 150mm; top:220mm;font-weight: 100;font-size: 1.5em;">{!shipment.clofor_com_cfs__Freight_Collect_Prepaid__c} AS ARRANGED</p>
+            <h3 style="position:absolute; left: 34mm; width: 50mm; top:256mm; text-align: center;">
+                <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Prepaid_at__c}" rendered="{!MasterAt == 'Prepaid' && shipment.clofor_com_cfs__Prepaid_at__c != null}"/> -->
+                <apex:outputText style="float: left;" value="JAPAN" rendered="{!MasterAt == 'Prepaid'}"/>
+            </h3>
+            <h3 style="position:absolute; left: 82.5mm; width: 50mm; top:256mm; text-align: center;">
+                    <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!MasterAt == 'Collect' && shipment.clofor_com_cfs__Payable_at__c != null}"/> -->
+                    <apex:outputText style="float: left;" value="DESTINATION" rendered="{!MasterAt == 'Collect'}"/>
+            </h3>
+             <!-- Prepaid Collect -->
+             <!-- <h3 style="position:absolute; left: 126.8mm; width: 28mm; top:214mm;">JAPAN</h3>
+             <h3 style="position:absolute; left: 163mm; width: 28mm; top:214mm;">
+                 <apex:outputText value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!shipment.clofor_com_cfs__Payable_at__c != null}"/>
+                 <apex:outputText value="DESTINATION" rendered="{!shipment.clofor_com_cfs__Payable_at__c == null}"/>
+             </h3> -->
+            <h3 style="position:absolute; left: 127.6mm; width: 35mm; top:256mm;">
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c != null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c}"/>
+                </apex:outputText>
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c == null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 25.4mm; width: 28mm; top:278mm;">
+                <apex:outputText value="{0, date, dd'/'MM'/'yyyy}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 71mm; width: 40mm; top:278mm;">
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Vessle__c != null && shipment.clofor_com_cfs__Voy_No__c != null}" value="{!shipment.clofor_com_cfs__Vessle__c} {!shipment.clofor_com_cfs__Voy_No__c}"/>
+
+            </h3>
+            <h3 style="padding-top: 980px;margin-right: 400px;"> 
+                <apex:outputText value="{!signature.Signature__c}" escape="false"
+                        />
+                        <!-- {!signature.Signature__c} -->
+            </h3>
+            </apex:outputPanel>
+             <!-- DRAFT BL -->
+             <apex:outputPanel rendered="{!TypeOfForm == 'DRAFT BL' && billing != 'none'}">
+                <div style="position:absolute; z-index:-2; left:0px; top: 0px; right: 0px;">
+                    <img style="height: 293mm" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.DraftBL__c	}" width="100%"
+                        />
+                        <div style="{! IF(isCreateCondition != true,'display: none;', '')};">
+                            <img style="height: 280mm" align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.BLOriginal2__c}" width="100%"
+                            />
+                        </div>
+                    </div>
+                    <div style="position: absolute;width: 94.5%;left: 25px;{! IF(isCreateNumber != true,'display: none;', '')};{! IF(isCreateCondition != true,'top: 1150px;', 'top: 2300px;')};">
+                    <br/>
+                    <!-- ATTACHMENT SHEET -->
+                    <table border="1.1px solid black" style="width: 100%; font-size:11px;padding-left: 35px;">
+                        <col width = "25%"/>
+                        <col width = "50%"/>
+                        <col width = "25%"/>
+        
+                        <tr style="height: 15px;">
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="Ref No."/></td>
+                            <td rowspan="2" style="text-align: center; border: 1.1px solid black; font-size: 16px;"><apex:outputText value="ATTACHMENT SHEET"/></td>
+                            <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="H B/L No."/></td>
+                        </tr>
+                        <tr style="height: 15px;">
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+                            </td>
+                            <td style="border: 1.1px solid black; text-align: center;">
+                                <apex:outputText value="{!shipment.clofor_com_cfs__HBL_Number_SEA_AIR__c}"/>
+                            </td>
+                        </tr>
+                        <tr style="height:985px;">
+                            <td colspan="3" style="border: 1.1px solid black; vertical-align: top; padding-left: 5px;">
+                                <apex:outputText escape="false" style="white-space: pre-line;" value="{!shipment.Attachment__c}"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+               <!-- Shipment -->
+               <h3 style="position:absolute; left: 14.3mm; top:10mm; width: 370px; white-space: pre-line;font-weight: lighter;">
+                <!-- <apex:outputField value="{!shipment.HouseShipper__c}"/> -->
+                <apex:outputText rendered="{!shipment.HouseShipper__c != null}" value="{!shipment.HouseShipper__c}" style="white-space: pre-line;" escape="false;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c != null && shipment.HouseShipper__c == null}" value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+
+                    <apex:outputText style="" rendered="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c == null && shipment.HouseShipper__c == null}">    
+                        <!-- <h3 style="position:absolute; left: 14.3mm; top:10mm; width: 300px; white-space: pre-line;"><apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}"/></h3>
+                        
+                        <h3 style="position:absolute; left: 14.2mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="TEL: {!shipment.clofor_com_cfs__shipper__r.Phone}"/></h3>
+                        <h3 style="position:absolute; left: 42.5mm; top:27mm; width: 300px; white-space: pre-line;"><apex:outputText value="FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}"/></h3> -->
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Fax != null && shipment.clofor_com_cfs__shipper__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__shipper__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__shipper__r.Phone != null && shipment.clofor_com_cfs__shipper__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__shipper__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__shipper__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__shipper__r.InformationonBL__c}" rendered="{!shipment.HouseShipper__c}"/> -->
+            </h3>
+            <!-- Consignee -->
+            <h3 style="position:absolute; left: 14.3mm; top:35.5mm; width: 370px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.HouseConsignee__c != null}" value="{!shipment.HouseConsignee__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c != null && shipment.HouseConsignee__c == null}" value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c == null && shipment.HouseConsignee__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Fax != null && shipment.clofor_com_cfs__Cnee__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Cnee__r.Phone != null && shipment.clofor_com_cfs__Cnee__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Cnee__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Cnee__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- Notify Address  -->
+            <h3 style="position:absolute; left: 14.3mm; top:62mm; width: 370px; white-space: pre-line;">
+                
+                <apex:outputText rendered="{!shipment.HouseNotifyParty__c != null}" value="{!shipment.HouseNotifyParty__c}" escape="false" style="white-space: pre-line;"/>
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c != null && shipment.HouseNotifyParty__c == null}" value="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.InformationonBL__c == null && shipment.HouseNotifyParty__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax == null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Fax != null && shipment.clofor_com_cfs__Notifyparty__r.Phone == null}">
+                            FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__Notifyparty__r.Phone != null && shipment.clofor_com_cfs__Notifyparty__r.Fax != null}">
+                            TEL: {!shipment.clofor_com_cfs__Notifyparty__r.Phone} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__Notifyparty__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                
+            </h3>
+            <!-- Ocean vessel -->
+            <h3 style="position:absolute; left: 158.8mm; top:10mm;">{!shipment.clofor_com_cfs__HBL__c}</h3>
+            <h3 style="position:absolute; left: 14.5mm; top:96.5mm;">{!shipment.clofor_com_cfs__Vessle__c}</h3>
+            <h3 style="position:absolute; left: 63.3mm; top:96.5mm;">{!shipment.clofor_com_cfs__Voy_No__c}</h3>
+            <!-- Port of discharge -->
+            <h3 style="position:absolute; left: 14.2mm; top:105.5mm; width:100mm;">{!shipment.clofor_com_cfs__PortOfDischargeDetailPrint__c}</h3>
+            <!-- Place of reciept -->
+            <h3 style="position:absolute; left: 14.5mm; top:88mm; width:110mm;">{!shipment.clofor_com_cfs__PlaceOfReceiptDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:88mm; width:50;left: 55mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <!-- Port of Loading  -->
+            <h3 style="position:absolute; left: 62.9mm; top:88mm; width:80mm;">{!shipment.clofor_com_cfs__PortOfLoadingDetailPrint__c}</h3>
+            <!-- Place of delivery  -->
+            <h3 style="position:absolute; left: 63.2mm; top:105.5mm;width:80mm;">{!shipment.clofor_com_cfs__PlaceOfDeliveryDetailPrint__c}</h3>
+            <h3 style="position:absolute; top:105.5mm; width:50;left: 105mm">
+                <apex:outputText style="float: right" value="{!cargotype}"/>
+            </h3>
+            <h3 style="position:absolute; left: 112.5mm; top:93.6mm;width:360px; white-space: pre-line;">
+                <!-- <apex:outputText >Consignee</apex:outputText><br/> -->
+                    <apex:outputText rendered="{!shipment.MasterConsignee__c != null}" value="{!UPPER(shipment.MasterConsignee__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c != null }" value="{!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c)}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c == null }" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax == null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null && shipment.clofor_com_cfs__DeliveryAgent__r.Phone == null}">
+                            FAX: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Fax)} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null && shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null}">
+                            TEL: {!UPPER(shipment.clofor_com_cfs__DeliveryAgent__r.Phone)} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAX: {!shipment.clofor_com_cfs__DeliveryAgent__r.Fax}
+                        </apex:outputText>
+                    </apex:outputText>
+                <!-- <apex:outputField value="{!shipment.HouseConsignee__c}"/> -->
+                <!-- <apex:outputText value="{!shipment.clofor_com_cfs__Cnee__r.InformationonBL__c}" rendered="{!shipment.HouseConsignee__c}"/> -->
+            </h3>
+            <!-- <h6 style="position:absolute; left: 90mm; top:146mm; width:50mm; white-space: pre-line;">{!shipment.clofor_com_cfs__Item__c}</h6> -->
+            <!-- Gross weight -->
+            <h4 style="position:absolute; right: 29mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__weight__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">{!shipment.clofor_com_cfs__weight__c}</h4>
+            <h4 style="position:absolute; right: 3.5mm; width: 50mm; top:122.5mm;"><apex:outputText value="KGS" rendered="{!shipment.clofor_com_cfs__weight__c != null}"/></h4> -->
+            <!-- Measurement -->
+            <h4 style="position:absolute; right: 10mm; width: 50mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__CBM__c}"/>
+                <br/>
+                <apex:outputText style="float: right;" value="CBM" rendered="{!shipment.clofor_com_cfs__CBM__c != null}"/>
+            </h4>
+            <!-- <h4 style="position:absolute; right: 10mm; width: 50mm; top:220mm;">
+                <apex:outputText value="{!TypeOfPrint}"/>
+            </h4> -->
+            <!-- CODE Block -->
+            <div style="position:absolute; left: 12mm; width: 110mm; top:163mm;display: table;vertical-align: bottom;height: 35mm;">
+                <div style="display: table-cell; width: 110mm;vertical-align: bottom;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/>
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/>
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/> -->
+                    </h4>
+                </div>
+            </div>
+            <!-- REMARK -->
+            <div style="position:absolute; left: 12mm; width: 50mm; top:121mm;display: table;vertical-align: top;height: 35mm;">
+                <div style="display: table-cell; width: 50mm;vertical-align: top;height: 35mm;">
+                    <h4 style="text-align: left;">
+                        <!-- <apex:outputText value="{!shipment.Container_Type_All__c}"/><br/> -->
+                        <!-- <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Container_Measurement_Details__c}"/><br/> -->
+                        <apex:outputText style="padding-top: 2px;white-space: pre-line;" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/>
+                    </h4>
+                </div>
+            </div>
+            <h4 style="position:absolute; left: 40mm; width: 36mm; top:121mm;">
+                <apex:outputText style="float: right;" value="{0,number,###,###,###}">
+                    <apex:param value="{!shipment.clofor_com_cfs__carton__c}"/>
+                </apex:outputText>
+                <br/>
+                <apex:outputText style="float: right;" value="{!shipment.clofor_com_cfs__UnitType__c}(s)"/>
+            </h4>
+            <h3 style="position:absolute; left: 46mm; width: 150mm; top:195mm;">{!shipment.clofor_com_cfs__NumberOfContainers__c}</h3>
+            <h4 style="position:absolute; left: 78mm; width: 150mm; top:114mm;font-weight: bold;">
+                <apex:outputText value="Shipper’s load & count"/>
+            </h4>
+            <h4 style="position:absolute; left: 78mm; width: 83mm; top:121mm;white-space: pre-line;">
+                <apex:outputText value="{!shipment.clofor_com_cfs__Item__c}" rendered="{!shipment.Description_Long__c == null}"/>
+                <apex:outputText value="{!shipment.Description_Long__c}" rendered="{!shipment.Description_Long__c != null}"/>
+            </h4>
+            <h3 style="position:absolute; left: 75mm; width: 28mm; top:262mm;text-align: center;">{!shipment.clofor_com_cfs__No_of_Original_BL__c}</h3>
+            <!-- <h3 id="numb" style="position:absolute; left: 169.1mm; top:34mm; width: 57mm;float: left;font-weight: 900;"> 
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__BLtype__c == 'ORIGINAL'}" value="{!TypeOfPrint}"/>
+            </h3> -->
+            <h3 id="numb" style="position:absolute; right: -10mm; width: 57mm; top:166mm;float: left;font-weight: 900;"> 
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__BLtype__c == 'ORIGINAL'}" value="{!TypeOfPrint}"/>
+            </h3>
+            <p style="position:absolute; left: 50mm; width: 150mm; top:220mm;font-weight: 100;font-size: 1.5em;">{!shipment.clofor_com_cfs__Freight_Collect_Prepaid__c} AS ARRANGED</p>
+            <h3 style="position:absolute; left: 33.7mm; width: 50mm; top:253mm; text-align: center;">
+                <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Prepaid_at__c}" rendered="{!MasterAt == 'Prepaid' && shipment.clofor_com_cfs__Prepaid_at__c != null}"/> -->
+                <apex:outputText style="float: left;" value="JAPAN" rendered="{!MasterAt == 'Prepaid'}"/>
+            </h3>
+            <h3 style="position:absolute; left: 82.3mm; width: 50mm; top:253mm; text-align: center;">
+                    <!-- <apex:outputText style="float: left;" value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!MasterAt == 'Collect' && shipment.clofor_com_cfs__Payable_at__c != null}"/> -->
+                    <apex:outputText style="float: left;" value="DESTINATION" rendered="{!MasterAt == 'Collect'}"/>
+            </h3>
+             <!-- Prepaid Collect -->
+             <!-- <h3 style="position:absolute; left: 126.8mm; width: 28mm; top:214mm;">JAPAN</h3>
+             <h3 style="position:absolute; left: 163mm; width: 28mm; top:214mm;">
+                 <apex:outputText value="{!shipment.clofor_com_cfs__Payable_at__c}" rendered="{!shipment.clofor_com_cfs__Payable_at__c != null}"/>
+                 <apex:outputText value="DESTINATION" rendered="{!shipment.clofor_com_cfs__Payable_at__c == null}"/>
+             </h3> -->
+            <h3 style="position:absolute; left: 127.5mm; width: 35mm; top:253mm;">
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c != null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c}"/>
+                </apex:outputText>
+                <apex:outputText value="YOKOHAMA {0, date, dd'/'MM'/'yyyy}" rendered="{!shipment.clofor_com_cfs__DATE_OF_HOUSE_BL_ISSUED__c == null}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 25.4mm; width: 28mm; top:274mm;">
+                <apex:outputText value="{0, date, dd'/'MM'/'yyyy}">
+                    <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                </apex:outputText>
+            </h3>
+            <h3 style="position:absolute; left: 71mm; width: 40mm; top:274mm;">
+                <apex:outputText rendered="{!shipment.clofor_com_cfs__Vessle__c != null && shipment.clofor_com_cfs__Voy_No__c != null}" value="{!shipment.clofor_com_cfs__Vessle__c} {!shipment.clofor_com_cfs__Voy_No__c}"/>
+
+            </h3>
+            </apex:outputPanel>
+        </div>
+
+        
+    </body>
+</apex:page>

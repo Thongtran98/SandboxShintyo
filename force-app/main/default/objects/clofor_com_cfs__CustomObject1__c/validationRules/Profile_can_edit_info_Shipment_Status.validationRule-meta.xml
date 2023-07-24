@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profile_can_edit_info_Shipment_Status</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( $Profile.Name &lt;&gt; &quot;[Rapid] Accounting&quot;,   ISPICKVAL(Shipment_Status__c , &quot;Accountant check&quot;) ,  ISCHANGED( LastModifiedById )    
+)</errorConditionFormula>
+    <errorMessage>Only User as [Rapid] Accounting can edit this field when Shipment Status has been Accountant Check!</errorMessage>
+</ValidationRule>

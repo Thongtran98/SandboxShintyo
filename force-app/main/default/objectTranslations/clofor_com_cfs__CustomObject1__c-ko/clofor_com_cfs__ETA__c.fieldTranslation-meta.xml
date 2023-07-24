@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>입항일이 서류에 없는 경우 선사,콘솔업체에게 문의하거나, 인터넷으로 검색합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__ETA__c</name>
+</CustomFieldTranslation>

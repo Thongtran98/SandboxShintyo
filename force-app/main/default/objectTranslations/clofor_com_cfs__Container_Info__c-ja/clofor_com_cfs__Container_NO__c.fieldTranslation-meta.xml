@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>11桁の数字を入力してください(船会社のコード4桁+コンテナコード7桁)</help>
+    <label></label>
+    <name>clofor_com_cfs__Container_NO__c</name>
+</CustomFieldTranslation>

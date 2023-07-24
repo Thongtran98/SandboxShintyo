@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>국내고객사 대상의 청구서 및 견적서에 명세로서 사용됩니다.공란으로 저장될 경우 자동으로 청구지불마스터의 ‘인쇄용상품명’이 입력됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__InsatuyouSyohin__c</name>
+</CustomFieldTranslation>

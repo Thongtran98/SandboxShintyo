@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>残高記録を開始した時点でのドル口座の残高を入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__BALANCE_AT_START_USD__c</name>
+</CustomFieldTranslation>

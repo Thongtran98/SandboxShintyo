@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__LCLImport</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Subcategory__c</columns>
+    <columns>clofor_com_cfs__BuyKingaku__c</columns>
+    <columns>clofor_com_cfs__BuyAmountUSD__c</columns>
+    <columns>clofor_com_cfs__UNIT__c</columns>
+    <columns>clofor_com_cfs__Service_StartDate__c</columns>
+    <columns>clofor_com_cfs__YukouKigen__c</columns>
+    <columns>clofor_com_cfs__Supplier__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>clofor_com_cfs__ProductFlag__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__ProductSearch__c</field>
+        <operation>contains</operation>
+        <value>LCL Import</value>
+    </filters>
+    <label>LCL Import</label>
+    <language>en_US</language>
+</ListView>

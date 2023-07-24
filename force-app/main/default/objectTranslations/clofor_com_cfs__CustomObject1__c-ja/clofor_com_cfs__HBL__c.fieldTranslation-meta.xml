@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;輸入:HB/Lを参照し入力してください。輸出:出港日が入力された際、&quot;&quot;CloFor初期設定&quot;&quot;で設定した文字列を使用したhouse B/L番号が自動的に生成されます。House B/L番号は挿入後修正することができます。&quot;</help>
+    <label></label>
+    <name>clofor_com_cfs__HBL__c</name>
+</CustomFieldTranslation>

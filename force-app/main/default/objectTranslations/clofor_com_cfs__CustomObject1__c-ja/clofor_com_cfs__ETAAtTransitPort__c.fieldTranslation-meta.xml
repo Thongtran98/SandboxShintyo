@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>積替港への入港日を入力してください。積替が複数ある場合は、複数積替から数字を選択し、積替レコードを作成できます。最後の積替レコードに入力された積替港への入港日が自動的に挿入されます。</help>
+    <label></label>
+    <name>clofor_com_cfs__ETAAtTransitPort__c</name>
+</CustomFieldTranslation>

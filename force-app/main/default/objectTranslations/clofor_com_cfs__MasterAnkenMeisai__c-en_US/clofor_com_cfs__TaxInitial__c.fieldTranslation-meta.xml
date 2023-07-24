@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The consumption tax ratio will be input automatically when remain Empty. Input the Tax ratio and the amount of value will be changed to amount that included the Tax. For item that is Tax-free or non-Tax, the Tax Ratio will be set 0%.</help>
+    <label></label>
+    <name>clofor_com_cfs__TaxInitial__c</name>
+</CustomFieldTranslation>

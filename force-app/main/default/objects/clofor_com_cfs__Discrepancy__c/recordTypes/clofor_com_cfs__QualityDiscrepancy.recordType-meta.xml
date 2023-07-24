@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__QualityDiscrepancy</fullName>
+    <active>true</active>
+    <description>Discrepancy on quality such as damaged, wet, or expired.</description>
+    <label>Quality Discrepancy</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CargoTroubleType__c</picklist>
+        <values>
+            <fullName>Damaged</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Expired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wet</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__DiscrepancyAdjustType__c</picklist>
+        <values>
+            <fullName>Ignore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase replenishment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update On-hand Quantity in System</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__DiscrepancyType_del__c</picklist>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shortage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

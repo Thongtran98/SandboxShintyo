@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Container_Search_20_Dry</fullName>
+    <columns>clofor_com_cfs__HBL_SHIPMENT__c</columns>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Container__c</columns>
+    <columns>clofor_com_cfs__Container_NO__c</columns>
+    <columns>clofor_com_cfs__Seal_No__c</columns>
+    <columns>clofor_com_cfs__QUANTITY_PACKAGES__c</columns>
+    <columns>clofor_com_cfs__MEASUREMENT_CBM__c</columns>
+    <columns>clofor_com_cfs__GROSS_WEIGHT__c</columns>
+    <columns>clofor_com_cfs__NET_WEIGHT__c</columns>
+    <columns>clofor_com_cfs__GOODS__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__Container__c</field>
+        <operation>equals</operation>
+        <value>20&apos;DC</value>
+    </filters>
+    <label>Container Search-20&apos; Dry</label>
+    <language>en_US</language>
+</ListView>

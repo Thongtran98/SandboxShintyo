@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tài liệu bên dưới phải được gửi tới nhà kho -H A/N -H B/L -D/O -M A/N -CLP</help>
+    <label></label>
+    <name>clofor_com_cfs__SEND_DOC_TO_CFS__c</name>
+</CustomFieldTranslation>

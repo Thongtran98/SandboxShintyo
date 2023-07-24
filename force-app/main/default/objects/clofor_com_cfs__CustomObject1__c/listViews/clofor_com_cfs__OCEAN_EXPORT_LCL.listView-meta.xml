@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__OCEAN_EXPORT_LCL</fullName>
+    <columns>clofor_com_cfs__ID__c</columns>
+    <columns>clofor_com_cfs__TranporationType__c</columns>
+    <columns>clofor_com_cfs__Field1__c</columns>
+    <columns>clofor_com_cfs__status__c</columns>
+    <columns>clofor_com_cfs__Partner__c</columns>
+    <columns>clofor_com_cfs__HBL__c</columns>
+    <columns>clofor_com_cfs__ETD__c</columns>
+    <columns>clofor_com_cfs__CutDay__c</columns>
+    <columns>clofor_com_cfs__Container__c</columns>
+    <columns>clofor_com_cfs__Vessle__c</columns>
+    <columns>clofor_com_cfs__carton__c</columns>
+    <columns>clofor_com_cfs__POD__c</columns>
+    <columns>clofor_com_cfs__POL__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__CustomObject1__c.clofor_com_cfs__RecordType</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__TranporationType__c</field>
+        <operation>equals</operation>
+        <value>LCL</value>
+    </filters>
+    <label>2.2 Ocean Export-LCL</label>
+</ListView>

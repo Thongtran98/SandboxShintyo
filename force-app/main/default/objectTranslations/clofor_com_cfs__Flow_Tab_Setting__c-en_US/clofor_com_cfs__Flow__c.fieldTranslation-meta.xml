@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Flow__c</name>
+    <picklistValues>
+        <masterLabel>AFR Services &amp; Contracts</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-FMS/TMS</masterLabel>
+        <translation>CloACM-Accounting Module-FMS/TMS/SMS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-Purchasing/Expenses &amp; Management</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-Shared Accounting Service</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-Transaction</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-WMS</masterLabel>
+        <translation>CloACM-Accounting Module-WMS/TOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloAPI-API Module for External Integration</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloASM-Asset Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloAudit-Audit Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCRM-Cust/Ptnr/Vendor Relationship and Pricing Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCRM-Quotation &amp; Contract</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCSM-Consolidation Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCha-Chatter Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFCM-Facility Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFLM-JP24H AFR Module</masterLabel>
+        <translation>CloFIM-Jp24h AFR Module</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFMS-Forwarding System</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFRM-Financial Report Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloHRM-Human Resource Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloINV-Inventory Module</masterLabel>
+        <translation>CloIVM-Inventory Module</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloIoT-IoT Integration</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloKPI-KPI Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloLog-Logistic Module</masterLabel>
+        <translation>CloLog-Logistics Module</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSCM Package-Code</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSCM Package-Customization</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSCM Package-Setup</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSMS-Ship System</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloTMS-Transportation System</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloTOS-Terminal System</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloTRS-Trading System</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloWMS-Warehouse System</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloWTM-Cargo Tracking Module &amp; Searching</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting/Advisory Service &amp; Best Practice</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FMS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language &amp; Time Zone</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>My Setup</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Release &amp; Tutorial/Scenario for Self-Learning</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operation Management</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Organization Governance &amp; Monitoring</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PC Setup &amp; Data Upload Template</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

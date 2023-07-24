@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Payment_Method__c</name>
+    <picklistValues>
+        <masterLabel>小切手</masterLabel>
+        <translation>Ngân phiếu (Séc)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>振込</masterLabel>
+        <translation>Chuyển khoản</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>振込/現金</masterLabel>
+        <translation>TM/CK</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>現金</masterLabel>
+        <translation>Tiền mặt</translation>
+    </picklistValues>
+</CustomFieldTranslation>

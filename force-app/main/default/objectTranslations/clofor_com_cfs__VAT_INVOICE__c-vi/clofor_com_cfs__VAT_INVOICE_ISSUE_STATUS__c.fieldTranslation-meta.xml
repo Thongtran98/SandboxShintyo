@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__VAT_INVOICE_ISSUE_STATUS__c</name>
+    <picklistValues>
+        <masterLabel>Draft VAT Confirmed</masterLabel>
+        <translation>Hóa đơn VAT nháp đã được xác nhận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft VAT Received</masterLabel>
+        <translation>Hóa đơn VAT nháp đã nhận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft VAT Sent</masterLabel>
+        <translation>Hóa đơn VAT nháp đã gởi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Original VAT Cancelled</masterLabel>
+        <translation>Hóa đơn VAT gốc đã hủy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Original VAT Mistaken</masterLabel>
+        <translation>Hóa đơn VAT gốc có lỗi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Original VAT Received</masterLabel>
+        <translation>Hóa đơn VAT gốc nhận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Original VAT Returned</masterLabel>
+        <translation>Hóa đơn VAT gốc đã hoàn trả</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Original VAT Sent</masterLabel>
+        <translation>Hóa đơn VAT gốc đã gởi</translation>
+    </picklistValues>
+</CustomFieldTranslation>

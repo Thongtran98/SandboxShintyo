@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__CapacityKG_can_not_greater_than_parents</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISBLANK(clofor_com_cfs__ParentLocator__c)),
+OR(
+AND(clofor_com_cfs__CapacityKG__c &gt;  ( clofor_com_cfs__ParentLocator__r.clofor_com_cfs__CapacityKG__c -  (clofor_com_cfs__ParentLocator__r.clofor_com_cfs__SharedCapacityKG__c )),
+OR(ISNEW(), ISCHANGED(clofor_com_cfs__ParentLocator__c))),
+
+AND(OR(clofor_com_cfs__CapacityKG__c &gt;  ( clofor_com_cfs__ParentLocator__r.clofor_com_cfs__CapacityKG__c -  (clofor_com_cfs__ParentLocator__r.clofor_com_cfs__SharedCapacityKG__c - clofor_com_cfs__CapacityKG__c)), clofor_com_cfs__CapacityKG__c &gt; clofor_com_cfs__ParentLocator__r.clofor_com_cfs__CapacityKG__c), ISCHANGED(clofor_com_cfs__CapacityKG__c))
+))</errorConditionFormula>
+    <errorMessage>Capacity KG can not greater than Capacity KG can be shared of parent locator.</errorMessage>
+</ValidationRule>

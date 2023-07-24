@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__WORK_TYPE__c</name>
+    <picklistValues>
+        <masterLabel>FORKLIFT DRIVER</masterLabel>
+        <translation>フォークリフト運転手</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FULL CONTAINER TRUCK DRIVER</masterLabel>
+        <translation>コンテナトラック（ドレージ）運転手</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gate Operator</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ICD Operator</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Port Operator</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRUCK DRIVER</masterLabel>
+        <translation>トラック運転手</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terminal Operator</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vessel Crew</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WAREHOUSE STAFF</masterLabel>
+        <translation>倉庫スタッフ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse Inbound Operator</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse Outbound Operator</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yard Operator</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

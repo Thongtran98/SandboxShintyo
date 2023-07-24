@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>이 항목에 체크할 경우, &apos;화물 진행 사항&apos;의 변경이 있을 경우마다 파트너에게 자동으로 메일을 송신합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__ParMailAutoSent__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Đồng bộ với tổng Khối lượng gộp trong Chi tiết container Khi đáp ứng các điều kiện sau; Phương thức vân tải là FCL, loại container và Số lượng container không để trống, Khối lượng gộp trong Chi tiết container không để trống</help>
+    <label></label>
+    <name>clofor_com_cfs__weight__c</name>
+</CustomFieldTranslation>

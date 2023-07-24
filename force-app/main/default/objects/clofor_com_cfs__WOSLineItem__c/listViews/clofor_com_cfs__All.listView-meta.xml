@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>clofor_com_cfs__WorkOrderID__c</columns>
+    <columns>clofor_com_cfs__WorkOrderService__c</columns>
+    <columns>clofor_com_cfs__WOSRecordType__c</columns>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__CargoStatus__c</columns>
+    <columns>clofor_com_cfs__Cargo__c</columns>
+    <columns>clofor_com_cfs__IsCargoScanned__c</columns>
+    <columns>clofor_com_cfs__Locator__c</columns>
+    <columns>clofor_com_cfs__ScanTime__c</columns>
+    <columns>clofor_com_cfs__Worker__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

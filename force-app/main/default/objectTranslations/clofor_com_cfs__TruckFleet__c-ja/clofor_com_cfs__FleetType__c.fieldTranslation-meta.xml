@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__FleetType__c</name>
+    <picklistValues>
+        <masterLabel>Crane</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FULL CONTAINER TRUCK HEAD</masterLabel>
+        <translation>コンテナトラック（ドレージ）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forklift</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHASSI</masterLabel>
+        <translation>シャーシ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRUCK</masterLabel>
+        <translation>トラック</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Turntable</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vessel</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrapping Machine</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

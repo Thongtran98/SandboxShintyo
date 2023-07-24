@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Assgin_value_to_Amount_Collected_JPY</name>
+        <label>Assgin value to Amount Collected JPY</label>
+        <locationX>833</locationX>
+        <locationY>564</locationY>
+        <assignmentItems>
+            <assignToReference>varTRXplan.AmountCollectedJPY__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Amount_Collected_JPY</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_record</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_value_for_Amount_Paid_JPY</name>
+        <label>Assign value for Amount Paid JPY</label>
+        <locationX>1352</locationX>
+        <locationY>355</locationY>
+        <assignmentItems>
+            <assignToReference>varTRXplan.AmountPaidJPY__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Amount_Paid_JPY</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_record</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Predefined_field</name>
+        <label>Predefined field</label>
+        <locationX>565</locationX>
+        <locationY>374</locationY>
+        <assignmentItems>
+            <assignToReference>varTRXplan.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Transaction_RecordType.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varTRXplan.PaymentRequest__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Payment_Request_record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Screen_input</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_Transaction_RecordType</name>
+        <label>Check Transaction RecordType</label>
+        <locationX>905</locationX>
+        <locationY>382</locationY>
+        <defaultConnector>
+            <targetReference>Create_record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>AmountPaid_JPY</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Transaction_RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>AmountPaidJPY</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_value_for_Amount_Paid_JPY</targetReference>
+            </connector>
+            <label>AmountPaid JPY</label>
+        </rules>
+        <rules>
+            <name>AmountCollected_JPY</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Transaction_RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>AmountCollectedJPY</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assgin_value_to_Amount_Collected_JPY</targetReference>
+            </connector>
+            <label>Amount Collected JPY</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>DevelopnameFor</name>
+        <dataType>String</dataType>
+        <expression>IF(
+	AND(
+		ISPICKVAL({!Get_Payment_Request_record.clofor_com_cfs__TrxPlanType__c}, &quot;Payment Request&quot;),
+		{!Get_Payment_Request_record.RecordType.DeveloperName} = &quot;PaymentRequestlocalCurrency&quot;),&quot;AmountPaidJPY&quot;,
+IF(
+	AND(
+		ISPICKVAL({!Get_Payment_Request_record.clofor_com_cfs__TrxPlanType__c}, &quot;Collection plan&quot;),
+		{!Get_Payment_Request_record.RecordType.DeveloperName} = &quot;PaymentRequestlocalCurrency&quot;),&quot;AmountCollectedJPY&quot;,
+IF(
+	AND(
+		ISPICKVAL({!Get_Payment_Request_record.clofor_com_cfs__TrxPlanType__c}, &quot;Payment Request&quot;),
+		{!Get_Payment_Request_record.RecordType.DeveloperName} = &quot;PaymentRequestUSDCurrency&quot;),&quot;AmountPaidUSD&quot;,
+IF(
+	AND(
+		ISPICKVAL({!Get_Payment_Request_record.clofor_com_cfs__TrxPlanType__c}, &quot;Collection plan&quot;),
+		{!Get_Payment_Request_record.RecordType.DeveloperName} = &quot;PaymentRequestUSDCurrency&quot;),&quot;AmountCollected_USD&quot;,NULL		
+	))))</expression>
+    </formulas>
+    <interviewLabel>Re {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Payment Request | Screen flow to create new Transaction</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Create_record</name>
+        <label>Create record</label>
+        <locationX>1158</locationX>
+        <locationY>735</locationY>
+        <inputReference>varTRXplan</inputReference>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Payment_Request_record</name>
+        <label>Get Payment Request record</label>
+        <locationX>836</locationX>
+        <locationY>189</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Transaction_RecordType</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>clofor_com_cfs__PaymentRequest__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Transaction_RecordType</name>
+        <label>Get Transaction RecordType</label>
+        <locationX>457</locationX>
+        <locationY>243</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Predefined_field</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>DevelopnameFor</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>SobjectType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Transaction__c</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>RecordType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <name>Create_transaction</name>
+        <label>Create transaction</label>
+        <locationX>298</locationX>
+        <locationY>127</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Get_Payment_Request_record</targetReference>
+        </connector>
+        <nextOrFinishButtonLabel>Create Transaction</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Screen_input</name>
+        <label>Screen input</label>
+        <locationX>736</locationX>
+        <locationY>381</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Check_Transaction_RecordType</targetReference>
+        </connector>
+        <fields>
+            <fieldType>ObjectProvided</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>false</isRequired>
+            <objectFieldReference>varTRXplan.PaymentRequest__c</objectFieldReference>
+        </fields>
+        <fields>
+            <name>RecordType</name>
+            <fieldText>&lt;p&gt;&lt;strong&gt;Record Type: &lt;/strong&gt;{!Get_Transaction_RecordType.Name}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Amount_Collected_JPY</name>
+            <dataType>Number</dataType>
+            <fieldText>Amount Collected (JPY)</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Get_Transaction_RecordType.Name</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <stringValue>Amount Collected (JPY)</stringValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Amount_Paid_JPY</name>
+            <dataType>Number</dataType>
+            <fieldText>Amount Paid (JPY)</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Get_Transaction_RecordType.Name</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <stringValue>Amount Paid (JPY)</stringValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Screen_input_Section1</name>
+            <fieldType>RegionContainer</fieldType>
+            <fields>
+                <name>Screen_input_Section1_Column1</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>varTRXplan.AmountPaidUSD__c</objectFieldReference>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>12</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <isRequired>false</isRequired>
+            <regionContainerType>SectionWithoutHeader</regionContainerType>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Get_Transaction_RecordType.Name</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <stringValue>Amount Paid (USD)</stringValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <fieldType>ObjectProvided</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>false</isRequired>
+            <objectFieldReference>varTRXplan.AmountCollectedUSD__c</objectFieldReference>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Get_Transaction_RecordType.Name</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <stringValue>Amount Collected (USD)</stringValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <fieldType>ObjectProvided</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>false</isRequired>
+            <objectFieldReference>varTRXplan.PaymentMethod__c</objectFieldReference>
+        </fields>
+        <fields>
+            <fieldType>ObjectProvided</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>false</isRequired>
+            <objectFieldReference>varTRXplan.TransactionDate__c</objectFieldReference>
+        </fields>
+        <fields>
+            <fieldType>ObjectProvided</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>false</isRequired>
+            <objectFieldReference>varTRXplan.Notes__c</objectFieldReference>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>610</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Create_transaction</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>varTRXplan</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Transaction__c</objectType>
+    </variables>
+</Flow>

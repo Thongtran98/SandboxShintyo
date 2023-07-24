@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ConsolidationType__c</name>
+    <picklistValues>
+        <masterLabel>自社混載(Consolidation Cargo)</masterLabel>
+        <translation>Hàng ghép</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>複数BL貨物(Multiple BL Cargo)</masterLabel>
+        <translation>Hàng nhiều vận đơn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通常貨物(Normal Cargo)</masterLabel>
+        <translation>Hàng hóa thông thường</translation>
+    </picklistValues>
+</CustomFieldTranslation>

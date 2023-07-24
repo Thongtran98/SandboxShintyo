@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tổng tiền được tính là Tổng tiền bán ( nội địa) + Tổng tiền bán ( nội địa)* thuế suất.</help>
+    <label></label>
+    <name>clofor_com_cfs__SellInTaxAmountJPY__c</name>
+</CustomFieldTranslation>

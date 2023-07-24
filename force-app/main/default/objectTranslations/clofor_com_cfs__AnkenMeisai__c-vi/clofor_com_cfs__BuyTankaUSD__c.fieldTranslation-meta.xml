@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu không nhập thủ công, ô này sẽ tự động nhập liệu 1.Nó sẽ tham chiếu tới Đơn giá mua (USD) trong object Quản lý dịch vụ. 2. Nếu không, được tính = Đơn giá mua (Local)* Tỷ giá mua</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyTankaUSD__c</name>
+</CustomFieldTranslation>

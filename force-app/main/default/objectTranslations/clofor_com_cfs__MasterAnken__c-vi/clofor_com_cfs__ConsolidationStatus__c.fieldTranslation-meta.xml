@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ConsolidationStatus__c</name>
+    <picklistValues>
+        <masterLabel>A/N Issued</masterLabel>
+        <translation>Đã gửi A/N</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Application for Customs Clearance-Inbound</masterLabel>
+        <translation>Tờ khai hải quan - Nhập</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Application for Customs Clearance-Outbound</masterLabel>
+        <translation>Tờ khai hải quan - Xuất</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arrived at Destination Port</masterLabel>
+        <translation>Đã cập cảng đích</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B/L Issued</masterLabel>
+        <translation>Đã phát hành B/L</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booked a Container</masterLabel>
+        <translation>Đã đăng ký container</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Buying Amount Confirmed</masterLabel>
+        <translation>Đã xác nhận chi phí</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel</masterLabel>
+        <translation>Đã hủy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collected Charges</masterLabel>
+        <translation>Đã thu tiền</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation>Đã hoàn thành</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copy from Consolidation to F/TMS S/O</masterLabel>
+        <translation>Sao chép dữ liệu đến F/TMS S/O</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost Allocation from Consolidation Buying to F/TMS Buying</masterLabel>
+        <translation>Phân bổ chi phí consol đến chi phí lô hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Consolidation Buying Record</masterLabel>
+        <translation>Tạo thông tin Hàng gom-Mua</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create F/TMS Billing Records</masterLabel>
+        <translation>Tạo thông tin DV F/TMS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Created F/TMS S/O and Connect to Consolidation</masterLabel>
+        <translation>Đã tạo thông tin lô hàng và liên kết với hàng gom</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Examination-Inbound</masterLabel>
+        <translation>Hải Quan kiểm tra chứng từ - Nhập</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Examination-Outbound</masterLabel>
+        <translation>Hải Quan kiểm tra chứng từ - Xuất</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Inspection-Inbound</masterLabel>
+        <translation>Hải Quan kiểm hàng thực tế - Nhập</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Inspection-Outbound</masterLabel>
+        <translation>Hải Quan kiểm hàng thực tế - Xuất</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D/O Issued</masterLabel>
+        <translation>Đã phát hành D/O</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delayed</masterLabel>
+        <translation>Hoãn chuyến</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Departured at Origin Port</masterLabel>
+        <translation>Đã xuất phát tại cảng đi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Permitted</masterLabel>
+        <translation>Được phép Xuất khẩu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Permitted</masterLabel>
+        <translation>Được phép Nhập khẩu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Issued Container Load Plan</masterLabel>
+        <translation>Phát hành kế hoạch đóng hàng trong cont</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Load to Truck/Delivery to Import</masterLabel>
+        <translation>Xếp hàng lên xe tải để Nhập khẩu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loaded  Cargo to Container</masterLabel>
+        <translation>Xếp hàng lên container</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Voyage</masterLabel>
+        <translation>Đang trên hành trình</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Settled</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plan Consolidation Service</masterLabel>
+        <translation>Lên kế hoạch cho consol</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transport Container to Warehouse</masterLabel>
+        <translation>Vận chuyển container đến kho</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transport Container to Yard</masterLabel>
+        <translation>Vận chuyển container đến bãi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unload from Container</masterLabel>
+        <translation>Dỡ hàng từ container</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unload from Truck/Pickup from Shipper</masterLabel>
+        <translation>Dỡ hàng từ xe tải phía Shippper</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__RollUpBalanceAfterOffsetUSD__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>ROLL-UP BALANCE AFTER OFFSET(USD)</label>
+    <summarizedField>clofor_com_cfs__DepositOffset__c.clofor_com_cfs__ClosingBalanceUSD__c</summarizedField>
+    <summaryForeignKey>clofor_com_cfs__DepositOffset__c.clofor_com_cfs__DepositID__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

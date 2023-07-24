@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__DeliveryCompanyType__c</name>
+    <picklistValues>
+        <masterLabel>当社手配</masterLabel>
+        <translation>당사 대행운송</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>荷主手配</masterLabel>
+        <translation>화주직접운송</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通関業者手配</masterLabel>
+        <translation>통관업체 대행운송</translation>
+    </picklistValues>
+</CustomFieldTranslation>

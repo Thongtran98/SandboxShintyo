@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__all</fullName>
+    <columns>clofor_com_cfs__Anken__c</columns>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__SeikyuBangou__c</columns>
+    <columns>clofor_com_cfs__Seikyusaki__c</columns>
+    <columns>clofor_com_cfs__PaymentTo__c</columns>
+    <columns>clofor_com_cfs__InsatuyouSyohin__c</columns>
+    <columns>clofor_com_cfs__SellInTaxAmountJPY__c</columns>
+    <columns>clofor_com_cfs__SellAmountJPN__c</columns>
+    <columns>clofor_com_cfs__SellAmountUSD__c</columns>
+    <columns>clofor_com_cfs__BuyAmountJPN__c</columns>
+    <columns>clofor_com_cfs__Ararigaku__c</columns>
+    <columns>clofor_com_cfs__RiekirituMisei__c</columns>
+    <columns>clofor_com_cfs__Nyukingaku__c</columns>
+    <columns>clofor_com_cfs__SellDifferentiation__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>1.All LISTS</label>
+</ListView>

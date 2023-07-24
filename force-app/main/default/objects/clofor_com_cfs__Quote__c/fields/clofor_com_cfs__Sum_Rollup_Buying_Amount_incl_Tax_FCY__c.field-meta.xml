@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Sum_Rollup_Buying_Amount_incl_Tax_FCY__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Sum Rollup Buying Amount incl Tax(FCY)</label>
+    <summarizedField>clofor_com_cfs__QuoteLine__c.clofor_com_cfs__Buying_Amount_incl_Tax_FCY_For__c</summarizedField>
+    <summaryForeignKey>clofor_com_cfs__QuoteLine__c.clofor_com_cfs__QuoteID__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

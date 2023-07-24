@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__RF40Quantity__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( text(clofor_com_cfs__Container__c) =&quot;40&apos;RF&quot;, clofor_com_cfs__ContainerNumber__c,
+IF( text(clofor_com_cfs__Container2__c) =&quot;40&apos;RF&quot;, clofor_com_cfs__ContainerNumber2__c,
+IF( text(clofor_com_cfs__Container3__c) =&quot;40&apos;RF&quot;, clofor_com_cfs__ContainerNumber3__c,
+IF( text(clofor_com_cfs__Container4__c) =&quot;40&apos;RF&quot;, clofor_com_cfs__ContainerNumber4__c,
+IF( text(clofor_com_cfs__Container5__c) =&quot;40&apos;RF&quot;, clofor_com_cfs__ContainerNumber6__c,
+IF( text(clofor_com_cfs__Container6__c) =&quot;40&apos;RF&quot;, clofor_com_cfs__ContainerNumber5__c,
+IF( text(clofor_com_cfs__Container7__c) =&quot;40&apos;RF&quot;, clofor_com_cfs__ContainerNumber7__c, 0)))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>40&apos;RF Quantity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

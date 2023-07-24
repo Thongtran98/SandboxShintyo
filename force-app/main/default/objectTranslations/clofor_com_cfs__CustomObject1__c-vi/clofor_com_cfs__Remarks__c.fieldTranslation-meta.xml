@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu có bất kì lời nhận xét nào về khách hàng sẽ được thể hiện trên A/N hoặc chi tiết Bill (Ocean S/I) hoặc manifest của lô hàng Air, nhập trong vùng này và nó sẽ hiện trên các chứng từ</help>
+    <label></label>
+    <name>clofor_com_cfs__Remarks__c</name>
+</CustomFieldTranslation>

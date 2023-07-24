@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Total Amount of Buying(Local)=Unit Price of Buying(Local)*Charge Unit (Total). This amount is before tax. If Tax-free or Non-tax, Total Amount of Buying(Local) will be equal to Amount Buying including Tax(Local).</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyAmountJPN__c</name>
+</CustomFieldTranslation>

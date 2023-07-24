@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập đường dẫn thông tin tỉ giá của ngân hàng dùng để tham chiếu.</help>
+    <label></label>
+    <name>clofor_com_cfs__Mgmt_ExRate_referto__c</name>
+</CustomFieldTranslation>

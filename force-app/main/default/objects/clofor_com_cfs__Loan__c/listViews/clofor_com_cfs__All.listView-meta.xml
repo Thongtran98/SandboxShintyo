@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>clofor_com_cfs__LoanStatus__c</columns>
+    <columns>clofor_com_cfs__Lender__c</columns>
+    <columns>clofor_com_cfs__Active__c</columns>
+    <columns>clofor_com_cfs__OpeningBalance__c</columns>
+    <columns>clofor_com_cfs__LoanAmount__c</columns>
+    <columns>clofor_com_cfs__ClosingBalance__c</columns>
+    <columns>clofor_com_cfs__Interests__c</columns>
+    <columns>clofor_com_cfs__InterestsPaymentFrequency__c</columns>
+    <columns>clofor_com_cfs__InterestsPaymentOnDate__c</columns>
+    <columns>clofor_com_cfs__AccountedDate__c</columns>
+    <columns>clofor_com_cfs__LoanTermMonth__c</columns>
+    <columns>clofor_com_cfs__LoanTermYear__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>리베이트를 요청한 사람이 근무하는 회사를 선택하여 주십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__KickbackTo__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

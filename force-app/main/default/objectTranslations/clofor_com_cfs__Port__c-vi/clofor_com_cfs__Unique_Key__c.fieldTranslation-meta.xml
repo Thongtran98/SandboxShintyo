@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Đây là tổ hợp của mã cảng mới và loại cảng để tạo thành mã cảng đặc biệt. Từ này sẽ không xuất hiện trên giao diện người dùng</help>
+    <label></label>
+    <name>clofor_com_cfs__Unique_Key__c</name>
+</CustomFieldTranslation>

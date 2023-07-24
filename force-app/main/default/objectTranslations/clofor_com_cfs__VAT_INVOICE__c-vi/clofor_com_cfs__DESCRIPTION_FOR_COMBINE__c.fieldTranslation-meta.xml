@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập mô tả dịch vụ trên hóa đơn khi nhiều giao nhận được kết hợp và xem như là một bản mô tả dịch vụ.</help>
+    <label></label>
+    <name>clofor_com_cfs__DESCRIPTION_FOR_COMBINE__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&apos;あり&apos;を選択すると通関管理オブジェクトが作成されます。通関に関する詳細情報をオブジェクトに入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__Custom__c</name>
+    <picklistValues>
+        <masterLabel>×(NO)</masterLabel>
+        <translation>なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>○(YES)</masterLabel>
+        <translation>あり</translation>
+    </picklistValues>
+</CustomFieldTranslation>

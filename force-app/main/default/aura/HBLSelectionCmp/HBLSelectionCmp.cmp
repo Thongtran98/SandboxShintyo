@@ -1,0 +1,224 @@
+<aura:component
+  
+  implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction"
+  access="global"
+  controller="HBLController"
+>
+  <aura:attribute name="billing" type="String" />
+  <aura:attribute name="checkBL" type="Boolean" default="false"/>
+  <aura:attribute name="checkApp" type="Boolean" default="false"/>
+  <aura:attribute name="checkAll" type="Boolean" default="false"/>
+  <aura:attribute
+    name="billOptions"
+    type="List"
+    default="[
+   { label: 'None', value: 'none' },
+   { label: 'Background', value: 'background', selected: 'true' }
+   ]"
+  />
+  <aura:attribute
+  name="billAllOptions"
+  type="List"
+  default="[
+ { label: 'Background', value: 'background', selected: 'true' }
+ ]"
+/>
+  <aura:attribute
+    name="printOptions"
+    type="List"
+    default="[
+   { label: 'None', value: 'none', selected: 'true' },
+   { label: 'First', value: 'first' },
+   { label: 'Second', value: 'second' },
+   { label: 'Third', value: 'third' },
+   { label: 'Fourth', value: 'fourth' }
+   ]"
+  />
+  <aura:attribute
+    name="printOptions2"
+    type="List"
+    default="[
+   { label: 'First', value: 'first', selected: 'true' },
+   { label: 'Second', value: 'second' }
+   ]"
+  />
+  <aura:attribute name="formtype" type="String" />
+  <aura:attribute name="printtype" type="String" />
+  <aura:attribute name="isNumber" type="Boolean" default="false"/>
+  <aura:attribute name="isCondition" type="Boolean" default="false"/>
+  <!-- <aura:attribute name="counter1" default="1" type="integer"/> -->
+  <aura:attribute
+    name="typeOptions"
+    type="List"
+    default="[
+   { label: 'Waybill Original', value: 'waybill', selected: 'true' },
+   { label: 'Waybill Copy', value: 'waybillcopy' },
+   { label: 'BL Original', value: 'bl' },
+   { label: 'BL Copy', value: 'blcopy' },
+   { label: 'Draft BL', value: 'draftbl' },
+   { label: 'Surrendered Bill', value: 'surrenderedbill' },
+   ]"
+  />
+  <aura:attribute
+  name="typeAllOptions"
+  type="List"
+  default="[
+ { label: 'Waybill Copy', value: 'waybillcopy', selected: 'true' },
+ { label: 'BL Copy', value: 'blcopy' },
+ { label: 'Draft BL', value: 'draftbl' },
+ ]"
+/>
+
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+  <div>
+    <div class="slds-card">
+      <div class="slds-p-around_medium">
+        <div class="slds-section slds-is-open">
+          <div
+            aria-hidden="false"
+            class="slds-section__content"
+            id="expando-unique-id"
+          >
+            <lightning:select
+              aura:id="billingSelect"
+              name="select"
+              label="Type of Billing: "
+              value="{!v.billing}"
+            >
+            <aura:if isTrue="{!v.checkApp}">
+              <aura:iteration items="{!v.billOptions}" var="option">
+                <option
+                  text="{!option.label}"
+                  value="{!option.value}"
+                  selected="{!option.selected}"
+                />
+              </aura:iteration>
+            </aura:if>
+            <aura:if isTrue="{!v.checkAll}">
+              <aura:iteration items="{!v.billAllOptions}" var="option">
+                <option
+                  text="{!option.label}"
+                  value="{!option.value}"
+                  selected="{!option.selected}"
+                />
+              </aura:iteration>
+            </aura:if>
+            </lightning:select>
+
+          </div>
+          <!-- Approved -->
+        <div
+            aria-hidden="false"
+            class="slds-section__content"
+            id="expando-unique-id"
+          >
+          <aura:if isTrue="{!v.checkApp}">
+            <lightning:select
+            aura:id="billingSelectType"
+            name="selectType"
+            label="Type of Form: "
+            value="{!v.formtype}"
+            onchange="{!c.onBLChange}"
+          >
+            <aura:iteration items="{!v.typeOptions}" var="option">
+              <option
+                text="{!option.label}"
+                value="{!option.value}"
+                selected="{!option.selected}"
+              />
+            </aura:iteration>
+          </lightning:select>
+        </aura:if>
+        </div>
+        <!-- all value except Approved -->
+        <div
+        aria-hidden="false"
+        class="slds-section__content"
+        id="expando-unique-id"
+      >
+      <aura:if isTrue="{!v.checkAll}">
+        <lightning:select
+        aura:id="billingSelectType"
+        name="selectType"
+        label="Type of Form: "
+        value="{!v.formtype}"
+        onchange="{!c.onBLChange}"
+      >
+        <aura:iteration items="{!v.typeAllOptions}" var="option">
+          <option
+            text="{!option.label}"
+            value="{!option.value}"
+            selected="{!option.selected}"
+          />
+        </aura:iteration>
+      </lightning:select>
+    </aura:if>
+    </div>
+          <div
+            aria-hidden="false"
+            class="slds-section__content"
+            id="expando-unique-id"
+            
+          >
+          
+        <lightning:select
+          aura:id="billingSelect"
+          name="select"
+          label="Number of Prints: "
+          value="{!v.printtype}"
+        >
+        <aura:if isTrue="{!v.checkBL}">
+          <aura:iteration items="{!v.printOptions}" var="option">
+            <option
+              text="{!option.label}"
+              value="{!option.value}"
+              selected="{!option.selected}"
+            />
+          </aura:iteration>
+        </aura:if>
+      </lightning:select>
+          
+          
+        </div>
+
+          <div
+            aria-hidden="false"
+            class="slds-section__content"
+            id="expando-unique-id"
+            >
+            <ui:inputCheckbox
+              aura:id="checkboxNumberHBL"
+              label="Show ATTACHMENT SHEET?"
+              value="{!v.isNumber}"
+            />
+        </div>
+        <div
+        aria-hidden="false"
+        class="slds-section__content"
+        id="expando-unique-id"
+        >
+        <ui:inputCheckbox
+          aura:id="checkboxNumberHBL"
+          label="Show Page TERM AND CONDITION?"
+          value="{!v.isCondition}"
+        />
+    </div>
+          <div
+            aria-hidden="false"
+            class="slds-section__content"
+            id="expando-unique-id"
+          >
+            <lightning:button
+              variant="brand"
+              label="Generate"
+              title="Generate"
+              onclick="{!c.handleGenerate}"
+            />
+            <!-- Counter value is : {!numb} -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</aura:component>

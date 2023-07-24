@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>clofor_com_cfs__PayrollOrder__c</defaultLandingTab>
+    <description>HRM(Human Resource Module):Module to manage Human Resources; Employee, Payroll, PIT and Insurance.</description>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>AFR CloHRM-Human Resource Module</label>
+    <tabs>standard-Document</tabs>
+    <tabs>clofor_com_cfs__HRStandard__c</tabs>
+    <tabs>clofor_com_cfs__BonusIncentivesPolicy__c</tabs>
+    <tabs>clofor_com_cfs__Employee__c</tabs>
+    <tabs>clofor_com_cfs__PayrollOrder__c</tabs>
+    <tabs>clofor_com_cfs__PayrollSlip__c</tabs>
+    <tabs>clofor_com_cfs__BonusIncentivesCalculation__c</tabs>
+    <tabs>clofor_com_cfs__HSUInsurance__c</tabs>
+    <tabs>clofor_com_cfs__PersonalIncomeTax__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>clofor_com_cfs__NewNavigation</tabs>
+    <tabs>clofor_com_cfs__DownloadDocument</tabs>
+</CustomApplication>

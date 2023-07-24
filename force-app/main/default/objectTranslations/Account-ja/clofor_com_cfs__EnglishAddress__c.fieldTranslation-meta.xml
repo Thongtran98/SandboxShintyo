@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>英語での住所を入力してください。入力された英語名はB/LやA/Nなどのドキュメントに表示されます。</help>
+    <label></label>
+    <name>clofor_com_cfs__EnglishAddress__c</name>
+</CustomFieldTranslation>

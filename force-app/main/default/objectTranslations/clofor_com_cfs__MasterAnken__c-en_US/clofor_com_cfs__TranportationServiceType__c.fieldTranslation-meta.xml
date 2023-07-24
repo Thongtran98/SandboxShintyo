@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__TranportationServiceType__c</name>
+    <picklistValues>
+        <masterLabel>AIR</masterLabel>
+        <translation>Air</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BULK</masterLabel>
+        <translation>Bulk</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CFS/CFS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CFS/CY</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CY/CFS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CY/CY</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>매입 아이템이 미리 계산(관세와 같은 경우)되면 박스를 체크하세요</help>
+    <label></label>
+    <name>clofor_com_cfs__Tatekae__c</name>
+</CustomFieldTranslation>

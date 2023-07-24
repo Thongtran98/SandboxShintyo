@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Relationship__c</name>
+    <picklistValues>
+        <masterLabel>コピー</masterLabel>
+        <translation>Copy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>不要（パートナーとの清算）</masterLabel>
+        <translation>Unnecessary(Settlement with partner)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>不要（取引しない）</masterLabel>
+        <translation>Unnecessary(No deal)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>不要（現時点で取引がない=&gt;新規案件の対応の際には必要になる）</masterLabel>
+        <translation>Unnecessary(No deal by now -&gt; respond to with doc)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>原本</masterLabel>
+        <translation>Original</translation>
+    </picklistValues>
+</CustomFieldTranslation>

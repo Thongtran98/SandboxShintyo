@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CarType__c</name>
+    <picklistValues>
+        <masterLabel>10Ton</masterLabel>
+        <translation>10吨</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10Ton Air Suspension</masterLabel>
+        <translation>10吨 - 气垫</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10Ton Powergate</masterLabel>
+        <translation>10吨 - 升降台</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton</masterLabel>
+        <translation>2吨</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton Air Suspension</masterLabel>
+        <translation>2吨 - 气垫</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton Long</masterLabel>
+        <translation>2吨 - 长车身</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton Long Air Suspension</masterLabel>
+        <translation>2吨 - 长车身+气垫</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton Long Powergate</masterLabel>
+        <translation>2吨 - 长车身+升降台</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton Powergate</masterLabel>
+        <translation>2吨 - 升降台</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4Ton</masterLabel>
+        <translation>4吨</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4Ton Air Suspension</masterLabel>
+        <translation>4吨 - 气垫</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4Ton Powergate</masterLabel>
+        <translation>4吨 - 升降台</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4Ton consol</masterLabel>
+        <translation>4吨 - 拼车(拼装其他客人的货物）</translation>
+    </picklistValues>
+</CustomFieldTranslation>

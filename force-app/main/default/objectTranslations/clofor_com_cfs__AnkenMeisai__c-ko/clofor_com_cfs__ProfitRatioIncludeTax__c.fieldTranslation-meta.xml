@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>소비세포함이익율=(소비세포함 판매금액(표준통화)-소비세포함 매입금액(표준통화))/소비세포함 판매금액(표준통화)</help>
+    <label></label>
+    <name>clofor_com_cfs__ProfitRatioIncludeTax__c</name>
+</CustomFieldTranslation>

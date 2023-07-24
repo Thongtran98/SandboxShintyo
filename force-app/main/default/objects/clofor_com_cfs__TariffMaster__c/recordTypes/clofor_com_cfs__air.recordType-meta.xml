@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__air</fullName>
+    <active>false</active>
+    <description>Choose this Pricing when related with Air Forwarding.</description>
+    <label>AIR</label>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Air Freight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Clearance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ocean Freight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trucking</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__AIRLINE__c</picklist>
+        <values>
+            <fullName>5X-406-UPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7C-806-JEJU AIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7G--STAR FLYER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8Y-804-CHINA POSTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9C--SPRING   CORP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AA-001-AMERICAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AC-014-AIR CANADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AF-057-AIR FRANCE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AI-098- AIR INDIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AY-105-FINNAIR OYJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Airline list here</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BA-125-BRITISH AIRWAYS PLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BR-695-EVA AIRWAYS CORP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BX--AIR BUSAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C8-356-CARGOLUX ITALIA SPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA-999-AIR CHINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CI-297-CHINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CK-112-CHINA CARGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CV-172-CARGOLUX  INT%27L SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX-160-CATHAY PACIFIC AIRWAYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CZ-784-CHINA SOUTHERN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DL-006-DELTA %2C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EK-176-EMIRATES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EY-607-ETHIHAD AIRWAYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FD-900-AIR ASIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FM-112-SHANGHAI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FX-023-FEDEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA-126-GARUDA INDONESIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GE- -TRANS ASIA AIRWAYS COR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HX-851-HONG KONG AIRINES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HZ--SAKHALINSKIE AVIATRASSY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JL-131-JAPAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KA-043-DRAGON AIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KA-043-HONG KONG DRAGON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KE-180-KOREAN AIR LINES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KL-074-KLM ROYAL DUTCH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KZ-933-NIPPON CARGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA-045-LAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LD-152-AHK AIR HONG KONG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LH-020-LUFTHANSA CARGO AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LJ--JIN AIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MF-731-XIAMEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MH-232-MALAYSIA  SYSTEM BERHAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI-629-SILK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MM- -PEACH AVIATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS-077-EGYPTAIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MU-112-CHINA EASTERN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NH-205-ALL NIPPON AIRWAYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NQ- - AIR JAPAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX-675-AIR MACAU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK-064-CZECH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OS--AUSTRIAN  AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OZ-988-ASIANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PK--PAKISTAN INT%27L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO-403-POLAR AIR CARGO WORLDWIDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR-079-PHILIPPINE %2C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QF-081-QANTAS AIRWAYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QR-157-QATAR AIRWAYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RU-912-AIR BRIDGE CARGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC--CHANGDONG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SQ-618-SINGAPORE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SU-507-AEROFLOT RUSSIAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TG-217-THAI AIRWAYS INT%27L PUBLIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TK-235-TURKISH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TW- -T%E2%80%99WAY AIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TZ--SCOOT PRIVATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UA-016-UNITED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UL-603-SRILANKAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UO-128-HONG KONG EXPRESS AIRWAYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VN-738-VIETNAM  CORP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VS-932-VIRGIN ATLANTIC AIRWAYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Y8-871-YANGZIJIANG RIVER EXPRESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZE--EASTAR JET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZH--SHENZHEN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__AvailableHarbor__c</picklist>
+        <values>
+            <fullName>Add the port list here</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CarType__c</picklist>
+        <values>
+            <fullName>10Ton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10Ton Air Suspension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10Ton Powergate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2Ton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2Ton Air Suspension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2Ton Long</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2Ton Long Air Suspension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2Ton Long Powergate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2Ton Powergate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4Ton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4Ton Air Suspension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4Ton Powergate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Chasis__c</picklist>
+        <values>
+            <fullName>三軸</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>低装</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>四軸</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>通常</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CommodityCategory__c</picklist>
+        <values>
+            <fullName>Chemical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garment %26 Clothing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Household %2F Furniture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ContainerSize__c</picklist>
+        <values>
+            <fullName>All</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Currency__c</picklist>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CustomCategory__c</picklist>
+        <values>
+            <fullName>一般通関</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>動物申請</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>小額</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>暫定八条</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>植物申請</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>薬事申請</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>食品申請</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__DangerousClassification__c</picklist>
+        <values>
+            <fullName>1%2EExplosives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2EGases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2EFlammable Liquids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2EFlammable Solids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2EOxidizing Substances</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2EToxic %26 Infectious Substances</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2ERadioactive Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2ECorrosives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2EMiscellaneous Dangerous Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Dangerous Goods</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__EngProductSearch__c</picklist>
+        <values>
+            <fullName>Actual Expense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Deliver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Export Custom Clearance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Import Custom Clearance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oversea Local Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__EngSubcategory__c</picklist>
+        <values>
+            <fullName>%2B1000KGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2B100KGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2B300KGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2B45KGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2B500KGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B%2FB%28Break Bulk%29 Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B%2FL FEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basic charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C%2FC%28Charges Collect%29 FEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMMISSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSC%28Container Security SubCharge%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CY Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carry fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cleaning Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consolidation Allocation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs fee%281sheet%29-Big</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs fee%281sheet%29-Little</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs fee%282sheet%EF%BD%9E%29-Big</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs fee%282sheet%EF%BD%9E%29-Little</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs handling fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D%2FO FEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEBIT%28REFUND%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOC FEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Devanning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Divide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAF%2FBAF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAF%2FYAS%2FEBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fast charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fumigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holiday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Import consumption tax %28reimbursement%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial waste disposal fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial charge inspection fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Input and storage fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Journal fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kick-back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midnight%E3%83%BBEarly Morning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minimum Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCEAN FREIGHT Surcharge Excluded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCEAN FREIGHT Surcharge Included</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oversea Local Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORT CHARGE%28OTHER%27S FORWARDING%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORT CHARGE%28OWN COMPANY FORWARDING%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request application form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shed fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storage fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Charges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tariff %28advances%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaxial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W%2FH IN %26 OUT CHARGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait charge</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__EngTani__c</picklist>
+        <values>
+            <fullName>B%2FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CASE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CTN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Container</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KG</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LICENSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PALLET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R%2FTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SHEET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Set</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNIT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__FoodCategory__c</picklist>
+        <values>
+            <fullName>Dairy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fruits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oils</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protein</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vegetables</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__FoodSubCategory__c</picklist>
+        <values>
+            <fullName>Alcohol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avocados Oil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cafe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cornmeal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eggs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fish Oil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fluid Milk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fruit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fruit Juice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ice Cream</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuts Oil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oats</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Olives Oil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poultry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pudding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seafood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seeds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snacks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vegetable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vegetable Juice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wheat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yogurt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Frequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biannually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ProductSearch__c</picklist>
+        <values>
+            <fullName>Local Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>エア</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>倉庫</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>通関輸入</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>通関輸出</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>配送</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ROUTE_TYPE__c</picklist>
+        <values>
+            <fullName>Direct</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Transit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Subcategory__c</picklist>
+        <values>
+            <fullName>%2B1000KGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2B100KGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2B300KGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2B45KGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2B500KGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AIRFREIGHT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Airport Warehouse Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B%2FL FEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BB%28Break Bulk%29 Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basic Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C%2FC%28Charges Collect%29 Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMMISSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CY CHARGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carge Storage Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cargo In %26 Out Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clearing Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consolidation Allocation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Container Drayage%28Tri-x chassis%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Handling Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Clearance Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Clearance Charge - Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Clearance Charge%282 Page%29 - Big</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Clearance Charge%282 Page%29 - Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D%2FO FEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEBIT%28REFUND%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOC FEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Devanning Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documeting Application Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAF%2FBAF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fumigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highway Toll Gate Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holiday Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Import Consumption TAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection Attendance Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kickback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late Night%2FEarly Morning Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minimum Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCEAN FREIGHT Surcharge Excluded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCEAN FREIGHT Surcharge Included</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ocean Freight including all charges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ocean Freight including all charges%28Advance Payment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oversea Local Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Charges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAX%28Duty Payment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YAS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__TAX__c</picklist>
+        <values>
+            <fullName>NON-TAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAX</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>TAX-FREE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__TemperatureType__c</picklist>
+        <values>
+            <fullName>Chilled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frozen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__TimeUnit__c</picklist>
+        <values>
+            <fullName>Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minute</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Year</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__UNIT__c</picklist>
+        <values>
+            <fullName>B%2FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KG</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PALLET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R%2FTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Set</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>件</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>本</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__WarehouseType__c</picklist>
+        <values>
+            <fullName>CFS倉庫</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>一般倉庫</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>冷凍倉庫</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>冷蔵倉庫</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Zeibunrui__c</picklist>
+        <values>
+            <fullName>Non-Tax%28非課税%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAX%28課税%29</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Tax Free%28免税%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

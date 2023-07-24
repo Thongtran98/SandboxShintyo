@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Color__c</name>
+    <picklistValues>
+        <masterLabel>Ash black</masterLabel>
+        <translation>흑회색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beige</masterLabel>
+        <translation>베이지색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Black</masterLabel>
+        <translation>검은색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blue</masterLabel>
+        <translation>파란색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blue-green</masterLabel>
+        <translation>청록색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brown</masterLabel>
+        <translation>갈색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deep Violet</masterLabel>
+        <translation>짙은 보라색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Golden or gold</masterLabel>
+        <translation>황금색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Golden-brown</masterLabel>
+        <translation>황금갈색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green</masterLabel>
+        <translation>녹색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grey</masterLabel>
+        <translation>회색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Greyish-green</masterLabel>
+        <translation>담록회색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maroon</masterLabel>
+        <translation>고동색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orange</masterLabel>
+        <translation>오렌지색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>그외</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pearl white or white</masterLabel>
+        <translation>흰색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pink</masterLabel>
+        <translation>분홍색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Red</masterLabel>
+        <translation>빨간색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Silver</masterLabel>
+        <translation>은색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yellow</masterLabel>
+        <translation>노란색</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yellow green</masterLabel>
+        <translation>황록색</translation>
+    </picklistValues>
+</CustomFieldTranslation>

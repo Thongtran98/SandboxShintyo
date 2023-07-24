@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>លេខ 4 លេខ ខ្ទង់ ដោយ ផ្អែក លើការស្មានការចេញដំណើរ</help>
+    <label></label>
+    <name>clofor_com_cfs__MonthlyHBLID__c</name>
+</CustomFieldTranslation>

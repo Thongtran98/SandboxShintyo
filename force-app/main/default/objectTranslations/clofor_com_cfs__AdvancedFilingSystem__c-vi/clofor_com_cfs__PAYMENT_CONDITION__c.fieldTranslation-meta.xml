@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__PAYMENT_CONDITION__c</name>
+    <picklistValues>
+        <masterLabel>DEPOSIT</masterLabel>
+        <translation>Đặt cọc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER B/L</masterLabel>
+        <translation>Trên một B/L</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER FILING</masterLabel>
+        <translation>Theo khai báo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER MONTH</masterLabel>
+        <translation>Theo tháng</translation>
+    </picklistValues>
+</CustomFieldTranslation>

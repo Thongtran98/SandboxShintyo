@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__TotalGWfromCont__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Total G.W from Cont</label>
+    <summarizedField>clofor_com_cfs__ContainerGoodSO__c.clofor_com_cfs__GrossWeightMT__c</summarizedField>
+    <summaryForeignKey>clofor_com_cfs__ContainerGoodSO__c.clofor_com_cfs__GOODSSO__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__shimebi__c</name>
+    <picklistValues>
+        <masterLabel>20日締め</masterLabel>
+        <translation>By 20th</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>末締め</masterLabel>
+        <translation>By The End Of The Month</translation>
+    </picklistValues>
+</CustomFieldTranslation>

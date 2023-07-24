@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>clofor_com_cfs__CloTracking</defaultLandingTab>
+    <description>WTM(Web Tracking Module): Module to provide cargo status to customers, partners and vendors who need to know the cargo status.</description>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>AFR CloWTM-Web Tracking Module</label>
+    <tabs>clofor_com_cfs__CloTracking</tabs>
+    <tabs>clofor_com_cfs__NewNavigation</tabs>
+    <tabs>clofor_com_cfs__DownloadDocument</tabs>
+    <tabs>clofor_com_cfs__EBooking__c</tabs>
+</CustomApplication>

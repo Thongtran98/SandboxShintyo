@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__ReplenishmentCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>clofor_com_cfs__ProductID__c</fields>
+    <fields>clofor_com_cfs__Facility__c</fields>
+    <fields>clofor_com_cfs__ReorderPoint__c</fields>
+    <fields>clofor_com_cfs__ReorderQuantity__c</fields>
+    <fields>clofor_com_cfs__SafetyStock__c</fields>
+    <label>Replenishment Compact Layout</label>
+</CompactLayout>

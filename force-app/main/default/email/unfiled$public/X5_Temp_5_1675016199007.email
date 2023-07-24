@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">＊＊＊こちらは自動メールです。<br />
+本件に関してご質問などがございましたら、下記メールにてご連絡下さい。<br />
+輸出チームメール：export@sty-gate.com<br />
+&nbsp;<br />
+{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__shipper__c}}}<br />
+ご担当様<br />
+毎度　弊社のサービスをご利用くださり、誠にありがとうございます。<br />
+この度、貴社の{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD__c}}}向け輸出貨物の本船出港予定変更があるため、ご連絡させていただきます。<br />
+&nbsp;<br />
+＝＝＝＝＝＝＝＝＝概要＝＝＝＝＝＝＝＝＝=
+<ul>
+	<li>Shipment ID: {{{clofor_com_cfs__CustomObject1__c.Name}}}</li>
+	<li>Booking No: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__MASTER_BOOKINGNO__c}}}</li>
+	<li>SHIPPER: {{{clofor_com_cfs__CustomObject1__c.ShipperCompanyNameEng__c}}}</li>
+	<li>CNEE: {{{clofor_com_cfs__CustomObject1__c.ConsigneeCompanyNameEng__c}}}</li>
+	<li>POL: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POL__c}}}</li>
+	<li>POD: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD__c}}}</li>
+</ul>
+＝＝＝＝＝＝＝＝＝変更前＝＝＝＝＝＝＝＝＝
+
+<ul>
+	<li>Vessel: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Vessle__c}}}</li>
+	<li>Voy No: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Voy_No__c}}}</li>
+	<li>ETD: {{{clofor_com_cfs__CustomObject1__c.ETD_Prior__c}}}</li>
+	<li>ETA: {{{clofor_com_cfs__CustomObject1__c.ETA_Prior__c}}}</li>
+</ul>
+＝＝＝＝＝＝＝＝＝変更後＝＝＝＝＝＝＝＝＝
+
+<ul>
+	<li>Vessel: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Vessle__c}}}</li>
+	<li>Voy No: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Voy_No__c}}}</li>
+	<li>ETD: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETD__c}}}</li>
+	<li>ETA: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETA__c}}}</li>
+</ul>
+以上。<br />
+何卒よろしくお願いします。<br />
+新東洋ゲートインターナショナル株式会社<br />
+輸出チーム<br />
+Tel: 045-550-7196　Fax:045-550-7191<br />
+E-mail: export@sty-gate.com</body>
+</html>

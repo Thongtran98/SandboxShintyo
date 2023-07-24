@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chọn Xuất hóa đơn đỏ cho chỉ khi Xuất hóa đơn đỏ cho khác với Xuất hóa đơn cho.</help>
+    <label></label>
+    <name>clofor_com_cfs__VAT_INVOICE_TO__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

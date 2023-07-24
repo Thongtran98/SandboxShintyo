@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__offerstatus__c</name>
+    <picklistValues>
+        <masterLabel>Candidate accept</masterLabel>
+        <translation>Candidate accept</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Candidate reject</masterLabel>
+        <translation>Candidate reject</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent to candidate</masterLabel>
+        <translation>Sent to candidate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting for send</masterLabel>
+        <translation>Waiting for send</translation>
+    </picklistValues>
+</CustomFieldTranslation>

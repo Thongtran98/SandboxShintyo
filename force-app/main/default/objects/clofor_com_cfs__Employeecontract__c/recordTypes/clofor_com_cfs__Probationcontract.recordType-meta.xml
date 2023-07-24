@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Probationcontract</fullName>
+    <active>true</active>
+    <label>Probation Contract</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Article1_13__c</picklist>
+        <values>
+            <fullName>Chuyên viên tư vấn hệ thống%2F Consulting and SF Admin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__title__c</picklist>
+        <values>
+            <fullName>Giám đốc %2F Director</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

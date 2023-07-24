@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>출항지부터 환선지까지의 선박입니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__MTRANSIT_VESSEL__c</name>
+</CustomFieldTranslation>

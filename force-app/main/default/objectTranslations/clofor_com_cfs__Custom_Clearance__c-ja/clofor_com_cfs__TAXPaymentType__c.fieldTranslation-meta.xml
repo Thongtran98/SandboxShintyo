@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__TAXPaymentType__c</name>
+    <picklistValues>
+        <masterLabel>Advanced Payment by Our company</masterLabel>
+        <translation>立替</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deferred Payment</masterLabel>
+        <translation>延納</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct Payment</masterLabel>
+        <translation>ダイレクト決済</translation>
+    </picklistValues>
+</CustomFieldTranslation>

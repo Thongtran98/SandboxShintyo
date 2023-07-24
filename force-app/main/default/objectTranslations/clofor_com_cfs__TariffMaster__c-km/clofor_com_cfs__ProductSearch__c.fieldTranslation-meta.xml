@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>clofor_com_cfs__ProductSearch__c</name>
+    <picklistValues>
+        <masterLabel>AIR</masterLabel>
+        <translation>ជើងអាកាស</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk</masterLabel>
+        <translation>Bulk</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consolidation Cost Allocation</masterLabel>
+        <translation>Consolidation Cost Allocation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivery</masterLabel>
+        <translation>Delivery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Custom Clearance</masterLabel>
+        <translation>Export Custom Clearance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Export</masterLabel>
+        <translation>FCL Export</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Import</masterLabel>
+        <translation>FCL Import</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Triangular Trade</masterLabel>
+        <translation>FCL Triangular Trade</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Container Truck(Drayage)</masterLabel>
+        <translation>Full Container Truck(Drayage)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Custom Clearance</masterLabel>
+        <translation>Import Custom Clearance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Export</masterLabel>
+        <translation>LCL Export</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Import</masterLabel>
+        <translation>LCL Import</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Triangular Trade</masterLabel>
+        <translation>LCL Triangular Trade</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local Charge</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation>ផលិតផល</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse</masterLabel>
+        <translation>Warehouse</translation>
+    </picklistValues>
+</CustomFieldTranslation>

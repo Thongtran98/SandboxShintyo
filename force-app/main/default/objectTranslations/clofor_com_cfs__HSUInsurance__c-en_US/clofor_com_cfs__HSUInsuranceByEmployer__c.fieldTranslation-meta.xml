@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>H/S/UNEM Insurance by Employer=Salary to Contribute Social Insurance*H/S/UNEM Insurance Ratio by Employer in HR Policy.</help>
+    <label></label>
+    <name>clofor_com_cfs__HSUInsuranceByEmployer__c</name>
+</CustomFieldTranslation>

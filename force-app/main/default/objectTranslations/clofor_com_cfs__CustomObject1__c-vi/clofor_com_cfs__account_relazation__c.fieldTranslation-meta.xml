@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập- chỉ với công ty giao nhận: dự kiến ngày đến, Nhập- dịch vụ khai quan: ngày dự kiến đi, Xuất- chỉ với công ty giao nhận: thời hạn chót, Xuất- dịch vụ khai quan: ngày dự kiến đi.</help>
+    <label></label>
+    <name>clofor_com_cfs__account_relazation__c</name>
+</CustomFieldTranslation>

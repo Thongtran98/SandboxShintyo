@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>発行日を修正する場合に使用。こちらに入力がある場合、帳票にこちらの値が出力されます</help>
+    <label></label>
+    <name>clofor_com_cfs__PrinteDate_ED__c</name>
+</CustomFieldTranslation>

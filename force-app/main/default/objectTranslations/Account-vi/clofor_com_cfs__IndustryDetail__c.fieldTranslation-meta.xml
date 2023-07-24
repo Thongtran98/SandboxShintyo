@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__IndustryDetail__c</name>
+    <picklistValues>
+        <masterLabel>2ND HAND AUTOMOBILE</masterLabel>
+        <translation>Thiết bị qua sử dụng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCESSORY</masterLabel>
+        <translation>Thiết bị phụ tùng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APPAREL</masterLabel>
+        <translation>Hàng dệt may</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARTS / HANDICRAFTS</masterLabel>
+        <translation>Thủ công mỹ nghệ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CERAMIC</masterLabel>
+        <translation>Đồ gốm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHEMICAL</masterLabel>
+        <translation>Hóa chất</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSOLIDATION</masterLabel>
+        <translation>Hợp nhất</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CUSTOMS CLEARANCE</masterLabel>
+        <translation>Khai báo hải quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DRAYAGE</masterLabel>
+        <translation>Vận tải nội địa từ nhà cung cấp đến cảng bốc hàng và từ cảng dỡ hàng đến điểm bốc hàng khỏi container đường biển</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRICAL MACHINERY</masterLabel>
+        <translation>Máy móc, thiết bị điện</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRICITY･GAS</masterLabel>
+        <translation>Điện / Ga</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIBER</masterLabel>
+        <translation>Sợi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FISHING GEAR</masterLabel>
+        <translation>Dụng cụ đánh cá</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOOD</masterLabel>
+        <translation>Thức ăn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FRESH FOOD</masterLabel>
+        <translation>Thực phẩm tươi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FURNITURE・INTERIOR</masterLabel>
+        <translation>Đồ dùng nội thất</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENERAL GOODS</masterLabel>
+        <translation>Hàng hóa chung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GOVERNMENT</masterLabel>
+        <translation>Chính phủ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INFRASTRUCTURE</masterLabel>
+        <translation>Thiết bị dùng cho cơ sở hạ tầng kinh tế</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KIDS GARMENTS</masterLabel>
+        <translation>Quần áo cho trẻ con</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LADY GARMENTS</masterLabel>
+        <translation>Quần áo cho phụ nữ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LEATHER GOODS</masterLabel>
+        <translation>Xe hơi. Phụ tùng ô tô</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MACHINERY</masterLabel>
+        <translation>Máy móc, thiết bị</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAN GARMENTS</masterLabel>
+        <translation>Quần áo cho đàn ông</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDIA</masterLabel>
+        <translation>Phương tiện truyền thông</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDICAL</masterLabel>
+        <translation>Y tế</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>METAL PRODUCTS</masterLabel>
+        <translation>Sản phẩm bằng kim loại</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MINING</masterLabel>
+        <translation>Công nghiệp khai thác mỏ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEW BRAND AUTOMOBILE</masterLabel>
+        <translation>Máy móc, thiết bị mới</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NONFERROUS METAL</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHER</masterLabel>
+        <translation>Mặt hàng khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARTS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PETROLEUM AND COAL PRODUCTS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRECISION MACHINE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROCESSED FOOD</masterLabel>
+        <translation>Thức ăn đã được gia công, chế biến</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PUBLIC INSTITUTION</masterLabel>
+        <translation>Cơ quan công cộng(VD: Trường học, bệnh viện..)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REAL ESTATE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RELATED TO TRANSPORT</masterLabel>
+        <translation>Phương tiện vận chuyển có liên quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RUBBER PRODUCT</masterLabel>
+        <translation>Sản phẩm từ cao su</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA / AGRICULTURAL</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA FOOD PRODUCT</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHIPPING LINE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>STEEL</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TELECOMMUNICATION</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRANSPORTATION MACHINERY</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRAVEL AGENT</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRUCK</masterLabel>
+        <translation>Xe tải</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNDERWEAR</masterLabel>
+        <translation>Quần áo trong</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VALVE・PAPER</masterLabel>
+        <translation>Van giấy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WAREHOUSE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WOODEN PRODUCTS</masterLabel>
+        <translation>Đồ gỗ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

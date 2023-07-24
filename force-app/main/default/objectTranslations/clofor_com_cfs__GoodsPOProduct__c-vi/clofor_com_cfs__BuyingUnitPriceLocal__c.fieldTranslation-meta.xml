@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Khi ĐVT là sản phẩm, Đơn giá mua(VND) = Đơn giá mua(VND). Khi ĐVT là khối lượng, Đơn giá mua(VND) = Đơn giá mua Kg/g (VND)</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyingUnitPriceLocal__c</name>
+</CustomFieldTranslation>

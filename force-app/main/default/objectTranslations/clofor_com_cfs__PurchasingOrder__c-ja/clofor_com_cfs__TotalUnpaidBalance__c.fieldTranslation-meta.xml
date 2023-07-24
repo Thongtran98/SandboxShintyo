@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>発注請求書オブジェクトの中の発注未支払残高(USD)の積み上げ集計</help>
+    <label></label>
+    <name>clofor_com_cfs__TotalUnpaidBalance__c</name>
+</CustomFieldTranslation>

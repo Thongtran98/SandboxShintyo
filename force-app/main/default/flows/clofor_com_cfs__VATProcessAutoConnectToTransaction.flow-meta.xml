@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <description>VAT PROCESS-Auto Connect To BANK/CASH</description>
+    <label>VAT PROCESS-2nd Process</label>
+    <processType>Workflow</processType>
+</Flow>

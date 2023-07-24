@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>본 안건에 대해 긴급한 처리가 필요할 경우 이 항목에 체크합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__Priority_Urgency__c</name>
+</CustomFieldTranslation>

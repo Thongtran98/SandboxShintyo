@@ -1,0 +1,60 @@
+<aura:component
+  
+  implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction"
+  access="global"
+  controller="HBLController"
+>
+  <aura:attribute name="billing" type="String" />
+  <aura:attribute
+    name="billOptions"
+    type="List"
+    default="[
+   { label: 'H B/L', value: 'hbl', selected: 'true' },
+   { label: 'HAWB', value: 'hawb' }
+   ]"
+  />
+
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+  <div>
+    <div class="slds-card">
+      <div class="slds-p-around_medium">
+        <div class="slds-section slds-is-open">
+          <div
+            aria-hidden="false"
+            class="slds-section__content"
+            id="expando-unique-id"
+          >
+            <lightning:select
+              aura:id="billingSelect"
+              name="select"
+              label="Type of Billing: "
+              value="{!v.billing}"
+            >
+              <aura:iteration items="{!v.billOptions}" var="option">
+                <option
+                  text="{!option.label}"
+                  value="{!option.value}"
+                  selected="{!option.selected}"
+                />
+              </aura:iteration>
+            </lightning:select>
+          </div>
+
+          <div
+            aria-hidden="false"
+            class="slds-section__content"
+            id="expando-unique-id"
+          >
+            <lightning:button
+              variant="brand"
+              label="Generate"
+              title="Generate"
+              onclick="{!c.handleGenerate}"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</aura:component>

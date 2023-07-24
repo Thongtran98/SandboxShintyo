@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>HA=Housing Allowance 
+if((((((HA&lt; 5000000), (0),if(((((HA&lt;=10000000),(250000),if(((((HA&lt;=18000000),(750000),if ((((HA&lt;=32000000),(1650000),if(((HA&lt;=52000000),(3250000),if((HA&lt;=80000000),(5850000), (9850000))))</help>
+    <label></label>
+    <name>clofor_com_cfs__HousingAllowanceTaxAdjustment__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Thuế đầu vào (VND) = Tổng giá mua (VND)* Tỉ suất thuế mua (%)/100* Tỉ suất thuế mua (%) (ô thể hiện %)</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyTaxNum__c</name>
+</CustomFieldTranslation>

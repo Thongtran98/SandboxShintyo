@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Custom_Industry__c</name>
+    <picklistValues>
+        <masterLabel>AIR TRANSPORTATION</masterLabel>
+        <translation>Vận chuyển bằng đường hàng không</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APPAREL</masterLabel>
+        <translation>Hàng dệt may</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHEMICAL PRODUCTS</masterLabel>
+        <translation>Sản phẩm hóa chất</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSUMER PRODUCT</masterLabel>
+        <translation>Sản phẩm tiêu dùng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOOD</masterLabel>
+        <translation>Thức ăn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIGHT INDUSTRY</masterLabel>
+        <translation>Ngành công nghiệp nhẹ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MACHINERY</masterLabel>
+        <translation>Máy móc, thiết bị</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MARINE TRANSPORTATION</masterLabel>
+        <translation>Vận chuyển bằng đường biển</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHER</masterLabel>
+        <translation>Mặt hàng khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAW MATERIAL</masterLabel>
+        <translation>Nguyên liệu thô</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RELATED TO TRANSPORT</masterLabel>
+        <translation>Phương tiện vận chuyển có liên quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRADING COMPANY</masterLabel>
+        <translation>Việc buôn bán của công ty</translation>
+    </picklistValues>
+</CustomFieldTranslation>

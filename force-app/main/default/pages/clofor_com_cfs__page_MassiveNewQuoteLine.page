@@ -1,0 +1,141 @@
+<apex:page controller="clofor_com_cfs.MassiveNewQuoteLineController" sidebar="false" tabStyle="clofor_com_cfs__AnkenMeisai__c" showHeader="true" title="Massive Quote Line Creation">
+    <head>
+        <style type="text/css">
+            .dataDetail{
+                border-collapse: collapse;
+                width: 100%
+            }
+            .dataDetail th {
+                text-align: center;
+                font-weight: Bold;
+                text-transform: uppercase;
+                border: 1px solid black;
+                line-height: 24px;
+                background-color: #048ec6;
+            }
+            .dataDetail td {
+                text-align: center;
+                border: 1px solid black;
+            }
+            .btn-center{
+                margin-left: 20% !important
+            }
+            
+        </style>
+        <script type="text/javascript">
+            function closePopupDialog() {
+                window.top.close();
+            }
+            
+        
+        </script>
+    </head>
+    <apex:form >
+        <apex:sectionHeader title="Massive Quote Line Creation"/>
+        <apex:pageBlock id="mainBlock">
+            <br/>
+            <apex:pageMessages ></apex:pageMessages>
+            <br/>
+                <apex:pageBlockButtons rendered="{!!initialMode}">
+                    <apex:commandButton action="{!createQuoteLines}" value="Submit" styleClass="btn-center"/>
+                    <apex:commandButton action="{!addMore}" value="Add More" reRender="mainBlock"/>
+                    <apex:commandButton value="Cancel" onclick="closePopupDialog(); return false;" rendered="{! $User.UIThemeDisplayed == 'Theme3' }"/>
+                    <apex:commandButton value="Cancel" onclick="openRecordDetailPage(); return false;" rendered="{! $User.UIThemeDisplayed == 'Theme4d'}"/>
+                </apex:pageBlockButtons>
+                <apex:outputPanel rendered="{!initialMode}">
+                    <table>
+                        <tr>
+                            <td>Number of Records</td>
+                            <td>
+                                <apex:inputText value="{!recordsNumber}"/>
+                            </td>
+                        </tr>
+                        <tr/>
+                        <tr>
+                            <td>
+                                <apex:commandButton value="Generate" action="{!initiateQuoteLineItems}" reRender="mainBlock"/>
+                            </td>
+                        </tr>
+                    </table>
+                </apex:outputPanel>
+
+                <apex:outputPanel styleClass="dataCreationSection" rendered="{!!initialMode}">
+                    <table class="dataDetail">
+                        <tr>
+                        <th> NO </th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__PrintingSection__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__ServicePricingID__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__LineItemName__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__Print__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__Quantity__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__Unit__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__ContainerType__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__CurrencySelling__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__SellingListPriceLocal__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__SellingListPriceUSD__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__TaxRate__c.Label}</th>
+                        <th>{!$ObjectType.clofor_com_cfs__QuoteLine__c.fields.clofor_com_cfs__Remarks__c.Label}</th>
+                        </tr>
+                        
+                        <apex:variable var="index" value="{!1}"/>
+                        <apex:repeat value="{!listQuoteLine}" var="lineItem">
+                            
+                            <tr>
+                                <td>
+                                    <apex:outputText value="{!index}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__PrintingSection__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__ServicePricingID__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__LineItemName__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__Print__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__Quantity__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__Unit__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__ContainerType__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__CurrencySelling__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__SellingListPriceLocal__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__SellingListPriceUSD__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__TaxRate__c}"/>
+                                </td>
+                                <td>
+                                    <apex:inputField value="{!lineItem.clofor_com_cfs__Remarks__c}"/>
+                                </td>
+                            </tr>
+                            <apex:variable var="index" value="{!index + 1}"/>
+                        </apex:repeat> 
+                    </table>
+                </apex:outputPanel>
+            </apex:pageBlock>
+            <apex:outputPanel id="jsPanel">
+        <script type="text/javascript">
+            
+        	function openRecordDetailPage(){
+                window.open('/lightning/r/clofor_com_cfs__Quote__c/{!quote.Id}/view','_self');
+            }
+            
+            
+        </script>
+        
+        </apex:outputPanel>
+    </apex:form>
+</apex:page>

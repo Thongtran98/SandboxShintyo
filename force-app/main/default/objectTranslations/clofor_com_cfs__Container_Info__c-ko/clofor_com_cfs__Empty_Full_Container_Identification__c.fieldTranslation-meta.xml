@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Full만을 선택가능합니다. Empty는 사용할 수 없습니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__Empty_Full_Container_Identification__c</name>
+    <picklistValues>
+        <masterLabel>Empty</masterLabel>
+        <translation>빈 콘테이너</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full</masterLabel>
+        <translation>적제 콘테이너</translation>
+    </picklistValues>
+</CustomFieldTranslation>

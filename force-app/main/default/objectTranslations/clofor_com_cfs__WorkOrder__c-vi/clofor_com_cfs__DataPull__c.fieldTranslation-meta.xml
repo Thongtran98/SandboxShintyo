@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu muốn dữ liệu đuợc tự động cập nhật từ các quy trình khác - chọn quy trình muốn sao chép từ cập nhật tự động trong phương pháp cập nhật dữ liệu phải được chọn trong việc cập nhật hệ thống tự động.</help>
+    <label></label>
+    <name>clofor_com_cfs__DataPull__c</name>
+</CustomFieldTranslation>

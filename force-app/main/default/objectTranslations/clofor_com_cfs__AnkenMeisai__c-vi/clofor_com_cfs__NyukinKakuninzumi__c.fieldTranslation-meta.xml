@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Khi Số tiền phải trả được đánh dấu. 1. Số tiền thanh toán (Local) đồng bộ với Giá bán bằng nội tế đã bao gồm thuế 2. Số tiền thanh toán(USD) đồng bộ với Gía bán bao gồm thuế (USD)	 3. Phải thu tiền bán cước còn lại</help>
+    <label></label>
+    <name>clofor_com_cfs__NyukinKakuninzumi__c</name>
+</CustomFieldTranslation>

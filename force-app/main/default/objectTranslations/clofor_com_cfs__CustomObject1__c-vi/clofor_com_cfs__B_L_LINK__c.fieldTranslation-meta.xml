@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sao chép đường link cho B/L phát sinh từ &apos; Đường dẫn chứng từ&apos;. Cũng sao chép mật khẩu từ đường dẫn chứng từ tới &apos;Mật khẩu B/L&apos;</help>
+    <label></label>
+    <name>clofor_com_cfs__B_L_LINK__c</name>
+</CustomFieldTranslation>

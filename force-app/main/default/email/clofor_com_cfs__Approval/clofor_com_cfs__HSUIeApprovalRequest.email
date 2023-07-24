@@ -1,0 +1,18 @@
+Dear HR Managers 
+
+{!clofor_com_cfs__HSUInsurance__c.CreatedBy} has requested your approval for the Insurance.
+
+Please click this link to approve or reject this record.
+
+◎INSURANCE ID：[{!clofor_com_cfs__HSUInsurance__c.Name}] Link to CloHRM:{!clofor_com_cfs__HSUInsurance__c.Link} 
+
+You can also approve, reject and comment on this request from your feed.
+
+Best regards.
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+ *********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

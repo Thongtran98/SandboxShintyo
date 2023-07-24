@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__SubCategory__c</name>
+    <picklistValues>
+        <masterLabel>Accommodation</masterLabel>
+        <translation>手当</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accountancy</masterLabel>
+        <translation>経理代行</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advertisement</masterLabel>
+        <translation>広告</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Audit</masterLabel>
+        <translation>監査</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank Fee</masterLabel>
+        <translation>銀行手数料</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic salary</masterLabel>
+        <translation>基本給</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus</masterLabel>
+        <translation>賞与</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charitable Contribution</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleaning</masterLabel>
+        <translation>クリーニング</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission</masterLabel>
+        <translation>手数料</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communication(Phone)</masterLabel>
+        <translation>通信(電話)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conference &amp; Training</masterLabel>
+        <translation>カンファレンス &amp; トレーニング</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting</masterLabel>
+        <translation>コンサルティング</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electricity</masterLabel>
+        <translation>電気</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entertainment</masterLabel>
+        <translation>娯楽</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Drink</masterLabel>
+        <translation>飲食</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>H/S/U Insurance</masterLabel>
+        <translation>従業員保険</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT System(Computer)</masterLabel>
+        <translation>ITシステム(コンピューター)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incentives</masterLabel>
+        <translation>インセンティブ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance</masterLabel>
+        <translation>保険</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interest Expense</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internet</masterLabel>
+        <translation>インターネット</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meeting</masterLabel>
+        <translation>ミーティング</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Newspaper</masterLabel>
+        <translation>新聞</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>その他</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Travel</masterLabel>
+        <translation>海外旅行</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parcel(Mail)</masterLabel>
+        <translation>荷物(郵便)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parking Fee</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personal Income Tax</masterLabel>
+        <translation>消費税</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postage</masterLabel>
+        <translation>郵便</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recruiting</masterLabel>
+        <translation>採用</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reimbursement cash Advance</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rent</masterLabel>
+        <translation>賃貸</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repair &amp; Maintenance</masterLabel>
+        <translation>修理・補修</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation</masterLabel>
+        <translation>交通</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travel</masterLabel>
+        <translation>出張</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Operation</masterLabel>
+        <translation>車両運行</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Water</masterLabel>
+        <translation>飲料</translation>
+    </picklistValues>
+</CustomFieldTranslation>

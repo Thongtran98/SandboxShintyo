@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Trong trường hợp lô hàng ghép, nếu có bất kì lời nhận xét nào về việc chất hàng vào container/ dỡ hàng về kho, nhập vào vùng này và nó sẽ xuất hiện trên CLP</help>
+    <label></label>
+    <name>clofor_com_cfs__Damage_Remarks__c</name>
+</CustomFieldTranslation>

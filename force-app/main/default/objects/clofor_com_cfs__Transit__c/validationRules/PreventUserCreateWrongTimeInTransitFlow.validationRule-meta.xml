@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreventUserCreateWrongTimeInTransitFlow</fullName>
+    <active>true</active>
+    <errorConditionFormula>Flow_Validation__c</errorConditionFormula>
+    <errorMessage>The ETA and ETD dates of the transit must be within the range of the ETA and ETD dates of the shipment and must not coincide with other transits. Please re-enter.</errorMessage>
+</ValidationRule>

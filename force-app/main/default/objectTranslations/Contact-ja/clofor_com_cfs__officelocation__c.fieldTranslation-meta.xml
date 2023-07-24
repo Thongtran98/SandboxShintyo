@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__officelocation__c</name>
+    <picklistValues>
+        <masterLabel>支店</masterLabel>
+        <translation>支店</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>本社</masterLabel>
+        <translation>本社</translation>
+    </picklistValues>
+</CustomFieldTranslation>

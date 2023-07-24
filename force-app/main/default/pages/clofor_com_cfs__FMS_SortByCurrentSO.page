@@ -1,0 +1,7 @@
+<apex:page controller="clofor_com_cfs.FMS_SortByCurrentSOController" sidebar="false" tabStyle="clofor_com_cfs__CustomObject1__c" showHeader="true">
+    <head>
+        <apex:stylesheet value="{!URLFOR($Resource.clofor_com_cfs__CommonResource ,'CommonResource/Jquery-UI/jquery-ui.css')}"/>
+        <apex:includeScript value="{!URLFOR($Resource.clofor_com_cfs__CommonResource ,'CommonResource/Jquery/jquery.min.js')}"/>
+        <apex:includeScript value="{!URLFOR($Resource.clofor_com_cfs__CommonResource ,'CommonResource/Jquery-UI/jquery-ui.min.js')}"/>
+    </head>
+</apex:page>

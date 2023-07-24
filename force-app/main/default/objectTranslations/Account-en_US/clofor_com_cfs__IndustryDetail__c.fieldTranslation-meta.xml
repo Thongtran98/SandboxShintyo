@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__IndustryDetail__c</name>
+    <picklistValues>
+        <masterLabel>2ND HAND AUTOMOBILE</masterLabel>
+        <translation>2nd Hand Automobile</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCESSORY</masterLabel>
+        <translation>Accessory</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APPAREL</masterLabel>
+        <translation>Apparel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARTS / HANDICRAFTS</masterLabel>
+        <translation>Arts / Handicrafts</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CERAMIC</masterLabel>
+        <translation>Ceramic</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHEMICAL</masterLabel>
+        <translation>Chemical</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSOLIDATION</masterLabel>
+        <translation>Consolidation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CUSTOMS CLEARANCE</masterLabel>
+        <translation>Customs Clearance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DRAYAGE</masterLabel>
+        <translation>Drayage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRICAL MACHINERY</masterLabel>
+        <translation>Electrical Machinery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRICITY･GAS</masterLabel>
+        <translation>Electricity･Gas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIBER</masterLabel>
+        <translation>Fiber</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FISHING GEAR</masterLabel>
+        <translation>Fishing Gear</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOOD</masterLabel>
+        <translation>Food</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FRESH FOOD</masterLabel>
+        <translation>Fresh Food</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FURNITURE・INTERIOR</masterLabel>
+        <translation>Furniture・Interior</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENERAL GOODS</masterLabel>
+        <translation>General Goods</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GOVERNMENT</masterLabel>
+        <translation>Government</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INFRASTRUCTURE</masterLabel>
+        <translation>Infrastructure</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KIDS GARMENTS</masterLabel>
+        <translation>Kids Garments</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LADY GARMENTS</masterLabel>
+        <translation>Lady Garments</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LEATHER GOODS</masterLabel>
+        <translation>Leather Goods</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MACHINERY</masterLabel>
+        <translation>Machinery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAN GARMENTS</masterLabel>
+        <translation>Man Garments</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDIA</masterLabel>
+        <translation>Media</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDICAL</masterLabel>
+        <translation>Medical</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>METAL PRODUCTS</masterLabel>
+        <translation>Metal Products</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MINING</masterLabel>
+        <translation>Mining Industry</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEW BRAND AUTOMOBILE</masterLabel>
+        <translation>New Brand Automobile</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NONFERROUS METAL</masterLabel>
+        <translation>Nonferrous Metal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHER</masterLabel>
+        <translation>Other</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARTS</masterLabel>
+        <translation>Parts</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PETROLEUM AND COAL PRODUCTS</masterLabel>
+        <translation>Petroleum And Coal Products</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRECISION MACHINE</masterLabel>
+        <translation>Precision Machine</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROCESSED FOOD</masterLabel>
+        <translation>Processed Food</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PUBLIC INSTITUTION</masterLabel>
+        <translation>Public Institution</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REAL ESTATE</masterLabel>
+        <translation>Real Estate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RELATED TO TRANSPORT</masterLabel>
+        <translation>Related To Transport</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RUBBER PRODUCT</masterLabel>
+        <translation>Rubber Product</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA / AGRICULTURAL</masterLabel>
+        <translation>Sea/Agricultural</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA FOOD PRODUCT</masterLabel>
+        <translation>Sea Food Product</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHIPPING LINE</masterLabel>
+        <translation>Shipping Line</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>STEEL</masterLabel>
+        <translation>Steel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TELECOMMUNICATION</masterLabel>
+        <translation>Telecommunication</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRANSPORTATION MACHINERY</masterLabel>
+        <translation>Transportation Machinery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRAVEL AGENT</masterLabel>
+        <translation>Travel Agent</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRUCK</masterLabel>
+        <translation>Truck</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNDERWEAR</masterLabel>
+        <translation>Underwear</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VALVE・PAPER</masterLabel>
+        <translation>Valve・Paper</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WAREHOUSE</masterLabel>
+        <translation>Warehouse</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WOODEN PRODUCTS</masterLabel>
+        <translation>Wooden Products</translation>
+    </picklistValues>
+</CustomFieldTranslation>

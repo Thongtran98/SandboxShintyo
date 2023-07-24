@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>SL chênh lệch=SL chấp nhận-SL theo chuẩn. (SL âm là thiếu, SL dương là thừa)</help>
+    <label></label>
+    <name>clofor_com_cfs__QuantityVarianceinUnit__c</name>
+</CustomFieldTranslation>

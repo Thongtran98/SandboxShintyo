@@ -1,0 +1,23 @@
+経理担当者様 
+
+{!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__TAX_RATIO_ID__c} 
+は却下されました。コメントを確認し、訂正の上もう一度申請をお願いします。 
+
+却下されたレコードについては、こちらのリンクをクリックしてください。
+
+◎TAX RATIO ID：[{!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__TAX_RATIO_ID__c}]  Link to SF:{!clofor_com_cfs__Tax_Ratio__c.Link} 
+◎Currency : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Currency__c}
+◎Start Date : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Start_Date__c}
+◎End Date : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__End_Date__c}
+◎Selling Tax Ratio : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Selling_Tax_Ratio__c}%
+◎Buying Tax Ratio : {!clofor_com_cfs__Tax_Ratio__c.clofor_com_cfs__Buying_Tax_Ratio__c}%
+
+
+よろしくお願いいたします。
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+ *********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__BankFee</fullName>
+    <active>false</active>
+    <description>Bank Transaction Fee</description>
+    <label>Bank Fee</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Department__c</picklist>
+        <values>
+            <fullName>B%2FS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C%2FS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__PaymentTypeOtherCost__c</picklist>
+        <values>
+            <fullName>Bank Transfer</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ReceiptSplitType__c</picklist>
+        <values>
+            <fullName>1st Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid All By One Time</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ReceiptanceTypeOtherRevenue__c</picklist>
+        <values>
+            <fullName>Advanced Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank Transfer</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Offset</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

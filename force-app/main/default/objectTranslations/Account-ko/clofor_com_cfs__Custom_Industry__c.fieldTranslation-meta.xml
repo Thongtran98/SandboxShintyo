@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Custom_Industry__c</name>
+    <picklistValues>
+        <masterLabel>AIR TRANSPORTATION</masterLabel>
+        <translation>공운</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APPAREL</masterLabel>
+        <translation>의류</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHEMICAL PRODUCTS</masterLabel>
+        <translation>화학제품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSUMER PRODUCT</masterLabel>
+        <translation>소비재</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOOD</masterLabel>
+        <translation>식품</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIGHT INDUSTRY</masterLabel>
+        <translation>경공업</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MACHINERY</masterLabel>
+        <translation>기계</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MARINE TRANSPORTATION</masterLabel>
+        <translation>해운</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHER</masterLabel>
+        <translation>그 외</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAW MATERIAL</masterLabel>
+        <translation>원재료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RELATED TO TRANSPORT</masterLabel>
+        <translation>수송관련</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRADING COMPANY</masterLabel>
+        <translation>상사</translation>
+    </picklistValues>
+</CustomFieldTranslation>

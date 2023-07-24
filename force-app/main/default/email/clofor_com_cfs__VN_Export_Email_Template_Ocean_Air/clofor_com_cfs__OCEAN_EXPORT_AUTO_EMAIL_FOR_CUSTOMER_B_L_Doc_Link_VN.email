@@ -1,0 +1,301 @@
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Field1__c}
+<br>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__CustmerInCharge__c} 
+<br>
+<br>
+Cám ơn Qúi Công ty đã sử dụng dịch vụ giao nhận của chúng tôi.
+<br>
+<br>
+Tình trạng hiện tại của lô hàng này là 「{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__status__c}」. 
+<br>
+<br>
+###################################################################################################################
+<br>
+Đường link  của bill of lading：{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__B_L_LINK__c}  <br>
+Mật khẩu：{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__B_L_PASSWORD__c}  <br>
+###################################################################################################################
+<br>
+<br>
+Vui lòng xem thông tin chi tiết ở bảng bên dưới.<br>
+<br>
+※Đây là mail tự động được gửi từ (Hệ thông cập nhật thông tinh bằng thời gian thật) mỗi khi tình trạng của lô hàng được cập nhật.
+<br>
+
+<style>
+table {
+	border-collapse: collapse;
+}
+th {
+	border: solid 1px #666666;
+	color: #000080;
+	background-color: #DCDCDC;
+}
+td {
+	border: solid 1px #666666;
+	color: #000000;
+	background-color: #ffffff;
+}
+thead th {
+	background-color: #4682B4;
+}
+</style>
+<table>
+	<thead>
+		<tr>
+			<th colspan="4">
+				COMMON INFORMATION
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>
+				ID
+			</th>
+			<td width="200">
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ID__c}
+			</td width="400">
+			<th>
+				STATUS
+			</th>
+			<td width="200">
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__status__c}
+			</td width="400">
+		</tr>
+		<tr>
+			<th>
+				EXPORTER
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Field1__c}
+			</td>
+			<th>
+				PIC OF EXPORTER
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__CustmerInCharge__c}
+			</td>
+		</tr>
+
+                                    
+
+
+		<tr><thead>
+			<th colspan="4">
+				CARGO BASIC INFORMATION
+			</th></thead>
+		</tr>
+		<tr>
+			<th>
+				H B/L NO.
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__HBL__c}
+			</td>
+<th>
+				B/L TYPE
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__BLtype__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				VESSEL NAME
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Vessle__c}
+			</td>
+
+<th>
+				VOY NO
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Voy_No__c}
+			</td>
+
+
+	</tr>
+<tr>
+<th>
+				SHIPPER
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__shipper__c}
+			</td>
+
+			<th>
+				CONSIGNEE
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Cnee__c}
+			</td>
+
+　　　　　　　　</tr>
+	　　　　　　<tr>
+	<th>
+				CUT DATE
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__CutDay__c}
+			</td>			<th>
+				P.O.L
+			</th>
+			<td>
+                                {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POL__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POL_Country_Name__c}
+			</td>
+		</tr>
+	　　　　<tr>
+			<th>
+				GOODS
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Item__c}
+			</td>
+			<th>
+				E.T.D
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETD__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				WEIGHT
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__weight__c}KGS
+			</td>
+			<th>
+				P.O.D
+			</th>
+			<td>
+                                {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD_Country_Name__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				QUANTITY/MEASUREMENT
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__carton__c}{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__UnitType__c}/{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__CBM__c}CBM
+			</td>
+			<th>
+				E.T.A
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETA__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				CONTAINER SIZE			</th>
+			<td>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__TranporationType__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Container__c} * {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ContainerNumber__c} / {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Container2__c} * {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ContainerNumber2__c} 			
+
+
+			</td>
+<th>
+				HDS
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__HDS__c}
+			</td>
+
+		</tr>
+　　　　　　　　　　　　　　　<tr>
+			<th>
+				INCOTERMS 
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__PriceTerms__c}
+			</td>
+			<th>
+				INSURANCE
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Insurance__c}
+			</td>
+		</tr>
+
+		<tr><thead>
+			<th colspan="4">
+	TRIANGLE TRADE & TRANSIT
+			</th></thead>
+<tr>
+			<th>
+				TRANSIT PORT
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__TS__c}	
+</td>
+<th>
+				TRANSIT VESSEL
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__TransitV__c}
+			</td>
+</tr>
+<tr>
+			<th>
+				FIRST SHIPPER
+			</th>
+			<td>
+			{!CustomObject1__c.00N5h00000DvX9j}	
+	</td>
+
+ 　　　　　　　　　　 <th>
+                           TRANSIT ETD
+	</th>
+	<td>
+	{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__T_ETD__c}	
+	</td>
+		</tr>
+
+
+		<tr><thead>
+			<th colspan="4">
+				PICKUP			</th>
+		</tr></thead>
+		<tr>
+			<th >
+				NUMBER OF PICKUP LOCATION
+			</th>
+			<td colspan="3" >
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__DeliveryService_required__c}  Pickup Locations.
+Trong trường hợp địa điểm được chọn nhiều hơn 0, thì thông tin chi tiết sẽ được cung cấp bằng một e-mail khác.
+
+			</td>
+
+		</tr>
+		
+ 
+
+		<tr><thead>
+			<th colspan="4">
+				REMARK
+			</th></thead>
+		</tr>
+		<tr>
+			<th rowspan="2">
+				REMARK
+			</th>
+			<td rowspan="2" colspan="6">
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Remark__c}
+			</td>
+		</tr>
+					</tbody>
+</table>
+<br>
+Nếu có cần thêm thông tin, vui lòng liên hệ với chúng tôi. 
+<br>
+Rất hân hạnh  được tiếp tục phục vụ Qúi Công Ty.
+<br>
+<br>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__PersonInCharge__c}<br>
+*********************************************************<br>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Mail_Merge_Company_Signature__c} <br>
+*********************************************************<br>
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)<br>
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform<br>
+<a href="www.afr-solutions.com">www.afr-solutions.com</a>

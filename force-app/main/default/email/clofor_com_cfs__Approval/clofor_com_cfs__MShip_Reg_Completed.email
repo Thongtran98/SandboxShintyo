@@ -1,0 +1,21 @@
+Dear Team members 
+
+I completed data registration for Master Shipment as below.
+
+◎Master ShipID：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MasterID__c}  Link to CloFor:{!clofor_com_cfs__MasterAnken__c.Link} 
+◎MBL No：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MMaster_B_L_No__c} 
+◎Vessel, Voyage：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVessel__c}  /  {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVoy_No__c} 
+◎ETA ： {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__META__c} (Day：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__META_DAY__c}) 
+◎Number of HBL：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__NO_HOUSE_B_L__c} H B/L 
+◎Container： {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainer__c}*{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainerNumber__c}　/ {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainer2__c}*{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainerNumber2__c} 
+◎Devanning Date：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevanningDate__c} 
+◎Internal Memo for information sharing：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__Internal_Memo__c}
+
+Best regards.
+
+********************************************************* 
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__Mail_Merge_Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

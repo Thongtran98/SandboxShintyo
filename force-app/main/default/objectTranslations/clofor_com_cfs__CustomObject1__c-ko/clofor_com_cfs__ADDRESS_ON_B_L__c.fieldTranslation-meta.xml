@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>L/C표기 등 특별한 이유로 인하여 영어주소와 틀린 주소가 필요할 경우에 새로운 주소를 입력하여 주십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__ADDRESS_ON_B_L__c</name>
+</CustomFieldTranslation>

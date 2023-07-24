@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6. [Air Cargo] Vessel departed</name>
+    <relatedEntityType>clofor_com_cfs__CustomObject1__c</relatedEntityType>
+    <style>none</style>
+    <subject>[Shin Toyo Gate] [Air Cargo] Flight departed // Booking No: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__MASTER_BOOKINGNO__c}}} // HAWB :{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__HAWB__c}}} // CNEE: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ConsigneeShortName__c}}} // Shipper : {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ShipperShortName__c}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

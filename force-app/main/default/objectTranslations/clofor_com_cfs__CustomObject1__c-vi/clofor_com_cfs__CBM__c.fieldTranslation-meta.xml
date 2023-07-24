@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Đồng bộ với tổng khối trong chi tiết container Khi đáp ứng các điều kiện sau; Phương thức vận tải là FCL, Loại container và Số lượng container không để trống, Khối  trong Chi tiết container không để trống.</help>
+    <label></label>
+    <name>clofor_com_cfs__CBM__c</name>
+</CustomFieldTranslation>

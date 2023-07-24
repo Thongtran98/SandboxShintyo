@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>現金支払いが必要な金額の正式な証明となるものを添付してください。証明の中には請求書、レシートやその他受入れ可能な公的書類が含まれます。</help>
+    <label></label>
+    <name>clofor_com_cfs__VENDOR_S_INVOICE_OR_EVIDENCE__c</name>
+</CustomFieldTranslation>

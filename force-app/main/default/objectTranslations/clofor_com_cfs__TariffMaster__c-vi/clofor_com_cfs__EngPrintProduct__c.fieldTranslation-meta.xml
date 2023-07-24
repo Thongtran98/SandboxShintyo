@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tên sẽ được tự động hiển thị từ các hạn mục con và sẽ xuất hiện trên hóa đơn bằng tiếng anh và D/N, C/N.</help>
+    <label></label>
+    <name>clofor_com_cfs__EngPrintProduct__c</name>
+</CustomFieldTranslation>

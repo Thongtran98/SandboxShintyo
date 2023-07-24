@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ProjectStatus__c</name>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation>Hủy bỏ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation>Hoàn thành</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delayed</masterLabel>
+        <translation>Tạm hoãn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Initiated</masterLabel>
+        <translation>Bắt đầu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Schedule</masterLabel>
+        <translation>Đúng tiến độ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Khác</translation>
+    </picklistValues>
+</CustomFieldTranslation>

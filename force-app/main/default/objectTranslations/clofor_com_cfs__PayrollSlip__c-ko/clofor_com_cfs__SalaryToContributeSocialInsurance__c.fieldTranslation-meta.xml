@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>실제 총기준급이 급여기준급보다 크거나 동일할 경우, 급여기준급이, 그렇지 않을 경우에는 실제 총기준급이 보험금계산 대상 급여에 반영 됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__SalaryToContributeSocialInsurance__c</name>
+</CustomFieldTranslation>

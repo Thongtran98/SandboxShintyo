@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>콘테이너번호 및 Seal번호에서 콘테이너번호 및 Seal번호는 콘테이너상세 섹션에 입력하여 주십시요. 변경이 필요할실 경우 직접 변경도 가능합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__CONTAINERSEALNO__c</name>
+</CustomFieldTranslation>

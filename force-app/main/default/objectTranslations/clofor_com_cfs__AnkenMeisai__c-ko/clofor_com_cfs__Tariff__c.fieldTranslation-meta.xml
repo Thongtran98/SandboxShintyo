@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>선택필터-(프라이싱 매입처회사명과 청구/지불의 지불처가 동일 하거나) 또는 (프라이싱 타겟 고객과 청구/지불의 청구처가 동일하거나) 그리고 유효한 프라이싱이 표시됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__Tariff__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

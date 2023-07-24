@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Thông tin trong vùng này sẽ được thể hiện trên Debit note, Credit note</help>
+    <label></label>
+    <name>clofor_com_cfs__DebitCreditRemark__c</name>
+</CustomFieldTranslation>

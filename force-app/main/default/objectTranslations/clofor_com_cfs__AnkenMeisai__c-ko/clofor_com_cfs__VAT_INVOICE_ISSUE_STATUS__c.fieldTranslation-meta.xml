@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>해당 잠김은 아래의 3가지 프로파일을 소유하신분만 잠김을 해제 가능합니다. Accountant , System Administrator, Top Executive</help>
+    <label></label>
+    <name>clofor_com_cfs__VAT_INVOICE_ISSUE_STATUS__c</name>
+</CustomFieldTranslation>

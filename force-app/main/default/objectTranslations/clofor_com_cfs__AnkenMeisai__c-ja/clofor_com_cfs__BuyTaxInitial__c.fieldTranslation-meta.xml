@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>空白の際は自動で消費税率が入力されます。消費税率を入力すると仕入金額が消費税込仕入金額に変更されます。免税や非課税の分に関しては、消費税率は0が入力されます。</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyTaxInitial__c</name>
+</CustomFieldTranslation>

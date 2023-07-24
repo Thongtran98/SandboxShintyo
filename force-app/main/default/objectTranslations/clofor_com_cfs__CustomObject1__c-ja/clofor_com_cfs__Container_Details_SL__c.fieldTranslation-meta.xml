@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コンテナ詳細セクションにコンテナ番号、Seal番号、コンテナタイプ、個数、Gross重量、容積、商品を入力されますと、自動的に更新されます。直接入力も可能です。入力されたデータはs/Iに表示されます。</help>
+    <label></label>
+    <name>clofor_com_cfs__Container_Details_SL__c</name>
+</CustomFieldTranslation>

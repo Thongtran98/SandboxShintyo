@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tỷ giá cho kickback. Nếu ngày phát hành hóa đơn mặc định( mạc định là hôm nay) trong phần yêu cầu lô hàng vẫn trong khoảng thời gian kích hoạt của một tỷ giá hối đoái thì tỷ giá được tự động đồng bộ</help>
+    <label></label>
+    <name>clofor_com_cfs__ExchangeRate__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__TopLayor</fullName>
+    <active>true</active>
+    <description>Top layer is the layer has no parent layer. It is set Floor as default.</description>
+    <label>Top Layer</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ChargeType__c</picklist>
+        <values>
+            <fullName>Batch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Box</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBM</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Carton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Container</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pallet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ton</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__FastSlowClassification__c</picklist>
+        <values>
+            <fullName>A%3AFast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B%3ANormal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C%3ASlow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D-Super slow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__LOCATOR_MANAGEMENT_RULE__c</picklist>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turnover</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__LocationAreaType__c</picklist>
+        <values>
+            <fullName>Cross-docking Storage Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dispatch Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposal Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Empty Pallet Storage Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floor</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>MHE%28Material Handling Equipment%29 Charging Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Storage Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packing Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receiving Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rest Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Return Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storage Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAS%28Value Added Service%29 Area</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__LocatorLayer__c</picklist>
+        <values>
+            <fullName>Area Layer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floor Layer</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Level Layer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack Layer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Section Layer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__SKU__c</picklist>
+        <values>
+            <fullName>Bag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Batch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pallet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>g</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

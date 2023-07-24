@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__DUE_DATE_later_than_RECEIVED_DAT</fullName>
+    <active>true</active>
+    <errorConditionFormula>clofor_com_cfs__InvoiceReceivedDate__c  &gt;  clofor_com_cfs__PaymentDueDate__c</errorConditionFormula>
+    <errorDisplayField>clofor_com_cfs__PaymentDueDate__c</errorDisplayField>
+    <errorMessage>PAYMENT DUE DATE must be later than PURCHASING INVOICE RECEIVED DATE.</errorMessage>
+</ValidationRule>

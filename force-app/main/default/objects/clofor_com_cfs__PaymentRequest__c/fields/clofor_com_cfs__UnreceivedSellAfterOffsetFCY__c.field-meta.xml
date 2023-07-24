@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__UnreceivedSellAfterOffsetFCY__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>clofor_com_cfs__RollupFMSUnreceivedBalOfSellUSD__c +
+clofor_com_cfs__RollupWMSUnreceivedBalOfSellUSD__c-
+clofor_com_cfs__RollupFMSUnpaidBalOfBuyingUSD__c -
+clofor_com_cfs__RollupWMSUnpaidBalOfBuyingUSD__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Unreceived Selling after Offset(FCY)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

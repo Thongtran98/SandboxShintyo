@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__BANKTRANSITTYPE__c</name>
+    <picklistValues>
+        <masterLabel>Bank Transfer</masterLabel>
+        <translation>Chuyển khoản</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cash</masterLabel>
+        <translation>Tiền mặt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cheque (Received and Claimed)</masterLabel>
+        <translation>Séc (Nhận và được khiếu kiện)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cheque (Received but not Claimed)</masterLabel>
+        <translation>Séc (Nhận nhưng không được khiếu kiện)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deposit Offset</masterLabel>
+        <translation>Cấn trừ tạm ứng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loan</masterLabel>
+        <translation>Nợ vay</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Offset</masterLabel>
+        <translation>Cấn trừ công nợ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

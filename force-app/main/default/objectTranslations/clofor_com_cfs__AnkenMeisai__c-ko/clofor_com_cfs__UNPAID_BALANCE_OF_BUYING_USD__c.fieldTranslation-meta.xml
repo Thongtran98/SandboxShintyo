@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>미입금잔액(달러)= 소비세포함 매입금액(달러)-입금액(달러)</help>
+    <label></label>
+    <name>clofor_com_cfs__UNPAID_BALANCE_OF_BUYING_USD__c</name>
+</CustomFieldTranslation>

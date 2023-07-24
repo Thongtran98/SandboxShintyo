@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập tổng số tiền (local) thu từ khách hàng trong nước khi khoản thu không thuộc dịch vụ vận chuyển</help>
+    <label></label>
+    <name>clofor_com_cfs__AMOUNT_RECEIVED_NOT_IN_H_BL__c</name>
+</CustomFieldTranslation>

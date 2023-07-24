@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập ETA tại cảng chuyển tải. Nếu có chuyển tải nhiều lần, vui lòng chọn Số lần chuyển tải yêu cầu và dữ liệu sẽ được tạo. ETA tại cảng chuyển tải cuối cùng sẽ được thêm vào.</help>
+    <label></label>
+    <name>clofor_com_cfs__ETAAtTransitPort__c</name>
+</CustomFieldTranslation>

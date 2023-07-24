@@ -1,0 +1,11 @@
+Kính gửi {!Lead.Name},
+
+Cám ơn Anh/ Chị về việc yêu cầu sản phẩm của GenWatt
+
+Nhân viên đại diện sẽ liên lạc ngay với Anh/ Chị.
+
+Trân trọng
+Công Ty GenWatt
+********************************************************* 
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+*********************************************************

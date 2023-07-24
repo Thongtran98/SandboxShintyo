@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>M A/N을 참조하여 확인번호을 확인해 주십시오.</help>
+    <label></label>
+    <name>clofor_com_cfs__No_Of_LoadingConfirmation__c</name>
+</CustomFieldTranslation>

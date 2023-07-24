@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>고객사에서 청구서 발행의 진행상황을 선택하여 주십시요. 이메일 및 팩스를 통하여 고객사에게 송부하였을 경우 복사본 송부완료를 선택하여 주십시요. 원본을 송부하였을 경우는 원본 송부완료를 선택하여 주십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__InvoiceIssueStatus__c</name>
+    <picklistValues>
+        <masterLabel>At Internal Checking After Issue</masterLabel>
+        <translation>발행후 내용 확인중</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Internal Checking Confirmed After Issue</masterLabel>
+        <translation>발행후 내용 확인 완료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carry Over to Next Month</masterLabel>
+        <translation>차월로 이월</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice Copy Sent</masterLabel>
+        <translation>복사본 송부 완료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Settlement Required(Collect from Partner)</masterLabel>
+        <translation>해당건 정산 미발생(파트너로부터 비용회수예정)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not issued yet-Vendor Invoice not received</masterLabel>
+        <translation>업체 청구서 미도착</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Progress</masterLabel>
+        <translation>안건 진행 중</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Original Invoice Sent</masterLabel>
+        <translation>원본 송부 완료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting for Other Invoice for Combine After Issue</masterLabel>
+        <translation>발행 완료 - 다른 안건 진행 중</translation>
+    </picklistValues>
+</CustomFieldTranslation>

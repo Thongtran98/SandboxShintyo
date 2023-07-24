@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CutOffDateForPayrollPeriod__c</name>
+    <picklistValues>
+        <masterLabel>10th Of Next Month</masterLabel>
+        <translation>Ngày 10 Tháng Kế Tiếp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10th Of This Month</masterLabel>
+        <translation>Ngày 10 Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15th Of Next Month</masterLabel>
+        <translation>Ngày 15 Tháng Kế Tiếp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15th Of This Month</masterLabel>
+        <translation>Ngày 15 Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Of Next Month</masterLabel>
+        <translation>Ngày 1 Tháng Kế Tiếp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Of This Month</masterLabel>
+        <translation>Ngày 1 Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20th Of Next Month</masterLabel>
+        <translation>Ngày 20 Tháng Kế Tiếp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20th Of This Month</masterLabel>
+        <translation>Ngày 20 Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25th Of Next Month</masterLabel>
+        <translation>Ngày 25 Tháng Kế Tiếp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25th Of This Month</masterLabel>
+        <translation>Ngày 25 Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd Of Next Month</masterLabel>
+        <translation>Ngày 2 Tháng Kế Tiếp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd Of This Month</masterLabel>
+        <translation>Ngày 2 Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30th Of Next Month</masterLabel>
+        <translation>Ngày 30 Tháng Kế Tiếp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30th Of This Month</masterLabel>
+        <translation>Ngày 30 Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31th Of Next Month</masterLabel>
+        <translation>Ngày 31 Tháng Kế Tiếp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31th Of This Month</masterLabel>
+        <translation>Ngày 31 Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Of Next Month</masterLabel>
+        <translation>Ngày 3 Tháng Kế Tiếp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Of This Month</masterLabel>
+        <translation>Ngày 3 Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5th Of Next Month</masterLabel>
+        <translation>Ngày 5 Tháng Kế Tiếp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5th Of This Month</masterLabel>
+        <translation>Ngày 5 Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End Of This Month</masterLabel>
+        <translation>Cuối Tháng Này</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End of Next Month</masterLabel>
+        <translation>Cuối Tháng Kế Tiếp</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>顧客向けに連絡すべき注意事項があれば、本欄に入力し、CloTra自動メールに表示させることができます。</help>
+    <label></label>
+    <name>clofor_com_cfs__Remark__c</name>
+</CustomFieldTranslation>

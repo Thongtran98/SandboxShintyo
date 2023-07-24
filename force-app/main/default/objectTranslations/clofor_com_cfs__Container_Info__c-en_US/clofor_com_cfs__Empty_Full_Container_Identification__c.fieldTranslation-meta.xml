@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Empty/Full Container Identification. 4 is not allowed. 5 is Full container.</help>
+    <label></label>
+    <name>clofor_com_cfs__Empty_Full_Container_Identification__c</name>
+    <picklistValues>
+        <masterLabel>Empty</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

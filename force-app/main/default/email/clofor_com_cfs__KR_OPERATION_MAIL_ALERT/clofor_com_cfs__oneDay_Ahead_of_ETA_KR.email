@@ -1,0 +1,208 @@
+운영 담당자님
+<br>
+<br>
+본건은 입항 일까지 하루를 앞두고 있습니다. (공지를 위한 자동 메일입니다) <br>
+<br>
+-입항일: {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETA__c}
+<br>
+<br>
+본 안건의 현재 상태는「{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__status__c}」로 되어 있습니다.
+<br>
+상태가 올바른지 확인을 부탁드립니다.
+<br><br>
+<style>
+table {
+	border-collapse: collapse;
+}
+th {
+	border: solid 1px #666666;
+	color: #000080;
+	background-color: #DCDCDC;
+}
+td {
+	border: solid 1px #666666;
+	color: #000000;
+	background-color: #ffffff;
+}
+thead th {
+	background-color: #4682B4;
+}
+</style>
+
+
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="4">
+				공통부분
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>
+				ID
+			</th>
+			<td width="200">
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ID__c}<br>
+                                Link to SF: {!clofor_com_cfs__CustomObject1__c.Link} 
+			</td width="400">
+			<th>
+					화물 진행 사항
+			</th>
+			<td width="200">
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__status__c}
+			</td width="400">
+		</tr>
+		<tr>
+			<th>
+				거래처
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Field1__c}님
+
+			</td>
+	<th> 
+                                                         수송유형
+			</th>
+			<td>
+ {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__TranporationType__c}
+			</td>
+</tr>
+                
+
+		<tr><thead>
+			<th colspan="4">
+				화물기초정보
+			</th></thead>
+		</tr>
+		<tr>
+			<th>
+				HOUSE B/L 번호 / HAWB 번호 
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__HBL__c}{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__HAWB__c} 
+			</td>
+			<th>
+				SHIPPER
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__shipper__c}님
+			</td>
+		</tr>
+		<tr>
+			<th>
+				배 · 편명
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Vessle__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__FlightNo__c}
+			</td>
+			<th>
+				콘사이니
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Cnee__c}님
+
+			</td>
+		</tr>
+		
+		<tr>
+			<th>
+				VOY NO
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Voy_No__c}
+			</td>
+			<th>
+				출발지 
+			</th>
+			<td>
+                                {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POL__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POL_Country_Name__c}   
+			</td>
+		</tr>
+
+
+
+		<tr>
+			<th>
+				상품
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Item__c}
+			</td>
+			<th>
+				출항일/출발일
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETD__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				GROSS 중량
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__weight__c}KGS
+			</td>
+			<th>
+				도착지
+			</th>
+			<td>
+                               {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD_Country_Name__c}  
+			</td>
+		</tr>
+		<tr>
+			<th>
+				개수/메져먼트	</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__carton__c}{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__UnitType__c}/{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__CBM__c}CBM
+			</td>
+			<th>
+				입항일/도착일
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETA__c}
+			</td>
+		</tr>
+		<tr>
+			<th>
+				컨테이너 정보
+			</th>
+			<td>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__TranporationType__c} {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Container__c} * {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ContainerNumber__c} / {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Container2__c} * {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ContainerNumber2__c} 
+
+
+			</td>
+			<th>
+				H B/L 타입
+			</th>
+			<td>
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__BLtype__c}
+			</td>
+		</tr>
+<tr><thead>
+			<th colspan="4">
+				기타사항
+			</th></thead>
+		</tr>
+		<tr>
+			<th rowspan="2">
+				정보 공유용 사내메모
+			</th>
+			<td rowspan="2" colspan="3">
+				{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Memo__c}
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+
+잘 부탁드립니다.
+<br>
+*********************************************************<br>
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Mail_Merge_Company_Signature__c} <br>
+*********************************************************<br>
+Powered by AFR Solutions Co.,LTD<br>
+All-In-One Cloud Freight Forwarding Solution<br>
+<a href="www.afr-solutions.com">www.afr-solutions.com</a>

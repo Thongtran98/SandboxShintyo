@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Container_Size_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Container size code (2-digit) should indicate; 1st digit: Container length code, 2nd digit: Container h</description>
+    <externalId>false</externalId>
+    <inlineHelpText>1st digit: Container length code Code=length [ft], 1=10&apos;,2=20&apos;,4=40&apos;,9 Others length, 2nd digit: Container height code Code=height[ft]/[in], 0=8&apos;,2=8&apos;/ 6,4=9&apos;,5=9&apos;/6,6=＞9&apos;/6,8=4&apos;/3,9=≦4&apos; others</inlineHelpText>
+    <label>Container Size Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>clofor_com_cfs__Container__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>22</fullName>
+                <default>false</default>
+                <label>22</label>
+            </value>
+            <value>
+                <fullName>42</fullName>
+                <default>false</default>
+                <label>42</label>
+            </value>
+            <value>
+                <fullName>46</fullName>
+                <default>false</default>
+                <label>46</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>20&apos;FR</controllingFieldValue>
+            <controllingFieldValue>ISO</controllingFieldValue>
+            <controllingFieldValue>20&apos;IMO</controllingFieldValue>
+            <controllingFieldValue>20&apos;DC-Flexitank</controllingFieldValue>
+            <controllingFieldValue>20&apos;DC</controllingFieldValue>
+            <controllingFieldValue>20&apos;RF</controllingFieldValue>
+            <controllingFieldValue>20&apos;OT</controllingFieldValue>
+            <valueName>22</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>40&apos;FR</controllingFieldValue>
+            <controllingFieldValue>40&apos;IMO</controllingFieldValue>
+            <controllingFieldValue>40&apos;DC</controllingFieldValue>
+            <controllingFieldValue>40&apos;RF</controllingFieldValue>
+            <controllingFieldValue>40&apos;OT</controllingFieldValue>
+            <valueName>42</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>40&apos;HC</controllingFieldValue>
+            <valueName>46</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

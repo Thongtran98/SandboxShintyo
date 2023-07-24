@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>아래의 4가지 조건을 만족할 경우 콘테이너 상세의 개수 합계가 자동으로 계산되어 반영됩니다. 운송타입이 FCL, 콘테이너 타입과 콘테이너 개수가 Null이 아니고, 콘테이너 상세의 개수가 Null이 아닐 경우.</help>
+    <label></label>
+    <name>clofor_com_cfs__carton__c</name>
+</CustomFieldTranslation>

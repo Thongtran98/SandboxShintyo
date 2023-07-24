@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>健康/社会/失業保険会社負担額=社会保険の対象となる給料額*&apos;人事管理標準&apos;の健康/社会/失業保険会社負担率</help>
+    <label></label>
+    <name>clofor_com_cfs__HSUInsuranceByEmployer__c</name>
+</CustomFieldTranslation>

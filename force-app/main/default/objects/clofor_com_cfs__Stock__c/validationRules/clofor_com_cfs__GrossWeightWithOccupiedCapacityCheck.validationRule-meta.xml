@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__GrossWeightWithOccupiedCapacityCheck</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &apos;StockOut&apos;,
+ clofor_com_cfs__GrossWeight__c &gt;   clofor_com_cfs__StockLocator__r.clofor_com_cfs__CurrentOccupiedCapacityKG__c )</errorConditionFormula>
+    <errorDisplayField>clofor_com_cfs__GrossWeight__c</errorDisplayField>
+    <errorMessage>The Gross Weight of stock out can not greater than Current Occupied Capacity KG of Locator.</errorMessage>
+</ValidationRule>

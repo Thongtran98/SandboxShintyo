@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Giá CIF (N/T)=Giá nhập khẩu SP (N/T)+Cước biển và bảo hiểm (N/T)</help>
+    <label></label>
+    <name>clofor_com_cfs__CIFPriceFCY__c</name>
+</CustomFieldTranslation>

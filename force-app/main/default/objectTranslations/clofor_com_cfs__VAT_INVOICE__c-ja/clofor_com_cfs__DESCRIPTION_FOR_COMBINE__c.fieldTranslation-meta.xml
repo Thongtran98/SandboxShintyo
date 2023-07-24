@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>複数のフォワーディング案件をまとめて一つのサービス名で表示する場合に、請求書上で表示するサービス名を入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__DESCRIPTION_FOR_COMBINE__c</name>
+</CustomFieldTranslation>

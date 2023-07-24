@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shipment_Status_can_edit_accountant</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND(  ISPICKVAL( PRIORVALUE(Shipment_Status__c), &quot;Acountant_check&quot;) , $Profile.Name &lt;&gt; &quot;[ShinToyo] All Profile&quot;, $Profile.Name &lt;&gt; &quot;System Administrator&quot;),  
+AND(  ISCHANGED( clofor_com_cfs__REFNO__c ), 
+ISCHANGED( clofor_com_cfs__PersonInCharge__c ),
+ISCHANGED( Salesman__c ),
+ISCHANGED( clofor_com_cfs__SalesAccountedDate__c ),
+ ISCHANGED( clofor_com_cfs__QuoteID__c ),
+ ISCHANGED( clofor_com_cfs__ExchangeRate__c ),
+ ISCHANGED( clofor_com_cfs__CargoOwnershipType__c ),
+ ISCHANGED( clofor_com_cfs__Memo__c ),
+ ISCHANGED( Attachment__c ),
+ ISCHANGED( clofor_com_cfs__status__c ),
+ ISCHANGED( Shipment_Status__c ),
+ ISCHANGED( Acountant_Check__c ),
+ ISCHANGED( clofor_com_cfs__Original_WKID__c ),
+ ISCHANGED( clofor_com_cfs__JobRequestID__c ),
+ ISCHANGED(clofor_com_cfs__ParentFTMSSO__c )            
+   ) )</errorConditionFormula>
+    <errorMessage>Only User with Profile [ShinToyo] All Profile can edit this field!</errorMessage>
+</ValidationRule>

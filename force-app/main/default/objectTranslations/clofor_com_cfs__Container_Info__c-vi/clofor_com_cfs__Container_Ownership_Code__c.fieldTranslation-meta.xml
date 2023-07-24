@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Container_Ownership_Code__c</name>
+    <picklistValues>
+        <masterLabel>Carrier supplied</masterLabel>
+        <translation>Hãng vận tải đã cung cấp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consolidator supplied</masterLabel>
+        <translation>Hàng ghép đã cung cấp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deconsolidator supplied</masterLabel>
+        <translation>Hàng không ghép đã cung cấp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shipper supplied</masterLabel>
+        <translation>Người vận chuyển đã cung cấp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third party supplied</masterLabel>
+        <translation>Bên thứ ba đã cung cấp</translation>
+    </picklistValues>
+</CustomFieldTranslation>

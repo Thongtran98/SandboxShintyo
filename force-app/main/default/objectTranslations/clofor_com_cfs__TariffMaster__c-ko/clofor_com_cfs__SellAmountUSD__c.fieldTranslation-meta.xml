@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>숫자를 입력하시면 H B/L-청구/지불의 판매단가(달러)가 비어있을 경우 합계판매금액(달러)에 자동적으로 입력됩니다</help>
+    <label></label>
+    <name>clofor_com_cfs__SellAmountUSD__c</name>
+</CustomFieldTranslation>

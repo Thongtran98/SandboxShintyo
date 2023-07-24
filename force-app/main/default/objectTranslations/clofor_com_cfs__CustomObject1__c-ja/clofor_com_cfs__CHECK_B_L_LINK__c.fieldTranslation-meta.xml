@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コンテンツ配信&apos;で生成されたcheck B/Lリンクを貼り付けてください。また、コンテンツ配信で生成されたパスワードを&apos;Check B/L Password&apos;に貼り付けてください。</help>
+    <label></label>
+    <name>clofor_com_cfs__CHECK_B_L_LINK__c</name>
+</CustomFieldTranslation>

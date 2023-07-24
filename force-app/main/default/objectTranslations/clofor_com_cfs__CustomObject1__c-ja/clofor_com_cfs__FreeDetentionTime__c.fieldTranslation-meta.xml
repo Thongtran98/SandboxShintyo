@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>フリーディテンションとはconsigneeがコンテナ引取後、無料でコンテナを保持できる期間のことです。</help>
+    <label></label>
+    <name>clofor_com_cfs__FreeDetentionTime__c</name>
+</CustomFieldTranslation>

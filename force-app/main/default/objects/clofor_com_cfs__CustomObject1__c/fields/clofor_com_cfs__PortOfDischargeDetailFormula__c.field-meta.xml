@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__PortOfDischargeDetailFormula__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF (ISBLANK(TEXT( clofor_com_cfs__POD__r.clofor_com_cfs__Country_Name__c ))= TRUE, clofor_com_cfs__POD__r.Name,(clofor_com_cfs__POD__r.Name &amp; &quot;, &quot;&amp;  text(clofor_com_cfs__POD__r.clofor_com_cfs__Country_Name__c)))</formula>
+    <label>Port of Discharge Detail-Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

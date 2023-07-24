@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__LocatorCode__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(OR(ISBLANK(clofor_com_cfs__FloorCode__c),clofor_com_cfs__FloorCode__c == &quot;F&quot;),&quot;F00&quot;,clofor_com_cfs__FloorCode__c) + &quot;-&quot; +
+IF(OR(ISBLANK(clofor_com_cfs__AreaCode__c), clofor_com_cfs__AreaCode__c == &quot;A&quot;),&quot;A00&quot;,clofor_com_cfs__AreaCode__c) + &quot;-&quot; +
+IF(OR(ISBLANK(clofor_com_cfs__SectionCode__c), clofor_com_cfs__SectionCode__c == &quot;S&quot;),&quot;S00&quot;,clofor_com_cfs__SectionCode__c)+ &quot;-&quot; +
+IF(OR(ISBLANK(clofor_com_cfs__Rack__c), clofor_com_cfs__Rack__c  == &quot;R&quot;),&quot;R00&quot;,clofor_com_cfs__Rack__c)+ &quot;-&quot; +
+IF(OR(ISBLANK(clofor_com_cfs__Level__c), clofor_com_cfs__Level__c == &quot;L&quot;),&quot;L00&quot;,clofor_com_cfs__Level__c)</formula>
+    <label>LOCATOR CODE</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

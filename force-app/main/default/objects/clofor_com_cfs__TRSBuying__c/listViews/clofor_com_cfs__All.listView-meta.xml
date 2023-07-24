@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Service__c</columns>
+    <columns>clofor_com_cfs__Paymentto__c</columns>
+    <columns>clofor_com_cfs__Chargequantity__c</columns>
+    <columns>clofor_com_cfs__ChargeUnit__c</columns>
+    <columns>clofor_com_cfs__ContainerInformation__c</columns>
+    <columns>clofor_com_cfs__UnitBuyingPrice__c</columns>
+    <columns>clofor_com_cfs__TruckingCost__c</columns>
+    <columns>clofor_com_cfs__LiftOnCost__c</columns>
+    <columns>clofor_com_cfs__LiftOffCost__c</columns>
+    <columns>clofor_com_cfs__AmountBuyinginclTaxfor__c</columns>
+    <columns>clofor_com_cfs__PaymentConfirmedBuying__c</columns>
+    <columns>clofor_com_cfs__PaymentSettledDateBuying__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>0. All</label>
+</ListView>

@@ -1,0 +1,7 @@
+<!--
+ - Created by khanhpham on 5/21/17.
+ -->
+
+<apex:page id="PurchasingOrderProgress" standardController="clofor_com_cfs__PurchasingOrder__c" extensions="clofor_com_cfs.PurchasingOrderExt">
+    <c:WorkProgress WorkProgressList="{!workProgressItems}"></c:WorkProgress>
+</apex:page>

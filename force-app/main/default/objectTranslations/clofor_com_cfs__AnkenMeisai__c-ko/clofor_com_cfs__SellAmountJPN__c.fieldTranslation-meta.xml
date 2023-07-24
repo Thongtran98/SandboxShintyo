@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>‘합계 판매금액(표준통화)=판매단가(표준통화)*수량’으로 계산됩니다. 이 가격은 세금이 포함되지 않은 가격입니다. 면세,비과세일 경우, 합계 판매금액(표준통화)은 소비세포함 판매금액(표준통화)의 가격과 같아집니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__SellAmountJPN__c</name>
+</CustomFieldTranslation>

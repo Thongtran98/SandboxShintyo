@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__FixedCost</fullName>
+    <active>true</active>
+    <label>Fixed Cost</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CostCategory__c</picklist>
+        <values>
+            <fullName>Cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Rental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parking Area Rental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WMS System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse Rental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yard Rental</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Currency__c</picklist>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

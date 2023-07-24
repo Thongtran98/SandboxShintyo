@@ -1,0 +1,25 @@
+Kính gửi {!Account.Name} 
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__CustmerInCharge__c}
+
+CHÚNG TÔI KÈM THEO ĐÂY LÀ MẪU ĐĂNG KÝ DỊCH VỤ MỚI.
+VUI LÒNG KIỂM TRA NỘI DUNG CHI TIẾT.
+
+Thông tin cần thiết
+-MÃ SỐ NGƯỜI GỬI/NHẬN HÀNG Ờ NHẬT ĐỂ BẠN THÔNG QUAN  
+-NHÂN VIÊN PHỤ TRÁCH KẾ TOÁN VỀ VIỆC THANH TOÁN CỦA BẠN 
+-TÀI KHOẢN NGÂN HÀNG CỦA BẠN ĐỂ THANH TOÁN KHI CÓ PHÁT SINH 
+ -Thông tin Ngân hàng cho tài khoản (số tiền cần phải trả thuế nếu có): thanh toán chậm các khoản
+ -Nguồn vốn
+ -Kỳ hoạch toán kế toán
+
+NẾU KHÔNG CÓ GÌ SAI, VUI LÒNG ĐÓNG DẤU VÀ GỬI LẠI CHO CHÚNG TÔI.
+
+Trân Trọng .
+
+{!User.LastName}
+********************************************************* 
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

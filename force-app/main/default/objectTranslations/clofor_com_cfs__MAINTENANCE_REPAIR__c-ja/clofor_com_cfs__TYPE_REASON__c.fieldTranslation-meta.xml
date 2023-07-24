@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__TYPE_REASON__c</name>
+    <picklistValues>
+        <masterLabel>Accident</masterLabel>
+        <translation>事故</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Machine trouble</masterLabel>
+        <translation>マシントラブル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>その他</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scheduled maintenance</masterLabel>
+        <translation>定期点検</translation>
+    </picklistValues>
+</CustomFieldTranslation>

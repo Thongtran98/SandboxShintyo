@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Category__c</name>
+    <picklistValues>
+        <masterLabel>Expense</masterLabel>
+        <translation>経費</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance&amp;PIT</masterLabel>
+        <translation>従業員保険&amp;所得税</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payroll</masterLabel>
+        <translation>給与</translation>
+    </picklistValues>
+</CustomFieldTranslation>

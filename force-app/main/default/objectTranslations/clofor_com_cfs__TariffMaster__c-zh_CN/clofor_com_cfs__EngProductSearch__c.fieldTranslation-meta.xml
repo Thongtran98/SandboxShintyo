@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__EngProductSearch__c</name>
+    <picklistValues>
+        <masterLabel>Actual Expense</masterLabel>
+        <translation>实际开支</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Air</masterLabel>
+        <translation>空运</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consolidation Cost Allocation</masterLabel>
+        <translation>拼箱费用平均分配</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deliver</masterLabel>
+        <translation>派送</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drayage</masterLabel>
+        <translation>集装箱拖车</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Custom Clearance</masterLabel>
+        <translation>出口 - 清关</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Export</masterLabel>
+        <translation>出口 - 整柜(FCL)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Import</masterLabel>
+        <translation>进口 - 整柜(FCL)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Triangular trade</masterLabel>
+        <translation>三国贸易整柜(FCL)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Custom Clearance</masterLabel>
+        <translation>进口 - 清关</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Export</masterLabel>
+        <translation>出口 - 散货(LCL)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Import</masterLabel>
+        <translation>进口 - 散货(LCL)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Triangular trade</masterLabel>
+        <translation>三国贸易散货(LCL)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Local Charge</masterLabel>
+        <translation>海外码头费用</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse</masterLabel>
+        <translation>仓库</translation>
+    </picklistValues>
+</CustomFieldTranslation>

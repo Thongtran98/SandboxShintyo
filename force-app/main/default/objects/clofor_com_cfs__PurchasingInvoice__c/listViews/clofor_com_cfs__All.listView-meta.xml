@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__PurchasingOrder__c</columns>
+    <columns>clofor_com_cfs__ResourceID__c</columns>
+    <columns>clofor_com_cfs__InvoiceId__c</columns>
+    <columns>clofor_com_cfs__PaymentToVendor__c</columns>
+    <columns>clofor_com_cfs__ChargeUnit__c</columns>
+    <columns>clofor_com_cfs__Currency__c</columns>
+    <columns>clofor_com_cfs__TotalAmountLocal__c</columns>
+    <columns>clofor_com_cfs__AmountOfTaxLocal__c</columns>
+    <columns>clofor_com_cfs__AmountIncludedTaxLocal__c</columns>
+    <columns>clofor_com_cfs__PaidAmountLocal__c</columns>
+    <columns>clofor_com_cfs__UnpaidBalanceLocal__c</columns>
+    <columns>clofor_com_cfs__BankAccountPurchasing__c</columns>
+    <columns>clofor_com_cfs__PaymentSettledDate__c</columns>
+    <columns>clofor_com_cfs__Beneficiary__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

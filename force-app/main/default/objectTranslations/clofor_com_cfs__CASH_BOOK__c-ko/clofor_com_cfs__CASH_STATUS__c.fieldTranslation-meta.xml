@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>현금의 회수 진행 현황을 관리하기 위한 필드입니다. 승인 제출을 위해서는 반드시 선택하셔야 합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__CASH_STATUS__c</name>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FULL AMOUNT RECEIVED</masterLabel>
+        <translation>전액수령</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fully Paid</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARTIAL AMOUNT RECEIVED-BALANCE REMAINED</masterLabel>
+        <translation>일부금액수령</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partially Paid</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planned</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

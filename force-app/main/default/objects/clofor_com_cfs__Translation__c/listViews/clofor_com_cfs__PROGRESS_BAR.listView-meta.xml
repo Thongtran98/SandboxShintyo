@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__PROGRESS_BAR</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Active__c</columns>
+    <columns>clofor_com_cfs__Context__c</columns>
+    <columns>clofor_com_cfs__en_US__c</columns>
+    <columns>clofor_com_cfs__ja__c</columns>
+    <columns>clofor_com_cfs__ko__c</columns>
+    <columns>clofor_com_cfs__vi__c</columns>
+    <columns>clofor_com_cfs__zh_CN__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__Context__c</field>
+        <operation>equals</operation>
+        <value>ProgressBar</value>
+    </filters>
+    <label>PROGRESS BAR</label>
+    <language>en_US</language>
+</ListView>

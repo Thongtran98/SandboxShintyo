@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__ReceivingProcessStandardID</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__SalesOrderID__c</columns>
+    <columns>clofor_com_cfs__InvoiceTo__c</columns>
+    <columns>clofor_com_cfs__BillNameAtPrintLocal__c</columns>
+    <columns>clofor_com_cfs__RcvConfirmSell__c</columns>
+    <columns>clofor_com_cfs__ApplicantSell__c</columns>
+    <columns>clofor_com_cfs__AmountSelliInclTAXLocal__c</columns>
+    <columns>clofor_com_cfs__AmountRcvCustomerLocal__c</columns>
+    <columns>clofor_com_cfs__UnRcvBalLocal__c</columns>
+    <columns>clofor_com_cfs__RcvTypeSell__c</columns>
+    <columns>clofor_com_cfs__RcvSettledDate__c</columns>
+    <columns>clofor_com_cfs__RcvNotesSell__c</columns>
+    <columns>clofor_com_cfs__BankAccountForRcv__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__AmountSelliInclTAXLocal__c</field>
+        <operation>notEqual</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__UnRcvBalLocal__c</field>
+        <operation>notEqual</operation>
+        <value>0</value>
+    </filters>
+    <label>3.Receiving(S)Process-Standard(ID)</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>고객 또는 파트너를 선택하세요. 고객을 선택하면 청구금액이 로컬 인보이스와 고객 인보이스 요약 보고서에 나타납니다. 파트너를 선택하면 청국금액이 D/N에. 지불금액이 C/N에 반영되며, 파트너 아웃스탠딩 보고서에 나타납니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__Business_Relationship__c</name>
+    <picklistValues>
+        <masterLabel>3rd Vendor</masterLabel>
+        <translation>업체/그외</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer</masterLabel>
+        <translation>고객</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner</masterLabel>
+        <translation>파트너</translation>
+    </picklistValues>
+</CustomFieldTranslation>

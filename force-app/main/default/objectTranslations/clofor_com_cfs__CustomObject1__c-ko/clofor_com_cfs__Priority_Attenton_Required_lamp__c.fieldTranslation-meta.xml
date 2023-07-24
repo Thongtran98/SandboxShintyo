@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&apos;화물 진행 사항&apos;가 수입 출하정보입수(Cargo Info Received)로부터 본선/Freight도착완료(Arrived)라면 1점,또한 그 중에서 ETA가 3일 이하로 남아있으면 1점 추가, 또 그 중에서 ETD부터 1일을 넘기면 1점추가합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__Priority_Attenton_Required_lamp__c</name>
+</CustomFieldTranslation>

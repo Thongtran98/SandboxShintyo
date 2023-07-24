@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>계정이 선사이면 해당 코드를 입력하세요</help>
+    <label></label>
+    <name>clofor_com_cfs__Carrier_Code__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

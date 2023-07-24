@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Port_Type__c</name>
+    <picklistValues>
+        <masterLabel>AIR</masterLabel>
+        <translation>ជើងអាកាស</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA</masterLabel>
+        <translation>SEA</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__TROUBLE_TYPE__c</name>
+    <picklistValues>
+        <masterLabel>Engine trouble</masterLabel>
+        <translation>엔진고장</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No oil</masterLabel>
+        <translation>오일부족</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>그외</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Punk</masterLabel>
+        <translation>타이어펑크</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shassi broken</masterLabel>
+        <translation>샤시고장</translation>
+    </picklistValues>
+</CustomFieldTranslation>

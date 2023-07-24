@@ -1,0 +1,29 @@
+Rate Request
+
+- Request name: {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__RFPREQName__c}
+- CRM Ref #:{!clofor_com_cfs__RFPRFQ__c.Name}
+- Request Date: {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__RequestDate__c}
+- Request by:  {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__RquestBy__c}
+
+Shipment Info:
+
+- Mode: {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__Mode__c}
+- T/Term: {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__Incoterms__c}
+- Comm: {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__DescriptionOfGoods__c}
+- Volume: {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__Volume__c}
+- POL: {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__POLAOD__c}
+- POD: {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__PODAOA__c}
+- Pickup Location: {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__PickLocation__c}
+- ETD: {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__ETD__c}
+
+Rate request:
+
+Please check and advise us the best rate for above shipment. By the way, kindly advise T/Time, Freq. and local charges both ends (if any) for our reference.
+
+Other Notes:
+
+{!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__NotesForREPEmailTemplate__c}
+
+Awaiting your soon feedback.
+
+Best regards,

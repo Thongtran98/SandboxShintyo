@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>clofor_com_cfs__SalaryPaymentDate__c</name>
+    <picklistValues>
+        <masterLabel>10th Of Next Month</masterLabel>
+        <translation>10th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10th Of This Month</masterLabel>
+        <translation>10th of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15th Of Next Month</masterLabel>
+        <translation>15th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15th Of This Month</masterLabel>
+        <translation>15th of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Of Next Month</masterLabel>
+        <translation>1st of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Of This Month</masterLabel>
+        <translation>1st of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20th Of Next Month</masterLabel>
+        <translation>20th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20th Of This Month</masterLabel>
+        <translation>20th of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25th Of Next Month</masterLabel>
+        <translation>25th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25th Of This Month</masterLabel>
+        <translation>25th of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd Of Next Month</masterLabel>
+        <translation>2nd of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd Of This Month</masterLabel>
+        <translation>2nd of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30th Of Next Month</masterLabel>
+        <translation>30th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30th Of This Month</masterLabel>
+        <translation>30th of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31th Of Next Month</masterLabel>
+        <translation>31st Of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31th Of This Month</masterLabel>
+        <translation>31st Of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Of Next Month</masterLabel>
+        <translation>3rd of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Of This Month</masterLabel>
+        <translation>3rd of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5th Of Next Month</masterLabel>
+        <translation>5th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5th Of This Month</masterLabel>
+        <translation>5th of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End Of This Month</masterLabel>
+        <translation>End of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End of Next Month</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chọn Yes và Object dịch vụ khai quan sẽ được tạo. Nhập chi tiết dịch vụ khai quan vào từng đối tượng một cách phù hợp.</help>
+    <label></label>
+    <name>clofor_com_cfs__Custom__c</name>
+    <picklistValues>
+        <masterLabel>×(NO)</masterLabel>
+        <translation>Không</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>○(YES)</masterLabel>
+        <translation>Có</translation>
+    </picklistValues>
+</CustomFieldTranslation>

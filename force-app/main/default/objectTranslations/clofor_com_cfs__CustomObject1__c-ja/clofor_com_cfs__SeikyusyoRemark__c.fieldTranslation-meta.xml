@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>入力した情報が請求書および集計表に表示されます。</help>
+    <label></label>
+    <name>clofor_com_cfs__SeikyusyoRemark__c</name>
+</CustomFieldTranslation>

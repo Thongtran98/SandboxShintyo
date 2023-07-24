@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>내부 스탭들에게 공유될 정보가 있을 경우 이 필드를 입력하세요</help>
+    <label></label>
+    <name>clofor_com_cfs__Bikou__c</name>
+</CustomFieldTranslation>

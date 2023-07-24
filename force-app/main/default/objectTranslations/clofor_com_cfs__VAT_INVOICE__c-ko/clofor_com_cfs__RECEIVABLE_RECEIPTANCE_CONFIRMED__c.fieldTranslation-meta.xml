@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>청구금액을 회수 후에는 체크를 하여주십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__RECEIVABLE_RECEIPTANCE_CONFIRMED__c</name>
+</CustomFieldTranslation>

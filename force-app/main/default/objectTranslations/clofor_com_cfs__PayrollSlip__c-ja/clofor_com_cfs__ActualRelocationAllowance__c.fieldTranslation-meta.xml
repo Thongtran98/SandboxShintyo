@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>実際の転居手当額=&apos;従業員管理&apos;の中の転居手当*給料支払の対象となる日の割合</help>
+    <label></label>
+    <name>clofor_com_cfs__ActualRelocationAllowance__c</name>
+</CustomFieldTranslation>

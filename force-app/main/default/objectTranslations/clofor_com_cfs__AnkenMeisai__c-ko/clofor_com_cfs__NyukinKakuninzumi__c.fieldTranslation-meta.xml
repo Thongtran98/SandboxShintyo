@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>총 금액이 입금되었을 때만 사용하십시오. 체크박스가 체크되었을 때, 다음 업데이트가 가능합니다. 1. 입금액(표준통화): 소비세포함 판매금액(표준통화) 와 동기화됩니다. 2. 입금액(달러) : 소비세포함 판매금액(달러)와 동기화됩니다. 3. 미지불잔액:’0’</help>
+    <label></label>
+    <name>clofor_com_cfs__NyukinKakuninzumi__c</name>
+</CustomFieldTranslation>

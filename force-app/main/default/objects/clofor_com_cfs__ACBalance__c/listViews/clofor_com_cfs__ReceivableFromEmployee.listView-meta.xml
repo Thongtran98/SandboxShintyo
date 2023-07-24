@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__ReceivableFromEmployee</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__BalanceType__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>clofor_com_cfs__EmployeeID__c</columns>
+    <columns>clofor_com_cfs__EmplyoeeFullName__c</columns>
+    <columns>clofor_com_cfs__StartDate__c</columns>
+    <columns>clofor_com_cfs__EndDate__c</columns>
+    <columns>clofor_com_cfs__AccountingCode__c</columns>
+    <columns>clofor_com_cfs__OpeningBalanceLocalDebit__c</columns>
+    <columns>clofor_com_cfs__OpeningBalanceLocalCredit__c</columns>
+    <columns>clofor_com_cfs__TransactionBalanceLocalDebit__c</columns>
+    <columns>clofor_com_cfs__TransactionBalanceLocalCredit__c</columns>
+    <columns>clofor_com_cfs__ClosingBalanceLocalDebit__c</columns>
+    <columns>clofor_com_cfs__ClosingBalanceLocalCredit__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__ACBalance__c.clofor_com_cfs__ReceivableFromEmployee</value>
+    </filters>
+    <label>RECEIVABLE FROM EMPLOYEE</label>
+    <language>en_US</language>
+</ListView>

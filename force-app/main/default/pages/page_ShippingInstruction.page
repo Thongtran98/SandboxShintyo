@@ -1,0 +1,416 @@
+<apex:page controller="ShippingInstructionController" contentType="text/html" showHeader="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0" renderAs="pdf">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    </html>
+
+    <head>
+        <style>
+            @page {
+                size: A4;
+                margin: 10mm;
+                /* size: A4;  
+                margin-left: 1cm;      
+                margin-right: 1cm;
+                margin-top: 1cm;
+                margin-bottom: : 1cm; */
+            }
+            	@media print{
+            		.no-print{
+            				display: none;
+            			}
+            	@page {}
+				}
+            body{
+                font-family: Arial Unicode MS;
+                font-size: 9.5px;
+                text-transform: uppercase;
+            } 
+            table{
+                font-size: 9.5px;
+                border-collapse: collapse;
+                border: 1.1px solid black;
+            }  
+            td{
+                border: 1.1px solid black;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width: 100%">
+            <col width="30%"/>
+            <col width="40%"/>
+            <col width="30%"/>
+            <tr>
+                <td style=" font-size: 12px; text-align:left; border: none;">
+                    REF No : &nbsp;<apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+                </td>
+                <td style=" font-size: 12px; text-align:center; border: none;">
+                    担当者 : &nbsp;<apex:outputText value="{!shipment.clofor_com_cfs__PersonInCharge__r.Name}"/>
+                </td>
+                <td style=" font-size: 12px; text-align:right; border: none;">
+                    発行日：<apex:outputText value="{0,date,yyyy'年'MM'月'dd'日'}">
+                            <apex:param value="{!Today()}"/>
+                        </apex:outputText>
+                </td>
+            </tr>
+        </table>
+        <!-- <div style=" font-size: 12px; text-align:right; display: inline-flex; width: 100%;">
+            <div  style="width: 30%">
+                REF No : &nbsp;<apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+            </div>
+            <div style="width: 40%">
+                担当者 : &nbsp;<apex:outputText value="{!shipment.clofor_com_cfs__PersonInCharge__r.Name}"/>
+            </div>
+            <div style="width:30%;">
+                発行日：<apex:outputText value="{0,date,yyyy'年'MM'月'dd'日'}">
+                            <apex:param value="{!Today()}"/>
+                        </apex:outputText>
+            </div>
+            
+        </div> -->
+        <table border="1.1px solid black" style="width: 100%">
+            <col width="15%"/>
+            <col width="10%"/>
+            <col width="25%"/>
+            <col width="25%"/>
+            <col width="25%"/>
+            <tr style="height: 30px;">
+                <td  colspan="3" rowspan="2" style="border-left: hidden; vertical-align:text-top;"> 
+                    <!-- <div style="position:absolute; top: 21px; left: 8px; width: 300px; height: 60px;">Shipper <br/>
+                        <apex:outputField value="{!Shipment.HouseShipper__c}"/>
+                    </div> -->
+                    <apex:outputText >Shipper</apex:outputText> <br/>
+                    <apex:outputText rendered="{!shipment.MasterShipper__c != null}" value="{!shipment.MasterShipper__c}" style="white-space: pre-line;" escape="false;"/>
+                    <apex:outputText rendered="{!shipment.MasterShipper__c == null}">    
+                        Shin Toyo Gate Co., Ltd. <br/>
+                        5F Yokohama TH Building, 1-2 Chitose-cho, Naka-ku, Yokohama, Kanagawa, Japan <br/>
+                        Tel: (+81) 045-550-7196 &nbsp;&nbsp; Fax : (+81) 045-550-7191 <br/>
+                        Email:  export@sty-gate.com
+                    </apex:outputText>
+                    <!-- <apex:outputField value="{!Shipment.HouseShipper__c}"/> -->
+                </td>
+                <td colspan="2" style="font-size:12px;">&nbsp;&nbsp; Booking No: &nbsp;<apex:outputText style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 16px;" value="{!shipment.clofor_com_cfs__MASTER_BOOKINGNO__c}"></apex:outputText></td>
+            </tr>
+            <tr style="height: 70px;">
+                <td  colspan="2" style="text-align: center; font-size: 25px; border-bottom: hidden;  border-right: hidden; vertical-align:bottom"><apex:outputText >SHIPPING INSTRUCTION</apex:outputText> </td>
+            </tr>
+            <tr style="height: 35px;">
+                <td colspan="3" rowspan="2" style="border-left: hidden; vertical-align: text-top;"> 
+                    <!-- <div style="position:absolute; top: 91px; left: 8px; height: 60px; width: 300px;">Consignee <br/>
+                        <apex:outputField value="{!shipment.HouseConsignee__c}"/>
+                    </div> -->
+                    <apex:outputText >Consignee</apex:outputText><br/>
+                    <apex:outputText rendered="{!shipment.MasterConsignee__c != null}" value="{!shipment.MasterConsignee__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c != null && shipment.MasterConsignee__c == null}" value="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c}" escape="false" style="white-space:pre-line;"/>
+                    <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c == null && shipment.MasterConsignee__c == null}" escape="false" style="white-space:pre-line;">
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishCompanyName__c}</apex:outputText> <br/>
+                        <apex:outputText >{!shipment.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishAddress__c}</apex:outputText> <br/>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null}">
+                            TEL: {!shipment.clofor_com_cfs__DeliveryAgent__r.Phone} 
+                        </apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Phone != null}">&nbsp;&nbsp;&nbsp;&nbsp;</apex:outputText>
+                        <apex:outputText rendered="{!shipment.clofor_com_cfs__DeliveryAgent__r.Fax != null}">
+                            FAX: {!shipment.clofor_com_cfs__DeliveryAgent__r.Fax} 
+                        </apex:outputText>
+                    </apex:outputText>
+                </td>
+                <td  colspan="2" rowspan="2" style="border-right: hidden;  border-bottom: hidden;">
+                        <div style="position:absolute; left:363px; top: 160px;">
+                            <img align="middle" src="{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Logo_URL__c}" width="34mm"
+                                height="27mm" />
+                        </div>
+                        <div style="position:absolute; left:496px; top: 162px; font-size:10px; width:290px; line-height:1.7;">
+                         <b>〒231-0035<br/>
+                            神奈川県横浜市中区千歳町１−２ 横浜THビル 5F<br/>
+                            新東洋ゲートインターナショナル株式会社<br/>
+                            Tel: 045-550-7196  <br/>
+                            Home page: shintoyogate.com <br/>
+                            Email: export@sty-gate.com
+                        </b>
+                        </div>
+                </td>
+                <!-- <td style="height: 20px;"></td> -->
+
+            </tr>
+            <tr style="height: 70px;">
+                <!-- <td style="height: 20px;"></td>
+                <td style="height: 20px;"></td> -->
+            </tr>
+            <tr style="height: 35px;">
+                <td colspan="3" rowspan="2" style="border-left: hidden; vertical-align:text-top;">
+                    <!-- <div style="position:absolute; top: 161px; left: 8px; width: 300px; height: 60px;">Notify Party <br/>
+                        <apex:outputField value="{!shipment.HouseNotifyParty__c}"/>
+                    </div> -->
+                    <apex:outputText >Notify Party</apex:outputText><br/>
+                    <apex:outputText rendered="{!shipment.MasterNotifyParty__c != null}" value="{!shipment.MasterNotifyParty__c}" escape="false" style="white-space: pre-line;"/>
+                    <apex:outputText rendered="{!shipment.MasterNotifyParty__c == null}" value="Same as Consignee"/>
+                </td>
+                <td colspan="2" rowspan="2" style="border-right: hidden;"></td>
+                <!-- <td style="height: 20px;"></td> -->
+
+            </tr>
+            <tr style="height: 70px;">
+
+            </tr>
+            <tr style="height: 30px;">
+                <td colspan="2" style="border-left: hidden;"> 
+                    <!-- <div style="position:absolute; top: 231px; left: 8px; height: 25px; width:160px;">Cargo Type (CFS/FCL) <br/>
+                        <apex:outputText value="{!shipment.clofor_com_cfs__CARGO_TYPE__c}"/>
+                    </div> -->
+                    <apex:outputText >Cargo Type (CFS/FCL)</apex:outputText><br/>
+                    <apex:outputText value="{!shipment.clofor_com_cfs__CARGO_TYPE__c}"/>
+                </td>
+                <td style="vertical-align:text-top;">
+                    <!-- <div style="position:absolute; top: 231px; left: 143px; width: 160px; height: 25px;">Place of Receipt <br/>
+                        <apex:outputText value="{!shipment.clofor_com_cfs__PlaceOfReceiptDetailPrint__c}"/>
+                    </div> -->
+                    <apex:outputText >Place of Receipt</apex:outputText><br/>
+                    <apex:outputText value="{!shipment.clofor_com_cfs__PlaceOfReceiptDetailPrint__c}"/>
+                </td>
+                <!-- <td colspan="2" style="border-top: hidden; border-right: hidden;">
+                </td> -->
+                <td colspan="2" style="text-align:justify; font: 12px Helvetica;font-weight: bold">
+                    <apex:outputText escape="false" value="&nbsp;&nbsp; Doc Cut-off: &nbsp;"/>
+                    <apex:outputText value="{0, Time,dd/MM/yyyy HH:mm}">
+                        <apex:param value="{!docTime}" />
+                    </apex:outputText>
+                    <!-- <apex:outputText value="{!shipment.clofor_com_cfs__DOCUMENT_CLOSING_TIME__c}"/> -->
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="border-left: hidden; text-align:left; border-right:hidden;">
+                    Vessel <br/>
+                        <apex:outputText value="{!shipment.clofor_com_cfs__VESSEL_FLIGHT__c}"/>
+                    
+                    <!-- <div style="position:absolute; top: 379px; left: 120px; width: 50px; height: 40px;">Voy. No. <br/>
+                        <apex:outputText value="{!shipment.clofor_com_cfs__Voy_No__c}"/>
+                    </div> -->
+                </td>
+                <td style="text-align:right; padding-right:2px;">
+                        Voy. No.<br/>
+                        <apex:outputText value="{!shipment.clofor_com_cfs__Voy_No__c}"/>
+                    
+                </td>
+                <td style="vertical-align:text-top;">
+                    <!-- <div style="position:absolute; top: 261px; left: 143px; width: 160px; height: 25px;">Port of Loading <br/>
+                        <apex:outputText value="{!shipment.clofor_com_cfs__PortOfLoadingDetailPrint__c}"/>
+                    </div> -->
+                    <apex:outputText >Port of Loading</apex:outputText><br/>
+                    <apex:outputText value="{!shipment.clofor_com_cfs__PortOfLoadingDetailPrint__c}"/>
+                </td>
+                <td colspan="2" style="text-align:justify; font: 12px Helvetica;">
+                <b>&nbsp;&nbsp; Cargo Cut-off: &nbsp; <apex:outputText value="{0,date,dd/MM/yyyy HH:mm}">
+                                                <apex:param value="{!cargoTime}"/>
+                                            </apex:outputText></b>
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td colspan="2" style="border-left: hidden;vertical-align:text-top;">
+                    <!-- <div style="position:absolute; top: 291px; left: 8px; width: 130px; height: 25px;">Port of Discharge <br/>
+                        <apex:outputText value="{!shipment.clofor_com_cfs__PortOfDischargeDetailPrint__c}"/>
+                    </div> -->
+                    <apex:outputText >Port of Discharge</apex:outputText><br/>
+                    <apex:outputText value="{!shipment.clofor_com_cfs__PortOfDischargeDetailPrint__c}"/>
+                </td>
+                <td style="vertical-align:text-top;">
+                    <!-- <div style="position:absolute; top: 291px; left: 143px; width: 160px; height: 25px;">Place of Delivery <br/>
+                        <apex:outputText value="{!shipment.clofor_com_cfs__PlaceOfDeliveryDetailPrint__c}"/>
+                    </div> -->
+                    <apex:outputText >Place of Delivery</apex:outputText><br/>
+                    <apex:outputText value="{!shipment.clofor_com_cfs__PlaceOfDeliveryDetailPrint__c}"/>
+                </td>
+                <td style="text-align:justify; font: 12px Helvetica; ">
+                    <b>&nbsp;&nbsp; ETD: &nbsp; <apex:outputText value="{0,date,dd/MM/yyyy}">
+                                                <apex:param value="{!shipment.clofor_com_cfs__ETD__c}"/>
+                                            </apex:outputText></b>
+                </td>
+                <td style="text-align:justify; font: 12px Helvetica;">
+                    <b>&nbsp;&nbsp; ETA: &nbsp; <apex:outputText value="{0,date,dd/MM/yyyy}">
+                                                <apex:param value="{!shipment.clofor_com_cfs__ETA__c}"/>
+                                            </apex:outputText></b>
+                </td>
+            </tr>
+        </table>
+
+        <table style="border:none; width:100%;" >
+            <col width="20%"/>
+            <!-- <col width="10%"/> -->
+            <col width="20%"/>
+            <col width="24%"/>
+            <col width="18%"/>
+            <col width="18%"/>
+
+            <tr>
+                <td style="border:none; padding-top:5px;">
+                    <apex:outputText >
+                        Marks and Numbers
+                    </apex:outputText>
+                </td>
+                <td style="border:none; padding-top:5px; text-align: right;"><apex:outputText >Number of Packages</apex:outputText></td>
+                <td style="border:none; padding-top:5px; text-align: right;"><apex:outputText >Description of Goods</apex:outputText></td>
+                <td style="border:none; padding-top:5px; text-align: right;"><apex:outputText >Gross Weight</apex:outputText></td>
+                <td style="border:none; text-align: right; padding-top:5px; padding-right: 5px;"><apex:outputText >Measurement</apex:outputText></td>
+            </tr>
+            <tr style="height:265px;">
+                <td style="border:none; vertical-align:text-top;">
+                    <!-- <apex:outputField rendered="{!showInfo == true}" value="{!shipment.clofor_com_cfs__CONTAINERSEALNO__c}"/> <br/> -->
+                    <apex:outputField rendered="{!showInfo == true}" value="{!shipment.clofor_com_cfs__Marks_and_Numbers__c}"/>
+                </td>
+                <td style="border:none; vertical-align:text-top; text-align: right;">
+                    <apex:outputText rendered="{!showInfo == true}" value="{0,number,###,###,###}">
+                        <apex:param value="{!shipment.clofor_com_cfs__carton__c}"/>
+                    </apex:outputText> <br/>
+                    <apex:outputText rendered="{!showInfo == true}" value="{!shipment.clofor_com_cfs__UnitType__c}(s)"/>
+                </td>
+                <!-- <td style="border:none; vertical-align:text-top;"><br/> <apex:outputText rendered="{!showInfo == true}" value="{!shipment.clofor_com_cfs__UnitType__c}"/></td> -->
+                <td style="border:none; vertical-align:text-top; text-align: right;"><apex:outputField rendered="{!showInfo == true}" value="{!shipment.clofor_com_cfs__Item__c}"/></td>
+                <td style="border:none; vertical-align:text-top; text-align: right;">
+                    <apex:outputText rendered="{!showInfo == true}" value="{0,number,###,###,##0.000}">
+                        <apex:param value="{!shipment.clofor_com_cfs__weight__c}"/>
+                    </apex:outputText><br/> 
+                    <apex:outputText value="KG(s)" rendered="{!shipment.clofor_com_cfs__weight__c != null && showInfo == true}"/>
+                </td>
+                <td style="border:none; vertical-align:text-top; padding-right:5px; text-align: right;">
+                    <apex:outputText rendered="{!showInfo == true}" value="{0,number,###,###,##0.000}">
+                        <apex:param value="{!shipment.clofor_com_cfs__CBM__c}"/>
+                    </apex:outputText><br/>
+                    <apex:outputText value="CBM(s)" rendered="{!shipment.clofor_com_cfs__CBM__c != null && showInfo == true}"/>
+                </td>
+            </tr>
+
+            <div style="position:absolute; right:10px; top: 480px; text-align: right; width:300px; height:250px;">
+                <apex:outputText rendered="{!showInfo == true}">
+                        {!shipment.Container_Type_All__c}
+                </apex:outputText> <br/>
+                <apex:repeat value="{!lstContainer}" var="item">
+                    <apex:outputText rendered="{!showInfo == true}">
+                        {!item.clofor_com_cfs__Container_NO__c} / {!item.clofor_com_cfs__Seal_No__c} / {!item.clofor_com_cfs__Container__c}
+                    </apex:outputText> <br/>
+                </apex:repeat>
+            </div>
+        </table>
+        <br/>
+        
+      
+        <table border="1.1px solid black" style="width: 100%; font-size:11px;">
+            <col width="50%"/>
+            <col width="50%"/>
+            <tr style="height:30px;">
+                <td> 
+                    &nbsp;&nbsp; B/L Type： {!shipment.clofor_com_cfs__Master_BL_Type__c}  
+                </td>
+                <td>
+                    &nbsp;&nbsp; Ocean Freight： {!shipment.clofor_com_cfs__MFreight_Collect_Prepaid__c} 
+                </td>
+            </tr>
+           
+            <tr style="height:30px;">
+                <td>
+                    &nbsp;&nbsp; Required B/L (Org/Copy)： <apex:outputField value="{!shipment.clofor_com_cfs__Master_No_of_Original_B_s_L__c}"/>
+                </td>
+                <td>
+
+                </td>
+            </tr>
+            <tr style="height:110px;">
+                <td style="vertical-align:text-top; padding:5px;">
+                    <apex:outputText >通関業者：{!shipment.clofor_com_cfs__Custom_Clearance_Broker__r.Name}</apex:outputText> <br/>
+                    <!-- <div style="position:absolute; top: 630px; left: 20px; width:320px; height: 20px; ">
+                        通関業者： <apex:outputText value="{!shipment.clofor_com_cfs__Custom_Clearance_Broker__r.Name}"/>
+                    </div> -->
+                    <apex:outputText >船社・混載業者：{!shipment.clofor_com_cfs__BookingNv__r.Name}</apex:outputText> <br/>
+                    <!-- <div style="position:absolute; top: 645px; left: 20px; width:320px; height: 40px;">
+                        船社・混載業者： <apex:outputText value="{!shipment.clofor_com_cfs__BookingNv__r.Name}"/>
+                    </div> -->
+                    <apex:outputText style="white-space:pre-line;">搬入場所：</apex:outputText> <br/>
+                    <!-- <div style="position:absolute; top: 809px; left: 68px; width:270px; height:55px;"><apex:outputField value="{!shipment.WarehousesDetailInformation__c}"/></div> -->
+                    <apex:outputText style="white-space:pre-line;" escape="false" value="{!shipment.WarehousesDetailInformation__c}"/>
+                    <!-- <div style="position:absolute; top: 685px; left: 20px; width:320px; height: 80px;">
+                        搬入場所： <apex:outputText value="{!shipment.clofor_com_cfs__LoadLocation__r.Name}"/>
+                    </div> -->
+                </td>
+                <td style="vertical-align:text-top; padding:5px;">
+                    <apex:outputText >積替情報 ： <br/>
+                    {!shipment.clofor_com_cfs__TS__c} /{!shipment.clofor_com_cfs__TransitV__c} {!shipment.clofor_com_cfs__TransitVoyage__c}
+                    </apex:outputText>
+                    <!-- <div style="position:absolute; top: 630px; left: 348px; width:320px; height:50px;">
+                        積替情報 ：<br/>
+                        <apex:outputText value="{!shipment.clofor_com_cfs__TS__c}"/> / <apex:outputText value="{!shipment.clofor_com_cfs__TransitV__c}"/> &nbsp; <apex:outputText value="{!shipment.clofor_com_cfs__TransitVoyage__c}"/>
+                    </div> -->
+                    <br/>
+                    
+                    ETA: &nbsp; <apex:outputText value="{0,date,dd/MM/yyyy}">
+                                        <apex:param value="{!shipment.clofor_com_cfs__ETAAtTransitPort__c}"/>
+                                    </apex:outputText>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <!-- <div style="position:absolute; top: 685px; left: 348px; width:300px; height:25px;">
+                        ETA: &nbsp; <apex:outputText value="{0,date,dd/MM/yyyy}">
+                                        <apex:param value="{!shipment.clofor_com_cfs__ETAAtTransitPort__c}"/>
+                                    </apex:outputText>
+                    </div> -->
+                    ETD: &nbsp; <apex:outputText value="{0,date,dd/MM/yyyy}">
+                                        <apex:param value="{!shipment.clofor_com_cfs__T_ETD__c}"/>
+                                    </apex:outputText>
+                    <!-- <div style="position:absolute; top: 685px; left: 510px; width:300px; height:25px;">
+                        ETD: &nbsp; <apex:outputText value="{0,date,dd/MM/yyyy}">
+                                        <apex:param value="{!shipment.clofor_com_cfs__T_ETD__c}"/>
+                                    </apex:outputText>
+                    </div> -->
+                </td>
+            </tr>
+            <tr style="height:130px;">
+                <td colspan="2" style="vertical-align:text-top; padding:5px;">
+                    <!-- <div style="position:absolute; top: 770px; left: 20px; width:665px; height:230px;">
+                        Remark <br/>
+                        <apex:outputField value="{!shipment.clofor_com_cfs__Remarks__c}"/>
+                    </div> -->
+                    Remark <br/>
+                        <apex:outputField value="{!shipment.clofor_com_cfs__Remarks__c}"/>
+                </td>
+            </tr>
+        </table>
+        <!-- <div style="position:absolute; top: 1032px; left: 15px; width:200px; height:20px; font-size: 11px;">
+            REF No : &nbsp;<apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+        </div>
+        <div style="position:absolute; top: 1032px; left: 500px; width:200px; height:20px; font-size: 11px; text-align:left;">
+            担当者 : &nbsp;<apex:outputText value="{!shipment.clofor_com_cfs__PersonInCharge__r.Name}"/>
+        </div> -->
+        <!-- <table style="width:100%; border:none;">
+            <tr>
+                <td style="width:50%; text-align:left; border:none;">
+                    REF No : &nbsp;<apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+                </td>
+                <td style="width:50%; text-align:right; border:none;">
+                    担当者 : &nbsp;<apex:outputText value="{!shipment.clofor_com_cfs__PersonInCharge__r.Name}"/>
+                </td>
+            </tr>
+        </table> -->
+        <div style="{! IF(attachment != true,'display: none;', '')}">
+            <br/>
+            <!-- ATTACHMENT SHEET -->
+            <table border="1.1px solid black" style="width: 100%; font-size:11px;">
+                <col width = "25%"/>
+                <col width = "50%"/>
+                <col width = "25%"/>
+
+                <tr style="height: 15px;">
+                    <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="Ref No."/></td>
+                    <td rowspan="2" style="text-align: center; border: 1.1px solid black; font-size: 16px;"><apex:outputText value="ATTACHMENT SHEET"/></td>
+                    <td style="text-align: center; border: 1.1px solid black;"><apex:outputText value="H B/L No."/></td>
+                </tr>
+                <tr style="height: 15px;">
+                    <td style="border: 1.1px solid black; text-align: center;">
+                        <apex:outputText value="{!shipment.clofor_com_cfs__REFNO__c}"/>
+                    </td>
+                    <td style="border: 1.1px solid black; text-align: center;">
+                        <apex:outputText value="{!shipment.clofor_com_cfs__HBL_Number_SEA_AIR__c}"/>
+                    </td>
+                </tr>
+                <tr style="height:985px;">
+                    <td colspan="3" style="border: 1.1px solid black; vertical-align: top; padding-left: 5px;">
+                        <apex:outputText escape="false" style="white-space: pre-line;" value="{!shipment.Attachment__c}"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</apex:page>

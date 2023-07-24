@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Freight_and_charges__c</name>
+    <picklistValues>
+        <masterLabel>FREIGHT COLLECT AS ARRANGED</masterLabel>
+        <translation>Freight collect as arranged</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FREIGHT PREPAID AS ARRANGED</masterLabel>
+        <translation>Freight prepaid as arranged</translation>
+    </picklistValues>
+</CustomFieldTranslation>

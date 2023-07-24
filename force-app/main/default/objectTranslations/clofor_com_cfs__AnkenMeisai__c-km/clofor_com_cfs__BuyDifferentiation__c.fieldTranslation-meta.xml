@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Unpaid Balance of Buying(Local)=Amount Buying including Tax(Local)-Amount Paid-Buying(Local)</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyDifferentiation__c</name>
+</CustomFieldTranslation>

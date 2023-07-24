@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>현금으로 지급하기 위한 업무 담당자에게 인수한 현금 금액을 입력하여 주십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__AMOUNT_ADVANCE_PAID_TO_STAFF__c</name>
+</CustomFieldTranslation>

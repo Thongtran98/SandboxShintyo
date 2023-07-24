@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Container</fullName>
+    <active>true</active>
+    <label>Container</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__HandlingType__c</picklist>
+        <values>
+            <fullName>Load</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unload</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__LoadingUnloadingStatus__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed In Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CompletedInSchedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Arrangement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Rescheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

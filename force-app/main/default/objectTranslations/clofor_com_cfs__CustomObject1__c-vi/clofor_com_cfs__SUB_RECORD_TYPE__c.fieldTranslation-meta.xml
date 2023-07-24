@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__SUB_RECORD_TYPE__c</name>
+    <picklistValues>
+        <masterLabel>BARGING</masterLabel>
+        <translation>Vận Chuyển Bằng Xà Lan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DOOR-TO-DOOR</masterLabel>
+        <translation>Vận Chuyển Door-To-Door</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MTY REPO</masterLabel>
+        <translation>Luân Chuyển Container Rỗng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRANSIT</masterLabel>
+        <translation>Chuyển Tải</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRUCKING</masterLabel>
+        <translation>Vận Chuyển Bằng Xe Tải</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRUCKING &amp; BARGING</masterLabel>
+        <translation>Vận Chuyển Bằng Xe Tải &amp; Xà Lan</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Account_Number__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>CASE(RecordType.DeveloperName
+, &apos;CashIn&apos;,  clofor_com_cfs__CashPayer__r.AccountNumber 
+, &apos;InboundTransactionUSD&apos;, clofor_com_cfs__CashPayer__r.AccountNumber
+, &apos;CashOut&apos;,  clofor_com_cfs__CashTo__r.AccountNumber 
+, &apos;OutboundTransactionUSD_Currency&apos;, clofor_com_cfs__CashTo__r.AccountNumber
+, &apos;&apos;)</formula>
+    <label>Account Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>필터 유형 옵션입니다. 서비스명: 상품유효 같음 True</help>
+    <label></label>
+    <name>clofor_com_cfs__INVOICING__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

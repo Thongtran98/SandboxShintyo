@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chọn ngôn ngữ mà người liên lạc ưu tiên được nhận qua email tự động CloTra.</help>
+    <label></label>
+    <name>clofor_com_cfs__EMAILSERVICE_LANGUAGE__c</name>
+    <picklistValues>
+        <masterLabel>ENGLISH</masterLabel>
+        <translation>Tiếng Anh</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JAPANESE</masterLabel>
+        <translation>Tiếng Nhật</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIETNAMESE</masterLabel>
+        <translation>Tiếng Việt</translation>
+    </picklistValues>
+</CustomFieldTranslation>

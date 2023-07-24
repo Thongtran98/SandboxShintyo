@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>パートナーへのDebitノート送付ステータスを選択してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__DebitIssueStatus__c</name>
+    <picklistValues>
+        <masterLabel>At Internal Checking After Issue</masterLabel>
+        <translation>発行済 - 内容確認中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Internal Checking Confirmed After Issue</masterLabel>
+        <translation>発行済 - 内容確認済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carry Over to Next Month</masterLabel>
+        <translation>次回請求分に繰り越し</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copy Sent</masterLabel>
+        <translation>発行済 - コピー送付済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Settlement Required</masterLabel>
+        <translation>精算なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not issued yet-Vendor Invoice not received</masterLabel>
+        <translation>未発行- 業者請求書待ち</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Progress</masterLabel>
+        <translation>未発行- 案件進行中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting for Other Debit for Combine After Issue</masterLabel>
+        <translation>発行済 - 別案件進行中</translation>
+    </picklistValues>
+</CustomFieldTranslation>

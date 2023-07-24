@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tập tin này được đồng bộ hóa là đại lý của hãng tàu 1 và là đại lý của hãng tàu 2 trong mục thiết lập ban đầu của CloSCM. Nếu bạn muốn thay đổi, xin vui lòng thay đổi tại cài đặt ban đầu của CloSCM.</help>
+    <label></label>
+    <name>clofor_com_cfs__AS_AGENT_FOR_CARRIER_ON_BL__c</name>
+</CustomFieldTranslation>

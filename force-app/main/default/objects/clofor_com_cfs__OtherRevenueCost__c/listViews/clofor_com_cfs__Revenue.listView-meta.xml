@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Revenue</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>clofor_com_cfs__OtherRevenueCostName__c</columns>
+    <columns>clofor_com_cfs__ResourceNameForMailMerge__c</columns>
+    <columns>clofor_com_cfs__TaxRateRev__c</columns>
+    <columns>clofor_com_cfs__CollectedFromOtherRevenue__c</columns>
+    <columns>clofor_com_cfs__ChargeUnit__c</columns>
+    <columns>clofor_com_cfs__TotalAmountOfOtherRevenue__c</columns>
+    <columns>clofor_com_cfs__AmountOfTaxOtherRevenue__c</columns>
+    <columns>clofor_com_cfs__AmountOtherRevenueIncludeTax__c</columns>
+    <columns>clofor_com_cfs__AmountCollectedOtherRevenue__c</columns>
+    <columns>clofor_com_cfs__ReceiptanceSettledDateOtherRevenue__c</columns>
+    <columns>clofor_com_cfs__DifferenceOtherRevenue__c</columns>
+    <columns>clofor_com_cfs__Note__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__OtherRevenueCost__c.clofor_com_cfs__OtherRevenue,clofor_com_cfs__OtherRevenueCost__c.clofor_com_cfs__OtherRevenueUSDCurrency</value>
+    </filters>
+    <label>Revenue</label>
+    <language>en_US</language>
+</ListView>

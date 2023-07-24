@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>여러 포워딩을 통합하여 하나의 청구 항목으로 청구할 경우, 청구상세내역에 기제될 내용을 기술하여 주십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__DESCRIPTION_FOR_COMBINE__c</name>
+</CustomFieldTranslation>

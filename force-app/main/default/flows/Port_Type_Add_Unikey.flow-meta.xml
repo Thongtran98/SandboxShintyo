@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>unikey2</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.clofor_com_cfs__CodeOfPort__c}+IF(ISNULL({!$Record.Port_Name_Japanese__c}),null,&apos; - &apos;+{!$Record.Port_Name_Japanese__c})+&apos; - &apos;+TEXT({!$Record.clofor_com_cfs__Port_Type__c})</expression>
+    </formulas>
+    <interviewLabel>Port Type| Add Unikey {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Port Type| Add Unikey</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Unikey</name>
+        <label>Update Unikey</label>
+        <locationX>747</locationX>
+        <locationY>366</locationY>
+        <inputAssignments>
+            <field>clofor_com_cfs__Unique_Key__c</field>
+            <value>
+                <elementReference>unikey2</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>614</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Update_Unikey</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>clofor_com_cfs__Unique_Key__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>clofor_com_cfs__Port__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>unikey</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>{!$Record.clofor_com_cfs__CodeOfPort__c}+IF(ISNULL({!$Record.Port_Name_Japanese__c}),null,&apos; - &apos;+{!$Record.Port_Name_Japanese__c})+&apos; - &apos;+{!$Record.clofor_com_cfs__Port_Type__c}</text>
+    </textTemplates>
+</Flow>

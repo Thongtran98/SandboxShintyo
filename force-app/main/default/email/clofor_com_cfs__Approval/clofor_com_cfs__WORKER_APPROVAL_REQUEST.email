@@ -1,0 +1,14 @@
+There is an approval request for the following item:
+
+To approve or reject this item, click this link {!clofor_com_cfs__WORKER__c.Link}
+
+You can also approve, reject and comment on this request from your feed
+
+Best regards.
+
+********************************************************* 
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+********************************************************* 
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner) 
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform 
+www.afr-solutions.com

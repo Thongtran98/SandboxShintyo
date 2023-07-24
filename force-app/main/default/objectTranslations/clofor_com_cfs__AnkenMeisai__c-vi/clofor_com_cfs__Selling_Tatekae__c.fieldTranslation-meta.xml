@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Đánh dấu vào trong ô nếu khoản mục bán hàng phát sinh các chi phí khác ( Thuế, Hải quan).</help>
+    <label></label>
+    <name>clofor_com_cfs__Selling_Tatekae__c</name>
+</CustomFieldTranslation>

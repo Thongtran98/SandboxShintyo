@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>If the account is Carrier/Airliner, choose its Carrier code in this field. - Carrier(Sea): 4 characters - Airline Carrier: 2 characters</help>
+    <label></label>
+    <name>clofor_com_cfs__Carrier_Code__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

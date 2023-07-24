@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CarType__c</name>
+    <picklistValues>
+        <masterLabel>10Ton</masterLabel>
+        <translation>10톤</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10Ton Air Suspension</masterLabel>
+        <translation>10톤 에어 서스펜션</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10Ton Powergate</masterLabel>
+        <translation>10톤 파워게이지</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton</masterLabel>
+        <translation>2톤</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton Air Suspension</masterLabel>
+        <translation>2톤 에어 서스펜션</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton Long</masterLabel>
+        <translation>2톤 장축</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton Long Air Suspension</masterLabel>
+        <translation>2톤 장축 에어 서스펜션</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton Long Powergate</masterLabel>
+        <translation>2통 장축 파워게이지</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2Ton Powergate</masterLabel>
+        <translation>2톤 파워게이지</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4Ton</masterLabel>
+        <translation>4톤</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4Ton Air Suspension</masterLabel>
+        <translation>4톤 에어 서스펜션</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4Ton Powergate</masterLabel>
+        <translation>4톤 파워게이지</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4Ton consol</masterLabel>
+        <translation>4톤 상적</translation>
+    </picklistValues>
+</CustomFieldTranslation>

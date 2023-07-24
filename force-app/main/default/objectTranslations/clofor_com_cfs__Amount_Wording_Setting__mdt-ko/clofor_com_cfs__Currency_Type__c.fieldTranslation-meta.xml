@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Currency_Type__c</name>
+    <picklistValues>
+        <masterLabel>USD</masterLabel>
+        <translation>외화</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VND</masterLabel>
+        <translation>표준통화</translation>
+    </picklistValues>
+</CustomFieldTranslation>

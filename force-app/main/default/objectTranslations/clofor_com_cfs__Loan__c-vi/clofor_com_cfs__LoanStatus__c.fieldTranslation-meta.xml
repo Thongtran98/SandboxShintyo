@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__LoanStatus__c</name>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation>Đã hủy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current(Partially Paid)</masterLabel>
+        <translation>Hiện thời (Đã thanh toán một phần)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fully Paid</masterLabel>
+        <translation>Hoàn tất thanh toán</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funded</masterLabel>
+        <translation>Đã giải ngân</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Funding</masterLabel>
+        <translation>Đang giải ngân</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Trạng thái khác</translation>
+    </picklistValues>
+</CustomFieldTranslation>

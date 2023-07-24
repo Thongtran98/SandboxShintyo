@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Đây là mục bắt buộc.Nhân viên tạm ứng phải được chọn từ danh sách</help>
+    <label></label>
+    <name>clofor_com_cfs__CASH_CARRIERSTAFF__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

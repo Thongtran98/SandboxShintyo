@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chọn hình thức thanh toán xác định cách khách hàng của bạn thanh toán các hóa đơn.</help>
+    <label></label>
+    <name>clofor_com_cfs__TERMS_OF_PAYMENT__c</name>
+    <picklistValues>
+        <masterLabel>CASH</masterLabel>
+        <translation>Tiền mặt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CASH/TRANSFER</masterLabel>
+        <translation>TM/CK</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRANSFER</masterLabel>
+        <translation>Chuyển khoản</translation>
+    </picklistValues>
+</CustomFieldTranslation>

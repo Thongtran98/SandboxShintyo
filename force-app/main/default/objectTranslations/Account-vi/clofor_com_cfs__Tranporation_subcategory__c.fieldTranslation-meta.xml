@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Tranporation_subcategory__c</name>
+    <picklistValues>
+        <masterLabel>Default</masterLabel>
+        <translation>Vận tải nội địa từ nhà cung cấp đến cảng bốc hàng và từ cảng dỡ hàng đến điểm bốc hàng khỏi container đường biển tại cảng Tokyo</translation>
+    </picklistValues>
+</CustomFieldTranslation>

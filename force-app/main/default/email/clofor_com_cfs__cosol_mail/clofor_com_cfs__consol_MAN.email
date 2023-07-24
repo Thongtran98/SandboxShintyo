@@ -1,0 +1,24 @@
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevan__c} 
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevanRep__c} 様 
+
+いつもお世話になっております。Master A/Nを送付いたします。
+
+◎M SHIP ID：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MasterID__c} 
+◎M B/L番号(NO)：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MMaster_B_L_No__c} 
+◎船名(VESSEL)：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVessel__c} {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVoy_No__c}　 
+◎ETA ： {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__META__c} 
+◎入港曜日(ARRIVAL DAY)：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__META_DAY__c} 
+◎H B/L件数(Number of H B/L)：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__NO_HOUSE_B_L__c} H B/L 
+◎コンテナ(CONTAINER)： {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainer__c}*{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainerNumber__c} / {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainer2__c}*{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainerNumber2__c} 
+◎デバン予定日(DEVANNING DATE)：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevanningDate__c} 
+
+送付ファイル(ATTACHEMENT)：M A/N
+
+どうぞ宜しくお願いします。
+
+********************************************************* 
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__Mail_Merge_Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

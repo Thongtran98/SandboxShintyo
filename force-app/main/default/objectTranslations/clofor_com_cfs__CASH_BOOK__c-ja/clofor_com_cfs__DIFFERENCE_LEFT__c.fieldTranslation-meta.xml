@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>数値は自動で計算されます。差額（回収予定額-実際の回収額）= 回収予定額 - 実際の回収額　*差額（回収予定額-実際の回収額）が0以上の場合は、差額発生理由（回収予定額-実際の回収額）欄に理由を入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__DIFFERENCE_LEFT__c</name>
+</CustomFieldTranslation>

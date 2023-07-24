@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mafaili__Top_Folder__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Top Folder</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>No folder has been found. Make sure that your folder is flagged as a Top Folder.</errorMessage>
+        <filterItems>
+            <field>mafaili__Folder_Structure__c.mafaili__Top_Folder__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>mafaili__Folder_Structure__c</referenceTo>
+    <relationshipLabel>Automations Config</relationshipLabel>
+    <relationshipName>Automations_Config</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

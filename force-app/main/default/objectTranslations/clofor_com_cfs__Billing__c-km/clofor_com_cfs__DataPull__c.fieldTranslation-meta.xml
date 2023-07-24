@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>If want to automatic data updates from other process 
+-Select the process want to be copied from
+*Automatic in Data Updates Method must be selected to automatic data updates</help>
+    <label></label>
+    <name>clofor_com_cfs__DataPull__c</name>
+</CustomFieldTranslation>

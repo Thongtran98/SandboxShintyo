@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CutOffDateForPayrollPeriod__c</name>
+    <picklistValues>
+        <masterLabel>10th Of Next Month</masterLabel>
+        <translation>来月10日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10th Of This Month</masterLabel>
+        <translation>今月10日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15th Of Next Month</masterLabel>
+        <translation>来月15日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15th Of This Month</masterLabel>
+        <translation>今月15日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Of Next Month</masterLabel>
+        <translation>来月1日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Of This Month</masterLabel>
+        <translation>今月1日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20th Of Next Month</masterLabel>
+        <translation>来月20日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20th Of This Month</masterLabel>
+        <translation>今月20日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25th Of Next Month</masterLabel>
+        <translation>来月25日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25th Of This Month</masterLabel>
+        <translation>今月25日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd Of Next Month</masterLabel>
+        <translation>来月2日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd Of This Month</masterLabel>
+        <translation>今月2日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30th Of Next Month</masterLabel>
+        <translation>来月30日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30th Of This Month</masterLabel>
+        <translation>今月30日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31th Of Next Month</masterLabel>
+        <translation>来月31日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31th Of This Month</masterLabel>
+        <translation>今月31日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Of Next Month</masterLabel>
+        <translation>来月3日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Of This Month</masterLabel>
+        <translation>今月3日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5th Of Next Month</masterLabel>
+        <translation>来月5日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5th Of This Month</masterLabel>
+        <translation>今月5日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End Of This Month</masterLabel>
+        <translation>今月末</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End of Next Month</masterLabel>
+        <translation>来月末</translation>
+    </picklistValues>
+</CustomFieldTranslation>

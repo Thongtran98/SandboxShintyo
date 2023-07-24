@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>控除後課税対象額=課税所得-合計控除額</help>
+    <label></label>
+    <name>clofor_com_cfs__TaxableAmountAfterDeduction__c</name>
+</CustomFieldTranslation>

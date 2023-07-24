@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__DATE_VALI_TETD_Must_LaterThan_ETD</fullName>
+    <active>true</active>
+    <errorConditionFormula>clofor_com_cfs__T_ETD__c &lt; clofor_com_cfs__ETD__c</errorConditionFormula>
+    <errorDisplayField>clofor_com_cfs__T_ETD__c</errorDisplayField>
+    <errorMessage>Transit出港日は出港日より遅い日付を選択してください。 
+T-ETD must be later than ETD. Please re-enter the correct data.</errorMessage>
+</ValidationRule>

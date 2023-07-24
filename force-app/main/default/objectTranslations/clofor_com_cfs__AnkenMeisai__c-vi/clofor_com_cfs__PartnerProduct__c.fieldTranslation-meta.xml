@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu đã kiểm tra, sẽ hiện thị trong Hóa đơn Kiểm tra- Có. Nếu chưa kiểm tra, sẽ hiển thị trong Hóa đơn Kiểm tra- Không.</help>
+    <label></label>
+    <name>clofor_com_cfs__PartnerProduct__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Copy_of_3_Logistics_Service_Quote_Line</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__LineItemName__c</columns>
+    <columns>clofor_com_cfs__QuoteLineNumber__c</columns>
+    <columns>clofor_com_cfs__Unit__c</columns>
+    <columns>clofor_com_cfs__Quantity__c</columns>
+    <columns>clofor_com_cfs__SellingListPriceLocal__c</columns>
+    <columns>clofor_com_cfs__TotalAmountSellingLocal__c</columns>
+    <columns>clofor_com_cfs__SellingAmountInclTaxLocal__c</columns>
+    <columns>clofor_com_cfs__BuyingListPriceLocal__c</columns>
+    <columns>clofor_com_cfs__TotalAmountBuyingLocal__c</columns>
+    <columns>clofor_com_cfs__BuyingAmountInclTaxLocal__c</columns>
+    <columns>clofor_com_cfs__ProfitNICTaxLocal__c</columns>
+    <columns>clofor_com_cfs__ProfitRatioNICTaxLocal__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__QuoteLine__c.clofor_com_cfs__DomesticLogisticsServiceQuote</value>
+    </filters>
+    <label>Barging Service</label>
+</ListView>

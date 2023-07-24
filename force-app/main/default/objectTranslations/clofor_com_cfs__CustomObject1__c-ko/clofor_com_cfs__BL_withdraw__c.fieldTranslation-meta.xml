@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__BL_withdraw__c</name>
+    <picklistValues>
+        <masterLabel>回収予定(Expected to collect)</masterLabel>
+        <translation>회수예정</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>回収済(Collected)</masterLabel>
+        <translation>회수완료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未回収(Not collected)</masterLabel>
+        <translation>미회수</translation>
+    </picklistValues>
+</CustomFieldTranslation>

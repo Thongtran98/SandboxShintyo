@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__PayrollStatus__c</name>
+    <picklistValues>
+        <masterLabel>Confirmed</masterLabel>
+        <translation>확인완료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Settled</masterLabel>
+        <translation>지불완료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment processing</masterLabel>
+        <translation>지불처리중</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registered</masterLabel>
+        <translation>등록완료</translation>
+    </picklistValues>
+</CustomFieldTranslation>

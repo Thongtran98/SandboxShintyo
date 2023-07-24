@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ô hoạt động phải không được chọn khi yêu cầu giải quyết được gửi lên. Sau khi được đồng ý, hệ thống sẽ tự động chọn</help>
+    <label></label>
+    <name>clofor_com_cfs__Active__c</name>
+</CustomFieldTranslation>

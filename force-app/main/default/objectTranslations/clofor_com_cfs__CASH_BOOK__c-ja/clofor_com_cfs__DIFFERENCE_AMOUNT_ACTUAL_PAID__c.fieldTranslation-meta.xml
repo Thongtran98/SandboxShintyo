@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>数値は自動で計算されます。差額（支払予定額合計-支払額）= H B/L請求・仕入-支払予定額合計 -支払額+ 支払額超過支払分への補充金額</help>
+    <label></label>
+    <name>clofor_com_cfs__DIFFERENCE_AMOUNT_ACTUAL_PAID__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Thuế suất sẽ được tự động nhập vào khi vẫn còn Trống. Nhập thuế suất và tổng giá trị sẽ thay đổi bao gồm thuế. Đối với mục Miễn thuế hoặc Không có thuế thì thuế suất sẽ bằng 0%.</help>
+    <label></label>
+    <name>clofor_com_cfs__TaxInitial__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>案件から商品マスターを検索する際のキーになります</help>
+    <label></label>
+    <name>clofor_com_cfs__ProductSearch__c</name>
+    <picklistValues>
+        <masterLabel>AIR</masterLabel>
+        <translation>エア</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consolidation Cost Allocation</masterLabel>
+        <translation>マスター按分</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivery</masterLabel>
+        <translation>配送</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Custom Clearance</masterLabel>
+        <translation>通関輸出</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Export</masterLabel>
+        <translation>FCL輸出</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Import</masterLabel>
+        <translation>FCL輸入</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Triangular Trade</masterLabel>
+        <translation>FCL三国間</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Container Truck(Drayage)</masterLabel>
+        <translation>ドレー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Custom Clearance</masterLabel>
+        <translation>通関輸入</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Export</masterLabel>
+        <translation>LCL輸出</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Import</masterLabel>
+        <translation>LCL輸入</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Triangular Trade</masterLabel>
+        <translation>LCL三国間</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local Charge</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation>商品</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse</masterLabel>
+        <translation>倉庫</translation>
+    </picklistValues>
+</CustomFieldTranslation>

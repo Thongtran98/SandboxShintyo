@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>・空白で保存すると税率が自動で入力されます。 ・消費税率は手動で変更することが出来、その値が消費税額に反映されます。 ・非課税・免税商品の場合は強制的に値が0%になります。</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyTaxInitial__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Massive_Update_Expire_Date</fullName>
+    <columns>clofor_com_cfs__LastWOSRecordType__c</columns>
+    <columns>clofor_com_cfs__LastWosLineItem__c</columns>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Product__c</columns>
+    <columns>clofor_com_cfs__ProductDetails__c</columns>
+    <columns>clofor_com_cfs__ExpiredDate__c</columns>
+    <columns>clofor_com_cfs__CargoLifeCycle__c</columns>
+    <columns>clofor_com_cfs__ItemNumber__c</columns>
+    <columns>clofor_com_cfs__SerialNumber__c</columns>
+    <columns>clofor_com_cfs__PartNumber__c</columns>
+    <columns>clofor_com_cfs__LotNumber__c</columns>
+    <columns>clofor_com_cfs__ExpireDateSKUNumber__c</columns>
+    <columns>clofor_com_cfs__Summary__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__ExpiredDate__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Massive Update Expire Date</label>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>H B/L에 등록되어 있지 않는 총지불금액(표준통화)을 입력하십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__AMOUNT_PAID_NOT_IN_H_BL__c</name>
+</CustomFieldTranslation>

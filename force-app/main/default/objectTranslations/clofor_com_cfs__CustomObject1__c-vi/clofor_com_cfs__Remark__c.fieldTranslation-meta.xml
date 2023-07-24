@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu có bất kì lời nhận xét nào về khách hàng, nhập vào vùng này và nó sẽ được thể hiện trên mail tự động CloTra.</help>
+    <label></label>
+    <name>clofor_com_cfs__Remark__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Chasis__c</name>
+    <picklistValues>
+        <masterLabel>3 Axis</masterLabel>
+        <translation>三軸</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 Axis</masterLabel>
+        <translation>四軸</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Low Deck</masterLabel>
+        <translation>低装</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation>通常</translation>
+    </picklistValues>
+</CustomFieldTranslation>

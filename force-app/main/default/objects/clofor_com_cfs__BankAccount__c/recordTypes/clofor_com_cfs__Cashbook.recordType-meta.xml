@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Cashbook</fullName>
+    <active>false</active>
+    <description>To manage Cash Book</description>
+    <label>CASH BOOK</label>
+    <picklistValues>
+        <picklist>AccountType__c</picklist>
+        <values>
+            <fullName>1%2E Saving Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E Checking Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E Savings Deposit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CashBookCurrency__c</picklist>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__BankAccountCurrency__c</picklist>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__BankAccountType__c</picklist>
+        <values>
+            <fullName>Joint Account Holder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Corporate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__BankCity__c</picklist>
+        <values>
+            <fullName>VN_BRVT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VN_HCM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VN_TraVinh</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__BranchName__c</picklist>
+        <values>
+            <fullName>Ba Ngoi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Binh Duong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cai Mep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Can Tho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dai Hung</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dong Nai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dong Thap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hai Phong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hanoi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ho Chi Minh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hon Chong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hon Gay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Le Mon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>My Tho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nam Can</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nghe Tinh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phu My</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quy Nhon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tan Cang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Va Phong Vay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vung Tau</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Paste the link for B/L generated in &apos;Content Deliveries&apos;. Also paste the password from Content Deliveries into &apos;B/L Password&apos;</help>
+    <label></label>
+    <name>clofor_com_cfs__B_L_LINK__c</name>
+</CustomFieldTranslation>

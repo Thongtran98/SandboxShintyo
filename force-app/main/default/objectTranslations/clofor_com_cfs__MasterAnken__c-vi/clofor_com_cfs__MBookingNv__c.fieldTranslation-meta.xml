@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Khi công ty hợp nhất; nhập tên công ty của bạn, nhập tên hãng tàu hoặc những nhà vận tải gom hàng trong những lô hàng khác.</help>
+    <label></label>
+    <name>clofor_com_cfs__MBookingNv__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

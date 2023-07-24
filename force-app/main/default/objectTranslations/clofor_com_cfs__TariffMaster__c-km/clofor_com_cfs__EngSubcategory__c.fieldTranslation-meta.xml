@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__EngSubcategory__c</name>
+    <picklistValues>
+        <masterLabel>+1000KGS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>+100KGS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>+300KGS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>+45KGS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>+500KGS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AFR Filing</masterLabel>
+        <translation>AFR Filing</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMENDMENT FEE</masterLabel>
+        <translation>AMENDMENT FEE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMS</masterLabel>
+        <translation>AMS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B/B(Break Bulk) Fee</masterLabel>
+        <translation>B/B(Break Bulk) Fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B/L FEE</masterLabel>
+        <translation>B/L FEE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAF</masterLabel>
+        <translation>BAF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic charge</masterLabel>
+        <translation>Basic charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C/C(Charges Collect) FEE</masterLabel>
+        <translation>C/C(Charges Collect) FEE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAF</masterLabel>
+        <translation>CAF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CFS</masterLabel>
+        <translation>CFS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHARTER</masterLabel>
+        <translation>Charter</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIC</masterLabel>
+        <translation>CIC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CO-LOAD</masterLabel>
+        <translation>Co-load</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMMISSION</masterLabel>
+        <translation>Commission</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSOLIDATION</masterLabel>
+        <translation>Consolidation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSC(Container Security SubCharge)</masterLabel>
+        <translation>CSC(Container Security SubCharge)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSMP TAX</masterLabel>
+        <translation>CSMP TAX</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CY Charge</masterLabel>
+        <translation>CY Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carrier Cost Allocation</masterLabel>
+        <translation>Carrier Cost Allocation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carrier Cost Allocation(TAX)</masterLabel>
+        <translation>Carrier Cost Allocation(TAX)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carry fee</masterLabel>
+        <translation>Carry fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleaning Fee</masterLabel>
+        <translation>Cleaning Fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consolidation Allocation</masterLabel>
+        <translation>Consolidation Allocation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs fee(1sheet)-Big</masterLabel>
+        <translation>កម្រៃជើងសារគយ(1sheet)-Big</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs fee(1sheet)-Little</masterLabel>
+        <translation>កម្រៃជើងសារគយ(1sheet)-Little</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs fee(2sheet～)-Big</masterLabel>
+        <translation>កម្រៃជើងសារគយ(2sheet)-Big</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs fee(2sheet～)-Little</masterLabel>
+        <translation>កម្រៃជើងសារគយ(2sheet)-Little</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs handling fee</masterLabel>
+        <translation>កម្រៃកិច្ចការគយ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D/O FEE</masterLabel>
+        <translation>D/O Fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEBIT(REFUND)</masterLabel>
+        <translation>Debit(Refund)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DETENTION CHARGE</masterLabel>
+        <translation>Detention Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DOC FEE</masterLabel>
+        <translation>Doc Fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DOCUMENT DELIVERY SERVICE</masterLabel>
+        <translation>Document Delivery Service</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Devanning</masterLabel>
+        <translation>Devanning</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Divide</masterLabel>
+        <translation>Divide</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EBS</masterLabel>
+        <translation>EBS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EX-WORK CHARGE</masterLabel>
+        <translation>Ex-Work Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container Barging Charge</masterLabel>
+        <translation>Empty Container Barging Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container Demurrage Charge</masterLabel>
+        <translation>Empty Container Demurrage Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container Detention Charge</masterLabel>
+        <translation>Empty Container Detention Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container Trucking</masterLabel>
+        <translation>Empty Container Trucking</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export customs fee(1sheet)-Big</masterLabel>
+        <translation>Export customs fee(1sheet)-Big</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export customs fee(1sheet)-Little</masterLabel>
+        <translation>Export customs fee(1sheet)-Little</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export customs fee(2sheet～)-Big</masterLabel>
+        <translation>Export customs fee(2sheet～)-Big</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export customs fee(2sheet～)-Little</masterLabel>
+        <translation>Export customs fee(2sheet～)-Little</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export customs handling fee</masterLabel>
+        <translation>Export customs handling fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAF</masterLabel>
+        <translation>FAF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAF/BAF</masterLabel>
+        <translation>FAF/BAF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAF/YAS</masterLabel>
+        <translation>FAF/YAS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAF/YAS/EBS</masterLabel>
+        <translation>FAF/YAS/EBS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FI(Free in)</masterLabel>
+        <translation>FI(Free in)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FILO(Free in, Liner out)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIO(Free in and out)</masterLabel>
+        <translation>FIO(Free in and out)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIOS(Free In, Out and Stowed)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIOST LS(Free in and out and stowed and trimmed, Lashed Secured)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIOST(Free in and out and stowed and trimmed)</masterLabel>
+        <translation>FIOST(Free in and out and stowed and trimmed)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FISLO(Free in Stowed, Liner out)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fast charge</masterLabel>
+        <translation>Fast charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flexitank</masterLabel>
+        <translation>Flexitank</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fumigation</masterLabel>
+        <translation>Fumigation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GBF</masterLabel>
+        <translation>GBF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HDS</masterLabel>
+        <translation>HDS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handling Charge</masterLabel>
+        <translation>Handling Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Holiday</masterLabel>
+        <translation>Holiday</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import consumption tax (reimbursement)</masterLabel>
+        <translation>Import consumption tax (reimbursement)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industrial waste disposal fee</masterLabel>
+        <translation>Industrial waste disposal fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Initial charge inspection fee</masterLabel>
+        <translation>Initial charge inspection fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Input and storage fee</masterLabel>
+        <translation>Input and storage fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance</masterLabel>
+        <translation>Insurance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Journal fee</masterLabel>
+        <translation>Journal fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kick-back</masterLabel>
+        <translation>Kick-back</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIFO(Liner in, free out)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOLO</masterLabel>
+        <translation>LOLO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lift Off</masterLabel>
+        <translation>Lift Off</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lift On</masterLabel>
+        <translation>Lift On</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Midnight・Early Morning</masterLabel>
+        <translation>Midnight・Early Morning</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minimum Charge</masterLabel>
+        <translation>Minimum Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCEAN FREIGHT Surcharge Excluded</masterLabel>
+        <translation>Ocean Freight Surcharge Excluded</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCEAN FREIGHT Surcharge Included</masterLabel>
+        <translation>Ocean Freight Surcharge Included</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>ផ្សេងទៀត</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Local Charge</masterLabel>
+        <translation>Oversea Local Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PORT CHARGE(OTHER&apos;S FORWARDING)</masterLabel>
+        <translation>Port Charge(Other&apos;s Forwarding)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PORT CHARGE(OWN COMPANY FORWARDING)</masterLabel>
+        <translation>Port Charge(Own Company Forwarding)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSS</masterLabel>
+        <translation>PSS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner Cost Allocation</masterLabel>
+        <translation>Partner Cost Allocation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation>ផលិតផល</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request application form</masterLabel>
+        <translation>Request application form</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEAL</masterLabel>
+        <translation>Seal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Fee</masterLabel>
+        <translation>Service Fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shed fee</masterLabel>
+        <translation>Shed fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Short Drage</masterLabel>
+        <translation>Short Drage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Storage fee</masterLabel>
+        <translation>Storage fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>System Charges</masterLabel>
+        <translation>System Charges</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TELEX</masterLabel>
+        <translation>Telex</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>THC</masterLabel>
+        <translation>THC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRUCKING FEE</masterLabel>
+        <translation>Trucking Fee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tariff (advances)</masterLabel>
+        <translation>Tariff (advances)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Triaxial</masterLabel>
+        <translation>Triaxial</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanning</masterLabel>
+        <translation>Vanning</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>W/H IN &amp; OUT CHARGE</masterLabel>
+        <translation>W/H in &amp; out Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wait charge</masterLabel>
+        <translation>Wait charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wharehouse Cost Allocation</masterLabel>
+        <translation>Warehouse Cost Allocation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YAS</masterLabel>
+        <translation>YAS</translation>
+    </picklistValues>
+</CustomFieldTranslation>

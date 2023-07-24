@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập số B/L sau khi chuyển đổi, nếu có.</help>
+    <label></label>
+    <name>clofor_com_cfs__SECONDSWITCH_BL__c</name>
+</CustomFieldTranslation>

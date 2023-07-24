@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập Tỉ Giá Cố Định nếu tỉ giá là cố định. Nếu tỉ giá không cố định, vui lòng quản lý tỉ giá trên mỗi bảng lương.</help>
+    <label></label>
+    <name>clofor_com_cfs__FIXED_EXCHANGE_RATE__c</name>
+</CustomFieldTranslation>

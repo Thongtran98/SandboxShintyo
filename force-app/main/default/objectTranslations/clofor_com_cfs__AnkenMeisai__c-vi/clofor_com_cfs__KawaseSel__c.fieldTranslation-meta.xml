@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tỉ giá bán cho khách hàng. Ngày phát hành hóa đơn mặc định cho ngày tỉ giá được áp dụng (thường là today), tỉ giá sẽ tự động đồng bộ. Ngày phát hành hóa đơn có thể cập nhật (manual) tại: Fixed Invoice Issue Date (If Fixed)</help>
+    <label></label>
+    <name>clofor_com_cfs__KawaseSel__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shipment_Status_can_edit_Acountant</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND( ISPICKVAL( clofor_com_cfs__Anken__r.Shipment_Status__c , &quot;Acountant_check&quot;) , $Profile.Name &lt;&gt; &quot;[Rapid] Accounting&quot;,$Profile.Name &lt;&gt; &quot;[ShinToyo] All Profile&quot;, $Profile.Name &lt;&gt; &quot;System Administrator&quot;),
+AND( ISCHANGED( clofor_com_cfs__Description__c ),
+ISCHANGED( clofor_com_cfs__Bikou__c ),
+ISCHANGED( OutboundInvoiceNo__c ),
+ISCHANGED( clofor_com_cfs__Anken__c ),
+ISCHANGED( clofor_com_cfs__PrintFlag__c ),
+ISCHANGED(clofor_com_cfs__SeikyuBangou__c)
+) )</errorConditionFormula>
+    <errorMessage>Only User with Profile [ShinToyo] All Profile and [Rapid] Accounting can edit this field!</errorMessage>
+</ValidationRule>

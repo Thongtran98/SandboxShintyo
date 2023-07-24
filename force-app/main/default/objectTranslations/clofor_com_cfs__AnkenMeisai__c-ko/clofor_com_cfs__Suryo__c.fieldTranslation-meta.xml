@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>판매단가(표준통화)*수량을 하여 합계 판매금액(표준통화)을 계산합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__Suryo__c</name>
+</CustomFieldTranslation>

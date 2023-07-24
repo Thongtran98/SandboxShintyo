@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>If Actual Gross Base is greater or equal to Minimum Salary Base Amount in HR Policy, Salary to Contribute Social Insurance=Minimum Salary Base Amount in HR Policy,
+Otherwise, Salary To Contribute Social Insurance=Actual Gross Base</help>
+    <label></label>
+    <name>clofor_com_cfs__SalaryToContributeSocialInsurance__c</name>
+</CustomFieldTranslation>

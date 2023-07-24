@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Amount of Tax-Selling(Local)=Total Amount of Selling(Local)*Consumption Tax Ratio-Selling(Local)/100 . ***Consumption Tax Ratio-Selling Field shows percentage. **</help>
+    <label></label>
+    <name>clofor_com_cfs__SellTaxNum__c</name>
+</CustomFieldTranslation>

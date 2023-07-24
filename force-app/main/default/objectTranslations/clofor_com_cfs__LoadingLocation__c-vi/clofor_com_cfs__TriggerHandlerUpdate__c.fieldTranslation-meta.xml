@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chỉ sử dụng từ Kích hoạt người xử lý để điều khiển nâng cấp việc ghi lại link</help>
+    <label></label>
+    <name>clofor_com_cfs__TriggerHandlerUpdate__c</name>
+</CustomFieldTranslation>

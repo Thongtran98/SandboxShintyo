@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>방글라데시에서 발행된 오리지날 비엘일 경우 진행사항을 입력하여 주십시오.</help>
+    <label></label>
+    <name>clofor_com_cfs__HOUSEBL_SUBMIT__c</name>
+    <picklistValues>
+        <masterLabel>回収済み・船社へも提出</masterLabel>
+        <translation>콘사이니로부터 회수 완료/선사에 제출 완료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未回収</masterLabel>
+        <translation>미회수</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>船社へ提出済み</masterLabel>
+        <translation>선사에 제출 완료</translation>
+    </picklistValues>
+</CustomFieldTranslation>

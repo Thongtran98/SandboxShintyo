@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>환율. 청구서발행일(초기값으로 ’오늘’의 날짜가 적용)이 유효한 환율레크드의 유효기간내에 있을 경우, 자동으로 유효한 환율이</help>
+    <label></label>
+    <name>clofor_com_cfs__ExchangeRate__c</name>
+</CustomFieldTranslation>

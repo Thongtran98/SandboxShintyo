@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CarrierType__c</name>
+    <picklistValues>
+        <masterLabel>AIR</masterLabel>
+        <translation>Đường hàng không</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIR&amp;INLAND</masterLabel>
+        <translation>Vận tải đa phương thức (đường hàng không và đất liền)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIR&amp;RAIL</masterLabel>
+        <translation>Vận tải đa phương thức (đường hàng không và đường săt)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIR&amp;RIVER</masterLabel>
+        <translation>Vận tải đa phương thức (đường hàng không và sông)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INLAND</masterLabel>
+        <translation>Đất liền</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INLAND&amp;RAIL</masterLabel>
+        <translation>Vận tải đa phương thức (đất liền và đường săt)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INLAND&amp;RIVER</masterLabel>
+        <translation>Vận tải đa phương thức (đất liền và sông)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAIL</masterLabel>
+        <translation>Đường săt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RIVER</masterLabel>
+        <translation>Đường sông</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA</masterLabel>
+        <translation>Đường biển</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA&amp;AIR</masterLabel>
+        <translation>Vận tải đa phương thức (đường biển và đường hàng không)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA&amp;INLAND</masterLabel>
+        <translation>Vận tải đa phương thức (đường biển và đất liền)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA&amp;RAIL</masterLabel>
+        <translation>Vận tải đa phương thức (đường biển và đường sắt)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEA&amp;RIVER</masterLabel>
+        <translation>Vận tải đa phương thức (đường biển và sông)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

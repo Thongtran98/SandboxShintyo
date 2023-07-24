@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CHILD_NAME</field>
+    </columns>
+    <columns>
+        <field>clofor_com_cfs__QuoteLine__c.clofor_com_cfs__QuoteLineNumber__c</field>
+    </columns>
+    <columns>
+        <field>clofor_com_cfs__QuoteLine__c.clofor_com_cfs__LineItemName__c</field>
+    </columns>
+    <columns>
+        <field>clofor_com_cfs__QuoteLine__c.clofor_com_cfs__SellingListPriceLocal__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>clofor_com_cfs__QuoteLine__c.clofor_com_cfs__ProfitNICTaxLocal__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>clofor_com_cfs__QuoteLine__c.clofor_com_cfs__TotalAmountSellingLocal__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>clofor_com_cfs__QuoteLine__c.clofor_com_cfs__SellingAmountInclTaxLocal__c</field>
+    </columns>
+    <format>Summary</format>
+    <name>QUOTE PROFIT ANALYSIS FOR EMBED</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$clofor_com_cfs__Quote__c$clofor_com_cfs__QuoteLine__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>clofor_com_cfs__Quote__c.clofor_com_cfs__ETA__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

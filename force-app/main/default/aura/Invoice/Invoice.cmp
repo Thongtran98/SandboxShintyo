@@ -1,0 +1,3 @@
+<aura:component implements = "force:hasRecordId,force:hasSObjectName,flexipage:availableForRecordHome,flexipage:availableForAllPageTypes" access ="global">
+    <lightning:button onclick="{!c.openNewTab}" label="Invoice ver2"></lightning:button>
+</aura:component>

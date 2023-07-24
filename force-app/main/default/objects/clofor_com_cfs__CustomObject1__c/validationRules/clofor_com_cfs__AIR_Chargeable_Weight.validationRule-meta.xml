@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__AIR_Chargeable_Weight</fullName>
+    <active>true</active>
+    <description>Air Chargeable weight must be equal or higher than Gross Weight. 
+Gross Weight must be equal or higher than Net Weight 
+
+NET Weight=&lt; Gross Weight =&lt;Chargeable Weight</description>
+    <errorConditionFormula>AND(ISPICKVAL(clofor_com_cfs__CarrierType__c,&quot;AIR&quot;), 
+OR(clofor_com_cfs__NET_NET_Weight__c &gt; clofor_com_cfs__weight__c , clofor_com_cfs__NET_NET_Weight__c &gt; clofor_com_cfs__chargable_weight__c , clofor_com_cfs__weight__c &gt; clofor_com_cfs__chargable_weight__c)
+)</errorConditionFormula>
+    <errorDisplayField>clofor_com_cfs__weight__c</errorDisplayField>
+    <errorMessage>入力された重量に誤りがあります。以下のように入力してください。
+NET Weight=&lt; Gross Weight =&lt;Chargeable Weight
+Weights are conflict. They must be NET Weight=&lt; Gross Weight =&lt;Chargeable Weight</errorMessage>
+</ValidationRule>

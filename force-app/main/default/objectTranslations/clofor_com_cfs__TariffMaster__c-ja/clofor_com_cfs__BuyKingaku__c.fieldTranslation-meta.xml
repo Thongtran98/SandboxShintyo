@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>数値を入力すると、H B/L請求・仕入明細の仕入単価(標準通貨)が空白の場合に自動で数値を入力します。</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyKingaku__c</name>
+</CustomFieldTranslation>

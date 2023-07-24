@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Transfer</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Customer__c</columns>
+    <columns>clofor_com_cfs__WarehouseName__c</columns>
+    <columns>clofor_com_cfs__DestinationWarehouseName__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>clofor_com_cfs__Quantity__c</columns>
+    <columns>clofor_com_cfs__Measurement__c</columns>
+    <columns>clofor_com_cfs__GrossWeight__c</columns>
+    <columns>clofor_com_cfs__UnitType__c</columns>
+    <columns>clofor_com_cfs__ScheduleDate__c</columns>
+    <columns>clofor_com_cfs__ActualDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__WorkOrder__c.clofor_com_cfs__Transfer</value>
+    </filters>
+    <label>4.Transfer</label>
+    <language>en_US</language>
+</ListView>

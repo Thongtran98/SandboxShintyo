@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Please enter deadline Date that you expect your your partner has to pay at the latest. The date will be shown in the Due Date of Debit Note.</help>
+    <label></label>
+    <name>clofor_com_cfs__DebitNote_duedate__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__InvoiceIssueType__c</name>
+    <picklistValues>
+        <masterLabel>COD（Cash-On-Delivery）</masterLabel>
+        <translation>Giao hàng thu tiền hộ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORIGINALを20日までに必着</masterLabel>
+        <translation>Chắc chắn gửi hóa đơn gốc vào ngày 20 trong tháng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORIGINALを20日までに発送</masterLabel>
+        <translation>Gửi hóa đơn gốc vào ngày 20 trong tháng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORIGINALを20日まで発送、21日から月末までのコピーと集計表をメールで送付</masterLabel>
+        <translation>Gửi hóa đơn gốc vào ngày 20, gửi hóa đơn copy từ ngày 21 đến cuối tháng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORIGINALを月末までに発送</masterLabel>
+        <translation>Gửi hóa đơn gốc vào cuối tháng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORIGINALを都度発送</masterLabel>
+        <translation>Gửi hóa đơn gốc vào mỗi lần thanh toán</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし（パートナーとの清算）</masterLabel>
+        <translation>Không(Thỏa thuận với đối tác)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>コピーを都度発送、ORIGINALを月末までに発送</masterLabel>
+        <translation>Gửi hóa đơn copy mỗi lần, gửi hóa đơn gốc vào cuối tháng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>コピーを都度発送、ORIGINALを締日に発送</masterLabel>
+        <translation>Gửi hóa đơn copy mỗi lần, gửi hóa đơn gốc vào ngày thực hiện</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>立替金ORIGINALを毎週金曜日までに発送</masterLabel>
+        <translation>Gửi hóa đơn gốc ngày thứ 6 hàng tuần với sự thanh toán bởi người thay thế</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>許可書、納付書をセットし、ORIGINALとまとめて即発送</masterLabel>
+        <translation>Được cho phép gửi hóa đơn gốc, bảng báo cáo tình hình thanh toán</translation>
+    </picklistValues>
+</CustomFieldTranslation>

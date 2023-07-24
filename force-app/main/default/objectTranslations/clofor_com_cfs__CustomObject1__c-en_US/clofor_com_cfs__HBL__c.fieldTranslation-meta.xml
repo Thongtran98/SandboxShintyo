@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Import: Refer to th HB/L and input. Export: When ETD is set, automatically generates H B/L Number with the prefix in initial setting. HB/L Number can be modified after insertion.</help>
+    <label></label>
+    <name>clofor_com_cfs__HBL__c</name>
+</CustomFieldTranslation>

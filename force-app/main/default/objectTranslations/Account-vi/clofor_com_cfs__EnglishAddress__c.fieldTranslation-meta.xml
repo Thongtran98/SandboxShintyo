@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập địa chỉ công ty bằng tiếng anh và tên sẽ tự động xuất hiện trên vận đơn, thông báo hàng đến và các chừng từ khác.</help>
+    <label></label>
+    <name>clofor_com_cfs__EnglishAddress__c</name>
+</CustomFieldTranslation>

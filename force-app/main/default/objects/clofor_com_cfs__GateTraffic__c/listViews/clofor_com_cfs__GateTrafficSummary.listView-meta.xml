@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__GateTrafficSummary</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__GateEntryExitStatus__c</columns>
+    <columns>clofor_com_cfs__EntryPermissionStatus__c</columns>
+    <columns>clofor_com_cfs__PlateNumber__c</columns>
+    <columns>clofor_com_cfs__CntrInTransport__c</columns>
+    <columns>clofor_com_cfs__PlanEntryDateTime__c</columns>
+    <columns>clofor_com_cfs__PlanExitDateTime__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Gate Traffic Summary</label>
+</ListView>

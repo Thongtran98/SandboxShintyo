@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>청구처,지불처의 ‘종류’를 참조하며 해외파트너의 거래처명을 표시합니다. 어느 쪽이든 국내의 경우 ‘국내’가 표시됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__PartnerSeisan__c</name>
+</CustomFieldTranslation>

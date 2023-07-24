@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__HowKPIResultUsed__c</name>
+    <picklistValues>
+        <masterLabel>Annual Incentive Calculation</masterLabel>
+        <translation>Tính toán thưởng khích lệ hàng tháng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monitoring Only</masterLabel>
+        <translation>Chỉ nhằm mục đích giám sát</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monthly Incentive Calculation</masterLabel>
+        <translation>Tính toán thưởng khích lệ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Mục đích sử dụng khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promotion Evaluation</masterLabel>
+        <translation>Đánh giá tiến cử</translation>
+    </picklistValues>
+</CustomFieldTranslation>

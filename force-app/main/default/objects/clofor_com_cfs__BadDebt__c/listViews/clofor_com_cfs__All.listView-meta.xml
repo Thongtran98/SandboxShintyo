@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__FMSBill__c</columns>
+    <columns>clofor_com_cfs__FMSSO__c</columns>
+    <columns>clofor_com_cfs__BadDebtStatus__c</columns>
+    <columns>clofor_com_cfs__BadDebtStartDate__c</columns>
+    <columns>clofor_com_cfs__Debtor__c</columns>
+    <columns>clofor_com_cfs__BadDebtAmountLocal__c</columns>
+    <columns>clofor_com_cfs__BadDebtAmountFCY__c</columns>
+    <columns>clofor_com_cfs__ProbabilityOfNotCollecting__c</columns>
+    <columns>clofor_com_cfs__ExpectedUncollectableAccountFCY__c</columns>
+    <columns>clofor_com_cfs__ExpectedUncollectableAccountLocal__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__InventoryLogCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>clofor_com_cfs__ProductID__c</fields>
+    <fields>clofor_com_cfs__FacilityID__c</fields>
+    <fields>clofor_com_cfs__StartStockQuantity__c</fields>
+    <fields>clofor_com_cfs__StockInQuantity__c</fields>
+    <fields>clofor_com_cfs__StockOutQuantity__c</fields>
+    <fields>clofor_com_cfs__StockQuantityOnHand__c</fields>
+    <label>Inventory log Compact Layout</label>
+</CompactLayout>

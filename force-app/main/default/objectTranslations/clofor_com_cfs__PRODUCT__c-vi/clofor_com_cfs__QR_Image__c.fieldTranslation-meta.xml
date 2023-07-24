@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chuỗi ký tự sẽ được tự động chuyển thành ảnh mã QR hoặc Barcode theo Loại ảnh mã vạch</help>
+    <label></label>
+    <name>clofor_com_cfs__QR_Image__c</name>
+</CustomFieldTranslation>

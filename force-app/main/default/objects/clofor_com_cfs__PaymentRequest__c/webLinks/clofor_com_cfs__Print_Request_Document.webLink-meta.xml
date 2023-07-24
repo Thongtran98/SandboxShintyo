@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Print_Request_Document</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Print Request Document</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>https://{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__My_Domain_Name__c}/mail/mmchoose.jsp?id={!URLENCODE(clofor_com_cfs__PaymentRequest__c.Id)}&amp;1={!clofor_com_cfs__PaymentRequest__c.Name}&amp;retURL=%2F{!URLENCODE(clofor_com_cfs__PaymentRequest__c.Id)}</url>
+</WebLink>

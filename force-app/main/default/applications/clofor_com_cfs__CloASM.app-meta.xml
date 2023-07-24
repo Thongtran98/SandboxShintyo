@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>clofor_com_cfs__ASSET__c</defaultLandingTab>
+    <description>ASM(Asset Module):Module to manage asset and depreciation.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>AFR CloASM-Asset Module</label>
+    <tabs>clofor_com_cfs__ASSET__c</tabs>
+    <tabs>clofor_com_cfs__AssetTransfer__c</tabs>
+    <tabs>clofor_com_cfs__DepreciationExpense__c</tabs>
+    <tabs>clofor_com_cfs__RecordingDepreciation__c</tabs>
+    <tabs>clofor_com_cfs__Deposit__c</tabs>
+    <tabs>clofor_com_cfs__DepositOffset__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>clofor_com_cfs__NewNavigation</tabs>
+    <tabs>clofor_com_cfs__DownloadDocument</tabs>
+</CustomApplication>

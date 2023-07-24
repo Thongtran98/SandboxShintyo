@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__RollUpGrossWeightWOProduct__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>ROLLUP GROSS WEIGHT FROM W/O &amp; PRODUCT</label>
+    <summarizedField>clofor_com_cfs__ConnectWOProduct__c.clofor_com_cfs__GrossWeightKG__c</summarizedField>
+    <summaryForeignKey>clofor_com_cfs__ConnectWOProduct__c.clofor_com_cfs__WorkOrderID__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

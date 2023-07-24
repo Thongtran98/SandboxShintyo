@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__TransferReceiving</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__WorkOrderService__c</columns>
+    <columns>clofor_com_cfs__WOSRecordType__c</columns>
+    <columns>clofor_com_cfs__WorkOrderID__c</columns>
+    <columns>clofor_com_cfs__CargoStatus__c</columns>
+    <columns>clofor_com_cfs__ScanTime__c</columns>
+    <columns>clofor_com_cfs__GoodsPOID__c</columns>
+    <columns>clofor_com_cfs__GoodsSOID__c</columns>
+    <columns>clofor_com_cfs__CarrierCode__c</columns>
+    <columns>clofor_com_cfs__Carrier__c</columns>
+    <columns>clofor_com_cfs__Cargo__c</columns>
+    <columns>clofor_com_cfs__QRCodeLabel__c</columns>
+    <columns>clofor_com_cfs__ProductID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__WOSRecordType__c</field>
+        <operation>equals</operation>
+        <value>Transfer Receiving</value>
+    </filters>
+    <label>5.Transfer Receiving</label>
+    <language>en_US</language>
+</ListView>

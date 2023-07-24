@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Trợ cấp tiền chuyển vùng thực tế=tiền trợ cấp chuyển vùng trong mục quản lý nhân viên*tỉ suất ngày làm việc</help>
+    <label></label>
+    <name>clofor_com_cfs__ActualRelocationAllowance__c</name>
+</CustomFieldTranslation>

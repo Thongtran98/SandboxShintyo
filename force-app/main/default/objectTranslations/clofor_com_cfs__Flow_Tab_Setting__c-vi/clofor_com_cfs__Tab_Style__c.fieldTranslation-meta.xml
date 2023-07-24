@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Tab_Style__c</name>
+    <picklistValues>
+        <masterLabel>Dashboard</masterLabel>
+        <translation>Biểu đồ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Link</masterLabel>
+        <translation>Đường dẫn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Object</masterLabel>
+        <translation>Chức năng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Report</masterLabel>
+        <translation>Báo cáo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User Info</masterLabel>
+        <translation>Thông tin Người dùng</translation>
+    </picklistValues>
+</CustomFieldTranslation>

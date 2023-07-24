@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__TotalDistanceKM__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>TOTAL DISTANCE(KM)</label>
+    <summarizedField>clofor_com_cfs__LoadingLocation__c.clofor_com_cfs__DistanceKM__c</summarizedField>
+    <summaryForeignKey>clofor_com_cfs__LoadingLocation__c.clofor_com_cfs__Route__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

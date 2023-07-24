@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;English小分類から入力され、英語の請求書やD/N,C/Nに表示されます。&quot;</help>
+    <label></label>
+    <name>clofor_com_cfs__EngPrintProduct__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>PODに入港する船及び航空便</help>
+    <label></label>
+    <name>clofor_com_cfs__Vessle__c</name>
+</CustomFieldTranslation>

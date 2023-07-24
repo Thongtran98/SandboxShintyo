@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>세금계산서청구처가 청구처와 틀릴 경우에만 금계산서청구처에 입력 하여 주십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__VAT_INVOICE_TO__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Flow__c</name>
+    <picklistValues>
+        <masterLabel>AFR Services &amp; Contracts</masterLabel>
+        <translation>AFR서비스 및 계약</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-FMS/TMS</masterLabel>
+        <translation>CloACM-회계모듈-FMS/TMS/SMS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-Purchasing/Expenses &amp; Management</masterLabel>
+        <translation>CloACM-회계모듈-구매</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-Shared Accounting Service</masterLabel>
+        <translation>CloACM-회계모듈-공통</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-Transaction</masterLabel>
+        <translation>CloACM-회계모듈-입출금</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-WMS</masterLabel>
+        <translation>CloACM-회계기능-WMS/TOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloAPI-API Module for External Integration</masterLabel>
+        <translation>CloAPI-외부시스템통합API모듈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloASM-Asset Module</masterLabel>
+        <translation>CloASM-자산모듈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloAudit-Audit Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCRM-Cust/Ptnr/Vendor Relationship and Pricing Module</masterLabel>
+        <translation>CloCRM-CRM모듈-고객/파트너/업체 및 프라이싱</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCRM-Quotation &amp; Contract</masterLabel>
+        <translation>CloCRM-CRM모듈-견적및계약</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCSM-Consolidation Module</masterLabel>
+        <translation>CloCSM-콘솔모듈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCha-Chatter Module</masterLabel>
+        <translation>CloCha-Chatter모듈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFCM-Facility Module</masterLabel>
+        <translation>CloFCM-시설모듈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFLM-JP24H AFR Module</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFMS-Forwarding System</masterLabel>
+        <translation>CloFMS-포워딩시스템</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFRM-Financial Report Module</masterLabel>
+        <translation>CloFRM-재무재표모듈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloHRM-Human Resource Module</masterLabel>
+        <translation>CloHRM-인사모듈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloINV-Inventory Module</masterLabel>
+        <translation>CloIVM-재고모듈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloIoT-IoT Integration</masterLabel>
+        <translation>CloIOT-IOT모듈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloKPI-KPI Module</masterLabel>
+        <translation>CloKPI-KPI모듈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloLog-Logistic Module</masterLabel>
+        <translation>CloLog-Logistics Module</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSCM Package-Code</masterLabel>
+        <translation>CloSCM패키지-마스트코드</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSCM Package-Customization</masterLabel>
+        <translation>CloSCM패키지-커스터마이즈</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSCM Package-Setup</masterLabel>
+        <translation>CloSCM패키지-셋업</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSMS-Ship System</masterLabel>
+        <translation>CloSMS-선박운행시스템</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloTMS-Transportation System</masterLabel>
+        <translation>CloTMS-운송시스템</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloTOS-Terminal System</masterLabel>
+        <translation>CloTOS-터미널시스템</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloTRS-Trading System</masterLabel>
+        <translation>CloTRS-무역 및 주문시스템</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloWMS-Warehouse System</masterLabel>
+        <translation>CloWMS-창고시스템</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloWTM-Cargo Tracking Module &amp; Searching</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting/Advisory Service &amp; Best Practice</masterLabel>
+        <translation>컨설팅서비스 및 사례</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FMS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language &amp; Time Zone</masterLabel>
+        <translation>언어 및 표준시간대</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>My Setup</masterLabel>
+        <translation>내 설정</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Release &amp; Tutorial/Scenario for Self-Learning</masterLabel>
+        <translation>리리스 및 자습을 위한 학습자료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operation Management</masterLabel>
+        <translation>운영관리</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Organization Governance &amp; Monitoring</masterLabel>
+        <translation>조직통제 및 모니터링</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PC Setup &amp; Data Upload Template</masterLabel>
+        <translation>PC셋업 및 데이터 업로드 템플릿</translation>
+    </picklistValues>
+</CustomFieldTranslation>

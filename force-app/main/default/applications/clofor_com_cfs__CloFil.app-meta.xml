@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>clofor_com_cfs__CloFilPLISM</defaultLandingTab>
+    <description>FIM(Filing Module):Module to manage Japan 24Hours Advanced Filing. The Filing must be completed before ETD for the cargo destination is Japan.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>AFR CloFIM-Advanced Filing Module</label>
+    <tabs>standard-Document</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>clofor_com_cfs__CustomObject1__c</tabs>
+    <tabs>clofor_com_cfs__Container_Info__c</tabs>
+    <tabs>clofor_com_cfs__CloFilPLISM</tabs>
+    <tabs>clofor_com_cfs__AdvancedFilingSystem__c</tabs>
+    <tabs>clofor_com_cfs__NewNavigation</tabs>
+    <tabs>clofor_com_cfs__DownloadDocument</tabs>
+</CustomApplication>

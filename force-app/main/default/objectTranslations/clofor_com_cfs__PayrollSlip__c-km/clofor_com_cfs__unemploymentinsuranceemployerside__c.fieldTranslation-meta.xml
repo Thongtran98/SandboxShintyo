@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>0% នៃប្រាក់បៀវត្សរ៍ដើម្បីរួមចំណែកធានារ៉ាប់រងសង្គម</help>
+    <label></label>
+    <name>clofor_com_cfs__unemploymentinsuranceemployerside__c</name>
+</CustomFieldTranslation>

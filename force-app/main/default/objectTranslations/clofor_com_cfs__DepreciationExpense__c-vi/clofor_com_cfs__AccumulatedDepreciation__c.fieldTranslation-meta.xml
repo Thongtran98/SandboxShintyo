@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Khấu hao tổng từ ngày bắt đầu tính khấu hao đến hiện tại</help>
+    <label></label>
+    <name>clofor_com_cfs__AccumulatedDepreciation__c</name>
+</CustomFieldTranslation>

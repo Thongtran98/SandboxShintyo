@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>clofor_com_cfs__SerchSyubetu__c</name>
+    <picklistValues>
+        <masterLabel>FCL輸入</masterLabel>
+        <translation>进口 - 整箱(FCL)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL輸出</masterLabel>
+        <translation>出口 - 整箱(FCL)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL輸入</masterLabel>
+        <translation>进口 - 散箱(LCL)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL輸出</masterLabel>
+        <translation>出口 - 散货(LCL)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ドレー</masterLabel>
+        <translation>集装箱拖车</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>マスター按分</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>倉庫</masterLabel>
+        <translation>仓库</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>実費</masterLabel>
+        <translation>实际费用</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>海外現地費用</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通関輸入</masterLabel>
+        <translation>进口 - 清关</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通関輸出</masterLabel>
+        <translation>出口 - 清关</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>配送</masterLabel>
+        <translation>派送</translation>
+    </picklistValues>
+</CustomFieldTranslation>

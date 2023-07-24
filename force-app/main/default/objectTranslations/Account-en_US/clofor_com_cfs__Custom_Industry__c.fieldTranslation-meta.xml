@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Custom_Industry__c</name>
+    <picklistValues>
+        <masterLabel>AIR TRANSPORTATION</masterLabel>
+        <translation>Air Transportation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APPAREL</masterLabel>
+        <translation>Apparel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHEMICAL PRODUCTS</masterLabel>
+        <translation>Chemical Products</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSUMER PRODUCT</masterLabel>
+        <translation>Consumer Product</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOOD</masterLabel>
+        <translation>Food</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIGHT INDUSTRY</masterLabel>
+        <translation>Light Industry</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MACHINERY</masterLabel>
+        <translation>Machinery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MARINE TRANSPORTATION</masterLabel>
+        <translation>Marine Transportation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHER</masterLabel>
+        <translation>Other</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAW MATERIAL</masterLabel>
+        <translation>Raw Material</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RELATED TO TRANSPORT</masterLabel>
+        <translation>Related To Transport</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRADING COMPANY</masterLabel>
+        <translation>Trading Company</translation>
+    </picklistValues>
+</CustomFieldTranslation>

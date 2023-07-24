@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VOL__c</fullName>
+    <externalId>false</externalId>
+    <formula>Container_Type_All__c  +IF(ISBLANK(  Container_Type_All__c ) , null, &quot; / &quot;)+ TEXT (clofor_com_cfs__carton__c) + &quot; &quot;+ TEXT(clofor_com_cfs__UnitType__c) + &quot; / &quot; + TEXT(clofor_com_cfs__weight__c) +&quot; KGs&quot; +&quot; / &quot; + TEXT (clofor_com_cfs__CBM__c ) +&quot; CBM&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>VOL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

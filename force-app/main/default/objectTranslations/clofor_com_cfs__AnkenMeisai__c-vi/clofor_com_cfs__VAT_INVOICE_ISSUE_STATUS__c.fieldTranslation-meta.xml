@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Phần này có thể được điều chỉnh bởi 3 hồ sơ sau: - Kế toán  - Nhân viên cấp cao  - Quản trị hệ thống</help>
+    <label></label>
+    <name>clofor_com_cfs__VAT_INVOICE_ISSUE_STATUS__c</name>
+</CustomFieldTranslation>

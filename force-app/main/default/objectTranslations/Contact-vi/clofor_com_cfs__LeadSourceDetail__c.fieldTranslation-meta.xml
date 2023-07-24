@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__LeadSourceDetail__c</name>
+    <picklistValues>
+        <masterLabel>Business Club</masterLabel>
+        <translation>CLB doanh nhân</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conference</masterLabel>
+        <translation>Hội thảo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Networking</masterLabel>
+        <translation>Quen biết</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>School</masterLabel>
+        <translation>Trường học</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seminar</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training</masterLabel>
+        <translation>Đào tạo</translation>
+    </picklistValues>
+</CustomFieldTranslation>

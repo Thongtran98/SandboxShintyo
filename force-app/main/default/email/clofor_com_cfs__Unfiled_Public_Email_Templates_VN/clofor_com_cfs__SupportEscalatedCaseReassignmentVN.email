@@ -1,0 +1,11 @@
+Tác vụ này đã được phân công lại cho bạn vì gần đết hạn chót, nhưng nó vẫn còn chưa giải quyết.
+
+Công Ty: {!Account.Name} 
+Mức dịch vụ: {!Account_Service_Level} 
+Sản phẩm: {!Case.00N5h00000DvWyd} 
+Trường hơp số#: {!Case.CaseNumber} 
+Tiêu đề số: {!Case.Subject}
+
+********************************************************* 
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c}  
+*********************************************************

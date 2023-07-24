@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__D_O_type__c</name>
+    <picklistValues>
+        <masterLabel>Attachment (荷渡指示書または専用A/Nあり)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D/O Less</masterLabel>
+        <translation>Không có D/O</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D/O No.</masterLabel>
+        <translation>Số D/O</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D/O Original</masterLabel>
+        <translation>D/O Gốc</translation>
+    </picklistValues>
+</CustomFieldTranslation>

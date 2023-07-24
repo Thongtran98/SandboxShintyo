@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Optional Filter criteria: 1 and (2 or 3)
+-1:Pricing Name in Pricing: Active equal True
+-2:Service Provider Vendor in Pricing equal Payment To-Buying in Invoicing
+-3:Target Customer in Pricing equal Invoice To in Invoicing</help>
+    <label></label>
+    <name>clofor_com_cfs__Tariff__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

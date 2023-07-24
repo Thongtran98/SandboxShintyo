@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__DeliveryType__c</name>
+    <picklistValues>
+        <masterLabel>Charter Truck</masterLabel>
+        <translation>트럭-독차</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consolidation Truck</masterLabel>
+        <translation>트럭-콘솔</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drayage</masterLabel>
+        <translation>콘테이너 도레지</translation>
+    </picklistValues>
+</CustomFieldTranslation>

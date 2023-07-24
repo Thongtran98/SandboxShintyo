@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>A:Fast</fullName>
+        <default>false</default>
+        <label>A:Fast</label>
+    </customValue>
+    <customValue>
+        <fullName>B:Normal</fullName>
+        <default>false</default>
+        <label>B:Normal</label>
+    </customValue>
+    <customValue>
+        <fullName>C:Slow</fullName>
+        <default>false</default>
+        <label>C:Slow</label>
+    </customValue>
+    <customValue>
+        <fullName>D-Super slow</fullName>
+        <default>false</default>
+        <label>D-Super slow</label>
+    </customValue>
+    <masterLabel>FAST/SLOW CLASSIFICATION</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

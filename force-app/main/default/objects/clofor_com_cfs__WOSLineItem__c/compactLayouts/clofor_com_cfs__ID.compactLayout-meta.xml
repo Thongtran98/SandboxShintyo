@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__ID</fullName>
+    <fields>Name</fields>
+    <fields>clofor_com_cfs__WorkOrderID__c</fields>
+    <fields>clofor_com_cfs__WorkOrderService__c</fields>
+    <fields>clofor_com_cfs__Cargo__c</fields>
+    <fields>clofor_com_cfs__CargoStatus__c</fields>
+    <fields>clofor_com_cfs__IsCargoScanned__c</fields>
+    <fields>clofor_com_cfs__Locator__c</fields>
+    <fields>clofor_com_cfs__Worker__c</fields>
+    <label>ID</label>
+</CompactLayout>

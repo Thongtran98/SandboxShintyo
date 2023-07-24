@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CustomService_port__c</name>
+    <picklistValues>
+        <masterLabel>東京港通関</masterLabel>
+        <translation>Tokyo Port Custom Clearance</translation>
+    </picklistValues>
+</CustomFieldTranslation>

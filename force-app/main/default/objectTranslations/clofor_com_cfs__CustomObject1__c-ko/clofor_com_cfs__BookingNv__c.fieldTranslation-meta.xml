@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>FCL경우에는 선사를, LCL의 경우에는 콘솔사를, 자체콘솔일 경우에는 귀사의 사내관리용 거래처를 선택하여 주십시오.</help>
+    <label></label>
+    <name>clofor_com_cfs__BookingNv__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,103 @@
+.THIS {
+}
+.THIS .component-wrap{
+    width: 100vw;
+}
+.THIS .component-wrap-scroll{
+    overflow-x:auto;
+    overscroll-behavior-x: contain;
+    overscroll-behavior-y: auto;
+    padding: 10px;
+    border: 1px solid rgb(201,201,201);
+    border-radius: 4px;
+}
+.THIS .ship-information__box{
+    background: rgb(76, 115, 190);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+.THIS .ship-information__box--warning{
+    background: rgb(190, 76, 76);
+    cursor: pointer;
+    position: relative;
+}
+.THIS .ship-information__box--warning:hover::before{
+    content: "No ETD or ETA on this Transit";
+    font-size: 12px;
+    position: absolute;
+    display: block;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+    top: -110%;
+}
+.THIS .transit-hover{
+    cursor: pointer;
+    position: relative;
+}
+.THIS .transit-hover:hover::before{
+    content: attr(data-before);
+    font-size: 12px;
+    position: absolute;
+    display: block;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+    top: -110%;
+}
+.THIS .default-box{
+    width: 100px;
+}
+.THIS .ship-information__label{
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+}
+.THIS #drawing {
+    /* width: 1%; */
+    table-layout: auto;
+}
+.THIS #drawing td {
+    text-align: center;
+}
+
+.THIS .line {
+    position: relative;
+    height: 0;
+    border: 0.3px solid rgb(76, 115, 190);
+}
+.THIS .line-arrow{
+    width: 99%;
+}
+.THIS .line-arrow::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid rgb(76, 115, 190);
+    right: -2px;
+    top: -4.8px;
+}
+.THIS #information{
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.THIS #information td {
+    border: 1px solid white;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+.THIS #information tr td:nth-child(1),
+.THIS #information tr td:nth-child(2),
+.THIS #information tr td:nth-child(3),
+.THIS #information tr td:nth-child(4) {
+    background: rgb(232, 235, 244);
+}
+.THIS .line-wrap{
+    min-width: 200px;
+}

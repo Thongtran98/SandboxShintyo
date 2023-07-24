@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__VendorVATInvoice</fullName>
+    <active>true</active>
+    <description>To manage VAT from Vendors</description>
+    <label>Vendor VAT Invoice</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__AutoConnectSourceToTrx__c</picklist>
+        <values>
+            <fullName>Not Yet Processed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing Requested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__AutoConnectToTransaction__c</picklist>
+        <values>
+            <fullName>Not Yet Processed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing Requested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__BANK_INFORMATION_REQUIRED__c</picklist>
+        <values>
+            <fullName>LOCAL BANK 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOCAL BANK 2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CREDIT_TERM__c</picklist>
+        <values>
+            <fullName>CASH ON DELIVERY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONTHLY CREDIT PAYMENT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CurrencyConversionforSelling__c</picklist>
+        <values>
+            <fullName>From Local Currency to USD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>From USD to Local Currency</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ForeignCurrency__c</picklist>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__REGISTERATION_NO_FORM__c</picklist>
+        <values>
+            <fullName>01GEKT3%2F001</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>01GEKT3%2F002</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__REGISTRATION_NO_SERIAL__c</picklist>
+        <values>
+            <fullName>TD%2F11PD</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>TD%2F11PF</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ShipmentOrderIdentification__c</picklist>
+        <values>
+            <fullName>Container No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H B%2FL No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Job Request ID From Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M B%2FL No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual Input</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipment Order No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work Order No</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__TERMS_OF_PAYMENT__c</picklist>
+        <values>
+            <fullName>CASH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CASH%2FTRANSFER</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>TRANSFER</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__VATPeriodUnit__c</picklist>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yearly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__VAT_INVOICE_ISSUE_STATUS__c</picklist>
+        <values>
+            <fullName>Draft VAT Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft VAT Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Original VAT Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Original VAT Mistaken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Original VAT Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Original VAT Returned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__VAT_INVOICE_USAGE_STATUS__c</picklist>
+        <values>
+            <fullName>VAT INVOICE DISPOSED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAT INVOICE STORED AS BACKUP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAT INVOICE USED</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__WorkOrderIdentification__c</picklist>
+        <values>
+            <fullName>Container No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H B%2FL No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Job Request ID From Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M B%2FL No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual Input</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipment Order No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work Order No</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

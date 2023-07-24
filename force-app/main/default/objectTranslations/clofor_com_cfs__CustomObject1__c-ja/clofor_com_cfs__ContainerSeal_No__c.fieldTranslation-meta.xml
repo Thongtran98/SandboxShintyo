@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コンテナ番号・Seal番号セクションにコンテナ番号及びシール番号を入力してください</help>
+    <label></label>
+    <name>clofor_com_cfs__ContainerSeal_No__c</name>
+</CustomFieldTranslation>

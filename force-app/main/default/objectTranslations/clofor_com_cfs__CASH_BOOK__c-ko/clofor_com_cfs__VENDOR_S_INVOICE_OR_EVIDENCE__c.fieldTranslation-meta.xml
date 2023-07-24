@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>현금 결제 금액을 확인 가능한 증명서류를 첨부하시기 바랍니다. 증명서류로서는 청구서, 영수증, 그외 업체의 공적 서류등이 가능합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__VENDOR_S_INVOICE_OR_EVIDENCE__c</name>
+</CustomFieldTranslation>

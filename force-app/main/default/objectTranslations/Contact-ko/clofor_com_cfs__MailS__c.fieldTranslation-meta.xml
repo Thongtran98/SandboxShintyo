@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>자동메일을 원하지 않을 경우 박스를 체크하시면 중단됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__MailS__c</name>
+</CustomFieldTranslation>

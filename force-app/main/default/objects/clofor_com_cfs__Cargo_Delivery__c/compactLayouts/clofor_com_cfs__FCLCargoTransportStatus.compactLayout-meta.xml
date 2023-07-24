@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__FCLCargoTransportStatus</fullName>
+    <fields>Name</fields>
+    <fields>clofor_com_cfs__Driver__c</fields>
+    <fields>clofor_com_cfs__DeliveryCompany__c</fields>
+    <fields>clofor_com_cfs__EmptyPickupCompleted__c</fields>
+    <fields>clofor_com_cfs__EmptyTransportCompleted__c</fields>
+    <fields>clofor_com_cfs__CargoPickupCompleted__c</fields>
+    <fields>clofor_com_cfs__CargoTransportCompleted__c</fields>
+    <label>FCL Cargo Transport Status</label>
+</CompactLayout>

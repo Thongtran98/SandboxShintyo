@@ -1,0 +1,26 @@
+Dear Account Team Managers 
+
+{!clofor_com_cfs__CASH_BOOK__c.CreatedBy} has requested your approval for the new Cash Book as below.
+
+Please click this link to aprove or reject this record.
+
+◎CASH BOOK ID：[{!clofor_com_cfs__CASH_BOOK__c.Name}] Link to CloFor:{!clofor_com_cfs__CASH_BOOK__c.Link} 
+◎CASH CARRIER STAFF：{!CASH_BOOK__c.00N5h00000DvWyZ}
+◎STATUS：{!clofor_com_cfs__CASH_BOOK__c.clofor_com_cfs__CASH_STATUS__c}
+
+◎DIFFERENCES(EXPECTED-ACTUAL)：{!clofor_com_cfs__CASH_BOOK__c.clofor_com_cfs__DIFFERENCE_LEFT__c} 
+◎REASON FOR DIFFERENCES(EXPECTED-ACTUAL):{!clofor_com_cfs__CASH_BOOK__c.clofor_com_cfs__REASON_FOR_DIFFERENCE_ER__c}
+
+◎DIFFERENCES(TOTAL AMOUNT- ACTUAL PAID) ：{!clofor_com_cfs__CASH_BOOK__c.clofor_com_cfs__DIFFERENCE_AMOUNT_ACTUAL_PAID__c} 
+◎REASON FOR DIFFERENCES(TOTAL AMOUNT- ACTUAL PAID):：{!clofor_com_cfs__CASH_BOOK__c.clofor_com_cfs__REASON_FOR_DIFFERENCE_TA__c}
+
+You can also approve, reject and comment on this request from your feed.
+
+Best regards.
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+ *********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

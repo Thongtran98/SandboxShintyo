@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>計算された消費税額が実際の消費税額と異なる場合、差額を入力してください。差額を入力することで仕入消費税額(標準通貨)を調整できます。</help>
+    <label></label>
+    <name>clofor_com_cfs__TAX_ADJUSTMENT__c</name>
+</CustomFieldTranslation>

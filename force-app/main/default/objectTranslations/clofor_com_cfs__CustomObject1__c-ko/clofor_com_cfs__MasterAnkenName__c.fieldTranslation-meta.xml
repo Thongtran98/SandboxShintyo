@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>자사콘솔의 경우만 자사콘솔마스터 안건명을 입력합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__MasterAnkenName__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

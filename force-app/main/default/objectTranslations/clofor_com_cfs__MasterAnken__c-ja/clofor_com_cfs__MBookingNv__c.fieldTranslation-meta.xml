@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>貴社の自社混載の場合は貴社の社名を入力してください。それ以外の場合は相当する船会社や混載業者の名前を入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__MBookingNv__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

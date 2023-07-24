@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>견적내용은 최대한 3라인 까지 입력 가능합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__QuoationDescription__c</name>
+</CustomFieldTranslation>

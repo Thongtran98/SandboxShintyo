@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Shiharaikouza__c</name>
+    <picklistValues>
+        <masterLabel>Pre-registered Bank Account 1</masterLabel>
+        <translation>គណនីធនាគារដែលបានចុះឈ្មោះជាមុន 1</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-registered Bank Account 2</masterLabel>
+        <translation>គណនីធនាគារដែលបានចុះឈ្មោះជាមុន 2</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-registered Bank Account 3</masterLabel>
+        <translation>គណនីធនាគារដែលបានចុះឈ្មោះជាមុន 3</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-registered Bank Account 4</masterLabel>
+        <translation>Pre-registered  Bank Account 4</translation>
+    </picklistValues>
+</CustomFieldTranslation>

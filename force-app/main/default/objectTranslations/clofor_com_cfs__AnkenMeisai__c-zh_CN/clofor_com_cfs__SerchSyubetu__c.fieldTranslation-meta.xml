@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__SerchSyubetu__c</name>
+    <picklistValues>
+        <masterLabel>AIR</masterLabel>
+        <translation>空运</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Cost</masterLabel>
+        <translation>实报实销</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivery</masterLabel>
+        <translation>派送</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drayage</masterLabel>
+        <translation>集装箱拖车</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Custom Clearance</masterLabel>
+        <translation>出口报关</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Export</masterLabel>
+        <translation>FCL出口</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Import</masterLabel>
+        <translation>FCL进口</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Custom Clearance</masterLabel>
+        <translation>进口报关</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Export</masterLabel>
+        <translation>LCL出口</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Import</masterLabel>
+        <translation>LCL进口</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Master Charges Allocation</masterLabel>
+        <translation>MASTER案件费用平分</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Local Charges</masterLabel>
+        <translation>海外/起运港费用</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse</masterLabel>
+        <translation>仓库</translation>
+    </picklistValues>
+</CustomFieldTranslation>

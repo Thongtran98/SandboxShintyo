@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Copy_of_Approved_Quote</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__QuoteName__c</columns>
+    <columns>clofor_com_cfs__QuoteStatus__c</columns>
+    <columns>clofor_com_cfs__POLAOD__c</columns>
+    <columns>clofor_com_cfs__PODAOA__c</columns>
+    <columns>clofor_com_cfs__QuoteIssueDate__c</columns>
+    <columns>clofor_com_cfs__BuyingAmountInclTaxLocal__c</columns>
+    <columns>clofor_com_cfs__AmountInclTaxLocal__c</columns>
+    <columns>clofor_com_cfs__ProfitRatioInclTaxLocal__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__ForwardingServiceRequired__c</field>
+        <operation>equals</operation>
+        <value>Domestic Transportation</value>
+    </filters>
+    <label>Domestic Service</label>
+</ListView>

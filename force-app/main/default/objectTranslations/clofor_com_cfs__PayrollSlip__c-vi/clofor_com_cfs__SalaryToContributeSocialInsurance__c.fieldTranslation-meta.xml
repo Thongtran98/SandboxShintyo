@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu lương gộp cơ bản thực tế lớn hơn hoặc bằng lương cơ bản tối thiểu/tháng trong mục chính sách HR, tiền lương phải tham gia BHXH=lương cơ bản tối thiểu/tháng. Mặt khác, lương phải trích đóng bảo hiểm=lương gộp cơ bản thực tế</help>
+    <label></label>
+    <name>clofor_com_cfs__SalaryToContributeSocialInsurance__c</name>
+</CustomFieldTranslation>

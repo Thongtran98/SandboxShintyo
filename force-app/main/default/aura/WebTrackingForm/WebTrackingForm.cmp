@@ -1,0 +1,60 @@
+<aura:component description="WebTrackingForm" controller="WebTrackingFormController"
+    implements="force:hasSObjectName,force:hasRecordId,flexipage:availableForRecordHome,flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes,lightning:availableForFlowScreens">
+
+    <aura:attribute name="shipId" type="String"/>
+    <aura:attribute name="mess" type="String"/>
+    <aura:attribute name="lstCheck" type="String[]"/>
+    <aura:attribute name="showTable" type="Boolean" default="true"/>
+    <aura:attribute name="showTracking" type="Boolean" default="false"/>
+    <aura:attribute name="lstShipment" type="clofor_com_cfs__CustomObject1__c[]"/>
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    <aura:handler event="force:refreshView" action="{!c.init}"/>
+
+    <div>
+        <!-- Show Table-->
+        <!-- <aura:if isTrue="{!v.showTable}">
+            <table border="1">
+                <tr style="background-color: grey;">
+                    <th style="width: 40px; border: 1px solid black;"></th>
+                    <th style="text-align: center; border: 1px solid black;">Shipment Id</th>
+                    <th style="text-align: center; border: 1px solid black;">H B/L Number</th>
+                    <th style="text-align: center; border: 1px solid black;">H AWB Number</th>
+                    <th style="text-align: center; border: 1px solid black;">M B/L Number</th>
+                    <th style="text-align: center; border: 1px solid black;">MAWB Number</th>
+                    <th style="text-align: center; border: 1px solid black;">House Booking No</th>
+                    <th style="text-align: center; border: 1px solid black;">Master Booking No</th>
+                </tr>
+                <aura:iteration items="{!v.lstShipment}" var="ship">
+                    <tr>
+                        <td style="padding-left: 10px; padding-right: 10px; border: 1px solid black;"><ui:inputCheckbox aura:id="checkIdSo" name="{!ship.Id}" change = "{!c.selectOne}"/></td>
+                        <td style="padding-left: 5px; border: 1px solid black;">{!ship.Name}</td>
+                        <td style="padding-left: 5px; border: 1px solid black;">{!ship.clofor_com_cfs__HBL__c}</td>
+                        <td style="padding-left: 5px; border: 1px solid black;">{!ship.clofor_com_cfs__HAWB__c}</td>
+                        <td style="padding-left: 5px; border: 1px solid black;">{!ship.clofor_com_cfs__Master_B_L__c}</td>
+                        <td style="padding-left: 5px; border: 1px solid black;">{!ship.clofor_com_cfs__MAWB__c}</td>
+                        <td style="padding-left: 5px; border: 1px solid black;">{!ship.clofor_com_cfs__HouseBookingNo__c}</td>
+                        <td style="padding-left: 5px; border: 1px solid black;">{!ship.clofor_com_cfs__MASTER_BOOKINGNO__c}</td>
+                    </tr>
+                </aura:iteration>
+            </table>
+            <br/>
+            <lightning:button onclick="{!c.getTracking}"
+            variant="brand"
+            label="Tracking"
+        />
+        </aura:if> -->
+        <!--Show Tracking-->
+        <!-- <aura:if isTrue="{!v.showTracking}"> -->
+            <!-- <lightning:layout>
+                <div style="background: white;">
+                    <c:WebTracking
+                        recordId="{!v.shipId}"
+                    />
+                </div>
+            </lightning:layout> -->
+            {!v.body}
+            <p style="font-weight: border; font-size: 18px;">{!v.mess}</p>
+        <!-- </aura:if> -->
+        <!-- {!v.body} -->
+    </div>
+</aura:component>

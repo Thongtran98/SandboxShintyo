@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__PaidCutOffDay__c</name>
+    <picklistValues>
+        <masterLabel>10日締め</masterLabel>
+        <translation>Close at 10th Day</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10日締め/25日締め</masterLabel>
+        <translation>Close at 10th Day / at 25th</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15日締め</masterLabel>
+        <translation>Close at 15th Day</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15日締め/末締め</masterLabel>
+        <translation>Close at 15th Day / at The End of Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1日締め</masterLabel>
+        <translation>Close at 1st Day</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20日締め</masterLabel>
+        <translation>Close at 20th Day</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25日締め</masterLabel>
+        <translation>Close at 25th Day</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5日締め</masterLabel>
+        <translation>Close at 5th Day</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COD（Cash-On-Delivery）</masterLabel>
+        <translation>Cod(Cash-On-Delivery)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし（パートナーとの清算）</masterLabel>
+        <translation>NIL (Payment Settle With Partner)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>末締め</masterLabel>
+        <translation>Clos at The End of Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>納品日</masterLabel>
+        <translation>Close On The Date of Delivery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>週締め</masterLabel>
+        <translation>Close at The End of Week</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>都度</masterLabel>
+        <translation>Each Time</translation>
+    </picklistValues>
+</CustomFieldTranslation>

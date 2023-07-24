@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__POLPOD__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( 
+and(clofor_com_cfs__POL__c =&quot;&quot;, clofor_com_cfs__POD__c =&quot;&quot;) , clofor_com_cfs__POLFormula__c&amp;&quot;-&quot;&amp;  clofor_com_cfs__PODFormula__c, 
+
+IF( and(clofor_com_cfs__POL__c =&quot;&quot;, clofor_com_cfs__POD__c &lt;&gt; &quot;&quot;) , clofor_com_cfs__POLFormula__c&amp;&quot;-&quot;&amp;  clofor_com_cfs__POD__r.Name,
+
+IF( and(clofor_com_cfs__POL__c &lt;&gt;&quot;&quot;, clofor_com_cfs__POD__c = &quot;&quot;) , clofor_com_cfs__POL__r.Name&amp;&quot;-&quot;&amp;  clofor_com_cfs__PODFormula__c,
+
+clofor_com_cfs__POL__r.Name &amp;&quot;-&quot;&amp; clofor_com_cfs__POD__r.Name
+)
+)
+)</formula>
+    <label>P.O.L-P.OD</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

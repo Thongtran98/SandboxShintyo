@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chọn tình trạng phát hành hóa đơn tới khách hàng.  Tạo bản sao nghĩa là hóa đơn được gửi qua Email hoặc Fax và Hóa Đơn nghĩa là hóa đơn gốc được giao tới khách hàng</help>
+    <label></label>
+    <name>clofor_com_cfs__InvoiceIssueStatus__c</name>
+    <picklistValues>
+        <masterLabel>At Internal Checking After Issue</masterLabel>
+        <translation>Đang kiểm tra nội bộ sau phát hành</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Internal Checking Confirmed After Issue</masterLabel>
+        <translation>Đã xác nhận nội bộ sau khi phát hành</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carry Over to Next Month</masterLabel>
+        <translation>Hóa đơn cho tháng tiếp theo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice Copy Sent</masterLabel>
+        <translation>Bản copy đã được gửi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Settlement Required(Collect from Partner)</masterLabel>
+        <translation>Không ràng buộc thỏa thuận (Thu của đối tác)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not issued yet-Vendor Invoice not received</masterLabel>
+        <translation>Chưa phát hành - Hóa đơn đầu vào chưa được nhận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Progress</masterLabel>
+        <translation>Đang tiến hành</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Original Invoice Sent</masterLabel>
+        <translation>Đã gửi hóa đơn gốc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting for Other Invoice for Combine After Issue</masterLabel>
+        <translation>Đang chờ những hóa đơn khác để gộp hóa đơn</translation>
+    </picklistValues>
+</CustomFieldTranslation>

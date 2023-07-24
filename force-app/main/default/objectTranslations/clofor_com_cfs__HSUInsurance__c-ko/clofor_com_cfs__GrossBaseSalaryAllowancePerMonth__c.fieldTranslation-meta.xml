@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>종업원관리의 월총급여로부터 데이터가 연동됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__GrossBaseSalaryAllowancePerMonth__c</name>
+</CustomFieldTranslation>

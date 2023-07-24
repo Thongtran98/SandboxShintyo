@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>총원천징수액=보험원천징수액+소득세원천징수액+타 징수</help>
+    <label></label>
+    <name>clofor_com_cfs__TotalWithholding__c</name>
+</CustomFieldTranslation>

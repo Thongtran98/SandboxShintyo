@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__SerchSyubetu__c</name>
+    <picklistValues>
+        <masterLabel>AIR</masterLabel>
+        <translation>Air</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Cost</masterLabel>
+        <translation>At Cost</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivery</masterLabel>
+        <translation>Delivery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drayage</masterLabel>
+        <translation>Drayage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Custom Clearance</masterLabel>
+        <translation>Export Custom Clearance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Export</masterLabel>
+        <translation>FCL Export</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Import</masterLabel>
+        <translation>FCL Import</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Custom Clearance</masterLabel>
+        <translation>Import Custom Clearance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Export</masterLabel>
+        <translation>LCL Export</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Import</masterLabel>
+        <translation>LCL Import</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Master Charges Allocation</masterLabel>
+        <translation>Master Charges Allocation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Local Charges</masterLabel>
+        <translation>Oversea Local Charges</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse</masterLabel>
+        <translation>Warehouse</translation>
+    </picklistValues>
+</CustomFieldTranslation>

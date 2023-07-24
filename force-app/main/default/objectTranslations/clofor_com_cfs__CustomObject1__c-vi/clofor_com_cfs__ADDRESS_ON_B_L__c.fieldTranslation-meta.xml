@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập tên và địa chỉ của cty gửi hàng hiển thị trên L/C hoặc trường hợp đặc biệt khi địa chỉ trên bill khác với địa chỉ tiếng anh</help>
+    <label></label>
+    <name>clofor_com_cfs__ADDRESS_ON_B_L__c</name>
+</CustomFieldTranslation>

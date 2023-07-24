@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>To have lists in pickup list, the lists need to be setup in advance.
+How to Setup the Airport, 
+1.click Quick Access Menu at right side tab
+2.click view fields
+3.click BB Available Airport
+4.click New button in Picklist value
+5.add airports</help>
+    <label></label>
+    <name>clofor_com_cfs__BB__c</name>
+    <picklistValues>
+        <masterLabel>Enter Break Bulk available airport in here</masterLabel>
+        <translation>Nrt - Narita</translation>
+    </picklistValues>
+</CustomFieldTranslation>

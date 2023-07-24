@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ETDAFR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(clofor_com_cfs__MultiTransitRequired__c) &lt;&gt; &apos;No&apos;,
+
+(TEXT(YEAR(  clofor_com_cfs__T_ETD__c ))+IF( LEN(TEXT( MONTH(clofor_com_cfs__T_ETD__c ) ))=1 ,&apos;0&apos;+TEXT( MONTH(clofor_com_cfs__T_ETD__c ) ),TEXT( MONTH(clofor_com_cfs__T_ETD__c ) ))+ IF( LEN(TEXT( clofor_com_cfs__T_ETD__c  ))=1 ,&apos;0&apos;+TEXT(  DAY( clofor_com_cfs__T_ETD__c ) ),TEXT(  DAY( clofor_com_cfs__T_ETD__c ) )))
+
+,(TEXT(YEAR( clofor_com_cfs__ETD__c ))+IF( LEN(TEXT( MONTH(clofor_com_cfs__ETD__c ) ))=1 ,&apos;0&apos;+TEXT( MONTH(clofor_com_cfs__ETD__c ) ),TEXT( MONTH(clofor_com_cfs__ETD__c ) ))+ IF( LEN(TEXT(  DAY( clofor_com_cfs__ETD__c ) ))=1 ,&apos;0&apos;+TEXT(  DAY( clofor_com_cfs__ETD__c ) ),TEXT(  DAY( clofor_com_cfs__ETD__c ) ))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ETD AFR</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chọn khách hàng hoặc đối tác; nếu chọn khách hàng, số tiền phải trả được thể hiện trên hóa đơn và báo cáo tổng kết hóa đơn của khách hàng. Nếu chọn đối tác, lượng tiền phải trả được thể hiện trên D/N, C/N và các báo cáo outstanding statement</help>
+    <label></label>
+    <name>clofor_com_cfs__Business_Relationship__c</name>
+    <picklistValues>
+        <masterLabel>3rd Vendor</masterLabel>
+        <translation>Nhà thầu / Nhà cung cấp</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer</masterLabel>
+        <translation>Khách hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner</masterLabel>
+        <translation>Đối tác / Đại lý</translation>
+    </picklistValues>
+</CustomFieldTranslation>

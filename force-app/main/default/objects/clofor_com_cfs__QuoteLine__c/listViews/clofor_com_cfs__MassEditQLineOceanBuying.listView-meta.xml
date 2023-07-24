@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__MassEditQLineOceanBuying</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__QuoteLineNumber__c</columns>
+    <columns>clofor_com_cfs__LineItemName__c</columns>
+    <columns>clofor_com_cfs__ServicePricingID__c</columns>
+    <columns>clofor_com_cfs__CarrierAirlinerVendor__c</columns>
+    <columns>clofor_com_cfs__Quantity__c</columns>
+    <columns>clofor_com_cfs__Unit__c</columns>
+    <columns>clofor_com_cfs__ContainerType__c</columns>
+    <columns>clofor_com_cfs__CurrencyBuying__c</columns>
+    <columns>clofor_com_cfs__ExchangeRateBuying__c</columns>
+    <columns>clofor_com_cfs__BuyingListPriceLocal__c</columns>
+    <columns>clofor_com_cfs__BuyingListPriceUSD__c</columns>
+    <columns>clofor_com_cfs__TotalAmountBuyingLocal__c</columns>
+    <columns>clofor_com_cfs__AmountOfBuyingTaxLocal__c</columns>
+    <columns>clofor_com_cfs__BuyingAmountInclTaxLocal__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__QuoteLine__c.clofor_com_cfs__ServiceQuoteLine</value>
+    </filters>
+    <label>Mass Edit Q.Line-Ocean Buying</label>
+    <language>en_US</language>
+</ListView>

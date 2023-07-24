@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>CARGO STATUS</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. [Ex] Receive info</fullName>
+                <default>false</default>
+                <label>1. [Ex] Receive info</label>
+            </value>
+            <value>
+                <fullName>2. [Ex] Booking completed</fullName>
+                <default>false</default>
+                <label>2. [Ex] Booking completed</label>
+            </value>
+            <value>
+                <fullName>3. [Ex] SI Issued</fullName>
+                <default>false</default>
+                <label>3. [Ex] SI Issued</label>
+            </value>
+            <value>
+                <fullName>4. [Ex] Pick-up cargo</fullName>
+                <default>false</default>
+                <label>4. [Ex] Pick-up cargo</label>
+            </value>
+            <value>
+                <fullName>5. [Ex] Customs clearance</fullName>
+                <default>false</default>
+                <label>5. [Ex] Customs clearance</label>
+            </value>
+            <value>
+                <fullName>6. [Ex] Draft HBL Issued</fullName>
+                <default>false</default>
+                <label>6. [Ex] Draft HBL Issued</label>
+            </value>
+            <value>
+                <fullName>7. [Ex] Send Pre-alerts</fullName>
+                <default>false</default>
+                <label>7. [Ex] Send Pre-alerts</label>
+            </value>
+            <value>
+                <fullName>8. [Ex] SUR HBL / Original HBL issued</fullName>
+                <default>false</default>
+                <label>8. [Ex] SUR HBL / Original HBL issued</label>
+            </value>
+            <value>
+                <fullName>1. [Im] POL side Handling</fullName>
+                <default>false</default>
+                <label>1. [Im] POL side Handling</label>
+            </value>
+            <value>
+                <fullName>2. [Im] Receive Info</fullName>
+                <default>false</default>
+                <label>2. [Im] Receive Info</label>
+            </value>
+            <value>
+                <fullName>3. [Im] Sent Arrival Notice</fullName>
+                <default>false</default>
+                <label>3. [Im] Sent Arrival Notice</label>
+            </value>
+            <value>
+                <fullName>4. [Im] Released cargo</fullName>
+                <default>false</default>
+                <label>4. [Im] Released cargo</label>
+            </value>
+            <value>
+                <fullName>5. [Im] Customs clearance</fullName>
+                <default>false</default>
+                <label>5. [Im] Customs clearance</label>
+            </value>
+            <value>
+                <fullName>6. [Im] On Delivery</fullName>
+                <default>false</default>
+                <label>6. [Im] On Delivery</label>
+            </value>
+            <value>
+                <fullName>7. [Im] Delivered</fullName>
+                <default>false</default>
+                <label>7. [Im] Delivered</label>
+            </value>
+            <value>
+                <fullName>9. [Ex] POD side Handling</fullName>
+                <default>false</default>
+                <label>9. [Ex] POD side Handling</label>
+            </value>
+            <value>
+                <fullName>見積 見積書作成中(Under Quotation)</fullName>
+                <default>false</default>
+                <label>見積 見積書作成中(Under Quotation)</label>
+            </value>
+            <value>
+                <fullName>10. [Ex] Deliveried to CNEE</fullName>
+                <default>false</default>
+                <label>10. [Ex] Deliveried to CNEE</label>
+            </value>
+            <value>
+                <fullName>8. [Ex] POD side Handling</fullName>
+                <default>false</default>
+                <label>8. [Ex] POD side Handling</label>
+            </value>
+            <value>
+                <fullName>9. [Ex] Deliveried to CNEE</fullName>
+                <default>false</default>
+                <label>9. [Ex] Deliveried to CNEE</label>
+            </value>
+            <value>
+                <fullName>3. [Im] Released cargo</fullName>
+                <default>false</default>
+                <label>3. [Im] Released cargo</label>
+            </value>
+            <value>
+                <fullName>4. [Im] Customs clearance</fullName>
+                <default>false</default>
+                <label>4. [Im] Customs clearance</label>
+            </value>
+            <value>
+                <fullName>5. [Im] On Delivery</fullName>
+                <default>false</default>
+                <label>5. [Im] On Delivery</label>
+            </value>
+            <value>
+                <fullName>6. [Im] Deliveried</fullName>
+                <default>false</default>
+                <label>6. [Im] Deliveried</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

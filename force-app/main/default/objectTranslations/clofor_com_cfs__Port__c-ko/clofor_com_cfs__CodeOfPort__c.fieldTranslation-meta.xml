@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>포트코드와 국가코드를 연결합니다. 변경을 위하시면 직접 변경 하시거나 포트코드 및 국가코드를 변경하시면 됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__CodeOfPort__c</name>
+</CustomFieldTranslation>

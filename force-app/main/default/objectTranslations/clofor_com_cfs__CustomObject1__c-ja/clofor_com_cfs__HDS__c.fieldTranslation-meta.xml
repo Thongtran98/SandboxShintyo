@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Hot Delivery Service　貨物の早期引取り(中国-日本のみ)</help>
+    <label></label>
+    <name>clofor_com_cfs__HDS__c</name>
+    <picklistValues>
+        <masterLabel>あり(Yes)</masterLabel>
+        <translation>あり</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし(No)</masterLabel>
+        <translation>なし</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>Screen_Shot_20230210_at_160319remov</masterLabel>
+    <originNetwork>ShinToyoGateSb</originNetwork>
+    <relationships>
+        <network>
+            <access>VIEWER</access>
+            <name>ShinToyoGateSb</name>
+        </network>
+        <workspace>
+            <access>INFERRED</access>
+            <isManagingWorkspace>true</isManagingWorkspace>
+            <name>sfdc_asset_company_assets</name>
+        </workspace>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Screen_Shot_2023-02-10_at_16.03.19-removebg-preview.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

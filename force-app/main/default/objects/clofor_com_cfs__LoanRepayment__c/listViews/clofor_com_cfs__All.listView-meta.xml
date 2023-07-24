@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__LoanID__c</columns>
+    <columns>clofor_com_cfs__PreviousLoanRepaymentID__c</columns>
+    <columns>clofor_com_cfs__OpeningBalance__c</columns>
+    <columns>clofor_com_cfs__ClosingBalance__c</columns>
+    <columns>clofor_com_cfs__InterestsAmount__c</columns>
+    <columns>clofor_com_cfs__RepaymentAmount__c</columns>
+    <columns>clofor_com_cfs__TotalAmountOfLoanRepayment__c</columns>
+    <columns>clofor_com_cfs__AmountPaid__c</columns>
+    <columns>clofor_com_cfs__UnpaidBalanceOfLR__c</columns>
+    <columns>clofor_com_cfs__PaymentSettledDateLR__c</columns>
+    <columns>clofor_com_cfs__BankAccountLR__c</columns>
+    <columns>clofor_com_cfs__PaymentTypeLR__c</columns>
+    <columns>clofor_com_cfs__BeneficiaryLR__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

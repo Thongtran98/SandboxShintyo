@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>9.Temp 9</name>
+    <relatedEntityType>clofor_com_cfs__CustomObject1__c</relatedEntityType>
+    <style>none</style>
+    <subject>【新東洋ゲート】本船出港のお知らせ // Booking No: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__MASTER_BOOKINGNO__c}}} // // Shipper : {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ShipperShortName__c}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

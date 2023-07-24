@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>clofor_com_cfs__DebitIssueStatus__c</name>
+    <picklistValues>
+        <masterLabel>At Internal Checking After Issue</masterLabel>
+        <translation>已发送 - 内容确认中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Internal Checking Confirmed After Issue</masterLabel>
+        <translation>已发送 - 已确认内容</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carry Over to Next Month</masterLabel>
+        <translation>费用下一个月结算</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copy Sent</masterLabel>
+        <translation>已发送 - 副本发送</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Settlement Required</masterLabel>
+        <translation>无须跟海外代理结帐</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not issued yet-Vendor Invoice not received</masterLabel>
+        <translation>还没发送 - 还没收到委托公司的帐单</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Progress</masterLabel>
+        <translation>还没发送 - 案件进行中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting for Other Debit for Combine After Issue</masterLabel>
+        <translation>已发送 - 其他案件进行中</translation>
+    </picklistValues>
+</CustomFieldTranslation>

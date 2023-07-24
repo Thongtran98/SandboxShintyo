@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CustomCategory__c</name>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Animal Quarantine</masterLabel>
+        <translation>[清关] 动物检疫</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Food Quarantine</masterLabel>
+        <translation>[清关] 食品检疫</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Medical Quarantine</masterLabel>
+        <translation>[清关] 药物检疫</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Plant Quarantine</masterLabel>
+        <translation>[清关] 植物检疫</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Small Invoice Amount</masterLabel>
+        <translation>[清关] 小额</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Special Act. for Tax Reduction</masterLabel>
+        <translation>[清关] 暂定八条 - 进口减税</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal Custom Clearance</masterLabel>
+        <translation>[清关] 一般清关</translation>
+    </picklistValues>
+</CustomFieldTranslation>

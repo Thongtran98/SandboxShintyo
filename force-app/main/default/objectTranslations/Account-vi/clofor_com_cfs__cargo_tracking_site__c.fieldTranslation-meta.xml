@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu tài khoản là nhà cung cấp (bên chuyên chở) và có website theo dõi thông tin hàng hóa, đặt đường dẫn trong khung này</help>
+    <label></label>
+    <name>clofor_com_cfs__cargo_tracking_site__c</name>
+</CustomFieldTranslation>

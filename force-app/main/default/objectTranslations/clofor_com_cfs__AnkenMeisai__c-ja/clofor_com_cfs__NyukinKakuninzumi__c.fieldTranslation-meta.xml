@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>全額が入金された際にのみ使用してください。チェックを入れると、以下の処理が行われます。1.入金額(標準通貨):消費税込み販売金額(標準通貨)と同期　2.入金額(USD):消費税込み販売金額(USD)と同期　3.未入金残高:&apos;0&apos;</help>
+    <label></label>
+    <name>clofor_com_cfs__NyukinKakuninzumi__c</name>
+</CustomFieldTranslation>

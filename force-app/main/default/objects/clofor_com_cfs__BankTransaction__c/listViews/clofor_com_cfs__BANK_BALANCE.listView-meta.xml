@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__BANK_BALANCE</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__AccountedDate__c</columns>
+    <columns>clofor_com_cfs__PaymentSettledDateTrxOut__c</columns>
+    <columns>clofor_com_cfs__ReceiptSettledDateTrxIn__c</columns>
+    <columns>clofor_com_cfs__BankAccountTrxIn__c</columns>
+    <columns>clofor_com_cfs__BankAccountTrxOut__c</columns>
+    <columns>clofor_com_cfs__OpeningBalanceLocal__c</columns>
+    <columns>clofor_com_cfs__OpeningBalanceUSD__c</columns>
+    <columns>clofor_com_cfs__TotalAmountOfPayableLocal__c</columns>
+    <columns>clofor_com_cfs__TotalAmountOfReceivableLocal__c</columns>
+    <columns>clofor_com_cfs__ClosingBalanceLocal__c</columns>
+    <columns>clofor_com_cfs__ClosingBalanceUSD__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__BankAccountTrxIn__c</field>
+        <operation>equals</operation>
+        <value>BA-000001</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__BankAccountTrxOut__c</field>
+        <operation>equals</operation>
+        <value>BA-000001</value>
+    </filters>
+    <label>BANK BALANCE-BANK1</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__APIFail</fullName>
+    <active>true</active>
+    <label>API Fail</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CargoOSDSeverityType__c</picklist>
+        <values>
+            <fullName>Full</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CargoOSDType__c</picklist>
+        <values>
+            <fullName>Damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shortage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wet</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ClaimStatus__c</picklist>
+        <values>
+            <fullName>Action Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impact Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Root-Cause Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Action</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ClaimerType__c</picklist>
+        <values>
+            <fullName>External Auditor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Auditor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Staff</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Currency__c</picklist>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__FinancialImpactLevel__c</picklist>
+        <values>
+            <fullName>Loss Range 1%2C000-5%2C000USD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss Range 1-100USD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss Range 10%2C000-50%2C000USD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss Range 100-1%2C000USD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss Range 5%2C000-10%2C000USD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss Range 50%2C000-100%2C000USD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss Range over 100%2C000USD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Financial Loss</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ForwardingBasicServiceType__c</picklist>
+        <values>
+            <fullName>Air Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Outbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross-Border</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domestic Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ocean Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ocean Outbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ImpactCategory__c</picklist>
+        <values>
+            <fullName>Financial Impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship Impact-Worse relationship with Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship Impact-Worse relationship with Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship Impact-Worse relationship with Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reputation Impact</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ImpactClassification__c</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Impact</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__UrgencyClassification__c</picklist>
+        <values>
+            <fullName>Anytime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolve within 1 Biz Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolve within 1 Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolve within 1 Quarter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolve within 1 Week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolve within 1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolve within 3 Biz Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolve within Hour</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__WarehouseBasicServiceType__c</picklist>
+        <values>
+            <fullName>Dispatch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Picking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Putaway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receiving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relocating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Added Processing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

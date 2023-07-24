@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Summary</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>clofor_com_cfs__WorkOrderStatus__c</fields>
+    <fields>clofor_com_cfs__WorkOrderServiceStatus__c</fields>
+    <fields>clofor_com_cfs__Customer__c</fields>
+    <label>Summary</label>
+</CompactLayout>

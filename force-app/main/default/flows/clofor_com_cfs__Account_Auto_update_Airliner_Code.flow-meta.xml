@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <description>Migrated from the: [Account] Auto update Airliner Code workflow rule
+Workflow rule description: &quot;</description>
+    <label>[Account] Auto update Airliner Code</label>
+    <processType>AutoLaunchedFlow</processType>
+</Flow>

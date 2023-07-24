@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chỉ hiện thị Dịch Vụ Chuyên Dụng sẵn có mà được sắp xếp với Các danh mục dịch vụ cho công cụ tìm kiếm</help>
+    <label></label>
+    <name>clofor_com_cfs__MTariff__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

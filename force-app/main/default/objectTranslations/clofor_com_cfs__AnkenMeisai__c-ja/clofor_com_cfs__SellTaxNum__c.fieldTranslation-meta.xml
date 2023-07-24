@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>販売消費税額(標準通貨)=合計販売金額(標準通貨)*消費税率(販売)/100　***消費税率(販売)はパーセンテージを表示します***</help>
+    <label></label>
+    <name>clofor_com_cfs__SellTaxNum__c</name>
+</CustomFieldTranslation>

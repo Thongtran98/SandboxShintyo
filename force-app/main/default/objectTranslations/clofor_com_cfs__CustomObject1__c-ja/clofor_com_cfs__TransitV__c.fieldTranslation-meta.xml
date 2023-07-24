@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>積替前(輸入の場合)または積替後(輸出の場合)の船名/フライト名を入力してください。積替え船名/フライト名はシッピング指示の中の最後の積替レコードから自動的に挿入されます。</help>
+    <label></label>
+    <name>clofor_com_cfs__TransitV__c</name>
+</CustomFieldTranslation>

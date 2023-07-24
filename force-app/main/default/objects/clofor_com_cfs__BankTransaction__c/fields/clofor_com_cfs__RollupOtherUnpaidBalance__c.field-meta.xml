@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__RollupOtherUnpaidBalance__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>ROLLUP OTHER UNPAID BAL</label>
+    <summarizedField>clofor_com_cfs__OtherBank__c.clofor_com_cfs__UnpaidBalanceOfOtherForBank__c</summarizedField>
+    <summaryFilterItems>
+        <field>clofor_com_cfs__OtherBank__c.clofor_com_cfs__OtherRecordTypeForBank__c</field>
+        <operation>notContain</operation>
+        <value>Bank Fee</value>
+    </summaryFilterItems>
+    <summaryForeignKey>clofor_com_cfs__OtherBank__c.clofor_com_cfs__BankTransactionID__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__SubCategory__c</name>
+    <picklistValues>
+        <masterLabel>Accommodation</masterLabel>
+        <translation>숙박비</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accountancy</masterLabel>
+        <translation>경리대행</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advertisement</masterLabel>
+        <translation>광고 및 마케팅</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Audit</masterLabel>
+        <translation>감사</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank Fee</masterLabel>
+        <translation>은행수수료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic salary</masterLabel>
+        <translation>급여</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus</masterLabel>
+        <translation>보너스</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charitable Contribution</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleaning</masterLabel>
+        <translation>청소</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission</masterLabel>
+        <translation>커미션</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communication(Phone)</masterLabel>
+        <translation>통신비(전화)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conference &amp; Training</masterLabel>
+        <translation>콘퍼런스 및 트레이닝</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting</masterLabel>
+        <translation>컨설팅</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electricity</masterLabel>
+        <translation>전기</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entertainment</masterLabel>
+        <translation>유흥비</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Drink</masterLabel>
+        <translation>식사 및 음료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>H/S/U Insurance</masterLabel>
+        <translation>종업원보험</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT System(Computer)</masterLabel>
+        <translation>시스템(컴퓨터) 이용료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incentives</masterLabel>
+        <translation>인센티브</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance</masterLabel>
+        <translation>보험료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interest Expense</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internet</masterLabel>
+        <translation>인터넷사용료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meeting</masterLabel>
+        <translation>미팅</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Newspaper</masterLabel>
+        <translation>신문</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>그 외</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Travel</masterLabel>
+        <translation>해외출장</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parcel(Mail)</masterLabel>
+        <translation>운송비(메일편)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parking Fee</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personal Income Tax</masterLabel>
+        <translation>개인 소득세</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postage</masterLabel>
+        <translation>우편물</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recruiting</masterLabel>
+        <translation>채용</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reimbursement cash Advance</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rent</masterLabel>
+        <translation>렌탈비</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repair &amp; Maintenance</masterLabel>
+        <translation>수리/수선</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation</masterLabel>
+        <translation>교통비</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travel</masterLabel>
+        <translation>출장비</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Operation</masterLabel>
+        <translation>차량운영</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Water</masterLabel>
+        <translation>음료수</translation>
+    </picklistValues>
+</CustomFieldTranslation>

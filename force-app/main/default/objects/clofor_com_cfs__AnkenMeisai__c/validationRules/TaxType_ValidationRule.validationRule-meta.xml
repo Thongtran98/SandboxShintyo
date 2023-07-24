@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TaxType_ValidationRule</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND(OR(NOT(ISNULL(  clofor_com_cfs__SellTankaUSD__c  )),NOT(ISNULL(  clofor_com_cfs__SellTankaJPY__c  ))),ISBLANK(TEXT( Tax_Type_Selling__c ))),
+AND(OR(NOT(ISNULL(   clofor_com_cfs__BuyTankaUSD__c   )),NOT(ISNULL(   clofor_com_cfs__BuyTankaJPY__c   ))),ISBLANK(TEXT(  Tax_Type_Buying__c )))
+)</errorConditionFormula>
+    <errorMessage>Please choose Tax type for this billing accordingly! If having selling price --&gt; choose Tax type-selling; If having buying price --&gt; choose Tax type-buying.</errorMessage>
+</ValidationRule>

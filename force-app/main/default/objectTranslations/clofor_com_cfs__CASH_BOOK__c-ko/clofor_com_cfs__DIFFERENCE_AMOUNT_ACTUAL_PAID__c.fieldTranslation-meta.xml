@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>해당 값은 다음과 같이 계산됩니다. 차액=H B/L 청구/지불 지불대상 합계 금액-실제 지불액+초과지불에 대한 보충액</help>
+    <label></label>
+    <name>clofor_com_cfs__DIFFERENCE_AMOUNT_ACTUAL_PAID__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Khi ghép hàng, nhập ngày đóng hàng vào container cho xuất khẩu và ngày dỡ hàng vào container cho nhập khẩu</help>
+    <label></label>
+    <name>clofor_com_cfs__MDevanningDate__c</name>
+</CustomFieldTranslation>

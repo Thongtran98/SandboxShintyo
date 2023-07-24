@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>고객사의 요청으로 비용을 대납하였하였으나 세금계산서에서 포함하지 않을 경우에만 클릭하여 주십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__ADVANCE_PAYMENT_ON_BEHALF_OF__c</name>
+</CustomFieldTranslation>

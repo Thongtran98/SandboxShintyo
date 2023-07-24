@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Material__c</name>
+    <picklistValues>
+        <masterLabel>Iron</masterLabel>
+        <translation>Sắt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastic</masterLabel>
+        <translation>Nhựa</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Special composite</masterLabel>
+        <translation>Hợp kim đặc biệt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stainless Steel</masterLabel>
+        <translation>Thép không gỉ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wooden</masterLabel>
+        <translation>Gỗ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chọn tài khoản Ngân hàng có lịch sử thanh toán. Cách đăng ký: 1. Di chuyển vào Thanh Công cụ phía bên phải của màn hình 2. Nhấn vào View Fields  3. Nhấn vào Tài khoản khách hàng để chuyển trả 4. Di chuyển tới Picklist values--&gt; chỉnh sửa</help>
+    <label></label>
+    <name>clofor_com_cfs__ReceivingBank__c</name>
+    <picklistValues>
+        <masterLabel>Bank A</masterLabel>
+        <translation>Ngân hàng A</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank B</masterLabel>
+        <translation>Ngân hàng B</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank C</masterLabel>
+        <translation>Ngân hàng C</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank D-USD</masterLabel>
+        <translation>Bank of Tokyo Mitsubishi UFJ (USD Account)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

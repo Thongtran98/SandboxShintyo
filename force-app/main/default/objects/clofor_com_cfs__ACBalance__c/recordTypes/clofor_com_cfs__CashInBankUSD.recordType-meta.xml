@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__CashInBankUSD</fullName>
+    <active>true</active>
+    <label>Cash In Bank-USD Currency</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__BalanceType__c</picklist>
+        <values>
+            <fullName>Cash In Bank</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Cash In Transit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Currency__c</picklist>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__InsurancePaymentType__c</picklist>
+        <values>
+            <fullName>Health Insurance by employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Insurance by employer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Insurance by employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Insurance by employer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unemployment Insurance by employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unemployment Insurance by employer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__RollUpChildACBalance__c</picklist>
+        <values>
+            <fullName>Roll-Up All Balance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roll-Up Closing Balance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roll-Up Opening Balance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roll-Up Transaction Balance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

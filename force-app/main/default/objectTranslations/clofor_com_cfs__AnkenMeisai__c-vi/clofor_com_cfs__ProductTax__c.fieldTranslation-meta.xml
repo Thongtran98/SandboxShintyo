@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Loại thuế được đồng bộ một cách tự động trong Object Quản lý Dịch vụ. Trong trường hợp thanh toán bằng USD, Loại thuế phải được chọn là Miễn thuế. Hạn mục thuế có thể được điều chỉnh tại Quản lý Dịch vụ.</help>
+    <label></label>
+    <name>clofor_com_cfs__ProductTax__c</name>
+</CustomFieldTranslation>

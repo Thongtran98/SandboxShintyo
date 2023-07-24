@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Servicename__c</columns>
+    <columns>clofor_com_cfs__ServiceProviderVender__c</columns>
+    <columns>clofor_com_cfs__Unitpriceofbuyingusd__c</columns>
+    <columns>clofor_com_cfs__ChargeUnit__c</columns>
+    <columns>clofor_com_cfs__ContainerType__c</columns>
+    <columns>clofor_com_cfs__pol__c</columns>
+    <columns>clofor_com_cfs__ExportCountry__c</columns>
+    <columns>clofor_com_cfs__pod__c</columns>
+    <columns>clofor_com_cfs__ImportCountry__c</columns>
+    <columns>clofor_com_cfs__ApplicationDate__c</columns>
+    <columns>clofor_com_cfs__Applicationduedate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__ServiceProviderVender__c</field>
+        <operation>contains</operation>
+        <value>SITC</value>
+    </filters>
+    <label>All</label>
+</ListView>

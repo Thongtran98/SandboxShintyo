@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__BankAccountType__c</name>
+    <picklistValues>
+        <masterLabel>Joint Account Holder</masterLabel>
+        <translation>Joint Account Holder</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local Corporate</masterLabel>
+        <translation>Local Corporate</translation>
+    </picklistValues>
+</CustomFieldTranslation>

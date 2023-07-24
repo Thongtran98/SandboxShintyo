@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__CountryView</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__City_Name__c</columns>
+    <columns>clofor_com_cfs__Country_Name__c</columns>
+    <columns>clofor_com_cfs__Country_Code__c</columns>
+    <columns>clofor_com_cfs__CodeOfPort__c</columns>
+    <columns>clofor_com_cfs__Fullname__c</columns>
+    <columns>clofor_com_cfs__Port_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__Country_Name__c</field>
+        <operation>equals</operation>
+        <value>JAPAN</value>
+    </filters>
+    <label>Country View</label>
+    <language>en_US</language>
+</ListView>

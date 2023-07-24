@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mafaili__Field_Values_Mandatory</fullName>
+    <active>false</active>
+    <description>When you start the trigger when there is an update, you need to define which field is updated and to which value.</description>
+    <errorConditionFormula>AND(
+ ISPICKVAL(  mafaili__Start_when_Record__c  , &quot;Updated&quot;),
+ OR(ISBLANK(mafaili__Field_API_Name__c) , ISBLANK(mafaili__Target_Value__c)) 
+)</errorConditionFormula>
+    <errorMessage>You need to add a Field API Name and Target Value is you want the trigger to happen when a record is Updated.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,24 @@
+Dear Account Team Managers 
+
+{!clofor_com_cfs__MgmtMaster__c.Name} has been rejected. please see the comments and re-submit after correction. 
+
+Please click this link to rejected record. 
+
+◎EXCHANGE RATE ID：[{!clofor_com_cfs__MgmtMaster__c.Name}]  Link to CloFor:{!clofor_com_cfs__MgmtMaster__c.Link} 
+You can also approve, reject and comment on this request from your feed.
+◎EXCHANGE CURRENCY (FROM USD) : {!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_fromto__c}
+◎START DATE : {!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_Start_Date__c}
+◎END DATE : {!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_End_Date__c}
+◎SELLING EX-RATE FOR FORWARDING CUSTOMER :{!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_FowardingtoDomesticCustomer__c}
+◎SELLING EX-RATE FOR CC CUSTOMER :{!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_CCtoDomesticCustomer__c}
+◎SELLING EX-RATE FOR PARTNER-STANDARD :{!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_SellingtoPartner__c}
+◎BUYING EX-RATE FROM PARTNER-STANDARD :{!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_BuyingfromPartner__c}
+
+Best regards, 
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+ *********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

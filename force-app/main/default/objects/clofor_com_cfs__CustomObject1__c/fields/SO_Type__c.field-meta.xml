@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR (RecordType.Name =&quot;Ocean Export&quot;,RecordType.Name =&quot;Ocean Import&quot;), RecordType.Name +&quot; &quot;+ TEXT( clofor_com_cfs__TranporationType__c ),
+(IF(RecordType.Name =&quot;Logistics Service&quot;, TEXT( clofor_com_cfs__SUB_RECORD_TYPE__c ) +&quot; &quot;+ TEXT( clofor_com_cfs__TranporationType__c) ,
+(IF(RecordType.Name =&quot;Domestic Transportation&quot;, &apos;Cross-Border&apos; +&quot; &quot;+ TEXT( clofor_com_cfs__TranporationType__c),RecordType.Name)))))</formula>
+    <label>SO Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Standard</fullName>
+    <active>true</active>
+    <label>Standard</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__BalanceType__c</picklist>
+        <values>
+            <fullName>Accruals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administrative expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advances %28detailed by receivers%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bonus %26 welfare funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Income tax charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capital construction in process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash In Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash In Transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash On Hand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction contract progress payment due to customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction investment fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost for work in process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost of goods sold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Depreciation of fixed assets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Devaluation of sale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Differed income tax assets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Differences upon asset revaluation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct labor cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct raw materials cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrusted goods for sale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executing machine using cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial activities expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial activities income</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial reserve funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed assets of finance leasing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign exchange differences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General %26 administration expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General operation cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goods in tax-suspension warehouse %2F Applied for the companies which have Tax-suspension warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instrument %26 tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intangible fixed assets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intercompany payable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Receivables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal gross sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment %26 development funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment in equity of subsidiaries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment in joint-venture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment real estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joint venture capital contribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long term collateral %26 deposit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long term loans due to date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long-Term Borrowing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long-Term Prepaid Expense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortage%2C collateral %26 short term deposits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Expense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Income</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Payable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Receivable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other long term investments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other short term investment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payable to employees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provision for bad receivables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provision for devaluation of stocks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provision for long term investment devaluation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provision short term investment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased goods in transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raw materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receivable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sale discount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sale returns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Revenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Selling expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short term securities investment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short-term loan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short-term prepaid expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tangible Fixed Asset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taxes and payable to state budget%28Include VAT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undistributed Earnings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unemployment Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAT Deducted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working Capital</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Currency__c</picklist>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__InsurancePaymentType__c</picklist>
+        <values>
+            <fullName>Health Insurance by employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Insurance by employer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Insurance by employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Insurance by employer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unemployment Insurance by employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unemployment Insurance by employer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__RollUpChildACBalance__c</picklist>
+        <values>
+            <fullName>Roll-Up All Balance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roll-Up Closing Balance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roll-Up Opening Balance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roll-Up Transaction Balance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

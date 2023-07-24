@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>파트너 견적서용 영어성명(PDF). 이름과 성을 순서대로 입력하여 주십시오.</help>
+    <label></label>
+    <name>clofor_com_cfs__NameEng__c</name>
+</CustomFieldTranslation>

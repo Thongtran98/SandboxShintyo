@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>When consolidation, put the date of Vanning for export and date of Devanning for import</help>
+    <label></label>
+    <name>clofor_com_cfs__MDevanningDate__c</name>
+</CustomFieldTranslation>

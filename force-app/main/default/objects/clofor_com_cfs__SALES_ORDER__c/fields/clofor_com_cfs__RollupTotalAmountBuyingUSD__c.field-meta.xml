@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__RollupTotalAmountBuyingUSD__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>ROLLUP TOTAL AMOUNT OF BUYING(USD)</label>
+    <summarizedField>clofor_com_cfs__TRSBill__c.clofor_com_cfs__TotalAmountOfBuyUSD__c</summarizedField>
+    <summaryForeignKey>clofor_com_cfs__TRSBill__c.clofor_com_cfs__SalesOrderID__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

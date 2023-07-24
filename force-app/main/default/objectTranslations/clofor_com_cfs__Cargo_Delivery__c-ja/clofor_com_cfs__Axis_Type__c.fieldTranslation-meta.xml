@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Axis_Type__c</name>
+    <picklistValues>
+        <masterLabel>2 Axis</masterLabel>
+        <translation>2軸</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 Axis</masterLabel>
+        <translation>3軸</translation>
+    </picklistValues>
+</CustomFieldTranslation>

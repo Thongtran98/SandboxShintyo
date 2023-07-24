@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>수입일 경우 트랜짓 전의 선박명/항공기명을, 수출의 경우 트랜짓 후의 선박명/항공기명을 입력하여 주십시요. 복수의 트랜짓이 있을 경우 마지막 트랜짓의 선박명/항공기명의 데이터가 자동으로 자동으로 입력됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__TransitV__c</name>
+</CustomFieldTranslation>

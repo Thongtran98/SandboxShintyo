@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Rate Request Email</name>
+    <style>none</style>
+    <subject>{!clofor_com_cfs__RFPRFQ__c.Name} * {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__Incoterms__c} * {!clofor_com_cfs__RFPRFQ__c.clofor_com_cfs__Volume__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

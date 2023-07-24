@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>標準為替レコードの作成後は&apos;承認申請&apos;ボタンを押してください。経理チームによる確認および承認の後、自動的に&apos;有効&apos;となります。</help>
+    <label></label>
+    <name>clofor_com_cfs__Mgmt_Exrate_Validity__c</name>
+</CustomFieldTranslation>

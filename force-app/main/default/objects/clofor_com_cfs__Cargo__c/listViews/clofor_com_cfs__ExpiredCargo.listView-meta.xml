@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__ExpiredCargo</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Product__c</columns>
+    <columns>clofor_com_cfs__ProductDetails__c</columns>
+    <columns>clofor_com_cfs__CargoLifeCycle__c</columns>
+    <columns>clofor_com_cfs__ExpiredDate__c</columns>
+    <columns>clofor_com_cfs__AgingDaysTillExpire__c</columns>
+    <columns>clofor_com_cfs__AcceptedQuantityInUnit__c</columns>
+    <columns>clofor_com_cfs__QuantityInUnit__c</columns>
+    <columns>clofor_com_cfs__QuantityPerUnit__c</columns>
+    <columns>clofor_com_cfs__Summary__c</columns>
+    <columns>clofor_com_cfs__StockCountingStatus__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__ExpiredDate__c</field>
+        <operation>lessThan</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Expired Cargo</label>
+    <language>en_US</language>
+</ListView>

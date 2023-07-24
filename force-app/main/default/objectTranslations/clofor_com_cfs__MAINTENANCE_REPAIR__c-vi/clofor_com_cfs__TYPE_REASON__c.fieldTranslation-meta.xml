@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__TYPE_REASON__c</name>
+    <picklistValues>
+        <masterLabel>Accident</masterLabel>
+        <translation>Tai nạn</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Machine trouble</masterLabel>
+        <translation>Vấn đề máy móc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Khác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scheduled maintenance</masterLabel>
+        <translation>Lịch bảo dưỡng định kỳ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

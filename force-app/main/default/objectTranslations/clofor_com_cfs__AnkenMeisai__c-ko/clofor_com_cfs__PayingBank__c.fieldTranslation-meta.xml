@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>실제 지불이력을 가지고 있는 은행계좌를 선택하십시오. 계좌등록 방법은 다음과 같습니다. 1.	화면 오른 쪽의 빠른 엑세스 메뉴 버튼을 클릭하십시오. 2.	필드 보기를 클릭합니다. 3.	BANK Account TRANSFRED FROM-BUYING 를 클릭합니다. 4.	선택 목록 값에서 ‘편집’을 클릭합니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__PayingBank__c</name>
+    <picklistValues>
+        <masterLabel>Bank A</masterLabel>
+        <translation>은행 A</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank B</masterLabel>
+        <translation>은행 B</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank C</masterLabel>
+        <translation>은행 C</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank D-USD</masterLabel>
+        <translation>은행 D</translation>
+    </picklistValues>
+</CustomFieldTranslation>

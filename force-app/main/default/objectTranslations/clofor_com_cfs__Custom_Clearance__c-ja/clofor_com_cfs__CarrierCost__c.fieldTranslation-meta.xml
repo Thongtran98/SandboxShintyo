@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CarrierCost__c</name>
+    <picklistValues>
+        <masterLabel>Advanced Payment by Subcontractor</masterLabel>
+        <translation>貴社立替</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer</masterLabel>
+        <translation>お客様支払い</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Our company</masterLabel>
+        <translation>当社支払い</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,1955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__ConsolidationImport</fullName>
+    <active>true</active>
+    <description>Record type to manage Standard Operation Process and Timeline of Consolidation Import.</description>
+    <label>Consolidation Import</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ANIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__BLIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__BNIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CCApplicationSubmitTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__COInputTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__COOutputTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CargoClosingTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CargoPickupTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ContainerLoadPlanIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CustomsClearancePermitTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__DATE_N__c</picklist>
+        <values>
+            <fullName>Customs Clearance Application Submit Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Clearance Permit Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETA</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>ETD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping Order Document Received Date from Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__DOIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__DraftBLIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ManifestIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__PartnerDNIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__PhytosanitaryApplicationTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__PhytosanitaryCertificateInputTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__PrealertIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ProformaInvoiceIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__SITimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__SOPCategory__c</picklist>
+        <values>
+            <fullName>Air Consolidation Import</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ocean Consolidation Import</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ShippingOrderDocumentClosingDate__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__SurrenderBLIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__VATInvoiceIssueTimeline__c</picklist>
+        <values>
+            <fullName>Date N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N%2B9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date N-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

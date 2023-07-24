@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>粗利額(標準通貨)=合計販売金額(標準通貨)-合計仕入金額(標準通貨)。為替レート(Selling)が為替レート(Buying)より多い場合、粗利額(標準通貨)に為替利益が加算されます。</help>
+    <label></label>
+    <name>clofor_com_cfs__Ararigaku__c</name>
+</CustomFieldTranslation>

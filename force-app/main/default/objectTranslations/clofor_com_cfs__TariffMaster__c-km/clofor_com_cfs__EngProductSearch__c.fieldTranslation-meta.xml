@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__EngProductSearch__c</name>
+    <picklistValues>
+        <masterLabel>Actual Expense</masterLabel>
+        <translation>ការចំណាយជាក់ស្តែង</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Air</masterLabel>
+        <translation>ជើងអាកាស</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk</masterLabel>
+        <translation>Bulk</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consolidation Cost Allocation</masterLabel>
+        <translation>Consolidation Cost Allocation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deliver</masterLabel>
+        <translation>Deliver</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drayage</masterLabel>
+        <translation>Drayage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Empty Container</masterLabel>
+        <translation>Empty Container</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Custom Clearance</masterLabel>
+        <translation>Export Custom Clearance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Export</masterLabel>
+        <translation>FCL Export</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Import</masterLabel>
+        <translation>FCL Import</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Triangular trade</masterLabel>
+        <translation>FCL Triangular trade</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Custom Clearance</masterLabel>
+        <translation>Import Custom Clearance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Export</masterLabel>
+        <translation>LCL Export</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Import</masterLabel>
+        <translation>LCL Import</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Triangular trade</masterLabel>
+        <translation>LCL Triangular trade</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Local Charge</masterLabel>
+        <translation>Oversea Local Charge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation>ផលិតផល</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse</masterLabel>
+        <translation>Warehouse</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__AmountBuyingincltaxDocs__c</fullName>
+    <deprecated>true</deprecated>
+    <externalId>false</externalId>
+    <label>Amount Buying incl tax-Docs</label>
+    <summarizedField>clofor_com_cfs__TRSBuying__c.clofor_com_cfs__AmountBuyinginclTaxfor__c</summarizedField>
+    <summaryForeignKey>clofor_com_cfs__TRSBuying__c.clofor_com_cfs__GOODSSALESORDER__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

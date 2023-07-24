@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__AFRtype__c</name>
+    <picklistValues>
+        <masterLabel>AFRサービス営業不要</masterLabel>
+        <translation>日本24時間事前申告サービス営業不要</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AFRサービス既存顧客</masterLabel>
+        <translation>日本24時間事前申告サービス既存顧客</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AFRサービス見込み顧客</masterLabel>
+        <translation>日本24時間事前申告サービス見込み顧客</translation>
+    </picklistValues>
+</CustomFieldTranslation>

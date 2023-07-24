@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>経理に実際に返還された現金の金額を入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__RETURNED_AMOUNT__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Refer to Master A/N to confirm about loading Warehouse</help>
+    <label></label>
+    <name>clofor_com_cfs__LoadLocation__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

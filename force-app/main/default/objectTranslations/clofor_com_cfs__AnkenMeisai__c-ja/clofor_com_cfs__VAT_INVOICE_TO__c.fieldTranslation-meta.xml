@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>税金計算書請求先が請求先と異なる場合のみ、税金計算書請求先を選択してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__VAT_INVOICE_TO__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

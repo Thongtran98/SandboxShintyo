@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>税分類はサービスマスターの税分類の値を参照しています。USD通貨での精算の場合は必ず免税を選択してください。税分類はサービスマスターにて変更可能です。</help>
+    <label></label>
+    <name>clofor_com_cfs__ProductTax__c</name>
+</CustomFieldTranslation>

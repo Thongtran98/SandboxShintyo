@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>1자리수:콘테이너길이코드=length [ft], 1=10&apos;,2=20&apos;,4=40&apos;,9 O그외 길이, 2자리수: 콘텐이너 높이코드=height[ft]/[in], 0=8&apos;,2=8&apos;/ 6,4=9&apos;,5=9&apos;/6,6=＞9&apos;/6,8=4&apos;/3,9=≦4&apos; 기타</help>
+    <label></label>
+    <name>clofor_com_cfs__Container_Size_Code__c</name>
+    <picklistValues>
+        <masterLabel>22</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>42</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>46</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

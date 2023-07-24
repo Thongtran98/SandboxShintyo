@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Material__c</name>
+    <picklistValues>
+        <masterLabel>Iron</masterLabel>
+        <translation>鉄</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>その他</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastic</masterLabel>
+        <translation>プラスチック</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Special composite</masterLabel>
+        <translation>混合物</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stainless Steel</masterLabel>
+        <translation>ステンレス鋼</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wooden</masterLabel>
+        <translation>木材</translation>
+    </picklistValues>
+</CustomFieldTranslation>

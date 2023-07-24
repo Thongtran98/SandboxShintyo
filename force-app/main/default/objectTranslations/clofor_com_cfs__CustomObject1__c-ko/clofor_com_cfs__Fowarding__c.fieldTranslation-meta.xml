@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>귀하가 속한 회사가 포워딩에 대한 책임이 있을경우 &apos;자사포워딩&apos;를 선택하고, 타 회사에 책임이 있을 경우 &apos;타사포워딩&apos;을 선택하십시오.</help>
+    <label></label>
+    <name>clofor_com_cfs__Fowarding__c</name>
+    <picklistValues>
+        <masterLabel>他社フォワーディング(Forwarding by others)</masterLabel>
+        <translation>타사 포워딩</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自社フォワーディング(Forwarding by us)</masterLabel>
+        <translation>자사 포워딩</translation>
+    </picklistValues>
+</CustomFieldTranslation>

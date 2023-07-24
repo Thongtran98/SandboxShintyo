@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Driver</fullName>
+    <active>true</active>
+    <label>Driver</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CLOFOR_LICENSE_TYPE__c</picklist>
+        <values>
+            <fullName>CLOFOR CHATTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOFOR STANARD LICENSE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CONTRACT_TYPE__c</picklist>
+        <values>
+            <fullName>Full Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Time%28Case By Case%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Status__c</picklist>
+        <values>
+            <fullName>On Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Vacation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retired</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__WORK_TYPE__c</picklist>
+        <values>
+            <fullName>FORKLIFT DRIVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FULL CONTAINER TRUCK DRIVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRUCK DRIVER</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

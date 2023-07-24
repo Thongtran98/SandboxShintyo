@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>clofor_com_cfs__ACBalance__c</defaultLandingTab>
+    <description>FRM(Financial Report Module):Module to monitor Financial Performance.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>AFR CloFRM-Financial Report Module</label>
+    <tabs>standard-Document</tabs>
+    <tabs>clofor_com_cfs__ACBalance__c</tabs>
+    <tabs>clofor_com_cfs__TAXDeclaration__c</tabs>
+    <tabs>clofor_com_cfs__BalanceSheet__c</tabs>
+    <tabs>clofor_com_cfs__IncomeStatement__c</tabs>
+    <tabs>clofor_com_cfs__CashFlow__c</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>clofor_com_cfs__NewNavigation</tabs>
+    <tabs>clofor_com_cfs__DownloadDocument</tabs>
+</CustomApplication>

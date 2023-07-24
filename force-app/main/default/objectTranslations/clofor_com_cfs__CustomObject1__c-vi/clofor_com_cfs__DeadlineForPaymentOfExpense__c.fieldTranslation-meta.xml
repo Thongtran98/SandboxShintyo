@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Vui lòng nhập Ngày đáo hạn thanh toán. Ngày nhập sẽ chỉ được thể hiện trong Chi tiết hóa đơn. Ngày đáo hạn thanh toán bao gồm Thuế Nhập khẩu, Thuế Xuất khẩu và các chi phí phải trả khác.</help>
+    <label></label>
+    <name>clofor_com_cfs__DeadlineForPaymentOfExpense__c</name>
+</CustomFieldTranslation>

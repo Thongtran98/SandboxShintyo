@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__PaidDay__c</name>
+    <picklistValues>
+        <masterLabel>COD（Cash-On-Delivery）</masterLabel>
+        <translation>COD(Cash-On-Delivery)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし（パートナーとの清算）</masterLabel>
+        <translation>없음(파트너와의 청산)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>当月15日/当月末払い</masterLabel>
+        <translation>당월15일/당월 말 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>当月末/翌月15日</masterLabel>
+        <translation>당월 말 지불/익월 15일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>当月末払い</masterLabel>
+        <translation>당월 말 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>納品後1週間内</masterLabel>
+        <translation>납품후 1개월 이내</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>納品後5営業日内</masterLabel>
+        <translation>납품후 5영업일 이내</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月10日払い</masterLabel>
+        <translation>다다음달 10일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月15日払い</masterLabel>
+        <translation>다다음달 15일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月1日払い</masterLabel>
+        <translation>다다음달 1일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月20日払い</masterLabel>
+        <translation>다다음달 20일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月25日払い</masterLabel>
+        <translation>다다음달 25일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月5日払い</masterLabel>
+        <translation>다다음달 5일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月末払い</masterLabel>
+        <translation>다다음달 말 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々週払い（１０日以内）</masterLabel>
+        <translation>다다음달 주 지불(10일이내)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月10日払い</masterLabel>
+        <translation>다음달 10일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月15日払い</masterLabel>
+        <translation>다음달 15일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月1日払い</masterLabel>
+        <translation>다음달 1일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月20日払い</masterLabel>
+        <translation>다음달 20일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月25日払い</masterLabel>
+        <translation>다음달 25일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月5日払い</masterLabel>
+        <translation>다음달 5일 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月末払い</masterLabel>
+        <translation>다음달 말 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌週払い</masterLabel>
+        <translation>다음주 지불</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>都度</masterLabel>
+        <translation>매 회 지불</translation>
+    </picklistValues>
+</CustomFieldTranslation>

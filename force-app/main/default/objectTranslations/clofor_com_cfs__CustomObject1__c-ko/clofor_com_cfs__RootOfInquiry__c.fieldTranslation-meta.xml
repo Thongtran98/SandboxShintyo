@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__RootOfInquiry__c</name>
+    <picklistValues>
+        <masterLabel>お客様のご来社</masterLabel>
+        <translation>고객 방문</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>お客様の紹介</masterLabel>
+        <translation>고객 소개</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>お客様への訪問</masterLabel>
+        <translation>고객 방문</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>パートナーからのSales Lead</masterLabel>
+        <translation>파트너의 세일즈 리드</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>メッシンジャー</masterLabel>
+        <translation>메신저</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>メール</masterLabel>
+        <translation>메일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>電話</masterLabel>
+        <translation>전화</translation>
+    </picklistValues>
+</CustomFieldTranslation>

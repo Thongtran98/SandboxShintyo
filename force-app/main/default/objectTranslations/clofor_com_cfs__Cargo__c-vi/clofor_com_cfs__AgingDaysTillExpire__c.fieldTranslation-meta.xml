@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Số ngày đến HSD=HSD-Hôm nay. Số âm (-) nghĩa là đã hết hạn.</help>
+    <label></label>
+    <name>clofor_com_cfs__AgingDaysTillExpire__c</name>
+</CustomFieldTranslation>

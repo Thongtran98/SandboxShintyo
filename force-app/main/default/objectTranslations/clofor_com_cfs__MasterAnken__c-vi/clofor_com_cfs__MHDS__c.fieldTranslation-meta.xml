@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dịch vụ giao hàng nhanh chóng (Chỉ một số hãng cung cấp dịch vụ này giữa Nhật Bản và Trung Quốc)</help>
+    <label></label>
+    <name>clofor_com_cfs__MHDS__c</name>
+    <picklistValues>
+        <masterLabel>あり(Yes)</masterLabel>
+        <translation>Yes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし(No)</masterLabel>
+        <translation>No</translation>
+    </picklistValues>
+</CustomFieldTranslation>

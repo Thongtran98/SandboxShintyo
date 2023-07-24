@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__CargoStatusUpdate</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__CargoStatus__c</columns>
+    <columns>clofor_com_cfs__WorkOrderID__c</columns>
+    <columns>clofor_com_cfs__IsCargoScanned__c</columns>
+    <columns>clofor_com_cfs__Locator__c</columns>
+    <columns>clofor_com_cfs__ScanTime__c</columns>
+    <columns>clofor_com_cfs__Worker__c</columns>
+    <columns>clofor_com_cfs__WorkOrderService__c</columns>
+    <columns>clofor_com_cfs__ContainerID__c</columns>
+    <columns>clofor_com_cfs__ContainerNo__c</columns>
+    <columns>clofor_com_cfs__Cargo__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>1.Cargo Status Update</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gía trị sẽ tự động được tính như sau: Chốt cân đối USD=số USD bắt đầu cân đối +Số thu USD(các dịch vụ vận chuyển)+ số thu USD(không thuộc dịch vụ vận chuyển)-số chi USD(các dịch vụ vận chuyển)- số chiUSD(không thuộc dịch vụ vận chuyển)</help>
+    <label></label>
+    <name>clofor_com_cfs__BALANCE_AT_CLOSING_USD__c</name>
+</CustomFieldTranslation>

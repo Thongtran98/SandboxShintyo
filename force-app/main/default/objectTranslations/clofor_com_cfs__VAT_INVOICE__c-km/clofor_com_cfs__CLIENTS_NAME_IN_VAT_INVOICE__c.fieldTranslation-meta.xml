@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Input the name of recipient in Client&apos;s company who receive the VAT Invoice.</help>
+    <label></label>
+    <name>clofor_com_cfs__CLIENTS_NAME_IN_VAT_INVOICE__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

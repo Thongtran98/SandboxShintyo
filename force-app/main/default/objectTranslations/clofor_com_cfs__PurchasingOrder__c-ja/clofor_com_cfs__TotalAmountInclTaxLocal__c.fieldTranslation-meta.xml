@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>発注請求書オブジェクトの中の消費税込み発注額(標準通貨)の積み上げ集計</help>
+    <label></label>
+    <name>clofor_com_cfs__TotalAmountInclTaxLocal__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>업체로부터의 매입할때 사용하는 환율입니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__BUYING__c</name>
+</CustomFieldTranslation>

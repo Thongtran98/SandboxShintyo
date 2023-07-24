@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>課税所得=&apos;給料明細&apos;の実際の給料+&apos;給料明細&apos;の実際の住宅手当額+&apos;給料明細&apos;の実際の燃料手当額</help>
+    <label></label>
+    <name>clofor_com_cfs__TaxableIncome__c</name>
+</CustomFieldTranslation>

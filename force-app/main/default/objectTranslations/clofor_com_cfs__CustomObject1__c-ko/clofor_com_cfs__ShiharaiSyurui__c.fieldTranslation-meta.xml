@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ShiharaiSyurui__c</name>
+    <picklistValues>
+        <masterLabel>立替金</masterLabel>
+        <translation>대납 금액</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>諸請求金</masterLabel>
+        <translation>청구 금액</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nếu có bất kì lưu ý về Báo giá, nhập vào trường này. (Tối đa nhập 3 dòng)</help>
+    <label></label>
+    <name>clofor_com_cfs__QuoationDescription__c</name>
+</CustomFieldTranslation>

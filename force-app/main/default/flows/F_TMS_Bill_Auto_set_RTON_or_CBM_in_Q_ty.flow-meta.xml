@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>which_one_is_greater</name>
+        <label>which one is greater?</label>
+        <locationX>769</locationX>
+        <locationY>366</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>CBM_Greater_than_RTON</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__Anken__r.clofor_com_cfs__CBM__c</leftValueReference>
+                <operator>GreaterThanOrEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.clofor_com_cfs__Anken__r.clofor_com_cfs__Gross_Weight_RTON__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Q_ty_CBM</targetReference>
+            </connector>
+            <label>CBM Greater than RTON</label>
+        </rules>
+        <rules>
+            <name>CBM_less_than_RTON</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__Anken__r.clofor_com_cfs__CBM__c</leftValueReference>
+                <operator>LessThanOrEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.clofor_com_cfs__Anken__r.clofor_com_cfs__Gross_Weight_RTON__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Q_ty_GWRTON</targetReference>
+            </connector>
+            <label>CBM less than RTON</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>F/TMS Bill| Auto set RTON or CBM in Q&apos;ty {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>F/TMS Bill| Auto set RTON or CBM in Q&apos;ty</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Q_ty_CBM</name>
+        <label>Update Q&apos;ty = CBM</label>
+        <locationX>627</locationX>
+        <locationY>534</locationY>
+        <inputAssignments>
+            <field>clofor_com_cfs__Suryo__c</field>
+            <value>
+                <elementReference>$Record.clofor_com_cfs__Anken__r.clofor_com_cfs__CBM__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Q_ty_GWRTON</name>
+        <label>Update Q&apos;ty = GWRTON</label>
+        <locationX>926</locationX>
+        <locationY>541</locationY>
+        <inputAssignments>
+            <field>clofor_com_cfs__Suryo__c</field>
+            <value>
+                <elementReference>$Record.clofor_com_cfs__Anken__r.clofor_com_cfs__Gross_Weight_RTON__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>649</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>which_one_is_greater</targetReference>
+        </connector>
+        <filterLogic>(1 OR 2) AND 3</filterLogic>
+        <filters>
+            <field>clofor_com_cfs__Suryo__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>clofor_com_cfs__Suryo__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </filters>
+        <filters>
+            <field>clofor_com_cfs__ChargeUnitInPrint__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>RTON</stringValue>
+            </value>
+        </filters>
+        <object>clofor_com_cfs__AnkenMeisai__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

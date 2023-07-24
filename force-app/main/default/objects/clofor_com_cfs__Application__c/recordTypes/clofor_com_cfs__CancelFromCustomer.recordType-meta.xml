@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__CancelFromCustomer</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>clofor_com_cfs__CancelFromCustomerCompanyLayout</compactLayoutAssignment>
+    <label>Cancel from Customer</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApplicationStatus__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Created</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Full Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issued</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Negotiation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApplicationType__c</picklist>
+        <values>
+            <fullName>Cancel</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Terminate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CrossFunctionStatus__c</picklist>
+        <values>
+            <fullName>Application Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Application Receipt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Application Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charge Free Period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charge Period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed after Charge Period End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed during Charge Free Period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dispatch Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dispatch Date Confirmed and Waiting for Dispatch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dispatch Date Scheduling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing Order Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing Order Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reschedule Dispatch Data After Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reschedule Dispatch Data before Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Order Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Order Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminate during Charge Free Period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminate during Charge Period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Application Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting for Return</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ReturnQuantityType__c</picklist>
+        <values>
+            <fullName>Full Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Returned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__TerminateReasonCategory__c</picklist>
+        <values>
+            <fullName>Frequent Malfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

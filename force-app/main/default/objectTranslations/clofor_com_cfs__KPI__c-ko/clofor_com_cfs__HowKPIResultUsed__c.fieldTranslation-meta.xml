@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__HowKPIResultUsed__c</name>
+    <picklistValues>
+        <masterLabel>Annual Incentive Calculation</masterLabel>
+        <translation>연간인센티브</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monitoring Only</masterLabel>
+        <translation>모니터링</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monthly Incentive Calculation</masterLabel>
+        <translation>월간입센티브</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>그 외</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promotion Evaluation</masterLabel>
+        <translation>승진</translation>
+    </picklistValues>
+</CustomFieldTranslation>

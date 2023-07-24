@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CutOffDateForPayrollPeriod__c</name>
+    <picklistValues>
+        <masterLabel>10th Of Next Month</masterLabel>
+        <translation>ថ្ងៃទី 10 នៃខែបន្ទាប់</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10th Of This Month</masterLabel>
+        <translation>ថ្ងៃទី 10 នៃខែនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15th Of Next Month</masterLabel>
+        <translation>ថ្ងៃទី15នៃខែបន្ទាប់</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15th Of This Month</masterLabel>
+        <translation>ថ្ងៃទី15នៃខែនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Of Next Month</masterLabel>
+        <translation>ថ្ងៃទី 1 នៃខែបន្ទាប់</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Of This Month</masterLabel>
+        <translation>ថ្ងៃទី 1 នៃខែនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20th Of Next Month</masterLabel>
+        <translation>ថ្ងៃទី 20 នៃខែបន្ទាប់</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20th Of This Month</masterLabel>
+        <translation>ថ្ងៃទី 20 នៃខែនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25th Of Next Month</masterLabel>
+        <translation>ថ្ងៃទី 25 នៃខែបន្ទាប់</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25th Of This Month</masterLabel>
+        <translation>ថ្ងៃទី 25 នៃខែនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd Of Next Month</masterLabel>
+        <translation>ថ្ងៃទី 2 នៃខែបន្ទាប់</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd Of This Month</masterLabel>
+        <translation>ថ្ងៃទី 2 នៃខែនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30th Of Next Month</masterLabel>
+        <translation>ថ្ងៃទី 30 នៃខែបន្ទាប់</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30th Of This Month</masterLabel>
+        <translation>ថ្ងៃទី 30 នៃខែនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31th Of Next Month</masterLabel>
+        <translation>ថ្ងៃទី 31 នៃខែបន្ទាប់</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31th Of This Month</masterLabel>
+        <translation>ថ្ងៃទី 31 នៃខែនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Of Next Month</masterLabel>
+        <translation>ថ្ងៃទី 3 នៃខែបន្ទាប់</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Of This Month</masterLabel>
+        <translation>ថ្ងៃទី 3 នៃខែនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5th Of Next Month</masterLabel>
+        <translation>ថ្ងៃទី 5 នៃខែបន្ទាប់</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5th Of This Month</masterLabel>
+        <translation>ថ្ងៃទី 5 នៃខែនេះ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End Of This Month</masterLabel>
+        <translation>End of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End of Next Month</masterLabel>
+        <translation>End of Next Month</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__VariableCost</fullName>
+    <active>true</active>
+    <label>Variable Cost</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CostCategory__c</picklist>
+        <values>
+            <fullName>Driver Compensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Driver Salary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electricity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miscellaneous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Supplies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pallet Rental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rubbish Collection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__Currency__c</picklist>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

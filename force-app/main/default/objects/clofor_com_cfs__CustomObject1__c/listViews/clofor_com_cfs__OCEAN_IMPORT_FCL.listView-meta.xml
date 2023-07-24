@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__OCEAN_IMPORT_FCL</fullName>
+    <columns>clofor_com_cfs__ID__c</columns>
+    <columns>clofor_com_cfs__JobRequestID__c</columns>
+    <columns>clofor_com_cfs__TranporationType__c</columns>
+    <columns>clofor_com_cfs__Field1__c</columns>
+    <columns>clofor_com_cfs__shipper__c</columns>
+    <columns>clofor_com_cfs__status__c</columns>
+    <columns>clofor_com_cfs__Partner__c</columns>
+    <columns>clofor_com_cfs__POD__c</columns>
+    <columns>clofor_com_cfs__ETA__c</columns>
+    <columns>clofor_com_cfs__POL__c</columns>
+    <columns>clofor_com_cfs__ETD__c</columns>
+    <columns>clofor_com_cfs__Vessle__c</columns>
+    <columns>clofor_com_cfs__carton__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__TranporationType__c</field>
+        <operation>equals</operation>
+        <value>FCL</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__CustomObject1__c.clofor_com_cfs__RecordType1</value>
+    </filters>
+    <filters>
+        <field>Cargo_Status_number__c</field>
+        <operation>lessThan</operation>
+    </filters>
+    <label>1.1 Ocean Import-FCL</label>
+</ListView>

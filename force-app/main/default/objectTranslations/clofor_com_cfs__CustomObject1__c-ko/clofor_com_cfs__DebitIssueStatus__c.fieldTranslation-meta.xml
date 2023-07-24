@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>파트너에게 Debit 노트를 발행하였는지 진행사항을 선택해 주십시오.</help>
+    <label></label>
+    <name>clofor_com_cfs__DebitIssueStatus__c</name>
+    <picklistValues>
+        <masterLabel>At Internal Checking After Issue</masterLabel>
+        <translation>발행후 내용 확인중</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Internal Checking Confirmed After Issue</masterLabel>
+        <translation>발행후 내용 확인 완료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carry Over to Next Month</masterLabel>
+        <translation>차월로 이월</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copy Sent</masterLabel>
+        <translation>복사본 송부 완료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Settlement Required</masterLabel>
+        <translation>해당건 정산 미발생</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not issued yet-Vendor Invoice not received</masterLabel>
+        <translation>업체 청구서 미도착</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Progress</masterLabel>
+        <translation>안건 진행 중</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting for Other Debit for Combine After Issue</masterLabel>
+        <translation>다른 안건과 통합하기 위해 대기중</translation>
+    </picklistValues>
+</CustomFieldTranslation>

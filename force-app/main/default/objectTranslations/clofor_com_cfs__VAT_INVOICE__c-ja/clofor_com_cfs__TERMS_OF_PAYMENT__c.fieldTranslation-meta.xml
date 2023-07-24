@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>お客様の支払方法を選んでください。</help>
+    <label></label>
+    <name>clofor_com_cfs__TERMS_OF_PAYMENT__c</name>
+</CustomFieldTranslation>

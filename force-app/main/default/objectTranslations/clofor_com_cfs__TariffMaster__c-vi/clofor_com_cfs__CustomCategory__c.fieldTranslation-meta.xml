@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CustomCategory__c</name>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Animal Quarantine</masterLabel>
+        <translation>Khai báo hải quan - Kiểm dịch động vật</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Food Quarantine</masterLabel>
+        <translation>Khai báo hải quan - Kiểm dịch thực phẩm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Medical Quarantine</masterLabel>
+        <translation>Khai báo hải quan - Kiểm dịch thuốc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Plant Quarantine</masterLabel>
+        <translation>Khai báo hải quan - Kiểm dịch thực vật</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Small Invoice Amount</masterLabel>
+        <translation>Khai báo hải quan - Tổng hóa đơn nhỏ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Clearance - Special Act. for Tax Reduction</masterLabel>
+        <translation>Khai báo hải quan đặc biệt để giảm thuế</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal Custom Clearance</masterLabel>
+        <translation>Khai báo hải quan bình thường</translation>
+    </picklistValues>
+</CustomFieldTranslation>

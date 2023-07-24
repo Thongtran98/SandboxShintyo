@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__ConsolidationTransit</fullName>
+    <active>false</active>
+    <description>To manage Transit related with Consolidation</description>
+    <label>CONSOLIDATION TRANSIT</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CONTAINER_MODE__c</picklist>
+        <values>
+            <fullName>AIR-AIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AIR-FCL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AIR-LCL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FCL-AIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FCL-FCL</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>FCL-LCL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LCL-AIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LCL-FCL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LCL-LCL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

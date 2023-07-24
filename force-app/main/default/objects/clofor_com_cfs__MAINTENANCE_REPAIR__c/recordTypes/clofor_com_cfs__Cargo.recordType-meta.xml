@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Cargo</fullName>
+    <active>true</active>
+    <label>Cargo</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process Fail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processed Successfully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ContainerDamageType__c</picklist>
+        <values>
+            <fullName>Damaged Door Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaminated Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dented Walls and Ceilings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exterior Paint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punctures and Gouges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rust and Corrosion</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__RAMStatus__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repaired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested to Factory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests Confirmed by Factory</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__RepairMaintenanceCategory__c</picklist>
+        <values>
+            <fullName>Battery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chassis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fleet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Truck</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__TROUBLE_TYPE__c</picklist>
+        <values>
+            <fullName>Engine trouble</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No oil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shassi broken</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__TYPE_OF_REPAIR__c</picklist>
+        <values>
+            <fullName>Change tire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engine cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refill oil%2Freplace oil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shassi fixing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__TYPE_REASON__c</picklist>
+        <values>
+            <fullName>Accident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machine trouble</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled maintenance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

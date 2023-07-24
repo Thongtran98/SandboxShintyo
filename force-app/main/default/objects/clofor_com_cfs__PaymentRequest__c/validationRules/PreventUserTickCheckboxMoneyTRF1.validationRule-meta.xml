@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreventUserTickCheckboxMoneyTRF1</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(AND(ISPICKVAL( clofor_com_cfs__TrxPlanType__c , &apos;Payment Request&apos;),  RecordType.Name = &apos;Payment Request-Local Currency&apos;, PaidAmountJPY__c &gt; 0,  clofor_com_cfs__AmountLocal__c &gt; 0),  PaidAmountJPY__c  &lt;&gt; clofor_com_cfs__AmountLocal__c, null)</errorConditionFormula>
+    <errorMessage>This Payment Request is not fully paid. Please check again before update Money Transfered</errorMessage>
+</ValidationRule>

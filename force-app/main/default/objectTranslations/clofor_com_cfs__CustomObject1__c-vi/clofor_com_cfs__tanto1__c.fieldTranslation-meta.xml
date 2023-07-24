@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Loại Bộ Lọc: Tùy Chọn. Người dùng có thể loại bỏ hoặc điền giá trị không phù hợp với tiêu chuẩn. Yêu cầu lô hàng: Khách hàng tương đương Địa chỉ email-1: tài khoản: ID tài khoản</help>
+    <label></label>
+    <name>clofor_com_cfs__tanto1__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

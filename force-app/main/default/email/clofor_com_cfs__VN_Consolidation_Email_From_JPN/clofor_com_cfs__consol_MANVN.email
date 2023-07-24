@@ -1,0 +1,24 @@
+Kính gửi {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevan__c} 
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevanRep__c} 
+
+Đây là chứng từ hàng  ghép container của chuyến tàu bên dưới. 
+
+◎Mã số lô hàng ghép chính：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MasterID__c} 
+◎Số bill Master：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MMaster_B_L_No__c} 
+◎Tên tàu / Số chuyến :  {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVessel__c} / {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVoy_No__c}　　 
+◎Ngày dự kiến đến ： {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__META__c} 
+◎Ngày đến：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__META_DAY__c} 
+◎Tổng số bill house của lô hàng ghép：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__NO_HOUSE_B_L__c} H B/L 
+◎Số container： {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainer__c}*{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainerNumber__c} / {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainer2__c}*{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MContainerNumber2__c} 
+◎Ngày dỡ hàng vào kho：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevanningDate__c} 
+
+Đính kèm：Thông báo hàng đến của container hàng ghép
+
+Cám ơn sợ hợp tác của quí vị. 
+
+********************************************************* 
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__Mail_Merge_Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

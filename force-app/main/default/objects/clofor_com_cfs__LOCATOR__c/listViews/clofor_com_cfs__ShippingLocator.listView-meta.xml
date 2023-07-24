@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__ShippingLocator</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__LocatorCode__c</columns>
+    <columns>clofor_com_cfs__LocatorLayer__c</columns>
+    <columns>clofor_com_cfs__ParentLocator__c</columns>
+    <columns>clofor_com_cfs__WarehouseID__c</columns>
+    <columns>clofor_com_cfs__CurrentOccupiedCapacityCBM__c</columns>
+    <columns>clofor_com_cfs__CurrentAvailableCapacityCBM__c</columns>
+    <columns>clofor_com_cfs__CurrentOccupiedCapacityKG__c</columns>
+    <columns>clofor_com_cfs__CurrentAvailableCapacityKG__c</columns>
+    <columns>clofor_com_cfs__ActualOccupiedCapacityCBM__c</columns>
+    <columns>clofor_com_cfs__ActualAvailableCapacityCBM__c</columns>
+    <columns>clofor_com_cfs__ActualOccupiedCapacityKG__c</columns>
+    <columns>clofor_com_cfs__ActualAvailableCapacityKG__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__LocationAreaType__c</field>
+        <operation>equals</operation>
+        <value>Shipping Area</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>4. Shipping Locator</label>
+    <language>en_US</language>
+</ListView>

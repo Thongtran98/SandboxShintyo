@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__FleetType__c</columns>
+    <columns>clofor_com_cfs__RegistrationNumber__c</columns>
+    <columns>clofor_com_cfs__NumberPlate__c</columns>
+    <columns>clofor_com_cfs__EngineChassisNumber__c</columns>
+    <columns>clofor_com_cfs__FirstRegistrationDate__c</columns>
+    <columns>clofor_com_cfs__ExpiryDate__c</columns>
+    <columns>clofor_com_cfs__ModelCode__c</columns>
+    <columns>clofor_com_cfs__ChassisType__c</columns>
+    <columns>clofor_com_cfs__FuelType__c</columns>
+    <columns>clofor_com_cfs__MainDriver__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

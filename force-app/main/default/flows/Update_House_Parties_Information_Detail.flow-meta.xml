@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>update_House_Consignee_01</name>
+        <label>update House Consignee 01</label>
+        <locationX>50</locationX>
+        <locationY>1103</locationY>
+        <assignmentItems>
+            <assignToReference>HouseConsignee</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.clofor_com_cfs__Cnee__r.InformationonBL__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>check_Condition_3</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>update_House_Consignee_02</name>
+        <label>update House Consignee 02</label>
+        <locationX>314</locationX>
+        <locationY>1103</locationY>
+        <assignmentItems>
+            <assignToReference>HouseConsignee</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ConsigneeDetailInfo</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>check_Condition_3</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>update_House_Notify_Party_01</name>
+        <label>update House Notify Party 01</label>
+        <locationX>50</locationX>
+        <locationY>1439</locationY>
+        <assignmentItems>
+            <assignToReference>HouseNotifyParty</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.clofor_com_cfs__Notifyparty__r.InformationonBL__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>updateShipment</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>update_House_Notify_Party_02</name>
+        <label>update House Notify Party 02</label>
+        <locationX>314</locationX>
+        <locationY>1439</locationY>
+        <assignmentItems>
+            <assignToReference>HouseNotifyParty</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>PartyDetailInfo</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>updateShipment</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>update_House_Shipper_01</name>
+        <label>update House Shipper 01</label>
+        <locationX>50</locationX>
+        <locationY>767</locationY>
+        <assignmentItems>
+            <assignToReference>HouseShipper</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.clofor_com_cfs__shipper__r.InformationonBL__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>check_Condition_2</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>update_House_Shipper_02</name>
+        <label>update House Shipper 02</label>
+        <locationX>314</locationX>
+        <locationY>767</locationY>
+        <assignmentItems>
+            <assignToReference>HouseShipper</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ShipperDetailInfo</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>check_Condition_2</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>update_Master_Consignee_01</name>
+        <label>update Master Consignee 01</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>MasterConsignee</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>check_Condition_1</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>update_Master_Consignee_02</name>
+        <label>update Master Consignee 02</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>MasterConsignee</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>AgentDetailInfo</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>check_Condition_1</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>check_Condition</name>
+        <label>check Condition</label>
+        <locationX>314</locationX>
+        <locationY>311</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Master_Consignee_01</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_Master_Consignee_01</targetReference>
+            </connector>
+            <label>Master Consignee 01</label>
+        </rules>
+        <rules>
+            <name>Master_Consignee_02</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__DeliveryAgent__r.InformationonBL__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_Master_Consignee_02</targetReference>
+            </connector>
+            <label>Master Consignee 02</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>check_Condition_1</name>
+        <label>check Condition</label>
+        <locationX>314</locationX>
+        <locationY>647</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>House_Shipper_01</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__shipper__r.InformationonBL__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_House_Shipper_01</targetReference>
+            </connector>
+            <label>House Shipper 01</label>
+        </rules>
+        <rules>
+            <name>House_Shipper_02</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__shipper__r.InformationonBL__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_House_Shipper_02</targetReference>
+            </connector>
+            <label>House Shipper 02</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>check_Condition_2</name>
+        <label>check Condition</label>
+        <locationX>314</locationX>
+        <locationY>983</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>House_Consignee_01</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__Cnee__r.InformationonBL__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_House_Consignee_01</targetReference>
+            </connector>
+            <label>House Consignee 01</label>
+        </rules>
+        <rules>
+            <name>House_Consignee_02</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__Cnee__r.InformationonBL__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_House_Consignee_02</targetReference>
+            </connector>
+            <label>House Consignee 02</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>check_Condition_3</name>
+        <label>check Condition</label>
+        <locationX>314</locationX>
+        <locationY>1319</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>House_Notify_Party_01</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__Notifyparty__r.InformationonBL__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_House_Notify_Party_01</targetReference>
+            </connector>
+            <label>House Notify Party 01</label>
+        </rules>
+        <rules>
+            <name>House_Notify_Party_02</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__Notifyparty__r.InformationonBL__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_House_Notify_Party_02</targetReference>
+            </connector>
+            <label>House Notify Party 02</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <description>Agent&apos;s Detail Information</description>
+        <name>AgentDetailInfo</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishCompanyName__c}
+&amp; BR() &amp;
+{!$Record.clofor_com_cfs__DeliveryAgent__r.clofor_com_cfs__EnglishAddress__c}
+&amp; BR() &amp;
+IF(ISBLANK({!$Record.clofor_com_cfs__DeliveryAgent__r.Phone}), NULL, &apos;TEL: &apos; &amp; {!$Record.clofor_com_cfs__DeliveryAgent__r.Phone}) &amp;
+IF(ISBLANK({!$Record.clofor_com_cfs__DeliveryAgent__r.Fax}), NULL, &apos; - FAX: &apos; &amp; {!$Record.clofor_com_cfs__DeliveryAgent__r.Fax})</expression>
+    </formulas>
+    <formulas>
+        <description>Consignee&apos;s Detail Information</description>
+        <name>ConsigneeDetailInfo</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishCompanyName__c}
+&amp; BR() &amp;
+{!$Record.clofor_com_cfs__Cnee__r.clofor_com_cfs__EnglishAddress__c}
+&amp; BR() &amp;
+IF(ISBLANK({!$Record.clofor_com_cfs__Cnee__r.Phone}), NULL, &apos;TEL: &apos; &amp; {!$Record.clofor_com_cfs__Cnee__r.Phone}) &amp;
+IF(ISBLANK({!$Record.clofor_com_cfs__Cnee__r.Fax}), NULL, &apos; - FAX: &apos; &amp; {!$Record.clofor_com_cfs__Cnee__r.Fax})</expression>
+    </formulas>
+    <formulas>
+        <description>Notify Party&apos;s Detail Information</description>
+        <name>PartyDetailInfo</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishCompanyName__c}
+&amp; BR() &amp;
+{!$Record.clofor_com_cfs__Notifyparty__r.clofor_com_cfs__EnglishAddress__c}
+&amp; BR() &amp;
+IF(ISBLANK({!$Record.clofor_com_cfs__Notifyparty__r.Phone}), NULL, &apos;TEL: &apos; &amp; {!$Record.clofor_com_cfs__Notifyparty__r.Phone}) &amp;
+IF(ISBLANK({!$Record.clofor_com_cfs__Notifyparty__r.Fax}), NULL, &apos; - FAX: &apos; &amp; {!$Record.clofor_com_cfs__Notifyparty__r.Fax})</expression>
+    </formulas>
+    <formulas>
+        <description>Shipper&apos;s Detail Information</description>
+        <name>ShipperDetailInfo</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishCompanyName__c}
+&amp; BR() &amp;
+{!$Record.clofor_com_cfs__shipper__r.clofor_com_cfs__EnglishAddress__c}
+&amp; BR() &amp;
+IF(ISBLANK({!$Record.clofor_com_cfs__shipper__r.Phone}), NULL, &apos;TEL: &apos; &amp; {!$Record.clofor_com_cfs__shipper__r.Phone}) &amp;
+IF(ISBLANK({!$Record.clofor_com_cfs__shipper__r.Fax}), NULL, &apos; - FAX: &apos; &amp; {!$Record.clofor_com_cfs__shipper__r.Fax})</expression>
+    </formulas>
+    <interviewLabel>Update House Parties Information Detail {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update House Parties Information Detail</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>updateShipment</name>
+        <label>updateShipment</label>
+        <locationX>314</locationX>
+        <locationY>1655</locationY>
+        <inputAssignments>
+            <field>HouseConsignee__c</field>
+            <value>
+                <elementReference>HouseConsignee</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>HouseNotifyParty__c</field>
+            <value>
+                <elementReference>HouseNotifyParty</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>HouseShipper__c</field>
+            <value>
+                <elementReference>HouseShipper</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MasterConsignee__c</field>
+            <value>
+                <elementReference>MasterConsignee</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>check_Condition</targetReference>
+        </connector>
+        <object>clofor_com_cfs__CustomObject1__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <variables>
+        <name>HouseConsignee</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>HouseNotifyParty</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>HouseShipper</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>MasterConsignee</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

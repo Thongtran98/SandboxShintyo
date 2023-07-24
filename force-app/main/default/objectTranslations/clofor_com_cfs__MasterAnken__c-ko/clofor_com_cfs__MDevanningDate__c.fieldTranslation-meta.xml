@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>콘솔할 경우 바닝(Vanning)/수출 - 데바닝(Devanning)/수입을 담당할 일자를 입력해 주십시오.</help>
+    <label></label>
+    <name>clofor_com_cfs__MDevanningDate__c</name>
+</CustomFieldTranslation>

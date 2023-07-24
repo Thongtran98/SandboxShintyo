@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>중국-일본의 일부선사만 제공하는 서비스로서, 화물의 조기출하하는 서비스 입니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__MHDS__c</name>
+    <picklistValues>
+        <masterLabel>あり(Yes)</masterLabel>
+        <translation>있음</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし(No)</masterLabel>
+        <translation>없음</translation>
+    </picklistValues>
+</CustomFieldTranslation>

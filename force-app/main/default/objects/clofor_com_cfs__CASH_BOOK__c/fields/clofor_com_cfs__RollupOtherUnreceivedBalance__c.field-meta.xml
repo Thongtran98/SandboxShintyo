@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__RollupOtherUnreceivedBalance__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>ROLLUP OTHER UNRECEIVED BAL</label>
+    <summarizedField>clofor_com_cfs__ConnectOtherCash__c.clofor_com_cfs__UnreceivedBalanceOfOtherForCash__c</summarizedField>
+    <summaryForeignKey>clofor_com_cfs__ConnectOtherCash__c.clofor_com_cfs__CashID__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

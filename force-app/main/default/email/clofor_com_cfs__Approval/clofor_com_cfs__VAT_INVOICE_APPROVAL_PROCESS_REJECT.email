@@ -1,0 +1,18 @@
+Dear Submitter,
+Below VAT INVOICE approval request has been rejected.
+Please see the comments and re-submit after correction.
+
+◎VAT INVOICE ID: {!clofor_com_cfs__VAT_INVOICE__c.Name}
+Link to CloFor : {!clofor_com_cfs__VAT_INVOICE__c.Link}
+◎RED INVOICE NO: {!clofor_com_cfs__VAT_INVOICE__c.clofor_com_cfs__RED_INVOICE_NO__c}
+◎VAT INVOICE TO: {!clofor_com_cfs__VAT_INVOICE__c.clofor_com_cfs__VAT_INVOICE_TO__c}
+◎CLIENT'S NAME IN VAT INVOICE: {!clofor_com_cfs__VAT_INVOICE__c.clofor_com_cfs__CLIENTS_NAME_IN_VAT_INVOICE__c}
+
+Best regards.
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c}
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

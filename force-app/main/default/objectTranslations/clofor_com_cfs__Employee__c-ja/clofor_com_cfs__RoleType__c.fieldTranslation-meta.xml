@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__RoleType__c</name>
+    <picklistValues>
+        <masterLabel>DRIVER</masterLabel>
+        <translation>運転手</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OFFICE WORKER</masterLabel>
+        <translation>オフィスワーカー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WAREHOUSE WORKER</masterLabel>
+        <translation>倉庫スタッフ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

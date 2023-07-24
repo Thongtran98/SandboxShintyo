@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ប្រសិនបើមានការកត់សម្គាល់ណាមួយនៅលើសម្រង់</help>
+    <label></label>
+    <name>clofor_com_cfs__QuoationDescription__c</name>
+</CustomFieldTranslation>

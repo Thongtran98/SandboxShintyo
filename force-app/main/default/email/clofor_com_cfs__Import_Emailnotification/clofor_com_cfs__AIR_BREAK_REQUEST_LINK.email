@@ -1,0 +1,33 @@
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Break_Bulk_Agent__c} 
+{!CustomObject1__c.00N5h00000DvWyX} 様 
+
+いつもお世話になっております。 
+
+◎URLにアクセスしてパスワードを入力してください。
+航空貨物取扱い及び代行回収依頼書類をダウンロードできます。 
+###################################################################################################################
+航空貨物取扱い及び代行回収依頼書類 LINK ：{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__BREAK_BULK_INVOICE_LINK__c} 
+PASSWORD：{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__BREAL_BULK_INVOICE_PASSWORD__c} 
+###################################################################################################################
+
+◎下記の案件のBBをお願いします。 
+-HAWB NO.: {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__HAWB__c} 
+-MAWB NO.: {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__MAWB__c} 
+-CNEE: {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Cnee__c}様 
+-FLIGHT NO.: {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__FlightNo__c} 
+-重量: {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__weight__c} KG 
+-数量: {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__carton__c} Carton 
+-到着日: {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETA__c} 
+
+◎指定通関業者様： {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Custom_Clearance_Broker__c} 
+
+BLも添付いたしますので、詳細をご確認ください。 
+
+今後ともどうぞよろしくお願い申し上げます。
+
+********************************************************* 
+{!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Mail_Merge_Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

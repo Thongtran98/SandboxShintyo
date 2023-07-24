@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>‘상품 마스터명’의 과세 여부에 따라 TAX(課税), Tax Free(免税), Non-Tax(非課税) 로 표시됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__ProductTax__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>現金を持ち出すスタッフを連絡先の中から選択してください。必須項目です。</help>
+    <label></label>
+    <name>clofor_com_cfs__CASH_CARRIERSTAFF__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

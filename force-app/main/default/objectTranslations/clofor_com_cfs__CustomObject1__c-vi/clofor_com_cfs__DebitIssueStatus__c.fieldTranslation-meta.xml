@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tình trạng Phát hành Debit Note cho đối tác</help>
+    <label></label>
+    <name>clofor_com_cfs__DebitIssueStatus__c</name>
+    <picklistValues>
+        <masterLabel>At Internal Checking After Issue</masterLabel>
+        <translation>Đang kiểm tra nội bộ sau phát hành</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Internal Checking Confirmed After Issue</masterLabel>
+        <translation>Đã xác nhận nội bộ sau khi phát hành</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carry Over to Next Month</masterLabel>
+        <translation>Debit Note cho tháng tới</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copy Sent</masterLabel>
+        <translation>Bản copy đã được gửi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Settlement Required</masterLabel>
+        <translation>Không cam kết với đối tác</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not issued yet-Vendor Invoice not received</masterLabel>
+        <translation>Chưa phát hành - Hóa đơn đầu vào chưa được nhận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Progress</masterLabel>
+        <translation>Đang tiến hành</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting for Other Debit for Combine After Issue</masterLabel>
+        <translation>Đang chờ những hóa đơn khác để gộp hóa đơn</translation>
+    </picklistValues>
+</CustomFieldTranslation>

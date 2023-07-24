@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Vui lòng nhập thời hạn thanh toán của đối tác phải trả gần nhất. Ngày này sẽ được thể hiện trên Thời gian nợ của Debit Note.</help>
+    <label></label>
+    <name>clofor_com_cfs__DebitNote_duedate__c</name>
+</CustomFieldTranslation>

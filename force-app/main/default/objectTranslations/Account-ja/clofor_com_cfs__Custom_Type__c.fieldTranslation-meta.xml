@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>顧客の場合は国内顧客--の中から選択し、パートナーの場合は海外パートナー--、業者の場合は業者-の中から選択してください。自分の会社には当社社内利用を選択してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__Custom_Type__c</name>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - AIRLINER</masterLabel>
+        <translation>航空会社</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - BANK</masterLabel>
+        <translation>業者 - 銀行</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - BB/CUSTOMERS CLEARANCE/OUR AGENT</masterLabel>
+        <translation>業者 - BB/通関（当社手配先)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CARRIER</masterLabel>
+        <translation>業者 - 船社</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CONSOLIDATOR</masterLabel>
+        <translation>業者 - Co-Loader</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CUSTOMS CLEARANCE AGENT/CUSTOMER AGENT</masterLabel>
+        <translation>業者 - 通関(お客様手配先)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - CUSTOMS CLEARANCE AGENT/OUR AGENT</masterLabel>
+        <translation>業者 - 通関(当社手配先)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - DEPOT</masterLabel>
+        <translation>業者 - Depot</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - OTHERS</masterLabel>
+        <translation>業者 - その他</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - PORT</masterLabel>
+        <translation>業者 - ポート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - SYSTEM</masterLabel>
+        <translation>業者 - システム</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - TRUCKING</masterLabel>
+        <translation>業者 - 運送</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3RD VENDOR - WAREHOUSE/STORAGE</masterLabel>
+        <translation>業者 - 倉庫・保管</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOR DOCUMENT PURPOSE ONLY</masterLabel>
+        <translation>ドキュメント記載用</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GOVERMENT OFFICE</masterLabel>
+        <translation>官公省</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INTERNAL USE ONLY</masterLabel>
+        <translation>当社社内利用</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - EXISTING</masterLabel>
+        <translation>国内顧客 - 既存</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - FORWARDER</masterLabel>
+        <translation>国内顧客 - フォワーダー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - LEAD(APPROACHING)</masterLabel>
+        <translation>国内顧客 - 見込み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL CUSTOMER - NO NEED SALES</masterLabel>
+        <translation>国内顧客 - 営業不要</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL PARTNER - EXISTING</masterLabel>
+        <translation>国内パートナー - 既存</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL PARTNER - LEAD(APPROACHING)</masterLabel>
+        <translation>国内パートナー - 見込み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOCAL PARTNER - NO NEED SALES</masterLabel>
+        <translation>国内パートナー - 営業不要</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA CUSTOMER - EXISTING</masterLabel>
+        <translation>海外顧客 - 既存</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA CUSTOMER - LEAD(APPORACHING)</masterLabel>
+        <translation>海外顧客 - 見込み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA PARTNER - EXISTING</masterLabel>
+        <translation>海外パートナー - 既存</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA PARTNER - LEAD(APPROACHING)</masterLabel>
+        <translation>海外パートナー - 見込み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OVERSEA PARTNER - NO NEED SALES</masterLabel>
+        <translation>海外パートナー - 営業不要</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__payment_category__c</name>
+    <picklistValues>
+        <masterLabel>Advanced Payment</masterLabel>
+        <translation>Thanh toán nâng cao</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank Transfer</masterLabel>
+        <translation>Chuyển  khoản</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank Transfer Charge</masterLabel>
+        <translation>Phí chuyển khoản</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cash</masterLabel>
+        <translation>Tiền mặt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deposit Offset</masterLabel>
+        <translation>Cấn trừ tạm ứng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loan</masterLabel>
+        <translation>Nợ vay</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Offset</masterLabel>
+        <translation>Cấn trừ công nợ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

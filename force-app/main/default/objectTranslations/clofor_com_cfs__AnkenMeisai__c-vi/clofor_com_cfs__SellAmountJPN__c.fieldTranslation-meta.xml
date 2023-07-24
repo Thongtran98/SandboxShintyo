@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tổng giá bán(Local)=Đơn giá bán(Local)*Tổng số luợng. Giá này là trước Thuế. Nếu Miễn Thuế hoặc Thuế 0% , Tổng giá bán(Local) sẽ bằng với Giá bán bao gồm thuế (Local)</help>
+    <label></label>
+    <name>clofor_com_cfs__SellAmountJPN__c</name>
+</CustomFieldTranslation>

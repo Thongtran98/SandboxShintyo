@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>顧客への請求書の発行状況を選択してください。&apos;発行済 - コピー送付済み&apos;は請求書がメールやfaxで送付されたことを指し、&apos;原本送付済&apos;は請求書原本が顧客に送付された状態を指します</help>
+    <label></label>
+    <name>clofor_com_cfs__InvoiceIssueStatus__c</name>
+    <picklistValues>
+        <masterLabel>At Internal Checking After Issue</masterLabel>
+        <translation>発行済 - 内容確認中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Internal Checking Confirmed After Issue</masterLabel>
+        <translation>発行済 - 内容確認済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carry Over to Next Month</masterLabel>
+        <translation>次回請求分繰り越し</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice Copy Sent</masterLabel>
+        <translation>コピー送付済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Settlement Required(Collect from Partner)</masterLabel>
+        <translation>清算なし(パートナーから回収予定)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not issued yet-Vendor Invoice not received</masterLabel>
+        <translation>未発行 - 業者請求書待ち</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Progress</masterLabel>
+        <translation>未発行 - 案件進行中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Original Invoice Sent</masterLabel>
+        <translation>原本送付済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting for Other Invoice for Combine After Issue</masterLabel>
+        <translation>発行済 - 別案件進行中</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Check_Locator_Code_Section_Layer</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(clofor_com_cfs__LocatorLayer__c,&apos;Section Layer&apos;)&amp;&amp;(OR(clofor_com_cfs__FloorCode__c== &apos;F00&apos;, clofor_com_cfs__FloorCode__c== &apos;F&apos;,
+ISBLANK(clofor_com_cfs__FloorCode__c),
+clofor_com_cfs__AreaCode__c == &apos;A00&apos;, clofor_com_cfs__AreaCode__c == &apos;A&apos;,
+ISBLANK(clofor_com_cfs__AreaCode__c),
+clofor_com_cfs__SectionCode__c  == &apos;S00&apos;,
+clofor_com_cfs__SectionCode__c  == &apos;S&apos;,
+ISBLANK(clofor_com_cfs__SectionCode__c),
+(clofor_com_cfs__Rack__c != &apos;R00&apos;&amp;&amp; clofor_com_cfs__Rack__c != &apos;R&apos;&amp;&amp; NOT(ISBLANK(clofor_com_cfs__Rack__c ))),
+(clofor_com_cfs__Level__c != &apos;L00&apos;&amp;&amp;clofor_com_cfs__Level__c != &apos;L&apos;&amp;&amp; NOT(ISBLANK(clofor_com_cfs__Level__c )))))</errorConditionFormula>
+    <errorMessage>Section layer must have only Floor Code and Area Code and Section Code</errorMessage>
+</ValidationRule>

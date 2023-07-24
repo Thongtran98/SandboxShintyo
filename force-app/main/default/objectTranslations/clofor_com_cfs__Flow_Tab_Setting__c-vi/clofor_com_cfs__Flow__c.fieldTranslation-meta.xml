@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Flow__c</name>
+    <picklistValues>
+        <masterLabel>AFR Services &amp; Contracts</masterLabel>
+        <translation>Dịch vụ &amp; Hợp đồng AFR</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-FMS/TMS</masterLabel>
+        <translation>CloACM-Module Kế toán-FMS/TMS/SMS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-Purchasing/Expenses &amp; Management</masterLabel>
+        <translation>CloACM-Module Kế toán-Mua hàng/Chí phí quản trị</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-Shared Accounting Service</masterLabel>
+        <translation>CloACM-Module Kế toán-Các dịch vụ dùng chung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-Transaction</masterLabel>
+        <translation>CloACM-Module Kế toán-Các loại giao dịch</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloACM-Accounting Module-WMS</masterLabel>
+        <translation>CloACM-Module Kế toán-WMS/TOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloAPI-API Module for External Integration</masterLabel>
+        <translation>CloAPI-Module Tích hợp API</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloASM-Asset Module</masterLabel>
+        <translation>CloASM-Module Quản lý Tài sản</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloAudit-Audit Module</masterLabel>
+        <translation>CloAudit-Module Kiểm toán</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCRM-Cust/Ptnr/Vendor Relationship and Pricing Module</masterLabel>
+        <translation>CloCRM-Module Quản lý Account &amp; Bảng giá</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCRM-Quotation &amp; Contract</masterLabel>
+        <translation>CloCRM-Quản lý Báo giá &amp; Hợp đồng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCSM-Consolidation Module</masterLabel>
+        <translation>CloCSM-Module Hàng gom</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloCha-Chatter Module</masterLabel>
+        <translation>CloCha-Module Chatter</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFCM-Facility Module</masterLabel>
+        <translation>CloFCM-Module Cơ sở vật chất</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFLM-JP24H AFR Module</masterLabel>
+        <translation>CloFIM-Khai hải quan Nhật</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFMS-Forwarding System</masterLabel>
+        <translation>CloFMS-Hệ thống Quản lý Giao nhận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloFRM-Financial Report Module</masterLabel>
+        <translation>CloFRM-Module Báo cáo Tài chính</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloHRM-Human Resource Module</masterLabel>
+        <translation>CloHRM-Module Quản lý Nhân sự</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloINV-Inventory Module</masterLabel>
+        <translation>CloIVM-Module Tồn kho</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloIoT-IoT Integration</masterLabel>
+        <translation>CloIoT-Tích hợp IoT</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloKPI-KPI Module</masterLabel>
+        <translation>CloKPI-Module KPI</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloLog-Logistic Module</masterLabel>
+        <translation>CloLog-Module Quản lý Logistics</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSCM Package-Code</masterLabel>
+        <translation>CloSCM-Module Quản lý mã/danh mục</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSCM Package-Customization</masterLabel>
+        <translation>CloSCM-Module Quản lý &amp; Hiệu chỉnh</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSCM Package-Setup</masterLabel>
+        <translation>CloSCM-Module Thiết lập</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloSMS-Ship System</masterLabel>
+        <translation>CloSMS-Hệ thống Quản lý tàu thuyền</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloTMS-Transportation System</masterLabel>
+        <translation>CloTMS-Hệ thống Quản lý Vận tải</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloTOS-Terminal System</masterLabel>
+        <translation>CloTOS-Hệ thống Quản lý Cầu cảng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloTRS-Trading System</masterLabel>
+        <translation>CloTRS-Hệ thống Quản lý Thương mại</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloWMS-Warehouse System</masterLabel>
+        <translation>CloWMS-Hệ thống Quản lý Kho hàng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CloWTM-Cargo Tracking Module &amp; Searching</masterLabel>
+        <translation>CloTra-Module Theo dõi và Tìm kiếm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting/Advisory Service &amp; Best Practice</masterLabel>
+        <translation>Dịch Vụ Tư vấn và Thực hành</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FMS</masterLabel>
+        <translation>FMS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language &amp; Time Zone</masterLabel>
+        <translation>Ngôn Ngữ &amp; Múi Giờ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>My Setup</masterLabel>
+        <translation>Cài Đặt Của Tôi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Release &amp; Tutorial/Scenario for Self-Learning</masterLabel>
+        <translation>Bản cập nhật mới &amp; Tài liệu/Mô hình để tự tìm hiểu hệ thống</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operation Management</masterLabel>
+        <translation>Quản lý hệ thống</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Organization Governance &amp; Monitoring</masterLabel>
+        <translation>Quản lý và Giám sát môi trường</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PC Setup &amp; Data Upload Template</masterLabel>
+        <translation>Thiết lập máy trạm và Biểu mẫu upload</translation>
+    </picklistValues>
+</CustomFieldTranslation>

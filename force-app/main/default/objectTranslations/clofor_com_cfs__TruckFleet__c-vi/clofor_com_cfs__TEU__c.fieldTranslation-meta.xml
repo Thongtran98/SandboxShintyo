@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>TEU là viết tắt có thể được sử dụng để đo lường khả năng chuyên chở hàng hóa của tàu</help>
+    <label></label>
+    <name>clofor_com_cfs__TEU__c</name>
+</CustomFieldTranslation>

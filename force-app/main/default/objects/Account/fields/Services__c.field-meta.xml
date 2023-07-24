@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services__c</fullName>
+    <externalId>false</externalId>
+    <label>Services</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customs Clearance</fullName>
+                <default>false</default>
+                <label>Customs Clearance</label>
+            </value>
+            <value>
+                <fullName>Trucking(Drayage)</fullName>
+                <default>false</default>
+                <label>Trucking(Drayage)</label>
+            </value>
+            <value>
+                <fullName>Trucking(Charter / Console)</fullName>
+                <default>false</default>
+                <label>Trucking(Charter / Console)</label>
+            </value>
+            <value>
+                <fullName>Carrier</fullName>
+                <default>false</default>
+                <label>Carrier</label>
+            </value>
+            <value>
+                <fullName>Co-loader</fullName>
+                <default>false</default>
+                <label>Co-loader</label>
+            </value>
+            <value>
+                <fullName>Packing</fullName>
+                <default>false</default>
+                <label>Packing</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <label>Warehouse</label>
+            </value>
+            <value>
+                <fullName>Bonded warehouse</fullName>
+                <default>false</default>
+                <label>Bonded warehouse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

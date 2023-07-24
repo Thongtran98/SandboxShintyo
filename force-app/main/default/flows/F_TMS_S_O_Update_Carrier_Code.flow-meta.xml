@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Check_carrier_code</name>
+        <label>Check carrier code</label>
+        <locationX>766</locationX>
+        <locationY>307</locationY>
+        <defaultConnector>
+            <targetReference>Update_Carrier_Code_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Not_null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.clofor_com_cfs__BookingNv__r.clofor_com_cfs__Carrier_Code__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Carrier_Code</targetReference>
+            </connector>
+            <label>Not null</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>F/TMS S/O| Update Carrier Code {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>F/TMS S/O| Update Carrier Code</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Carrier_Code</name>
+        <label>Update Carrier Code</label>
+        <locationX>674</locationX>
+        <locationY>449</locationY>
+        <inputAssignments>
+            <field>clofor_com_cfs__CarrierCode__c</field>
+            <value>
+                <elementReference>$Record.clofor_com_cfs__BookingNv__r.clofor_com_cfs__Carrier_Code__r.Name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Carrier_Code_0</name>
+        <label>Update Carrier Code</label>
+        <locationX>872</locationX>
+        <locationY>451</locationY>
+        <inputAssignments>
+            <field>clofor_com_cfs__CarrierCode__c</field>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>650</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Check_carrier_code</targetReference>
+        </connector>
+        <filterLogic>(1 AND 3) OR 2</filterLogic>
+        <filters>
+            <field>clofor_com_cfs__BookingNv__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>clofor_com_cfs__BookingNv__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>clofor_com_cfs__CarrierCode__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>clofor_com_cfs__CustomObject1__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;HA=住宅手当 If((((((HA&lt; 5000000), (5%*HA),If(((((HA&lt;=10000000),(10%*HA-250000),If(((((HA&lt;=18000000),(15%*HA-750000),If ((((HA&lt;=32000000),(20%*HA-1650000),If(((HA&lt;=52000000),(25%*HA-3250000),If((HA&lt;=80000000),(30%*HA-5850000), (35%*HA-9850000))))&quot;</help>
+    <label></label>
+    <name>clofor_com_cfs__HouseAllowanceTaxRatio__c</name>
+</CustomFieldTranslation>

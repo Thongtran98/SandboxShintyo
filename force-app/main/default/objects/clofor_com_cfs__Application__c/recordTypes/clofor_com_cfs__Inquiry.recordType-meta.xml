@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Inquiry</fullName>
+    <active>true</active>
+    <label>Inquiry</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApplicationStatus__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Created</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>In Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issued</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Negotiation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApplicationType__c</picklist>
+        <values>
+            <fullName>New Registration</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Terminate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CrossFunctionStatus__c</picklist>
+        <values>
+            <fullName>Claim Registered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impact %26 Root-Cause Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Improvement Action</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ReturnQuantityType__c</picklist>
+        <values>
+            <fullName>Full Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Returned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__TerminateReasonCategory__c</picklist>
+        <values>
+            <fullName>Frequent Malfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

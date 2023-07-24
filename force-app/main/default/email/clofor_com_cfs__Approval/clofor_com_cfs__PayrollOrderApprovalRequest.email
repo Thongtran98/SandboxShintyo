@@ -1,0 +1,24 @@
+Dear HR Managers 
+
+{!clofor_com_cfs__PayrollOrder__c.CreatedBy} has requested your approval for the new Payroll Order.
+
+Please click this link to approve or reject this record.
+
+◎PAYROLL ID：[{!clofor_com_cfs__PayrollOrder__c.Name}] Link to CloHRM:{!clofor_com_cfs__PayrollOrder__c.Link} 
+
+◎WITHHOLDING COMPULSORY SOCIAL INSURANCE：{!clofor_com_cfs__PayrollOrder__c.clofor_com_cfs__WithholdingSocialInsurance__c}
+
+◎ WITHHOLDING PERSONAL INCOME TAX：{!clofor_com_cfs__PayrollOrder__c.clofor_com_cfs__WithholdingPersonalIncomeTax__c}
+
+◎EMPLOYEE NET TAKEN HOME：{!clofor_com_cfs__PayrollOrder__c.clofor_com_cfs__EmployeeNetTakenHome__c} 
+
+You can also approve, reject and comment on this request from your feed.
+
+Best regards.
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+ *********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

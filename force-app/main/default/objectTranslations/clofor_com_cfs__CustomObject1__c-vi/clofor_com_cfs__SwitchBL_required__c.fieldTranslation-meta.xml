@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__SwitchBL_required__c</name>
+    <picklistValues>
+        <masterLabel>NO</masterLabel>
+        <translation>Không</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YES</masterLabel>
+        <translation>Có</translation>
+    </picklistValues>
+</CustomFieldTranslation>

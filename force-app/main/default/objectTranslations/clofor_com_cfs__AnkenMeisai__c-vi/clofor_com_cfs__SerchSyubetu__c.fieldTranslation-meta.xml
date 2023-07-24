@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__SerchSyubetu__c</name>
+    <picklistValues>
+        <masterLabel>AIR</masterLabel>
+        <translation>Air</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Cost</masterLabel>
+        <translation>Giá gốc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivery</masterLabel>
+        <translation>Giao nhận</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drayage</masterLabel>
+        <translation>Drayage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Custom Clearance</masterLabel>
+        <translation>Xuất- Khai báo hải quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Export</masterLabel>
+        <translation>Xuất- FCL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL Import</masterLabel>
+        <translation>Nhập- FCL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Custom Clearance</masterLabel>
+        <translation>Nhập- Khai báo hải quan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Export</masterLabel>
+        <translation>Xuất- LCL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL Import</masterLabel>
+        <translation>Nhập- LCL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Master Charges Allocation</masterLabel>
+        <translation>Quản lý phân bổ chi phí</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oversea Local Charges</masterLabel>
+        <translation>Chi phí ở nước ngoài</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse</masterLabel>
+        <translation>Kho hàng</translation>
+    </picklistValues>
+</CustomFieldTranslation>

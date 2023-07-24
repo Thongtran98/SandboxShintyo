@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__X3_Receiving_S_Process_Standard_ID_new</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__Anken__c</columns>
+    <columns>clofor_com_cfs__InsatuyouSyohin__c</columns>
+    <columns>clofor_com_cfs__Seikyusaki__c</columns>
+    <columns>clofor_com_cfs__NyukinKakuninzumi__c</columns>
+    <columns>clofor_com_cfs__Payer__c</columns>
+    <columns>clofor_com_cfs__SellInTaxAmountJPY__c</columns>
+    <columns>clofor_com_cfs__Nyukingaku__c</columns>
+    <columns>clofor_com_cfs__SellDifferentiation__c</columns>
+    <columns>clofor_com_cfs__SellInTaxAmount_USD__c</columns>
+    <columns>clofor_com_cfs__AMOUNT_PAID_SELLING_USD__c</columns>
+    <columns>clofor_com_cfs__UNPAID_BALANCE_OF_SELLING_USD__c</columns>
+    <columns>clofor_com_cfs__ReceiptanceDate_del__c</columns>
+    <columns>clofor_com_cfs__BankAccountForReceiving__c</columns>
+    <columns>clofor_com_cfs__BANKTRANSITTYPE__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__AnkenMeisai__c.clofor_com_cfs__Selling_Buyging_Standard</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__Seikyusaki__c</field>
+        <operation>contains</operation>
+        <value>SHIPPER VIỆT NAM</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__SellDifferentiation__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__SellInTaxAmountJPY__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>3.Receiving(S)Process-Standard(ID)</label>
+    <language>en_US</language>
+</ListView>

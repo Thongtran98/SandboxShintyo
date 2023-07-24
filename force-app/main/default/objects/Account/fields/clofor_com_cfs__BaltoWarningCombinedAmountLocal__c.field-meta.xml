@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__BaltoWarningCombinedAmountLocal__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>clofor_com_cfs__WarningCombinedAmountLocal__c -  clofor_com_cfs__UncollectedOnBehalfOfLocal__c -  clofor_com_cfs__Unpaid__c</formula>
+    <label>Bal to Warning Combined Amount(Local)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__CustomCategory__c</name>
+    <picklistValues>
+        <masterLabel>ATA CARNET</masterLabel>
+        <translation>ATA carnet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Clearance - Animal Quarantine</masterLabel>
+        <translation>動物申請</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Clearance - Food Quarantine</masterLabel>
+        <translation>食品申請</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Clearance - Medical Quarantine</masterLabel>
+        <translation>薬事申請</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Clearance - Plant Quarantine</masterLabel>
+        <translation>植物申請</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs Clearance - Special Act. For Tax Reduction</masterLabel>
+        <translation>暫定八条</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal Customs Clearance</masterLabel>
+        <translation>一般通関</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__BadDebtCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>clofor_com_cfs__FMSSO__c</fields>
+    <fields>clofor_com_cfs__FMSBill__c</fields>
+    <fields>clofor_com_cfs__Debtor__c</fields>
+    <fields>clofor_com_cfs__BadDebtAmountLocal__c</fields>
+    <fields>clofor_com_cfs__BadDebtAmountFCY__c</fields>
+    <label>Bad Debt Compact Layout</label>
+</CompactLayout>

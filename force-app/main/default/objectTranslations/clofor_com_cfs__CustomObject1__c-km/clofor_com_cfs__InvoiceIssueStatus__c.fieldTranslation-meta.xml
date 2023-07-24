@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>clofor_com_cfs__InvoiceIssueStatus__c</name>
+    <picklistValues>
+        <masterLabel>At Internal Checking After Issue</masterLabel>
+        <translation>At Internal Checking After Issue</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At Internal Checking Confirmed After Issue</masterLabel>
+        <translation>At Internal Checking Confirmed After Issue</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carry Over to Next Month</masterLabel>
+        <translation>Carry Over to Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice Copy Sent</masterLabel>
+        <translation>Invoice Copy Sent</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Settlement Required(Collect from Partner)</masterLabel>
+        <translation>No Settlement Required(Collect from Partner)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not issued yet-Vendor Invoice not received</masterLabel>
+        <translation>Not issued yet-Vendor Invoice not received</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Progress</masterLabel>
+        <translation>On Progress</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Original Invoice Sent</masterLabel>
+        <translation>Original Invoice Sent</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting for Other Invoice for Combine After Issue</masterLabel>
+        <translation>Pending for Invoicing Issue Closing Process</translation>
+    </picklistValues>
+</CustomFieldTranslation>

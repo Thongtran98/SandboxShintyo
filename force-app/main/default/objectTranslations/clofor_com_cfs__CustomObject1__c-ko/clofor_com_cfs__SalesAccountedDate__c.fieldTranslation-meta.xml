@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>입력된 아래의 데이터 중에서 가장 늦은 월일을 자동으로 선택하되 됩니다. 수입의 경우 –Shipment order 오브젝트의 입항일, 통관 오브젝트의 통관허가일, 배송오브젝트의 배송일. 수출의 경우- 배송 오브젝트의 배송일, 통관 오브젝트의 통관허가일, Shipment order 오브젝트의 출항일</help>
+    <label></label>
+    <name>clofor_com_cfs__SalesAccountedDate__c</name>
+</CustomFieldTranslation>

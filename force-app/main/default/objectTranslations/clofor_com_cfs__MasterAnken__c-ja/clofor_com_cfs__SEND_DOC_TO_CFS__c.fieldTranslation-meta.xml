@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;送付が必要な書類-デバン依頼書, H B/L, D/O, CLP, MA/N(入手次第)&quot;</help>
+    <label></label>
+    <name>clofor_com_cfs__SEND_DOC_TO_CFS__c</name>
+</CustomFieldTranslation>

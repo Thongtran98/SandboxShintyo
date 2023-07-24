@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__InDelivery</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__SalesOrderName__c</columns>
+    <columns>clofor_com_cfs__OrderIntExtType__c</columns>
+    <columns>clofor_com_cfs__SalesOrderStatus__c</columns>
+    <columns>clofor_com_cfs__CustomerCompanyName__c</columns>
+    <columns>clofor_com_cfs__SalesOrderNumber__c</columns>
+    <columns>clofor_com_cfs__CustomerOrderNo__c</columns>
+    <columns>clofor_com_cfs__OrderDate__c</columns>
+    <columns>clofor_com_cfs__DeliveryTargetDate__c</columns>
+    <columns>clofor_com_cfs__ActualDeliveryDate__c</columns>
+    <columns>clofor_com_cfs__PlannedQuantity__c</columns>
+    <columns>clofor_com_cfs__FinalQuantity__c</columns>
+    <columns>clofor_com_cfs__ShippingAddress__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__SALES_ORDER__c.clofor_com_cfs__StandardGoodsSalesOrder</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__SalesOrderStatus__c</field>
+        <operation>equals</operation>
+        <value>In Delivery</value>
+    </filters>
+    <label>In Delivery</label>
+</ListView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>실제 급여가 지급된 날짜입니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__SalaryPaymentDate__c</name>
+    <picklistValues>
+        <masterLabel>10th Of Next Month</masterLabel>
+        <translation>익월10일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10th Of This Month</masterLabel>
+        <translation>당월10일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15th Of Next Month</masterLabel>
+        <translation>익월15일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15th Of This Month</masterLabel>
+        <translation>당월15일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Of Next Month</masterLabel>
+        <translation>익월1일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Of This Month</masterLabel>
+        <translation>당월1일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20th Of Next Month</masterLabel>
+        <translation>익월20일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20th Of This Month</masterLabel>
+        <translation>당월20일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25th Of Next Month</masterLabel>
+        <translation>익월25일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25th Of This Month</masterLabel>
+        <translation>당월25일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd Of Next Month</masterLabel>
+        <translation>익월2일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd Of This Month</masterLabel>
+        <translation>당월2일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30th Of Next Month</masterLabel>
+        <translation>익월30일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30th Of This Month</masterLabel>
+        <translation>당월30일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31th Of Next Month</masterLabel>
+        <translation>익월31일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31th Of This Month</masterLabel>
+        <translation>당월31일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Of Next Month</masterLabel>
+        <translation>익월3일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Of This Month</masterLabel>
+        <translation>당월3일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5th Of Next Month</masterLabel>
+        <translation>익월5일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5th Of This Month</masterLabel>
+        <translation>당월5일</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End Of This Month</masterLabel>
+        <translation>당월말</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End of Next Month</masterLabel>
+        <translation>익월말</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The value is automatically calculated.
+Difference Left=Expected Return Amount-Returned Amount
+In case of Difference Left is greater than 0, please comment into Reason for Difference field.</help>
+    <label></label>
+    <name>clofor_com_cfs__DIFFERENCE_LEFT__c</name>
+</CustomFieldTranslation>

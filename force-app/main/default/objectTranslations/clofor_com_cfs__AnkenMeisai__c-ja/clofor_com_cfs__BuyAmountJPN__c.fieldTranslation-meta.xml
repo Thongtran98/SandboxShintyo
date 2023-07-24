@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>合計仕入金額(標準通貨)=仕入単価(標準通貨)*数量。この数値は課税前の値です。免税および非課税の場合は合計仕入金額(標準通貨)と消費税込み仕入金額(標準通貨)は同じ値になります。</help>
+    <label></label>
+    <name>clofor_com_cfs__BuyAmountJPN__c</name>
+</CustomFieldTranslation>

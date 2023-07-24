@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>条件種別 省略可能。サービス名: 商品有効 次の文字列と一致する True</help>
+    <label></label>
+    <name>clofor_com_cfs__INVOICING__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

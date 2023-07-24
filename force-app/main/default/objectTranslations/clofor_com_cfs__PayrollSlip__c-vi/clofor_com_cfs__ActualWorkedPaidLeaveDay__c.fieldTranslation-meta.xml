@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ngày làm việc và nghỉ có lương thực tế=ngày làm việc thực tế+số ngày nghỉ có lương</help>
+    <label></label>
+    <name>clofor_com_cfs__ActualWorkedPaidLeaveDay__c</name>
+</CustomFieldTranslation>

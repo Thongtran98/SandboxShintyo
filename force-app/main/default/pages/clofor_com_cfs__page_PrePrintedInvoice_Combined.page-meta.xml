@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>38.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Printing Name: ORIGINAL VAT INVOICE in PRINT VAT INVOICE button in VAT INVOICE
+Grouping Option:COMBINED TO SHIPMENT ORDER/COMBINED TO PRICING SUBCATEGORY, COMBINED TO 1 SUMMARY
+Currency: Local Currency or USD</description>
+    <label>page_PrePrintedInvoice Combined</label>
+</ApexPage>

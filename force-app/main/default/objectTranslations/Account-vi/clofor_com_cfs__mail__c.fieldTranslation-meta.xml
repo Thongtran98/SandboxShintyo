@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Email của CloTra sẽ được gửi tới địa chỉ email người nhận được thông báo</help>
+    <label></label>
+    <name>clofor_com_cfs__mail__c</name>
+</CustomFieldTranslation>

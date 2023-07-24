@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>入力された数字と同じ数の&apos;コンテナ情報&apos;オブジェクトを作成します。</help>
+    <label></label>
+    <name>clofor_com_cfs__ContainerNumber__c</name>
+</CustomFieldTranslation>

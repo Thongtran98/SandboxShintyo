@@ -1,0 +1,23 @@
+Dear Approver
+
+{!clofor_com_cfs__PurchasingOrder__c.CreatedBy} has requested your approval for the new Purchasing Order as below.
+
+Please click this link to approve or reject this record.
+
+◎PURCHASING ORDER ID：[{!clofor_com_cfs__PurchasingOrder__c.Name}] Link to :{!clofor_com_cfs__PurchasingOrder__c.Link} 
+◎PURCHASING ORDER NAME : {!clofor_com_cfs__PurchasingOrder__c.clofor_com_cfs__PurchasingOrderName__c}
+◎VENDOR : 
+{!clofor_com_cfs__PurchasingOrder__c.clofor_com_cfs__Vendor__c}
+◎PAYMENT DUE DATE: 
+{!clofor_com_cfs__PurchasingOrder__c.clofor_com_cfs__PaymentDueDate__c}
+
+You can also approve, reject and comment on this request from your feed.
+
+Best regards.
+
+*********************************************************
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+ *********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

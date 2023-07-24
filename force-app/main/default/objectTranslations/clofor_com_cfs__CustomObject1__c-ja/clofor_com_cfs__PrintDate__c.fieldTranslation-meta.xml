@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>発行日指定が未入力　→　本日日付　発行日指定が入力済　→　発行日指定の日付</help>
+    <label></label>
+    <name>clofor_com_cfs__PrintDate__c</name>
+</CustomFieldTranslation>

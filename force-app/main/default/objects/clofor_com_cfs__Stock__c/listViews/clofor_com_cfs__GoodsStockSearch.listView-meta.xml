@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__GoodsStockSearch</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__ProductName__c</columns>
+    <columns>clofor_com_cfs__GoodsOwner__c</columns>
+    <columns>clofor_com_cfs__Customer__c</columns>
+    <columns>clofor_com_cfs__PurchasingOrderID__c</columns>
+    <columns>clofor_com_cfs__StockStatus__c</columns>
+    <columns>clofor_com_cfs__Quantity__c</columns>
+    <columns>clofor_com_cfs__SalesOrderID__c</columns>
+    <columns>clofor_com_cfs__StockLocator__c</columns>
+    <columns>clofor_com_cfs__TotalQuantityInStock__c</columns>
+    <columns>clofor_com_cfs__SKUNumber__c</columns>
+    <columns>clofor_com_cfs__Supplier__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__ProductName__c</field>
+        <operation>contains</operation>
+        <value>,DECK</value>
+    </filters>
+    <label>☘GOODS STOCK SEARCH☘</label>
+    <language>en_US</language>
+</ListView>

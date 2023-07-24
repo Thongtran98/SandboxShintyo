@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__nationality__c</name>
+    <picklistValues>
+        <masterLabel>CAMBODIA</masterLabel>
+        <translation>カンボジア</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHINA</masterLabel>
+        <translation>中国</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JAPAN</masterLabel>
+        <translation>日本</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KOREA</masterLabel>
+        <translation>韓国</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHERS</masterLabel>
+        <translation>その他</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIETNAM</masterLabel>
+        <translation>ベトナム</translation>
+    </picklistValues>
+</CustomFieldTranslation>

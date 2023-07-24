@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ReturnPolicyType__c</name>
+    <picklistValues>
+        <masterLabel>All Return</masterLabel>
+        <translation>Hoàn lại tất cả</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Return</masterLabel>
+        <translation>Không hoàn lại</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Return Damaged</masterLabel>
+        <translation>Chỉ hoàn lại hàng khiếm khuyết</translation>
+    </picklistValues>
+</CustomFieldTranslation>

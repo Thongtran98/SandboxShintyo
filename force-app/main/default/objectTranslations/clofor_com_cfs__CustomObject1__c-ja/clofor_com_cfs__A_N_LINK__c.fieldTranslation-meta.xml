@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コンテンツ配信&apos;で生成されたA/Nリンクを貼り付けてください。また、コンテンツ配信で生成されたパスワードを&apos;A/N Password&apos;に貼り付けてください。</help>
+    <label></label>
+    <name>clofor_com_cfs__A_N_LINK__c</name>
+</CustomFieldTranslation>

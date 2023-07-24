@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Payment_Method__c</name>
+    <picklistValues>
+        <masterLabel>小切手</masterLabel>
+        <translation>어음</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>振込</masterLabel>
+        <translation>계좌이체</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>振込/現金</masterLabel>
+        <translation>현금/계좌이체</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>現金</masterLabel>
+        <translation>현금</translation>
+    </picklistValues>
+</CustomFieldTranslation>

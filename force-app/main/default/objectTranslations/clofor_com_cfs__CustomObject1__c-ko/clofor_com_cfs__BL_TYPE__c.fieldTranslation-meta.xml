@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__BL_TYPE__c</name>
+    <picklistValues>
+        <masterLabel>Direct M B/L(H B/L Issue Not Required)</masterLabel>
+        <translation>다이렉트 M B/L(H B/L발행불필요)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>H B/L Issue Required</masterLabel>
+        <translation>H B/L발행필요</translation>
+    </picklistValues>
+</CustomFieldTranslation>

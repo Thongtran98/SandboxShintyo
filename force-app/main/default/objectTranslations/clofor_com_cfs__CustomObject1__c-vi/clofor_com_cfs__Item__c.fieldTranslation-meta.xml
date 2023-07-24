@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Mô tả hàng hóa như cần viết trên B/L. Nếu cần sử dụng attachment để liệt kê thêm tên hàng, vui lòng chọn phần Goods attachment.</help>
+    <label></label>
+    <name>clofor_com_cfs__Item__c</name>
+</CustomFieldTranslation>

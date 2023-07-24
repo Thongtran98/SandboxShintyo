@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>해당 임직원에 대하여 고정환율을 적용할 경우에 협의된 고정환율을 입력하여 주십시요. 변동환율일 경우 각 급여상세에서 관리하여 주십시요.</help>
+    <label></label>
+    <name>clofor_com_cfs__FIXED_EXCHANGE_RATE__c</name>
+</CustomFieldTranslation>

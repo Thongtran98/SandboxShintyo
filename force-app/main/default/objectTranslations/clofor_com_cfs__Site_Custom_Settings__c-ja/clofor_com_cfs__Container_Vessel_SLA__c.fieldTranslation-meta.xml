@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>月曜到着のフェリーとは月曜日に入港するフェリーのことを指します</help>
+    <label></label>
+    <name>clofor_com_cfs__Container_Vessel_SLA__c</name>
+</CustomFieldTranslation>

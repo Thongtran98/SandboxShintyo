@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__PaidDayAdvance__c</name>
+    <picklistValues>
+        <masterLabel>COD（Cash-On-Delivery）</masterLabel>
+        <translation>COD（Cash-On-Delivery）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし（ダイレクト口座）</masterLabel>
+        <translation>NIL (គណនីធនាគារផ្ទាល់)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし（パートナーとの清算）</masterLabel>
+        <translation>NIL (Payment Settle With Partner)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし（延納）</masterLabel>
+        <translation>NIL (Deferred Payment)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>当月15日/当月末払い</masterLabel>
+        <translation>Pay at 15th Day of This Month / End of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>当月末/翌月15日</masterLabel>
+        <translation>The End of This Month / 15th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>当月末払い</masterLabel>
+        <translation>Pay at The End of This Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>納品後1週間内</masterLabel>
+        <translation>Within 1 Week After Delivery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>納品後5営業日内</masterLabel>
+        <translation>Within 5th Business Day After Delivery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月10日払い</masterLabel>
+        <translation>Pay at 10th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月15日払い</masterLabel>
+        <translation>Pay at 15th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月1日払い</masterLabel>
+        <translation>Pay at 1st of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月20日払い</masterLabel>
+        <translation>Pay at 20th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月25日払い</masterLabel>
+        <translation>Pay at 25th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月5日払い</masterLabel>
+        <translation>Pay at 5th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々月末払い</masterLabel>
+        <translation>Pay at The End of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌々週払い（１０日以内）</masterLabel>
+        <translation>Pay at Next Week (Within 10 Days)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月10日払い</masterLabel>
+        <translation>Pay at 10th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月15日払い</masterLabel>
+        <translation>Pay at 15th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月16日払い</masterLabel>
+        <translation>Pay at 16th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月1日払い</masterLabel>
+        <translation>Pay at 1st of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月20日払い</masterLabel>
+        <translation>Pay at 20th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月25日払い</masterLabel>
+        <translation>Pay at 25th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月5日払い</masterLabel>
+        <translation>Pay at 5th of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌月末払い</masterLabel>
+        <translation>Pay at The End of Next Month</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>翌週払い</masterLabel>
+        <translation>Pay at The End of Next Week</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>都度</masterLabel>
+        <translation>Each Time</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><em>** This is an auto generated email. If you have any question pls contact our Import Team by send email to import@sty-gate.com.</em><br />
+<br />
+Dear Team.<br />
+<br />
+We just want to infom that we have already released below cargo to CNEE. Pls update to shipper.<br />
+<br />
+=======&lt;Shipment Detail&gt;========
+<ul>
+	<li>Shipment ID: {{{clofor_com_cfs__CustomObject1__c.Name}}}&nbsp;</li>
+	<li>HBL No:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__HBL__c}}}</li>
+	<li>MBL No:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Master_B_L__c}}}</li>
+	<li>Shipper:&nbsp;{{{clofor_com_cfs__CustomObject1__c.ShipperCompanyNameEng__c}}}</li>
+	<li>CNEE:&nbsp;{{{clofor_com_cfs__CustomObject1__c.ConsigneeCompanyNameEng__c}}}</li>
+	<li>Vessel :&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Vessle__c}}}</li>
+	<li>Voy No:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__Voy_No__c}}}</li>
+	<li>POL: {{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POL__c}}}</li>
+	<li>POD:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__POD__c}}}</li>
+	<li>ETA:&nbsp;{{{clofor_com_cfs__CustomObject1__c.clofor_com_cfs__ETA__c}}}</li>
+</ul>
+=============================<br />
+<br />
+Have a Great Day!<br />
+<br />
+Shin Toyo Gate’s Import Team</body>
+</html>

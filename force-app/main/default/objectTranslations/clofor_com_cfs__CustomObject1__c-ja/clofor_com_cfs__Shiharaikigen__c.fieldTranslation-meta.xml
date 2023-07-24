@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>「支払い種類」を条件にして　諸請求支払い期限もしくは立て替え金支払い期限を表示しています</help>
+    <label></label>
+    <name>clofor_com_cfs__Shiharaikigen__c</name>
+</CustomFieldTranslation>

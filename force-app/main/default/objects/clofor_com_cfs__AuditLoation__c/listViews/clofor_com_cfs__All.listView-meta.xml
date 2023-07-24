@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__AuditID__c</columns>
+    <columns>clofor_com_cfs__LocatorD__c</columns>
+    <columns>clofor_com_cfs__LocatorLayer__c</columns>
+    <columns>clofor_com_cfs__LocatorDetail__c</columns>
+    <columns>clofor_com_cfs__Status__c</columns>
+    <columns>clofor_com_cfs__ScheduleStartDateTime__c</columns>
+    <columns>clofor_com_cfs__ScheduleEndDateTime__c</columns>
+    <columns>clofor_com_cfs__ActualStartDateTime__c</columns>
+    <columns>clofor_com_cfs__ActualEndDateTime__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

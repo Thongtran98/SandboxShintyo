@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Số IMO là một số tham chiếu duy nhất cho các tàu, chủ tàu đã đăng ký và các công ty quản lý</help>
+    <label></label>
+    <name>clofor_com_cfs__IMONumber__c</name>
+</CustomFieldTranslation>

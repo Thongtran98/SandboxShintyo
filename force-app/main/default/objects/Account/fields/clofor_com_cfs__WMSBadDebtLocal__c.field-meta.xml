@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__WMSBadDebtLocal__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>WMS BAD DEBT(LOCAL)</label>
+    <summarizedField>clofor_com_cfs__WorkOrder__c.clofor_com_cfs__BadDebtLocal__c</summarizedField>
+    <summaryForeignKey>clofor_com_cfs__WorkOrder__c.clofor_com_cfs__Customer__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <type>Summary</type>
+</CustomField>

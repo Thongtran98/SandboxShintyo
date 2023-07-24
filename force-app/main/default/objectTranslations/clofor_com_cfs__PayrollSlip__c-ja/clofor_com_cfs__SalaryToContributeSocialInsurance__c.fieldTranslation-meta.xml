@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>実際の額面給料額が’ 従業員管理’の給料ベース額と同じか大きい場合、社会保険の対象となる給料額=給料ベース額。それ以外の場合は社会保険の対象となる給料額=実際の額面給料額</help>
+    <label></label>
+    <name>clofor_com_cfs__SalaryToContributeSocialInsurance__c</name>
+</CustomFieldTranslation>

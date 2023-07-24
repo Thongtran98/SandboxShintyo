@@ -1,0 +1,18 @@
+Kính gửi {!01I5h0000025O6E.CreatedBy}
+
+Email này báo rằng lô hàng yêu cầu đã được duyệt.
+
+Vui lòng kiểm tra, và rất cám ơn Qúi Khách đã sử dụng dịch vụ.
+{!01I5h0000025O6E.Link}
+
+-Số quản lý：{!01I5h0000025O6E.Name}
+-Yêu cầu：{!01I5h0000025O6E.00N5h00000DvWyU}
+-Loại yêu cầu：{!01I5h0000025O6E.00N5h00000DvWyV}
+-Tên người yêu cầu：{!01I5h0000025O6E.00N5h00000DvWyW}
+
+********************************************************* 
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

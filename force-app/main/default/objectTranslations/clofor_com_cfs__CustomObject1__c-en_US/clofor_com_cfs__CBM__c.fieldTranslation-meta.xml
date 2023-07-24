@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Synchronized with Sum of Measurement(CBM) in CNTR IN TRANS When below conditions meet; Container Mode is FCL, Container Type and Container Q&apos;ty are is not null, Measurement(CBM) in CNTR IN TRANS is not null.</help>
+    <label></label>
+    <name>clofor_com_cfs__CBM__c</name>
+</CustomFieldTranslation>

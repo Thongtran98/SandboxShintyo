@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lương thực tế=lương cơ bản(VND) trong mục quản lý nhân viên+tổng trợ cấp thực tế</help>
+    <label></label>
+    <name>clofor_com_cfs__ActualSalary__c</name>
+</CustomFieldTranslation>

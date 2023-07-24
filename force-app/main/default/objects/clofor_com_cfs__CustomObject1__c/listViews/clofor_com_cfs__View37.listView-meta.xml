@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__View37</fullName>
+    <columns>clofor_com_cfs__Field1__c</columns>
+    <columns>clofor_com_cfs__status__c</columns>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__NyukinzandakaJPY__c</columns>
+    <columns>clofor_com_cfs__BuyDifferentiation_sum2__c</columns>
+    <columns>clofor_com_cfs__ETA__c</columns>
+    <columns>clofor_com_cfs__account_relazation__c</columns>
+    <columns>clofor_com_cfs__Custom__c</columns>
+    <columns>clofor_com_cfs__Ararigaku_sum__c</columns>
+    <columns>clofor_com_cfs__SellInTaxAmountJPY_sum__c</columns>
+    <columns>clofor_com_cfs__NyukinGoukeigaku__c</columns>
+    <columns>clofor_com_cfs__BuyInTaxAmountJPY_sum__c</columns>
+    <columns>clofor_com_cfs__Siharaigaku_sum__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>clofor_com_cfs__CustomObject1__c.clofor_com_cfs__InAir,clofor_com_cfs__CustomObject1__c.clofor_com_cfs__OutAir,clofor_com_cfs__CustomObject1__c.clofor_com_cfs__RecordType,clofor_com_cfs__CustomObject1__c.clofor_com_cfs__RecordType1</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__NyukinzandakaJPY__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__BuyDifferentiation_sum2__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>clofor_com_cfs__Ararigaku_sum__c</field>
+        <operation>notEqual</operation>
+        <value>0</value>
+    </filters>
+    <label>RECEIVABLE AND PAYABLE 0</label>
+    <language>ja</language>
+</ListView>

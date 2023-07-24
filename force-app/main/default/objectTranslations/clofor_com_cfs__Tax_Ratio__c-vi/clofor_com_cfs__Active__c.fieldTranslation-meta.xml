@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sau khi tạo ra việc ghi nhận quản trị tỷ số thuế suất , nhấn nút &apos; Nộp và chờ xét duyệt&apos;. Sau khi xem xét và nhận sự đồng ý bởi bộ phận kế toán, nó sẽ tự động kích hoạt.</help>
+    <label></label>
+    <name>clofor_com_cfs__Active__c</name>
+</CustomFieldTranslation>

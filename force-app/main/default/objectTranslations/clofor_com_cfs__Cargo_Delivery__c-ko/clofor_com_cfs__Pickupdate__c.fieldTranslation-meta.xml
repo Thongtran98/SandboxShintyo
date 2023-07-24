@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>픽업 일자는 배송 일자보다 앞이어야 합니다</help>
+    <label></label>
+    <name>clofor_com_cfs__Pickupdate__c</name>
+</CustomFieldTranslation>

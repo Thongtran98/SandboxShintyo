@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>会計コードはプライシングの会計コードを自動参照します。会計コードがない場合はプライシングの会計コードに入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__AccountingCode__c</name>
+</CustomFieldTranslation>

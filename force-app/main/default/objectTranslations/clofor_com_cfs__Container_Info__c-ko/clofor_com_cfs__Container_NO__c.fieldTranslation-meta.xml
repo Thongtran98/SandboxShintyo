@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>11자리를 입력하여주십시오. 4자리: 콘테이너소유자코드(선사코드), 7자리:콘테이너 코드</help>
+    <label></label>
+    <name>clofor_com_cfs__Container_NO__c</name>
+</CustomFieldTranslation>

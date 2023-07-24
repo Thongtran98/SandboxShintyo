@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Please enter deadline of Duty Payment. The input date will be shown in 立替請求書 Only. Duty Payment includes Import Tax, Export Tax, and costs paid in advance.</help>
+    <label></label>
+    <name>clofor_com_cfs__DeadlineForPaymentOfExpense__c</name>
+</CustomFieldTranslation>

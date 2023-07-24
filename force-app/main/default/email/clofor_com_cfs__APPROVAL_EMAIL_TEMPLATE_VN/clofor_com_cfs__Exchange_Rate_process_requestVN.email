@@ -1,0 +1,24 @@
+Kính gửi Quản lý bộ phận kế toán
+
+{!clofor_com_cfs__MgmtMaster__c.CreatedBy} Yêu cầu bạn duyệt tỉ giá mói như sau.
+
+Vui lòng nhấp vào link để duyệt hay từ chối.
+
+◎Mà số tỉ giá：[{!clofor_com_cfs__MgmtMaster__c.Name}]  Link to SF:{!clofor_com_cfs__MgmtMaster__c.Link} 
+Bạn có thể duyệt, từ chối và ghi chú thích trên yêu cầu nay từ trình duyệt của bạn.
+◎Tỉ giá (từ USD) : {!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_fromto__c}
+◎Ngày hiệu lực : {!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_Start_Date__c}
+◎Ngày hết hiệu lực : {!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_End_Date__c}
+◎Tỉ giá bán cho khách hàng là :{!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_FowardingtoDomesticCustomer__c}
+◎Tỉ giá áp dụng cho khách hàng có yêu cầu thông quan :{!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_CCtoDomesticCustomer__c}
+◎Tỉ giá bán áp dụng cho đối tác thông thường :{!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_SellingtoPartner__c}
+◎Tỉ giá mua từ đối tác thông thường :{!clofor_com_cfs__MgmtMaster__c.clofor_com_cfs__Mgmt_Exrate_BuyingfromPartner__c}
+
+Trân Trọng.
+
+*********************************************************
+ {!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

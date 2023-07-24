@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập số booking từ Nhà vận chuyển for Hàng FCL và từ Đại lý gom hàng lẻ for hàng LCL.</help>
+    <label></label>
+    <name>clofor_com_cfs__MASTER_BOOKINGNO__c</name>
+</CustomFieldTranslation>

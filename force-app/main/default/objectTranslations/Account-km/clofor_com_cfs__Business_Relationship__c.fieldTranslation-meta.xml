@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Choose Customer or Partner; if choose Customer, charge amount can be shown on local invoice and Customer Invoice Summary Report. If choose Partner, charge amount can be shown on D/N, C/N and Partner Outstanding Statement Report.</help>
+    <label></label>
+    <name>clofor_com_cfs__Business_Relationship__c</name>
+    <picklistValues>
+        <masterLabel>3rd Vendor</masterLabel>
+        <translation>Vendor/Supplier</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer</masterLabel>
+        <translation>Customer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner</masterLabel>
+        <translation>Partner</translation>
+    </picklistValues>
+</CustomFieldTranslation>

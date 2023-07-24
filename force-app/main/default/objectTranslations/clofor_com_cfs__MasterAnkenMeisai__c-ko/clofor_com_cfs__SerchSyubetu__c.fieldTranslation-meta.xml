@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>이 항목과 일치하는 상품을 검색할 수 있습니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__SerchSyubetu__c</name>
+    <picklistValues>
+        <masterLabel>FCL輸入</masterLabel>
+        <translation>FCL수입</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCL輸出</masterLabel>
+        <translation>FCL수출</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL輸入</masterLabel>
+        <translation>LCL수입</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCL輸出</masterLabel>
+        <translation>LCL수출</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ドレー</masterLabel>
+        <translation>컨테이너</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>マスター按分</masterLabel>
+        <translation>마스터 안분</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>倉庫</masterLabel>
+        <translation>창고</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>実費</masterLabel>
+        <translation>실비</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>海外現地費用</masterLabel>
+        <translation>해외 현지 비용</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通関輸入</masterLabel>
+        <translation>통관수입</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通関輸出</masterLabel>
+        <translation>통관수출</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>配送</masterLabel>
+        <translation>배송</translation>
+    </picklistValues>
+</CustomFieldTranslation>

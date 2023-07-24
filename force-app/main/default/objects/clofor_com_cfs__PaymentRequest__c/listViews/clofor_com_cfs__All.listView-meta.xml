@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__All</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__PaymentRequestStatus__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>clofor_com_cfs__PaymentDescription__c</columns>
+    <columns>clofor_com_cfs__InternalUser__c</columns>
+    <columns>clofor_com_cfs__AmountLocal__c</columns>
+    <columns>clofor_com_cfs__AmountUSD__c</columns>
+    <columns>clofor_com_cfs__PaymentDueDate__c</columns>
+    <columns>clofor_com_cfs__CreditACName__c</columns>
+    <columns>clofor_com_cfs__ACCOUNTANT__c</columns>
+    <columns>clofor_com_cfs__PaymentType__c</columns>
+    <columns>clofor_com_cfs__PlannedProcessingDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreventUserTickCheckboxMoneyTRF4</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(AND(ISPICKVAL( clofor_com_cfs__TrxPlanType__c , &apos;Collection Plan&apos;), RecordType.Name= &apos;Payment Request-USD Currency&apos;,   PaidAmountUSD__c  &gt; 0,   clofor_com_cfs__AmountUSD__c  &lt;&gt; 0 ),  PaidAmountUSD__c  &lt;&gt;  ABS( clofor_com_cfs__AmountUSD__c), null)</errorConditionFormula>
+    <errorMessage>This Payment Request is not fully collected. Please check again before update Money Transfered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>英語版の見積書等(Pdf)に出力される名前です。名+姓で表記してください</help>
+    <label></label>
+    <name>clofor_com_cfs__NameEng__c</name>
+</CustomFieldTranslation>

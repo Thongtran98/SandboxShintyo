@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ピックアップリストにリストを表示するには、リストを予め設定する必要があります。 空港を設定する方法 1. 右側のタブのクイックアクセスメニューをクリックする 2.「項目を参照する」をクリックする 3. BB Available Airportをクリックする 4. 選択リスト値から’新規’をクリックする 5. 空港を追加する</help>
+    <label></label>
+    <name>clofor_com_cfs__BB__c</name>
+    <picklistValues>
+        <masterLabel>Enter Break Bulk available airport in here</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

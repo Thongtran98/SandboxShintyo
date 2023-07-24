@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>L/C用の住所など特別な理由で、英語住所と異なる住所が必要な場合に、記入してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__NOTIFY_ADDRESS_ON_B_L__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__ClaimStatus__c</name>
+    <picklistValues>
+        <masterLabel>Action Plan</masterLabel>
+        <translation>Kế hoạch hành động</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed</masterLabel>
+        <translation>Đóng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Created</masterLabel>
+        <translation>Đã tạo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Impact Analysis</masterLabel>
+        <translation>Phân tích ảnh hưởng</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Root-Cause Analysis</masterLabel>
+        <translation>Phân tích nguyên nhân gốc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User Action</masterLabel>
+        <translation>Hành động của người dùng</translation>
+    </picklistValues>
+</CustomFieldTranslation>

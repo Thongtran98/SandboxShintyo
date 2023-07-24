@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>이 항목이 공란일 경우, 자동으로 청구/지불마스터로의 판매금액(표준통화)이 설정됩니다. 만약 청구/지불마스트의 판매금액(표준통화)이 설정되어 있지 않을 경우, 판매단가(달러)*환율-청구용이 자동 계산 입력됩니다.</help>
+    <label></label>
+    <name>clofor_com_cfs__SellTankaJPY__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>顧客から受領した金額の合計(USD)で、H B/L請求・仕入に登録されている分を入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__AMOUNT_RECEIVED_USD_IN_H_BL__c</name>
+</CustomFieldTranslation>

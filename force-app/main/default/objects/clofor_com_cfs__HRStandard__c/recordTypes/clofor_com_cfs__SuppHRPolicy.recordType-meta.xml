@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__SuppHRPolicy</fullName>
+    <active>true</active>
+    <label>Supplement HR Policy</label>
+    <picklistValues>
+        <picklist>clofor_com_cfs__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__CutOffDateForPayrollPeriod__c</picklist>
+        <values>
+            <fullName>10th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1st Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1st Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End Of This Month</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>End of Next Month</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__PersonalIncomeTaxPaymentTerm__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biannually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__SalaryPaymentDate__c</picklist>
+        <values>
+            <fullName>10th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1st Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1st Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5th Of Next Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5th Of This Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End Of This Month</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>End of Next Month</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>clofor_com_cfs__USUInsuranceTerm__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biannually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

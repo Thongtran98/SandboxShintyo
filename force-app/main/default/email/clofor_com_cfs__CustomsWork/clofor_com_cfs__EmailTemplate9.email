@@ -1,0 +1,17 @@
+{!clofor_com_cfs__Custom_Clearance__c.clofor_com_cfs__CustomerClearance_broker__c} 
+{!clofor_com_cfs__Custom_Clearance__c.clofor_com_cfs__CustomeClearanceRep__c} 様 
+
+いつもお世話になっております。 
+通関指示書をお送りさせていただきます。 
+不明な点などございましたらご連絡お願い致します。 
+
+宜しくお願い致します。 
+
+
+{!User.LastName} 
+********************************************************* 
+{!$Setup.clofor_com_cfs__Site_Custom_Settings__c.clofor_com_cfs__Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__AFR__c</name>
+    <picklistValues>
+        <masterLabel>NO</masterLabel>
+        <translation>なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes-Done</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes-Not Done</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

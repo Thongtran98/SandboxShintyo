@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドは手入力が行われなかった際自動で入力されます。1.サービスマスターオブジェクトの販売金額(標準通貨)の数値を参照します。もしサービスマスターに数値がなければ、販売単価(USD)*為替レート(Selling)を入力します。</help>
+    <label></label>
+    <name>clofor_com_cfs__SellTankaJPY__c</name>
+</CustomFieldTranslation>

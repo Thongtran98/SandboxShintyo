@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__AirConsol</fullName>
+    <columns>NAME</columns>
+    <columns>clofor_com_cfs__MasterID__c</columns>
+    <columns>clofor_com_cfs__Line__c</columns>
+    <columns>clofor_com_cfs__METD__c</columns>
+    <columns>clofor_com_cfs__META__c</columns>
+    <columns>clofor_com_cfs__MPOD__c</columns>
+    <columns>clofor_com_cfs__MPOL__c</columns>
+    <columns>clofor_com_cfs__NO_HOUSE_B_L__c</columns>
+    <columns>clofor_com_cfs__Gross_Weight__c</columns>
+    <columns>clofor_com_cfs__MCBM__c</columns>
+    <columns>clofor_com_cfs__Mcarton_c__c</columns>
+    <columns>clofor_com_cfs__CarrierType__c</columns>
+    <columns>clofor_com_cfs__MVessel__c</columns>
+    <columns>clofor_com_cfs__MVoy_No__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>clofor_com_cfs__MTranporationType__c</field>
+        <operation>equals</operation>
+        <value>AIR</value>
+    </filters>
+    <label>CONSOL-AIR</label>
+    <language>en_US</language>
+</ListView>

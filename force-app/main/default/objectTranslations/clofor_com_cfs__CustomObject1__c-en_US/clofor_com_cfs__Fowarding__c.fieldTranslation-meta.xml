@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>If your company is responsible for forwarding, choose &apos;Forwarding by us&apos; and if other company is responsible for forwarding, choose &apos; Forwarding by others&apos;</help>
+    <label></label>
+    <name>clofor_com_cfs__Fowarding__c</name>
+    <picklistValues>
+        <masterLabel>他社フォワーディング(Forwarding by others)</masterLabel>
+        <translation>Forwarding by others</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自社フォワーディング(Forwarding by us)</masterLabel>
+        <translation>Forwarding by us</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Khi các ngày sau đây được nhập, thì ngày sau cùng được tính là ngày phát sinh công nợ. Yêu cầu lô hàng: ngày đến dự kiến, thủ tục thông quan: ngày khai báo, giao hàng: dự kiến ngày giao hàng.</help>
+    <label></label>
+    <name>clofor_com_cfs__SalesAccountedDate__c</name>
+</CustomFieldTranslation>

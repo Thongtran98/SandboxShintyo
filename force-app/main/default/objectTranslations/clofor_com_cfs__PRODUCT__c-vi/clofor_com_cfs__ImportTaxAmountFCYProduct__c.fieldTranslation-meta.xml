@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Thuế nhập khẩu theo SP (N/T)=Giá CIF (N/T)*Tỷ lệ thuế nhập khẩu %</help>
+    <label></label>
+    <name>clofor_com_cfs__ImportTaxAmountFCYProduct__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>以下の条件でtax(課税)を選択すると、自動で消費税率を挿入します。1.有効な消費税率レコードがあること　2.請求先や支払先の会社の第1指定通貨(請求書・税率用)が適切に設定されていること</help>
+    <label></label>
+    <name>clofor_com_cfs__Zeibunrui__c</name>
+    <picklistValues>
+        <masterLabel>NON-TAX</masterLabel>
+        <translation>Non-Tax(非課税)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAX</masterLabel>
+        <translation>TAX(課税)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAX-FREE</masterLabel>
+        <translation>Tax Free(免税)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

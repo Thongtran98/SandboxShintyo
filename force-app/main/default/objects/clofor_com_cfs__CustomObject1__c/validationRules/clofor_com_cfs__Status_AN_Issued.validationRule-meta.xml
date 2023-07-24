@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__Status_AN_Issued</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(ISPICKVAL(clofor_com_cfs__status__c, &quot;輸入 到着案内済(A/N Issued)&quot;), OR(ISBLANK(clofor_com_cfs__HBL_Number_SEA_AIR__c),ISBLANK(clofor_com_cfs__MBL_Number_SEA_AIR__c),ISBLANK(clofor_com_cfs__Item__c),ISBLANK(clofor_com_cfs__weight__c),ISBLANK(clofor_com_cfs__LoadLocation__c),ISBLANK(clofor_com_cfs__POL__c),ISBLANK(clofor_com_cfs__POD__c),ISBLANK(clofor_com_cfs__ETD__c),ISBLANK(clofor_com_cfs__ETA__c),ISBLANK(clofor_com_cfs__carton__c)), false)</errorConditionFormula>
+    <errorDisplayField>clofor_com_cfs__status__c</errorDisplayField>
+    <errorMessage>H B/L番号及びM B/L番号、商品、重量、デバン場所、出港地、入港地、数量を必ず入れてください。
+Please enter the H B/L NO,M B/L NO, Item, Gross Weight, Load Location, POD, POL, Quantity.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>MB/L(混載)-仕入のカテゴリーを入力してください（パートナー、船社、船社(課税）、倉庫)。対応する按分用hB/L仕入明細にこのカテゴリーを入力してください。</help>
+    <label></label>
+    <name>clofor_com_cfs__Cost_Allocation_Catetory__c</name>
+    <picklistValues>
+        <masterLabel>Carrier Cost Allocation</masterLabel>
+        <translation>船社費用按分</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carrier Cost Allocation(TAX)</masterLabel>
+        <translation>船社費用按分(課税)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner Cost allocation</masterLabel>
+        <translation>パートナー費用按分</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse Cost Allocation</masterLabel>
+        <translation>倉庫費用按分</translation>
+    </picklistValues>
+</CustomFieldTranslation>

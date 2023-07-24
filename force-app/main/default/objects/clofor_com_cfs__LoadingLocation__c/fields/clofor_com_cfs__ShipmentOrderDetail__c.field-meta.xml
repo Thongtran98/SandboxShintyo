@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>clofor_com_cfs__ShipmentOrderDetail__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>&quot;SHIPMENT ORDER ID:&quot; &amp; clofor_com_cfs__Delivery__r.clofor_com_cfs__HBL_SHIPMENT__r.clofor_com_cfs__ID__c &amp;BR() &amp; 
+&quot;TOTAL MEASUREMENT(CBM):&quot;&amp; text(clofor_com_cfs__Delivery__r.clofor_com_cfs__HBL_SHIPMENT__r.clofor_com_cfs__CBM__c)  &amp;BR() &amp; 
+&quot;TOTAL NET/GROSS WEIGHT(KG):&quot;&amp;text(clofor_com_cfs__Delivery__r.clofor_com_cfs__HBL_SHIPMENT__r.clofor_com_cfs__NET_NET_Weight__c) &amp;&quot;/&quot;&amp;text(clofor_com_cfs__Delivery__r.clofor_com_cfs__HBL_SHIPMENT__r.clofor_com_cfs__weight__c)  &amp;BR()&amp; 
+&quot;TOTAL NUMBER OF PACKAGES:&quot;&amp;  text(clofor_com_cfs__Delivery__r.clofor_com_cfs__HBL_SHIPMENT__r.clofor_com_cfs__carton__c)</formula>
+    <label>SHIPMENT ORDER DETAIL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

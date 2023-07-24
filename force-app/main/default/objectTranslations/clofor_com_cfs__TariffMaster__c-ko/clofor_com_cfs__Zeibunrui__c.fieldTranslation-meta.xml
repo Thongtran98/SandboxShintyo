@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>다음 기준이 충족되었을 경우 TAX가 선택되면 세율이 자동적으로 입력됩니다. 1. 유효한 소비세율이 생성된 경우. 2. 고객/파트너관리의 인보이스설정 – 1차 지정통화(청구서 및 세율용)이 설정된 경우.</help>
+    <label></label>
+    <name>clofor_com_cfs__Zeibunrui__c</name>
+    <picklistValues>
+        <masterLabel>NON-TAX</masterLabel>
+        <translation>비과세</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAX</masterLabel>
+        <translation>과세</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAX-FREE</masterLabel>
+        <translation>면세</translation>
+    </picklistValues>
+</CustomFieldTranslation>

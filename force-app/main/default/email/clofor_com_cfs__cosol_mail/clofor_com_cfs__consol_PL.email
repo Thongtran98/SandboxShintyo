@@ -1,0 +1,24 @@
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevan__c} 
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MDevanRep__c} 様 
+
+いつもお世話になっております。
+
+下記のH案件のPLを送付いたします。
+
+◎H SHIP番号(NO)：
+◎H B/L 番号(NO)：
+◎個数(QUANTITY)：
+
+M案件の詳細
+◎M-SHIP ID：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MasterID__c} 
+◎M B/L番号(NO)：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MMaster_B_L_No__c} 
+◎船名(VESSEL)：{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVessel__c} {!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__MVoy_No__c}　 
+
+どうぞ宜しくお願いします。
+
+********************************************************* 
+{!clofor_com_cfs__MasterAnken__c.clofor_com_cfs__Mail_Merge_Company_Signature__c} 
+*********************************************************
+Powered by AFR Solutions Co.,LTD(Certified Salesforce Partner)
+All-In-One Cloud Freight Forwarding Solution on Salesforce Platform
+www.afr-solutions.com

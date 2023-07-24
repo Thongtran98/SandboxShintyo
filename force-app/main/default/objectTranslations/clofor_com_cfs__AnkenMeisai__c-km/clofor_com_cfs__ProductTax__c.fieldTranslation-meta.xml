@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tax category is automatically synchronized with Type Category in Service Master Object. In case FCY settlement involved, the Tax Category must be Tax-Free. The Tax Category can be modified at Service Master.</help>
+    <label></label>
+    <name>clofor_com_cfs__ProductTax__c</name>
+</CustomFieldTranslation>

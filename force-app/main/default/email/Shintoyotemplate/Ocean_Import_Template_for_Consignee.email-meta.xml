@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is used to update Shipment status</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Ocean Import Template for Consignee</name>
+    <style>none</style>
+    <subject>[Shin Toyo Gate] Ocean Import Status - {!clofor_com_cfs__CustomObject1__c.Name}, {!clofor_com_cfs__CustomObject1__c.clofor_com_cfs__status__c}</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

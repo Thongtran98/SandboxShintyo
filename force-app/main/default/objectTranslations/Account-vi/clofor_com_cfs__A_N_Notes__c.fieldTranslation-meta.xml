@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nhập thông tin của khách hàng chịu trách nhiệm cho giấy thông báo hàng đến hoặc bất kì cách thức gửi thông báo hàng đến( bằng email, fax...)</help>
+    <label></label>
+    <name>clofor_com_cfs__A_N_Notes__c</name>
+</CustomFieldTranslation>

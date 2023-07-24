@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_TaxRate_based_on_TaxType</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND(ISPICKVAL( Tax_Type_Selling__c , &quot;Tax&quot; ), clofor_com_cfs__TaxInitial__c = 0),
+AND(ISPICKVAL( Tax_Type_Selling__c , &quot;Tax&quot; ), ISNULL(clofor_com_cfs__TaxInitial__c)),
+AND(ISPICKVAL( Tax_Type_Selling__c , &quot;Non-tax&quot; ), clofor_com_cfs__TaxInitial__c &lt;&gt; 0),
+AND(ISPICKVAL( Tax_Type_Selling__c , &quot;Tax-free&quot; ), clofor_com_cfs__TaxInitial__c &lt;&gt; 0),
+AND(ISPICKVAL( Tax_Type_Buying__c , &quot;Tax&quot; ), clofor_com_cfs__BuyTaxInitial__c = 0),
+AND(ISPICKVAL( Tax_Type_Buying__c , &quot;Tax&quot; ), ISNULL(clofor_com_cfs__BuyTaxInitial__c )),
+AND(ISPICKVAL( Tax_Type_Buying__c , &quot;Non-tax&quot; ), clofor_com_cfs__BuyTaxInitial__c &lt;&gt; 0),
+AND(ISPICKVAL( Tax_Type_Buying__c , &quot;Tax-free&quot; ), clofor_com_cfs__BuyTaxInitial__c &lt;&gt; 0)
+)</errorConditionFormula>
+    <errorMessage>課税 =&gt; Tax &gt; 0% (10%) , 免税 and 非課税 =&gt; tax = 0%</errorMessage>
+</ValidationRule>

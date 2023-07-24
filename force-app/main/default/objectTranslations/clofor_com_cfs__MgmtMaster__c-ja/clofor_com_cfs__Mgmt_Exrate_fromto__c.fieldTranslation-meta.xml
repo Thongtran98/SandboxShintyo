@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>clofor_com_cfs__Mgmt_Exrate_fromto__c</name>
+    <picklistValues>
+        <masterLabel>JPY - Japanese Yen</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KHR - Cambodian Riel</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KRW - Korean Won</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VND - Vietnam Dong</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

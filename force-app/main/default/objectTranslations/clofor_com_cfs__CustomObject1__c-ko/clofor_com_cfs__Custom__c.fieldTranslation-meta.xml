@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>있음(Yes)&apos;를 선택하시면 통관 오브젝트가 생성됩니다. 통관 오브젝트에 상세정보를 입력하세요</help>
+    <label></label>
+    <name>clofor_com_cfs__Custom__c</name>
+    <picklistValues>
+        <masterLabel>×(NO)</masterLabel>
+        <translation>없음</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>○(YES)</masterLabel>
+        <translation>있음</translation>
+    </picklistValues>
+</CustomFieldTranslation>

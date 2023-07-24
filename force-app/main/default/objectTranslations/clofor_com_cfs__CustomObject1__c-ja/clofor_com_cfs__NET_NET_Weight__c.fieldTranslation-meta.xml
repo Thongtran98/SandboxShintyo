@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;以下の条件が揃ったとき、自動でコンテナ詳細のnet重量(Kg)の合計と同期します。輸送タイプが&quot;&quot;FCL&quot;&quot;、 コンテナタイプ及びコンテナ本数が空白ではない、コンテナ詳細の中のnet重量(Kg)が空白ではないとき&quot;</help>
+    <label></label>
+    <name>clofor_com_cfs__NET_NET_Weight__c</name>
+</CustomFieldTranslation>
