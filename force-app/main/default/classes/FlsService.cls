@@ -3,6 +3,7 @@ public with sharing class FlsService {
     public static void doInsert(List<SObject> entities) {
         checkFls(AccessType.CREATABLE, entities);
         insert entities;
+        //test
     }
 
     public static void doUpdate(List<SObject> entities) {
